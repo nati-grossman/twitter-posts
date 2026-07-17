@@ -33,6 +33,10 @@ export function tagsToInput(tags: string[]): string {
   return tags.join(', ')
 }
 
+export function postHasContent(post: { content: string }): boolean {
+  return post.content.trim().length > 0
+}
+
 /** תצוגה מקדימה של תוכן הפוסט בכרטיס — טקסט רציף וקריא */
 export function previewContent(text: string, maxLength = 200): string {
   const normalized = text.replace(/\s+/g, ' ').trim()

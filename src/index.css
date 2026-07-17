@@ -831,7 +831,6 @@ button {
 .titles-series-header {
   display: flex;
   align-items: center;
-  justify-content: space-between;
   gap: 12px;
   padding: 12px 16px;
   background: rgba(255, 255, 255, 0.6);
@@ -845,6 +844,14 @@ button {
   flex: 1;
   min-width: 0;
   line-height: 1.4;
+}
+
+.titles-series-filled {
+  flex-shrink: 0;
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--text-muted);
+  white-space: nowrap;
 }
 
 .titles-series-copy {
@@ -1028,6 +1035,27 @@ button {
   flex: 1;
   font-size: 14px;
   line-height: 1.5;
+}
+
+.titles-list-status {
+  flex-shrink: 0;
+  align-self: center;
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 1;
+  padding: 5px 8px;
+  border-radius: var(--radius-pill);
+  white-space: nowrap;
+}
+
+.titles-list-status.has-content {
+  background: var(--accent-soft);
+  color: var(--accent);
+}
+
+.titles-list-status.is-empty {
+  background: rgba(15, 23, 42, 0.05);
+  color: var(--text-muted);
 }
 
 @media (max-width: 1100px) {

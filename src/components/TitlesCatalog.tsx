@@ -1,5 +1,6 @@
 import { useEffect, useLayoutEffect, useMemo, useRef, useState } from 'react'
 import type { Post, Topic } from '../types'
+import { postHasContent } from '../utils'
 import {
   formatSeriesTitlesForCopy,
   getSeriesPart,
@@ -222,10 +223,14 @@ export function TitlesCatalog({
               {series.map((ser) => {
                 const key = seriesKey(topic.id, ser.name)
                 const copied = copiedKey === key
+                const filledCount = ser.posts.filter(postHasContent).length
                 return (
                   <article key={key} className="titles-series-block">
                     <header className="titles-series-header">
                       <h4 className="titles-series-name">{ser.name}</h4>
+                      <span className="titles-series-filled" title="כמה פוסטים עם תוכן">
+                        {filledCount}/{ser.posts.length} עם תוכן
+                      </span>
                       <button
                         type="button"
                         className={`btn-secondary titles-series-copy ${copied ? 'copied' : ''}`}
@@ -235,21 +240,29 @@ export function TitlesCatalog({
                       </button>
                     </header>
                     <ol className="titles-list">
-                      {ser.posts.map((post) => (
-                        <li key={post.id}>
-                          <button
-                            type="button"
-                            id={`catalog-post-${post.id}`}
-                            className={`titles-list-item${highlightPostId === post.id ? ' titles-list-item-highlight' : ''}`}
-                            onClick={() => onSelectPost(post.id, captureSnapshot())}
-                          >
-                            <span className="titles-list-num">
-                              {getSeriesPart(post) ?? '·'}
-                            </span>
-                            <span className="titles-list-text">{post.title}</span>
-                          </button>
-                        </li>
-                      ))}
+                      {ser.posts.map((post) => {
+                        const hasContent = postHasContent(post)
+                        return (
+                          <li key={post.id}>
+                            <button
+                              type="button"
+                              id={`catalog-post-${post.id}`}
+                              className={`titles-list-item${highlightPostId === post.id ? ' titles-list-item-highlight' : ''}`}
+                              onClick={() => onSelectPost(post.id, captureSnapshot())}
+                            >
+                              <span className="titles-list-num">
+                                {getSeriesPart(post) ?? '·'}
+                              </span>
+                              <span className="titles-list-text">{post.title}</span>
+                              <span
+                                className={`titles-list-status ${hasContent ? 'has-content' : 'is-empty'}`}
+                              >
+                                {hasContent ? 'יש תוכן' : 'ריק'}
+                              </span>
+                            </button>
+                          </li>
+                        )
+                      })}
                     </ol>
                   </article>
                 )
@@ -259,6 +272,9 @@ export function TitlesCatalog({
                 <article className="titles-series-block">
                   <header className="titles-series-header">
                     <h4 className="titles-series-name">פוסטים בודדים</h4>
+                    <span className="titles-series-filled" title="כמה פוסטים עם תוכן">
+                      {standalone.filter(postHasContent).length}/{standalone.length} עם תוכן
+                    </span>
                     <button
                       type="button"
                       className={`btn-secondary titles-series-copy ${copiedKey === seriesKey(topic.id, '__standalone') ? 'copied' : ''}`}
@@ -272,19 +288,27 @@ export function TitlesCatalog({
                     </button>
                   </header>
                   <ol className="titles-list">
-                    {standalone.map((post, index) => (
-                      <li key={post.id}>
-                        <button
-                          type="button"
-                          id={`catalog-post-${post.id}`}
-                          className={`titles-list-item${highlightPostId === post.id ? ' titles-list-item-highlight' : ''}`}
-                          onClick={() => onSelectPost(post.id, captureSnapshot())}
-                        >
-                          <span className="titles-list-num">{index + 1}</span>
-                          <span className="titles-list-text">{post.title}</span>
-                        </button>
-                      </li>
-                    ))}
+                    {standalone.map((post, index) => {
+                      const hasContent = postHasContent(post)
+                      return (
+                        <li key={post.id}>
+                          <button
+                            type="button"
+                            id={`catalog-post-${post.id}`}
+                            className={`titles-list-item${highlightPostId === post.id ? ' titles-list-item-highlight' : ''}`}
+                            onClick={() => onSelectPost(post.id, captureSnapshot())}
+                          >
+                            <span className="titles-list-num">{index + 1}</span>
+                            <span className="titles-list-text">{post.title}</span>
+                            <span
+                              className={`titles-list-status ${hasContent ? 'has-content' : 'is-empty'}`}
+                            >
+                              {hasContent ? 'יש תוכן' : 'ריק'}
+                            </span>
+                          </button>
+                        </li>
+                      )
+                    })}
                   </ol>
                 </article>
               )}
