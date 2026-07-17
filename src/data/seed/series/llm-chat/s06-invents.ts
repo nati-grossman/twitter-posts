@@ -6,17 +6,15 @@ const SERIES = 'למה מודלים לפעמים ממציאים תשובות?'
 export const llmChatInvents: SeedSubtopic = {
   name: SERIES,
   posts: [
-    seriesPost(1, SERIES, 'מטרה אחרת', `מאומן **להמשיך טקסט סביר** — **לא** לומר “לא יודע” — **דוחף** לתשובה.`),
-    seriesPost(2, SERIES, 'חסר מקור', `אין גישה ל**עובדות עדכניות** — **ממלא** מדפוסים — **שמות, תאריכים** — **מומצא**.`),
-    seriesPost(3, SERIES, 'סטטיסטי', `“בנק פעם אמר…” — **נשמע** נכון — **לא** נבדק — **ביטחון** בסגנון.`),
-    seriesPost(4, SERIES, 'שאלה מכשילה', `מי המציא X? — **ממציא** Y — **לא** אומר לא יודע.`),
-    seriesPost(5, SERIES, 'ציטוטים', `מאמרים שלא קיימים — **פורמט** מושלם — **מסוכן** למחקר.`),
-    seriesPost(6, SERIES, 'קוד', `API שלא קיים — **נראה** תקין — **לא רץ** — **בדיקה** חובה.`),
-    seriesPost(7, SERIES, 'פתרונות', `RAG, grounding, **חיפוש** — **כלים** — **“לפי מקור”** — **לא** 100%.`),
-    seriesPost(8, SERIES, 'הנחיות', `“אם לא בטוח — אמור לא יודע” — **עוזר** — **לא** מבטיח.`),
-    seriesPost(9, SERIES, 'משתמש', `לא **מאמת** — **מפיץ** — **אחריות** משותפת.`),
-    seriesPost(10, SERIES, 'סיכום', `**ממציא כי מייצר טקסט plausible — לא מאמת עולם.**
-
-תשתית: **מקורות + בדיקה + עיצוב מוצר**.`),
+    seriesPost(1, SERIES, 'מטרה אחרת',``),
+    seriesPost(2, SERIES, 'חסר מקור',``),
+    seriesPost(3, SERIES, 'סטטיסטי',``),
+    seriesPost(4, SERIES, 'שאלה מכשילה',``),
+    seriesPost(5, SERIES, 'ציטוטים',``),
+    seriesPost(6, SERIES, 'קוד',``),
+    seriesPost(7, SERIES, 'פתרונות',``),
+    seriesPost(8, SERIES, 'הנחיות',``),
+    seriesPost(9, SERIES, 'משתמש',``),
+    seriesPost(10, SERIES, 'סיכום',``),
   ],
 }

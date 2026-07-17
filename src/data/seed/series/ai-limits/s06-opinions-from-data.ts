@@ -6,17 +6,15 @@ const SERIES = 'למה AI לומד דעות מהדאטה?'
 export const aiLimitsOpinionsFromData: SeedSubtopic = {
   name: SERIES,
   posts: [
-    seriesPost(1, SERIES, 'דעה = דפוס', `בלוגים, פורומים — **דעות** **רבות** — **מודל** **ממוצע** — **לא** “חושב”.`),
-    seriesPost(2, SERIES, 'לא עובדות', `“X טוב” vs “X רע” — **שניהם** בדאטה — **תלוי** הקשר — **סתירה**.`),
-    seriesPost(3, SERIES, 'פוליטיקה', `חדשות, דעות — **הטיה** תקופה — **cutoff** — **לא** מעודכן.`),
-    seriesPost(4, SERIES, 'RLHF', `מדרגים **מה מקובל** — **יישור** — **דעה** מוצר — **לא** אמת.`),
-    seriesPost(5, SERIES, 'ניטרלי מדומה', `“בשני הצדדים” — **לפעמים** — **לא** תמיד — **בחירה** מוסתרת.`),
-    seriesPost(6, SERIES, 'שאלה מכוונת', `פרומפט **מניע** — **תשובה** **מתאימה** — **לא** עצמאות.`),
-    seriesPost(7, SERIES, 'לא מצביע', `**לא** בוחר ממשל — **משקף** טקסט — **סכנה** אם **מאמינים**.`),
-    seriesPost(8, SERIES, 'מומחה מדומה', `טון **בטוח** — **דעה** — **לא** הסמכה — **בלבול**.`),
-    seriesPost(9, SERIES, 'שקיפות', `חברות **מסגרות** — **מדיניות** — **לא** weights גלויים — **אמון**.`),
-    seriesPost(10, SERIES, 'סיכום', `**AI “דעות” = דפוסי טקסט נפוצים + יישור מוצר — לא עמדה מודעת.**
-
-אל תבלבל עם **שיפוט** אנושי.`),
+    seriesPost(1, SERIES, 'דעה = דפוס',``),
+    seriesPost(2, SERIES, 'לא עובדות',``),
+    seriesPost(3, SERIES, 'פוליטיקה',``),
+    seriesPost(4, SERIES, 'RLHF',``),
+    seriesPost(5, SERIES, 'ניטרלי מדומה',``),
+    seriesPost(6, SERIES, 'שאלה מכוונת',``),
+    seriesPost(7, SERIES, 'לא מצביע',``),
+    seriesPost(8, SERIES, 'מומחה מדומה',``),
+    seriesPost(9, SERIES, 'שקיפות',``),
+    seriesPost(10, SERIES, 'סיכום',``),
   ],
 }
