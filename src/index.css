@@ -990,6 +990,19 @@ button {
   overflow-wrap: anywhere;
 }
 
+.post-view-char-count {
+  margin: 20px 0 0;
+  padding-top: 14px;
+  border-top: 1px solid var(--border-subtle);
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--text-muted);
+  white-space: nowrap;
+  direction: rtl;
+  text-align: left;
+  unicode-bidi: isolate;
+}
+
 .post-view-badges {
   display: flex;
   flex-wrap: wrap;

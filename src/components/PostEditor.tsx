@@ -169,6 +169,7 @@ export function PostEditor({
           ) : (
             <p className="post-view-empty">אין תוכן בפוסט זה.</p>
           )}
+          <p className="post-view-char-count">{charCount} תווים</p>
         </article>
 
         {draft.tags.length > 0 && (
@@ -182,7 +183,7 @@ export function PostEditor({
         )}
 
         <div className="editor-meta muted">
-          {charCount} תווים · נוצר {formatDateTime(draft.createdAt)}
+          נוצר {formatDateTime(draft.createdAt)}
           {draft.publishedAt && (
             <> · פורסם {formatDateTime(draft.publishedAt)}</>
           )}
