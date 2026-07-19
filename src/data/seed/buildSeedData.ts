@@ -29,7 +29,7 @@ import { techFoundations } from './topics/tech-foundations'
 import { SEED_TOPICS } from './topics'
 import type { SeedTopic } from './types'
 
-const SEED_VERSION = '127'
+const SEED_VERSION = '128'
 
 /** נושאי seed ישנים שהוסרו מהספרייה (נמחקים מ-localStorage בטעינה) */
 export const REMOVED_SEED_TOPIC_IDS = [
