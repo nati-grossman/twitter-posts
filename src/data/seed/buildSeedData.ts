@@ -29,7 +29,7 @@ import { techFoundations } from './topics/tech-foundations'
 import { SEED_TOPICS } from './topics'
 import type { SeedTopic } from './types'
 
-const SEED_VERSION = '128'
+const SEED_VERSION = '144'
 
 /** נושאי seed ישנים שהוסרו מהספרייה (נמחקים מ-localStorage בטעינה) */
 export const REMOVED_SEED_TOPIC_IDS = [
@@ -169,21 +169,40 @@ export function mergeLibraryUpdatesIfMissing(data: AppData): AppData {
   return result
 }
 
-/** מעדכן תוכן פוסטים קיימים לפי seed (לפי נושא + כותרת) */
+/** מחלץ שם סדרה + מספר חלק מכותרת בסגנון "שם (3/10) — כותרת משנה" */
+function seriesPartKey(topicId: string, title: string): string | null {
+  const m = title.match(/^(.+?) \((\d+)\/10\)/)
+  if (!m) return null
+  return `${topicId}\0${m[1]}\0${m[2]}`
+}
+
+/**
+ * מעדכן תוכן (וכותרת) של פוסטים קיימים לפי seed.
+ * התאמה לפי נושא + כותרת מלאה, ואם אין — לפי נושא + שם סדרה + מספר חלק (N/10),
+ * כדי ששינוי כותרת-משנה ב-seed עדיין ידחוף תוכן לפוסטים ישנים ב-localStorage.
+ */
 export function syncSeedContentUpdates(data: AppData): AppData {
   const seed = buildSeedData()
-  const contentByKey = new Map(
-    seed.posts.map((p) => [`${p.topic}\0${p.title}`, p.content] as const),
+  const byExactTitle = new Map(
+    seed.posts.map((p) => [`${p.topic}\0${p.title}`, p] as const),
   )
+  const bySeriesPart = new Map<string, (typeof seed.posts)[number]>()
+  for (const p of seed.posts) {
+    const key = seriesPartKey(p.topic, p.title)
+    if (key) bySeriesPart.set(key, p)
+  }
 
   let changed = false
   const posts = data.posts.map((post) => {
-    const content = contentByKey.get(`${post.topic}\0${post.title}`)
-    if (content !== undefined && content !== post.content) {
-      changed = true
-      return { ...post, content }
+    const exact = byExactTitle.get(`${post.topic}\0${post.title}`)
+    const fallbackKey = seriesPartKey(post.topic, post.title)
+    const seedPost = exact ?? (fallbackKey ? bySeriesPart.get(fallbackKey) : undefined)
+    if (!seedPost) return post
+    if (seedPost.content === post.content && seedPost.title === post.title) {
+      return post
     }
-    return post
+    changed = true
+    return { ...post, content: seedPost.content, title: seedPost.title }
   })
 
   return changed ? { ...data, posts } : data
