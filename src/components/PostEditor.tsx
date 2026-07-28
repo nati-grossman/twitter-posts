@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react'
+import { useEffect, useMemo, useState } from 'react'
 import {
   POST_TYPE_LABELS,
   POST_TYPES,
@@ -7,6 +7,10 @@ import {
 import { useAutosave, type SaveState } from '../hooks/useAppData'
 import type { Post, PostStatus, PostType, Topic } from '../types'
 import { parseTagsInput, tagsToInput } from '../utils'
+import {
+  formatTwitterThreadForCopy,
+  splitPostIntoTwitterThread,
+} from '../utils/twitterThread'
 
 interface PostEditorProps {
   post: Post | null
@@ -64,13 +68,35 @@ export function PostEditor({
   const [isEditing, setIsEditing] = useState(false)
   const [draft, setDraft] = useState<Post | null>(post)
   const [tagsInput, setTagsInput] = useState('')
+  const [copied, setCopied] = useState(false)
 
   useEffect(() => {
     setDraft(post)
     setTagsInput(post ? tagsToInput(post.tags) : '')
     setIsEditing(editOnOpen)
+    setCopied(false)
     onDraftChange(null)
   }, [post?.id, editOnOpen])
+
+  const threadParts = useMemo(
+    () =>
+      draft
+        ? splitPostIntoTwitterThread(draft.title, draft.content)
+        : [],
+    [draft?.title, draft?.content],
+  )
+
+  const handleCopyPost = async () => {
+    if (!draft) return
+    const text = formatTwitterThreadForCopy(threadParts)
+    try {
+      await navigator.clipboard.writeText(text)
+      setCopied(true)
+      window.setTimeout(() => setCopied(false), 2000)
+    } catch {
+      window.prompt('העתק את 3 הציוצים:', text)
+    }
+  }
 
   const saveState = useAutosave(isEditing ? draft : null, onUpdate)
 
@@ -117,6 +143,7 @@ export function PostEditor({
   }
 
   const charCount = draft.content.length
+  const canCopy = Boolean(draft.title.trim() || draft.content.trim())
 
   if (!isEditing) {
     return (
@@ -141,6 +168,14 @@ export function PostEditor({
             <span className="badge badge-topic">{topicName}</span>
           </div>
           <div className="editor-actions">
+            <button
+              type="button"
+              className={`btn-secondary post-copy-btn ${copied ? 'copied' : ''}`}
+              onClick={handleCopyPost}
+              disabled={!canCopy}
+            >
+              {copied ? 'הועתק ✓' : 'העתק 3 ציוצים'}
+            </button>
             <button type="button" className="btn-primary" onClick={startEditing}>
               עריכה
             </button>
@@ -163,7 +198,32 @@ export function PostEditor({
 
         <h1 className="post-view-title">{draft.title || 'פוסט ללא כותרת'}</h1>
 
+        <section className="twitter-thread" aria-label="פיצול ל־3 ציוצי טוויטר">
+          <div className="twitter-thread-header">
+            <h2 className="twitter-thread-title">שרשור לטוויטר · 3 ציוצים</h2>
+            <p className="muted twitter-thread-hint">
+              לחיצה על העתקה מעתיקה את שלושת הציוצים עם מפריד ביניהם
+            </p>
+          </div>
+          <div className="twitter-thread-parts">
+            {threadParts.map((part, index) => (
+              <article key={index} className="twitter-thread-part">
+                <header className="twitter-thread-part-header">
+                  <span className="twitter-thread-part-label">
+                    ציוץ {index + 1}/3
+                  </span>
+                  <span className="twitter-thread-part-count">
+                    {part.length} תווים
+                  </span>
+                </header>
+                <p className="twitter-thread-part-text">{part}</p>
+              </article>
+            ))}
+          </div>
+        </section>
+
         <article className="post-view-content">
+          <h2 className="post-view-source-title">תוכן מלא (מקור)</h2>
           {draft.content ? (
             <p className="post-view-text">{draft.content}</p>
           ) : (
@@ -209,6 +269,14 @@ export function PostEditor({
       <header className="editor-header">
         <SaveIndicator state={saveState} />
         <div className="editor-actions">
+          <button
+            type="button"
+            className={`btn-secondary post-copy-btn ${copied ? 'copied' : ''}`}
+            onClick={handleCopyPost}
+            disabled={!canCopy}
+          >
+            {copied ? 'הועתק ✓' : 'העתק 3 ציוצים'}
+          </button>
           <button type="button" className="btn-secondary" onClick={finishEditing}>
             סיום עריכה
           </button>

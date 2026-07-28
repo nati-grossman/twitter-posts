@@ -860,10 +860,90 @@ button {
   padding: 8px 14px;
 }
 
-.titles-series-copy.copied {
+.titles-series-copy.copied,
+.post-copy-btn.copied {
   background: var(--accent-soft);
   border-color: rgba(61, 155, 138, 0.35);
   color: var(--accent);
+}
+
+.post-copy-btn:disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+}
+
+.twitter-thread {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  margin: 8px 0 20px;
+}
+
+.twitter-thread-header {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.twitter-thread-title {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--text);
+}
+
+.twitter-thread-hint {
+  margin: 0;
+  font-size: 13px;
+}
+
+.twitter-thread-parts {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.twitter-thread-part {
+  padding: 14px 16px;
+  border-radius: var(--radius-sm);
+  background: rgba(255, 255, 255, 0.72);
+  border: 1px solid var(--border-subtle);
+}
+
+.twitter-thread-part-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 10px;
+}
+
+.twitter-thread-part-label {
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--accent);
+}
+
+.twitter-thread-part-count {
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--text-muted);
+}
+
+.twitter-thread-part-text {
+  margin: 0;
+  white-space: pre-wrap;
+  word-break: break-word;
+  font-size: 15px;
+  line-height: 1.7;
+  color: var(--text);
+}
+
+.post-view-source-title {
+  margin: 0 0 12px;
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--text-muted);
 }
 
 .titles-topic-section:last-child {
