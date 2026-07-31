@@ -93,6 +93,7 @@ function postsFromSeedTopic(seed: SeedTopic, dayOffsetStart: number): Post[] {
         createdAt: created.toISOString(),
         publishedAt: null,
         tags: [sub.name, ...(p.tags ?? [])],
+        postedToTwitter: false,
       })
     }
   }

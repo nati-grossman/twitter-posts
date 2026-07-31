@@ -168,6 +168,23 @@ export function PostEditor({
             <span className="badge badge-topic">{topicName}</span>
           </div>
           <div className="editor-actions">
+            <label
+              className={`post-posted-toggle${draft.postedToTwitter ? ' is-posted' : ''}`}
+              title="סמן אחרי שהעלית לטוויטר"
+            >
+              <input
+                type="checkbox"
+                checked={Boolean(draft.postedToTwitter)}
+                onChange={() => {
+                  const postedToTwitter = !draft.postedToTwitter
+                  setDraft({ ...draft, postedToTwitter })
+                  onUpdate(draft.id, { postedToTwitter })
+                }}
+              />
+              <span>
+                {draft.postedToTwitter ? 'הועלה לטוויטר' : 'סמן כהועלה'}
+              </span>
+            </label>
             <button
               type="button"
               className={`btn-secondary post-copy-btn ${copied ? 'copied' : ''}`}
@@ -196,7 +213,11 @@ export function PostEditor({
           </div>
         </header>
 
-        <h1 className="post-view-title">{draft.title || 'פוסט ללא כותרת'}</h1>
+        <h1
+          className={`post-view-title${draft.postedToTwitter ? ' is-posted' : ''}`}
+        >
+          {draft.title || 'פוסט ללא כותרת'}
+        </h1>
 
         <section className="twitter-thread" aria-label="פיצול ל־3 ציוצי טוויטר">
           <div className="twitter-thread-header">

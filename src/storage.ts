@@ -9,6 +9,17 @@ import { STORAGE_KEY } from './constants'
 import type { AppData, Topic } from './types'
 import { generateId } from './utils'
 
+function normalizeData(data: AppData): AppData {
+  let changed = false
+  const posts = data.posts.map((post) => {
+    const postedToTwitter = Boolean(post.postedToTwitter)
+    if (postedToTwitter === post.postedToTwitter) return post
+    changed = true
+    return { ...post, postedToTwitter }
+  })
+  return changed ? { ...data, posts } : data
+}
+
 const SEED_VERSION_KEY = 'twitter-posts-seed-version'
 
 const DEFAULT_TOPIC: Topic = {
@@ -52,6 +63,8 @@ export function loadData(): AppData {
     if (pruned !== result) result = pruned
     const synced = syncSeedContentUpdates(result)
     if (synced !== result) result = synced
+    const normalized = normalizeData(result)
+    if (normalized !== result) result = normalized
 
     if (result !== parsed) {
       saveData(result)
@@ -83,5 +96,6 @@ export function createEmptyPost(topicId: string): AppData['posts'][0] {
     createdAt: now,
     publishedAt: null,
     tags: [],
+    postedToTwitter: false,
   }
 }

@@ -144,6 +144,11 @@ export default function App() {
           onClearTopicFocus={() => setCatalogFocusTopicId(null)}
           onBack={() => setView('editor')}
           onSelectPost={handleSelectPostFromCatalog}
+          onTogglePostedToTwitter={(id) => {
+            const post = data.posts.find((p) => p.id === id)
+            if (!post) return
+            updatePost(id, { postedToTwitter: !post.postedToTwitter })
+          }}
           restoreKey={catalogRestoreKey}
           restoreSnapshot={canReturnToCatalog ? catalogSnapshot : null}
           highlightPostId={canReturnToCatalog ? selectedPostId : null}

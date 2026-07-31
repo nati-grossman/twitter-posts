@@ -17,6 +17,8 @@ export interface Post {
   createdAt: string
   publishedAt: string | null
   tags: string[]
+  /** סומן כבר כהועלה לטוויטר — לא לדרוס ב-seed sync */
+  postedToTwitter: boolean
 }
 
 export interface Topic {

@@ -20,6 +20,7 @@ interface TitlesCatalogProps {
   onClearTopicFocus?: () => void
   onBack: () => void
   onSelectPost: (id: string, snapshot: Omit<CatalogSnapshot, 'focusTopicId'>) => void
+  onTogglePostedToTwitter: (id: string) => void
   restoreKey?: number
   restoreSnapshot?: CatalogSnapshot | null
   highlightPostId?: string | null
@@ -36,6 +37,7 @@ export function TitlesCatalog({
   onClearTopicFocus,
   onBack,
   onSelectPost,
+  onTogglePostedToTwitter,
   restoreKey = 0,
   restoreSnapshot = null,
   highlightPostId = null,
@@ -167,6 +169,46 @@ export function TitlesCatalog({
     }
   }
 
+  const renderPostRow = (post: Post, num: string | number) => {
+    const hasContent = postHasContent(post)
+    const posted = Boolean(post.postedToTwitter)
+    return (
+      <li
+        key={post.id}
+        className={`titles-list-row${posted ? ' is-posted' : ''}`}
+      >
+        <label
+          className="titles-posted-check"
+          title={posted ? 'סומן כהועלה לטוויטר' : 'סמן כהועלה לטוויטר'}
+          onClick={(e) => e.stopPropagation()}
+        >
+          <input
+            type="checkbox"
+            checked={posted}
+            onChange={() => onTogglePostedToTwitter(post.id)}
+            aria-label={
+              posted ? 'בטל סימון הועלה לטוויטר' : 'סמן כהועלה לטוויטר'
+            }
+          />
+        </label>
+        <button
+          type="button"
+          id={`catalog-post-${post.id}`}
+          className={`titles-list-item${highlightPostId === post.id ? ' titles-list-item-highlight' : ''}`}
+          onClick={() => onSelectPost(post.id, captureSnapshot())}
+        >
+          <span className="titles-list-num">{num}</span>
+          <span className="titles-list-text">{post.title}</span>
+          <span
+            className={`titles-list-status ${hasContent ? 'has-content' : 'is-empty'}`}
+          >
+            {hasContent ? 'יש תוכן' : 'ריק'}
+          </span>
+        </button>
+      </li>
+    )
+  }
+
   return (
     <main className="panel titles-catalog">
       <header className="titles-catalog-header">
@@ -240,29 +282,9 @@ export function TitlesCatalog({
                       </button>
                     </header>
                     <ol className="titles-list">
-                      {ser.posts.map((post) => {
-                        const hasContent = postHasContent(post)
-                        return (
-                          <li key={post.id}>
-                            <button
-                              type="button"
-                              id={`catalog-post-${post.id}`}
-                              className={`titles-list-item${highlightPostId === post.id ? ' titles-list-item-highlight' : ''}`}
-                              onClick={() => onSelectPost(post.id, captureSnapshot())}
-                            >
-                              <span className="titles-list-num">
-                                {getSeriesPart(post) ?? '·'}
-                              </span>
-                              <span className="titles-list-text">{post.title}</span>
-                              <span
-                                className={`titles-list-status ${hasContent ? 'has-content' : 'is-empty'}`}
-                              >
-                                {hasContent ? 'יש תוכן' : 'ריק'}
-                              </span>
-                            </button>
-                          </li>
-                        )
-                      })}
+                      {ser.posts.map((post) =>
+                        renderPostRow(post, getSeriesPart(post) ?? '·'),
+                      )}
                     </ol>
                   </article>
                 )
@@ -288,27 +310,9 @@ export function TitlesCatalog({
                     </button>
                   </header>
                   <ol className="titles-list">
-                    {standalone.map((post, index) => {
-                      const hasContent = postHasContent(post)
-                      return (
-                        <li key={post.id}>
-                          <button
-                            type="button"
-                            id={`catalog-post-${post.id}`}
-                            className={`titles-list-item${highlightPostId === post.id ? ' titles-list-item-highlight' : ''}`}
-                            onClick={() => onSelectPost(post.id, captureSnapshot())}
-                          >
-                            <span className="titles-list-num">{index + 1}</span>
-                            <span className="titles-list-text">{post.title}</span>
-                            <span
-                              className={`titles-list-status ${hasContent ? 'has-content' : 'is-empty'}`}
-                            >
-                              {hasContent ? 'יש תוכן' : 'ריק'}
-                            </span>
-                          </button>
-                        </li>
-                      )
-                    })}
+                    {standalone.map((post, index) =>
+                      renderPostRow(post, index + 1),
+                    )}
                   </ol>
                 </article>
               )}

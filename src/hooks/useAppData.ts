@@ -104,6 +104,7 @@ export function useAppData() {
           status: 'draft',
           createdAt: now,
           publishedAt: null,
+          postedToTwitter: false,
         }
         newId = copy.id
         return { ...prev, posts: [copy, ...prev.posts] }
