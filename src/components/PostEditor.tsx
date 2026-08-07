@@ -144,6 +144,13 @@ export function PostEditor({
 
   const charCount = draft.content.length
   const canCopy = Boolean(draft.title.trim() || draft.content.trim())
+  const tweetCount = threadParts.length
+  const copyLabel =
+    tweetCount === 0
+      ? 'העתק שרשור'
+      : tweetCount === 1
+        ? 'העתק ציוץ'
+        : `העתק ${tweetCount} ציוצים`
 
   if (!isEditing) {
     return (
@@ -191,7 +198,7 @@ export function PostEditor({
               onClick={handleCopyPost}
               disabled={!canCopy}
             >
-              {copied ? 'הועתק ✓' : 'העתק 3 ציוצים'}
+              {copied ? 'הועתק ✓' : copyLabel}
             </button>
             <button type="button" className="btn-primary" onClick={startEditing}>
               עריכה
@@ -219,11 +226,18 @@ export function PostEditor({
           {draft.title || 'פוסט ללא כותרת'}
         </h1>
 
-        <section className="twitter-thread" aria-label="פיצול ל־3 ציוצי טוויטר">
+        <section
+          className="twitter-thread"
+          aria-label={`פיצול ל־${tweetCount} ציוצי טוויטר`}
+        >
           <div className="twitter-thread-header">
-            <h2 className="twitter-thread-title">שרשור לטוויטר · 3 ציוצים</h2>
+            <h2 className="twitter-thread-title">
+              שרשור לטוויטר
+              {tweetCount > 0 ? ` · ${tweetCount} ציוצים` : ''}
+            </h2>
             <p className="muted twitter-thread-hint">
-              לחיצה על העתקה מעתיקה את שלושת הציוצים עם מפריד ביניהם
+              הפיצול לפי רעיונות — לפעמים פחות מ־3, לפעמים יותר. העתקה מעתיקה את כל
+              השרשור עם מפריד בין הציוצים.
             </p>
           </div>
           <div className="twitter-thread-parts">
@@ -231,7 +245,7 @@ export function PostEditor({
               <article key={index} className="twitter-thread-part">
                 <header className="twitter-thread-part-header">
                   <span className="twitter-thread-part-label">
-                    ציוץ {index + 1}/3
+                    ציוץ {index + 1}/{tweetCount}
                   </span>
                   <span className="twitter-thread-part-count">
                     {part.length} תווים
@@ -296,7 +310,7 @@ export function PostEditor({
             onClick={handleCopyPost}
             disabled={!canCopy}
           >
-            {copied ? 'הועתק ✓' : 'העתק 3 ציוצים'}
+            {copied ? 'הועתק ✓' : copyLabel}
           </button>
           <button type="button" className="btn-secondary" onClick={finishEditing}>
             סיום עריכה
