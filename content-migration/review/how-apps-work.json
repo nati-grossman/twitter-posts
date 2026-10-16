@@ -1,0 +1,502 @@
+[
+    {
+        "key":  "how-apps-work/s01/p01",
+        "tweetHash":  "5304fc97ed7474c5",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "how-apps-work/s01/p02",
+        "tweetHash":  "68f63362ee6e05e6",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "how-apps-work/s01/p03",
+        "tweetHash":  "00dd22592f161bc7",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "how-apps-work/s01/p04",
+        "tweetHash":  "1fd2ff54338c3a9c",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "how-apps-work/s01/p05",
+        "tweetHash":  "083d8069369af149",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "how-apps-work/s01/p06",
+        "tweetHash":  "8572c9c6fbfd3153",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "how-apps-work/s01/p07",
+        "tweetHash":  "11ee357ddc3dd0b8",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "how-apps-work/s01/p08",
+        "tweetHash":  "ee60503e8825179f",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "how-apps-work/s01/p09",
+        "tweetHash":  "9e14ff5c3c4d6bea",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "how-apps-work/s01/p10",
+        "tweetHash":  "95b395751f9ebab1",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "how-apps-work/s02/p01",
+        "tweetHash":  "3115e325d1732453",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "how-apps-work/s02/p02",
+        "tweetHash":  "cfbfc2fc41556818",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "how-apps-work/s02/p03",
+        "tweetHash":  "4ac7f25740daf9a9",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "how-apps-work/s02/p04",
+        "tweetHash":  "30bfbbec3c757786",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "how-apps-work/s02/p05",
+        "tweetHash":  "6c8e2cb433671e95",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "how-apps-work/s02/p06",
+        "tweetHash":  "1308e48c3e2e4fbb",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "how-apps-work/s02/p07",
+        "tweetHash":  "e9fa8c7b4f5415e4",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "how-apps-work/s02/p08",
+        "tweetHash":  "57c2456ffe0348f9",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "how-apps-work/s02/p09",
+        "tweetHash":  "cf1c2ff15f21a176",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "how-apps-work/s02/p10",
+        "tweetHash":  "31a3670b233b3be3",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "how-apps-work/s03/p01",
+        "tweetHash":  "1c5257ddb1f892ae",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "how-apps-work/s03/p02",
+        "tweetHash":  "669225b99aa52edb",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "how-apps-work/s03/p03",
+        "tweetHash":  "a3ef7ed4540a5676",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "how-apps-work/s03/p04",
+        "tweetHash":  "a7e8cc5875326926",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "how-apps-work/s03/p05",
+        "tweetHash":  "e64c3253394277eb",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "how-apps-work/s03/p06",
+        "tweetHash":  "657c24db7eff7caa",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "how-apps-work/s03/p07",
+        "tweetHash":  "a1ff51d2a5252b7c",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "how-apps-work/s03/p08",
+        "tweetHash":  "269039c79e589655",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "how-apps-work/s03/p09",
+        "tweetHash":  "800213295e27e828",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "how-apps-work/s03/p10",
+        "tweetHash":  "a7ffdd424949283b",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "how-apps-work/s04/p01",
+        "tweetHash":  "8acb5a019ef25c77",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "how-apps-work/s04/p02",
+        "tweetHash":  "8418053f6d317472",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "how-apps-work/s04/p03",
+        "tweetHash":  "0516441c7feadb72",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "how-apps-work/s04/p04",
+        "tweetHash":  "6bf553afa724df1c",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "how-apps-work/s04/p05",
+        "tweetHash":  "7c89dd91d12e101a",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "how-apps-work/s04/p06",
+        "tweetHash":  "f0078bc607549ba3",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "how-apps-work/s04/p07",
+        "tweetHash":  "7079dbb53e67aa1f",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "how-apps-work/s04/p08",
+        "tweetHash":  "12b20b4f9b34d152",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "how-apps-work/s04/p09",
+        "tweetHash":  "2a63c4b404ebd683",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "how-apps-work/s04/p10",
+        "tweetHash":  "d8708e69f589a807",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "how-apps-work/s05/p01",
+        "tweetHash":  "57f303126370891c",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "how-apps-work/s05/p02",
+        "tweetHash":  "06aba7c80c630296",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "how-apps-work/s05/p03",
+        "tweetHash":  "e9ab84225415f2a1",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "how-apps-work/s05/p04",
+        "tweetHash":  "084c482e97572b14",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "how-apps-work/s05/p05",
+        "tweetHash":  "024dda45f8991d97",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "how-apps-work/s05/p06",
+        "tweetHash":  "fb5f19fa46bcd23d",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "how-apps-work/s05/p07",
+        "tweetHash":  "4351f698dbd1b0a1",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "how-apps-work/s05/p08",
+        "tweetHash":  "df9011b83e30c7d7",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "how-apps-work/s05/p09",
+        "tweetHash":  "aa4363c3ea4bf71e",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "how-apps-work/s05/p10",
+        "tweetHash":  "356c165e19f1e007",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "how-apps-work/s06/p01",
+        "tweetHash":  "b57b0cca141d05ca",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "how-apps-work/s06/p02",
+        "tweetHash":  "3ffb8bbd66e5ac1b",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "how-apps-work/s06/p03",
+        "tweetHash":  "8d47805fd103f6d2",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "how-apps-work/s06/p04",
+        "tweetHash":  "b7ddc2633743a0e9",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "how-apps-work/s06/p05",
+        "tweetHash":  "55d4e92fd0f77f31",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "how-apps-work/s06/p06",
+        "tweetHash":  "16a04956390b7b00",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "how-apps-work/s06/p07",
+        "tweetHash":  "1808cd7764f431ab",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "how-apps-work/s06/p08",
+        "tweetHash":  "68755da530572ab7",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "how-apps-work/s06/p09",
+        "tweetHash":  "d910546a69fbbdb4",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "how-apps-work/s06/p10",
+        "tweetHash":  "3ce8edcd893742db",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "how-apps-work/s07/p01",
+        "tweetHash":  "27c51939a32b531d",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "how-apps-work/s07/p02",
+        "tweetHash":  "077cb1eb583092d7",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "how-apps-work/s07/p03",
+        "tweetHash":  "9956f8a8be5dbd40",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "how-apps-work/s07/p04",
+        "tweetHash":  "3041d4cc6b52129f",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "how-apps-work/s07/p05",
+        "tweetHash":  "7d11a1eeb17b420b",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "how-apps-work/s07/p06",
+        "tweetHash":  "bb9f6ee95d99990c",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "how-apps-work/s07/p07",
+        "tweetHash":  "01645925b2bc25ad",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "how-apps-work/s07/p08",
+        "tweetHash":  "fb2f73a213261095",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "how-apps-work/s07/p09",
+        "tweetHash":  "ec66dbb6da793812",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "how-apps-work/s07/p10",
+        "tweetHash":  "6730a4b0476340f9",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "how-apps-work/s08/p01",
+        "tweetHash":  "c5fe4be475c58cf2",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "how-apps-work/s08/p02",
+        "tweetHash":  "633265d26c1bab67",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "how-apps-work/s08/p03",
+        "tweetHash":  "c2d3de3b675229c2",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "how-apps-work/s08/p04",
+        "tweetHash":  "79bf3e4efb2f2fb3",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "how-apps-work/s08/p05",
+        "tweetHash":  "267cc3e4ebff0c02",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "how-apps-work/s08/p06",
+        "tweetHash":  "5cdf26bfdd904011",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "how-apps-work/s08/p07",
+        "tweetHash":  "aaf8b95332efd529",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "how-apps-work/s08/p08",
+        "tweetHash":  "6eab28cc50eb55eb",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "how-apps-work/s08/p09",
+        "tweetHash":  "0d873e10dadcdd48",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "how-apps-work/s08/p10",
+        "tweetHash":  "dd6a8b04b4826f6e",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "how-apps-work/s09/p01",
+        "tweetHash":  "5890fbbec9f8bb9c",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "how-apps-work/s09/p02",
+        "tweetHash":  "3f7a795de793d0f5",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "how-apps-work/s09/p03",
+        "tweetHash":  "2ea78bb99405d9cf",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "how-apps-work/s09/p04",
+        "tweetHash":  "45c7b3a05c705507",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "how-apps-work/s09/p05",
+        "tweetHash":  "002b3ca5a10407a1",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "how-apps-work/s09/p06",
+        "tweetHash":  "70011f0ec0694ff0",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "how-apps-work/s09/p07",
+        "tweetHash":  "2fc66b335209976e",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "how-apps-work/s09/p08",
+        "tweetHash":  "9c4796441cc9ef92",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "how-apps-work/s09/p09",
+        "tweetHash":  "dbb4b1b8d318ae6e",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "how-apps-work/s09/p10",
+        "tweetHash":  "3ee7c7cab96b91ab",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "how-apps-work/s10/p01",
+        "tweetHash":  "caba2ec690b30782",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "how-apps-work/s10/p02",
+        "tweetHash":  "17e7090d965277f5",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "how-apps-work/s10/p03",
+        "tweetHash":  "eefe8e009262b578",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "how-apps-work/s10/p04",
+        "tweetHash":  "f9b3e7a871078431",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "how-apps-work/s10/p05",
+        "tweetHash":  "6c7fa2673782b4c0",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "how-apps-work/s10/p06",
+        "tweetHash":  "23b7ce87a755d8ae",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "how-apps-work/s10/p07",
+        "tweetHash":  "c5bb64f584c4dfdf",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "how-apps-work/s10/p08",
+        "tweetHash":  "c663ba88e255bedd",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "how-apps-work/s10/p09",
+        "tweetHash":  "c64243171b7ad8c3",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "how-apps-work/s10/p10",
+        "tweetHash":  "7b4750f2c838fce9",
+        "verdict":  "pass"
+    }
+]

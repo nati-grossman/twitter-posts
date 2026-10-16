@@ -1,0 +1,502 @@
+[
+ {
+  "key": "ai-problems-limits/s01/p01",
+  "tweetHash": "e038ea34785121dc",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-problems-limits/s01/p02",
+  "tweetHash": "81af2bc5275fae92",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-problems-limits/s01/p03",
+  "tweetHash": "5120c0f2b49a64a7",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-problems-limits/s01/p04",
+  "tweetHash": "611386f8d8863344",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-problems-limits/s01/p05",
+  "tweetHash": "342fbd73ea164f99",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-problems-limits/s01/p06",
+  "tweetHash": "a6f82852217988fb",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-problems-limits/s01/p07",
+  "tweetHash": "1c37c10177295ac8",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-problems-limits/s01/p08",
+  "tweetHash": "3731bbfe8f529a0b",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-problems-limits/s01/p09",
+  "tweetHash": "fce8d8843ec8e49d",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-problems-limits/s01/p10",
+  "tweetHash": "8beb8a2e40a6ccc6",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-problems-limits/s02/p01",
+  "tweetHash": "73dade47ad23cda7",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-problems-limits/s02/p02",
+  "tweetHash": "b6f718fffb890b36",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-problems-limits/s02/p03",
+  "tweetHash": "1ebb19acf1e1d4bf",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-problems-limits/s02/p04",
+  "tweetHash": "cab984b7599e64d7",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-problems-limits/s02/p05",
+  "tweetHash": "401438e8d5f20bf1",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-problems-limits/s02/p06",
+  "tweetHash": "1264e60eaf23f246",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-problems-limits/s02/p07",
+  "tweetHash": "1c68bfcbb7b71cad",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-problems-limits/s02/p08",
+  "tweetHash": "da0636ce3907f56b",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-problems-limits/s02/p09",
+  "tweetHash": "f38306a809ab6b94",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-problems-limits/s02/p10",
+  "tweetHash": "abda771d219dbc5f",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-problems-limits/s03/p01",
+  "tweetHash": "beb453c5aaff5825",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-problems-limits/s03/p02",
+  "tweetHash": "35a5dec0b0bec8be",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-problems-limits/s03/p03",
+  "tweetHash": "49b34d1657e2cd96",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-problems-limits/s03/p04",
+  "tweetHash": "bc303469c5e58441",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-problems-limits/s03/p05",
+  "tweetHash": "c36824241158ea23",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-problems-limits/s03/p06",
+  "tweetHash": "1f1595e270f55a2d",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-problems-limits/s03/p07",
+  "tweetHash": "0a21f4994f535bb6",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-problems-limits/s03/p08",
+  "tweetHash": "71c6a4b560802e2b",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-problems-limits/s03/p09",
+  "tweetHash": "6bb4f32d11c23c01",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-problems-limits/s03/p10",
+  "tweetHash": "eff47c23277e4f6c",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-problems-limits/s04/p01",
+  "tweetHash": "3f00b2c30ede49ab",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-problems-limits/s04/p02",
+  "tweetHash": "93f279c3355dc72e",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-problems-limits/s04/p03",
+  "tweetHash": "27d194d3db7dfddf",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-problems-limits/s04/p04",
+  "tweetHash": "a3e8851cf90b8e85",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-problems-limits/s04/p05",
+  "tweetHash": "50ea4d85362bc23a",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-problems-limits/s04/p06",
+  "tweetHash": "8dc522eca2b9d11f",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-problems-limits/s04/p07",
+  "tweetHash": "e93a45e005aa97d9",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-problems-limits/s04/p08",
+  "tweetHash": "3833b10f23f147c1",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-problems-limits/s04/p09",
+  "tweetHash": "562cd9d9756214d4",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-problems-limits/s04/p10",
+  "tweetHash": "825020f2f3e27c8e",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-problems-limits/s05/p01",
+  "tweetHash": "0c1ee8673e7e14d0",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-problems-limits/s05/p02",
+  "tweetHash": "5be4b798d595b06b",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-problems-limits/s05/p03",
+  "tweetHash": "b27d983d293c3193",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-problems-limits/s05/p04",
+  "tweetHash": "f0ea9b68f2358028",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-problems-limits/s05/p05",
+  "tweetHash": "363704e7320e2653",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-problems-limits/s05/p06",
+  "tweetHash": "7cd127983dd578c2",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-problems-limits/s05/p07",
+  "tweetHash": "4794850eb224e7ae",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-problems-limits/s05/p08",
+  "tweetHash": "0545f79c561e73b3",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-problems-limits/s05/p09",
+  "tweetHash": "9ac964ee5ea85762",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-problems-limits/s05/p10",
+  "tweetHash": "f859517614ff7c49",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-problems-limits/s06/p01",
+  "tweetHash": "7134afbad782a335",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-problems-limits/s06/p02",
+  "tweetHash": "92ca6bb0f8e840cf",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-problems-limits/s06/p03",
+  "tweetHash": "94e5cfdc0e770bf3",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-problems-limits/s06/p04",
+  "tweetHash": "00958150866931b3",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-problems-limits/s06/p05",
+  "tweetHash": "b915a2335e8b0fa0",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-problems-limits/s06/p06",
+  "tweetHash": "4b153491168aec57",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-problems-limits/s06/p07",
+  "tweetHash": "da0eae9b81073f72",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-problems-limits/s06/p08",
+  "tweetHash": "b5df1185f35c6f31",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-problems-limits/s06/p09",
+  "tweetHash": "68f36877b90baffc",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-problems-limits/s06/p10",
+  "tweetHash": "38770ee4cc93b21d",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-problems-limits/s07/p01",
+  "tweetHash": "ef4f2c75092235b9",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-problems-limits/s07/p02",
+  "tweetHash": "355acd20a372771b",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-problems-limits/s07/p03",
+  "tweetHash": "5755c8cec938ada5",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-problems-limits/s07/p04",
+  "tweetHash": "832c24f6e2d112bc",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-problems-limits/s07/p05",
+  "tweetHash": "156f1b6d70317505",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-problems-limits/s07/p06",
+  "tweetHash": "6e64e649aff1a3bb",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-problems-limits/s07/p07",
+  "tweetHash": "f1c3c2b18e7c8400",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-problems-limits/s07/p08",
+  "tweetHash": "fdfc78553568f415",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-problems-limits/s07/p09",
+  "tweetHash": "484edb6ba02a5185",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-problems-limits/s07/p10",
+  "tweetHash": "79dce894644ebd18",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-problems-limits/s08/p01",
+  "tweetHash": "ff474e5f6e5ae55e",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-problems-limits/s08/p02",
+  "tweetHash": "4d52f24f36e09c5d",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-problems-limits/s08/p03",
+  "tweetHash": "cc4e4aae1925a694",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-problems-limits/s08/p04",
+  "tweetHash": "aaca424d07b51ae1",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-problems-limits/s08/p05",
+  "tweetHash": "5521dbe6f33ca96e",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-problems-limits/s08/p06",
+  "tweetHash": "c1028e166ca23012",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-problems-limits/s08/p07",
+  "tweetHash": "c3868ba1af6b7717",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-problems-limits/s08/p08",
+  "tweetHash": "f4bf1e3f32164a0a",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-problems-limits/s08/p09",
+  "tweetHash": "66b87b82d0322242",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-problems-limits/s08/p10",
+  "tweetHash": "99e8e1d18579189d",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-problems-limits/s09/p01",
+  "tweetHash": "fca2901b5516a342",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-problems-limits/s09/p02",
+  "tweetHash": "74b76890fdd99606",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-problems-limits/s09/p03",
+  "tweetHash": "c6c615c7fe185dbd",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-problems-limits/s09/p04",
+  "tweetHash": "234a6c1f36b04b27",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-problems-limits/s09/p05",
+  "tweetHash": "90890e8027edec75",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-problems-limits/s09/p06",
+  "tweetHash": "c67c54efb90a7778",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-problems-limits/s09/p07",
+  "tweetHash": "1720a93f2fad87fc",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-problems-limits/s09/p08",
+  "tweetHash": "a288443422c427a9",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-problems-limits/s09/p09",
+  "tweetHash": "e307d0c7e3dfb2d9",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-problems-limits/s09/p10",
+  "tweetHash": "619943028ef5a712",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-problems-limits/s10/p01",
+  "tweetHash": "e6553b2d346db4b2",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-problems-limits/s10/p02",
+  "tweetHash": "adbffd46f2d6cea9",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-problems-limits/s10/p03",
+  "tweetHash": "008021dee5fdb937",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-problems-limits/s10/p04",
+  "tweetHash": "344772c65a534fe7",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-problems-limits/s10/p05",
+  "tweetHash": "da0f6970b5fd1315",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-problems-limits/s10/p06",
+  "tweetHash": "bc44f492f05382f2",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-problems-limits/s10/p07",
+  "tweetHash": "8d4df85ff7ab3a1d",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-problems-limits/s10/p08",
+  "tweetHash": "1c133cc6e1eb7c43",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-problems-limits/s10/p09",
+  "tweetHash": "6a5f476f8518f32b",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-problems-limits/s10/p10",
+  "tweetHash": "8e7c89e3cef97e57",
+  "verdict": "pass"
+ }
+]

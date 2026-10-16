@@ -1,0 +1,503 @@
+[
+    {
+        "key":  "browser-websites/s01/p01",
+        "tweetHash":  "34497a0363f2da3e",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "browser-websites/s01/p02",
+        "tweetHash":  "5b8f537c972fe84e",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "browser-websites/s01/p03",
+        "tweetHash":  "06074f1b597d7c5b",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "browser-websites/s01/p04",
+        "tweetHash":  "d287fed6824c86d5",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "browser-websites/s01/p05",
+        "tweetHash":  "43fcb4d278f5f626",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "browser-websites/s01/p06",
+        "tweetHash":  "9d071f0200f24149",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "browser-websites/s01/p07",
+        "tweetHash":  "7f56a87883f59bcd",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "browser-websites/s01/p08",
+        "tweetHash":  "0ef060dba010810f",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "browser-websites/s01/p09",
+        "tweetHash":  "976b2558fa5c8a2e",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "browser-websites/s01/p10",
+        "tweetHash":  "35080212d3690ba5",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "browser-websites/s02/p01",
+        "tweetHash":  "aae0404626eb2a04",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "browser-websites/s02/p02",
+        "tweetHash":  "937aa93164633430",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "browser-websites/s02/p03",
+        "tweetHash":  "06ae923fb54a158d",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "browser-websites/s02/p04",
+        "tweetHash":  "6cc655fd6b8f671d",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "browser-websites/s02/p05",
+        "tweetHash":  "df1793bf060fb2cf",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "browser-websites/s02/p06",
+        "tweetHash":  "44ae0748ce43d1cb",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "browser-websites/s02/p07",
+        "tweetHash":  "6bd24372b310033a",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "browser-websites/s02/p08",
+        "tweetHash":  "ada46350238e8098",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "browser-websites/s02/p09",
+        "tweetHash":  "3f5dc69be23dbaf1",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "browser-websites/s02/p10",
+        "tweetHash":  "ae1c06b13ed6e246",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "browser-websites/s03/p01",
+        "tweetHash":  "5e08f8dcaa7dcd9d",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "browser-websites/s03/p02",
+        "tweetHash":  "1aeca4e62dc81e61",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "browser-websites/s03/p03",
+        "tweetHash":  "4c47469aada34bb6",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "browser-websites/s03/p04",
+        "tweetHash":  "bbe20cdac5422617",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "browser-websites/s03/p05",
+        "tweetHash":  "a3702097275ec87a",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "browser-websites/s03/p06",
+        "tweetHash":  "7d01a8195c515dab",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "browser-websites/s03/p07",
+        "tweetHash":  "0618d0777692592a",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "browser-websites/s03/p08",
+        "tweetHash":  "b5ccfe420163b501",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "browser-websites/s03/p09",
+        "tweetHash":  "4ff063326272c172",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "browser-websites/s03/p10",
+        "tweetHash":  "75c68df35dbf3cb7",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "browser-websites/s04/p01",
+        "tweetHash":  "d232add422441318",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "browser-websites/s04/p02",
+        "tweetHash":  "c3b4c6f6ee519c9d",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "browser-websites/s04/p03",
+        "tweetHash":  "c37ba1cc1f98fa2b",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "browser-websites/s04/p04",
+        "tweetHash":  "08b42983f390da95",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "browser-websites/s04/p05",
+        "tweetHash":  "478964ea8e20992f",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "browser-websites/s04/p06",
+        "tweetHash":  "0bd007fb6047c545",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "browser-websites/s04/p07",
+        "tweetHash":  "5c47a13f5575e9fd",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "browser-websites/s04/p08",
+        "tweetHash":  "24feea9007e93080",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "browser-websites/s04/p09",
+        "tweetHash":  "b8a945553ed1e38f",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "browser-websites/s04/p10",
+        "tweetHash":  "f63edd56806da9c5",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "browser-websites/s05/p01",
+        "tweetHash":  "3e42da3e97e100e3",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "browser-websites/s05/p02",
+        "tweetHash":  "07770746aa6b7291",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "browser-websites/s05/p03",
+        "tweetHash":  "66b71d08f9613540",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "browser-websites/s05/p04",
+        "tweetHash":  "58c9e3cb6f86979d",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "browser-websites/s05/p05",
+        "tweetHash":  "94ef04c9191c327c",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "browser-websites/s05/p06",
+        "tweetHash":  "ee3cf957caa28482",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "browser-websites/s05/p07",
+        "tweetHash":  "f03dcd4603c1487e",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "browser-websites/s05/p08",
+        "tweetHash":  "9e3ab0c26a2c7709",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "browser-websites/s05/p09",
+        "tweetHash":  "b969991fc709a0cb",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "browser-websites/s05/p10",
+        "tweetHash":  "09df00e94d1c455c",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "browser-websites/s06/p01",
+        "tweetHash":  "ee8e2195fccb85cc",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "browser-websites/s06/p02",
+        "tweetHash":  "19e7ec6d08c5b4b8",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "browser-websites/s06/p03",
+        "tweetHash":  "8f5f081017f5fdd2",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "browser-websites/s06/p04",
+        "tweetHash":  "e6f1f8e35b515ea4",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "browser-websites/s06/p05",
+        "tweetHash":  "76c4bfe3b472a222",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "browser-websites/s06/p06",
+        "tweetHash":  "f3dbc252a434eb71",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "browser-websites/s06/p07",
+        "tweetHash":  "a9eab9930f66376e",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "browser-websites/s06/p08",
+        "tweetHash":  "2b284fd3b7a58c0a",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "browser-websites/s06/p09",
+        "tweetHash":  "1eb283d550abdf08",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "browser-websites/s06/p10",
+        "tweetHash":  "2dc88da9971a6b75",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "browser-websites/s07/p01",
+        "tweetHash":  "cbcb18c69d1e7681",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "browser-websites/s07/p02",
+        "tweetHash":  "e37eb5e3f8ffd2dc",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "browser-websites/s07/p03",
+        "tweetHash":  "c33752a823541d32",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "browser-websites/s07/p04",
+        "tweetHash":  "4d48c61c99435a32",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "browser-websites/s07/p05",
+        "tweetHash":  "de2c9b3ab9d3c192",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "browser-websites/s07/p06",
+        "tweetHash":  "5bdc09e8c696cdc3",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "browser-websites/s07/p07",
+        "tweetHash":  "21ef2b28cb1d72cf",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "browser-websites/s07/p08",
+        "tweetHash":  "cc61e7343d1dee73",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "browser-websites/s07/p09",
+        "tweetHash":  "bcf6b70e4ec41c6c",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "browser-websites/s07/p10",
+        "tweetHash":  "0a0943fa5c386a88",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "browser-websites/s08/p01",
+        "tweetHash":  "7ff3c25d5461606d",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "browser-websites/s08/p02",
+        "tweetHash":  "1ab2c16322156202",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "browser-websites/s08/p03",
+        "tweetHash":  "088ac8f4c6990d83",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "browser-websites/s08/p04",
+        "tweetHash":  "6115fbf3788c6ff2",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "browser-websites/s08/p05",
+        "tweetHash":  "ae5e4491f3aff26a",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "browser-websites/s08/p06",
+        "tweetHash":  "8ca67e599cef3d07",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "browser-websites/s08/p07",
+        "tweetHash":  "01f6b143cefeb337",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "browser-websites/s08/p08",
+        "tweetHash":  "3ae4867513aeaeb9",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "browser-websites/s08/p09",
+        "tweetHash":  "9288aab53a958ee4",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "browser-websites/s08/p10",
+        "tweetHash":  "6253fc192c27995c",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "browser-websites/s09/p01",
+        "tweetHash":  "cc75b430cfc7da39",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "browser-websites/s09/p02",
+        "tweetHash":  "bcc6c4a1d4428093",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "browser-websites/s09/p03",
+        "tweetHash":  "9b00b6ff459058a5",
+        "verdict":  "revise",
+        "reason":  "Meaning shift: tweet ends \"והבעיה בדפדפן שלכם, לא בשרת\", which reads as if the user\u0027s browser is faulty. The original says the problem is \"בקוד שרץ בדפדפן שלכם\" - the site\u0027s JavaScript code running in the browser, not the browser itself. Rephrase to say the fault is in the site\u0027s client-side code, not the server."
+    },
+    {
+        "key":  "browser-websites/s09/p04",
+        "tweetHash":  "39df5a7c2575b6d1",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "browser-websites/s09/p05",
+        "tweetHash":  "4c8992b38dd2eb22",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "browser-websites/s09/p06",
+        "tweetHash":  "f9efade9c1364d73",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "browser-websites/s09/p07",
+        "tweetHash":  "2e1283a6b25be512",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "browser-websites/s09/p08",
+        "tweetHash":  "d14313e69132e942",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "browser-websites/s09/p09",
+        "tweetHash":  "d755906939ca453c",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "browser-websites/s09/p10",
+        "tweetHash":  "a030409f5bbb1e61",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "browser-websites/s10/p01",
+        "tweetHash":  "da8624a8dd0ea45e",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "browser-websites/s10/p02",
+        "tweetHash":  "a37328054b684548",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "browser-websites/s10/p03",
+        "tweetHash":  "ed1b7ba79ba6ffa9",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "browser-websites/s10/p04",
+        "tweetHash":  "52325abc614d4434",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "browser-websites/s10/p05",
+        "tweetHash":  "e793fca49aab7630",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "browser-websites/s10/p06",
+        "tweetHash":  "e68ad3309880d97d",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "browser-websites/s10/p07",
+        "tweetHash":  "5c4eec2d963ead7e",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "browser-websites/s10/p08",
+        "tweetHash":  "3cd2e3a15a8e2340",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "browser-websites/s10/p09",
+        "tweetHash":  "e23f3afe0ee376a8",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "browser-websites/s10/p10",
+        "tweetHash":  "fa018d6b0e7fd7ef",
+        "verdict":  "pass"
+    }
+]

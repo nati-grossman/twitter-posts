@@ -1,0 +1,1802 @@
+[
+  {
+    "key": "transformers-deep/s01/p01",
+    "topicId": "transformers-deep",
+    "topicName": "Transformers לעומק (הלב של ChatGPT)",
+    "seriesIndex": 1,
+    "seriesName": "מה זה transformer architecture?",
+    "part": 1,
+    "subtitle": "2017",
+    "title": "מה זה transformer architecture? (1/10) — 2017",
+    "postType": "explainer",
+    "tags": [
+      "1/10",
+      "סדרה"
+    ],
+    "sourceText": "ב־2017 יצא מגוגל המאמר Attention Is All You Need — וזה שינה את כל התמונה בשדה למידת המכונה. עד אז הרבה מודלים נשענו על RNN ועיבוד רציף; המאמר הזה הציע משהו אחר לגמרי.\n\nהרעיון המרכזי היה פשוט לכאורה: בלוקים חוזרים של Attention, בלי RNN באמצע הצינור. לא עוד שיפור קטן על אותו רצף איטי — אלא תבנית חדשה לגמרי, עם חישוב מקבילי שמתחבר יפה ל־GPU.\n\nעל התבנית הזו אימנו אחר כך מודלים ענקיים שהפכו לשגרה. משם התחילה המהפכה שאנחנו חיים בתוכה, ו־Transformer הפך לשם של ארכיטקטורה — לא רק של מאמר אקדמי בודד.",
+    "sourceChars": 496,
+    "sourceHash": "197def705cae4c8e"
+  },
+  {
+    "key": "transformers-deep/s01/p02",
+    "topicId": "transformers-deep",
+    "topicName": "Transformers לעומק (הלב של ChatGPT)",
+    "seriesIndex": 1,
+    "seriesName": "מה זה transformer architecture?",
+    "part": 2,
+    "subtitle": "בלוק",
+    "title": "מה זה transformer architecture? (2/10) — בלוק",
+    "postType": "explainer",
+    "tags": [
+      "2/10",
+      "סדרה"
+    ],
+    "sourceText": "כשמסתכלים על Transformer מבפנים, בתחתית יש embedding — ייצוג מספרי לטוקנים שנכנסים למודל, וזה נקודת ההתחלה של כל מה שקורה אחר כך. מכאן הטקסט כבר לא \"מילים\" אלא וקטורים.\n\nמעליו יושבות N שכבות שנראות כמעט זהות: Attention ואז FFN. כל בלוק חוזר על אותו רעיון, עם פרמטרים משלו — זה לא צינור של רכיבים שונים לגמרי בכל קומה, אלא אותה תבנית שחוזרת שוב ושוב.\n\nהעומק מגיע מהחזרה הזו, לא ממגוון אינסופי של רכיבים. ערימה של בלוקים זהים ברוח — זה הלב של הארכיטקטורה, וברגע שמבינים את המבנה הזה דיאגרמות מפסיקות להרגיש מפחידות.",
+    "sourceChars": 513,
+    "sourceHash": "5589e1080e143cc7"
+  },
+  {
+    "key": "transformers-deep/s01/p03",
+    "topicId": "transformers-deep",
+    "topicName": "Transformers לעומק (הלב של ChatGPT)",
+    "seriesIndex": 1,
+    "seriesName": "מה זה transformer architecture?",
+    "part": 3,
+    "subtitle": "פרמטרים",
+    "title": "מה זה transformer architecture? (3/10) — פרמטרים",
+    "postType": "explainer",
+    "tags": [
+      "3/10",
+      "סדרה"
+    ],
+    "sourceText": "מודל גדול זה מיליארדי weights — משקלים שנלמדים באימון, לא כללים שמישהו כתב ביד לקובץ טקסט. כששומעים \"מיליארד פרמטרים\", זה כמות עצומה של מספרים שמתכוונים לאורך שבועות של אימון.\n\nאין טבלת \"אם כך אז כך\" בקובץ נפרד. יש דפוסים שנאספים מנתונים עצומים ונשמרים במספרים — וכשיש מספיק דאטה וחישוב, יותר פרמטרים יכולים לתת יותר יכולת.\n\nאבל הפרמטרים עצמם הם רק מספרים שנכוונו בזהירות. ה\"ידע\" לא יושב בטקסט — הוא במשקלים, וזה ההבדל בין מודל לבין מסמך הסבר. checkpoint הוא קובץ מספרים, לא ספר כללים.",
+    "sourceChars": 485,
+    "sourceHash": "26378c467e9ac762"
+  },
+  {
+    "key": "transformers-deep/s01/p04",
+    "topicId": "transformers-deep",
+    "topicName": "Transformers לעומק (הלב של ChatGPT)",
+    "seriesIndex": 1,
+    "seriesName": "מה זה transformer architecture?",
+    "part": 4,
+    "subtitle": "Decoder-only",
+    "title": "מה זה transformer architecture? (4/10) — Decoder-only",
+    "postType": "explainer",
+    "tags": [
+      "4/10",
+      "סדרה"
+    ],
+    "sourceText": "GPT בנוי בעיקר כ־decoder-only — והוא מנבא את הטוקן הבא, שוב ושוב, לפי מה שכבר נכתב ברצף. כל מילה חדשה נכנסת להקשר, ואז המודל ממשיך משם.\n\nמשם יצאו מודלי שיחה כמו ChatGPT שאנחנו מכירים. אין encoder נפרד שקורא את כל הקלט מראש כשלב עצמאי — הכל זורם מצד אחד: הקשר קיים, ואז המשך אפשרי.\n\nזו הצורה הדומיננטית היום בעולם ה־LLM. פשוטה יחסית כרעיון, וחזקה מאוד כשעושים סקייל — פחות חלקים זזים, ויותר קל להגדיל את המודל בלי לשבור את כל הצינור.",
+    "sourceChars": 432,
+    "sourceHash": "7804a8e685f0a871"
+  },
+  {
+    "key": "transformers-deep/s01/p05",
+    "topicId": "transformers-deep",
+    "topicName": "Transformers לעומק (הלב של ChatGPT)",
+    "seriesIndex": 1,
+    "seriesName": "מה זה transformer architecture?",
+    "part": 5,
+    "subtitle": "Encoder-only",
+    "title": "מה זה transformer architecture? (5/10) — Encoder-only",
+    "postType": "explainer",
+    "tags": [
+      "5/10",
+      "סדרה"
+    ],
+    "sourceText": "BERT הוא דוגמה קלאסית ל־encoder-only — והוא חזק בהבנה: סיווג, חיפוש, מילוי מסכות בטקסט קיים. הוא לא נועד לכתוב שיחה ארוכה מקצה לקצה כמו GPT.\n\nפחות מתאים לגנרציה חופשית ארוכה כמו שיחת צ׳אט. הוא רואה הקשר רחב יותר סביב המילה בזמן הייצוג, אבל לא כותב סיפור טוקן־אחר־טוקן באותו אופן.\n\nאותה משפחת Transformer — תפקיד אחר לגמרי בקצה. קורא מעולה, לא בהכרח מספר סיפורים בקול רם. למשימות הבנה הוא עדיין כלי מרכזי, גם בעידן ה־LLM.",
+    "sourceChars": 420,
+    "sourceHash": "f446c33871be3791"
+  },
+  {
+    "key": "transformers-deep/s01/p06",
+    "topicId": "transformers-deep",
+    "topicName": "Transformers לעומק (הלב של ChatGPT)",
+    "seriesIndex": 1,
+    "seriesName": "מה זה transformer architecture?",
+    "part": 6,
+    "subtitle": "Encoder-decoder",
+    "title": "מה זה transformer architecture? (6/10) — Encoder-decoder",
+    "postType": "explainer",
+    "tags": [
+      "6/10",
+      "סדרה"
+    ],
+    "sourceText": "יש גם encoder-decoder — כמו במאמר המקורי ובתרגום קלאסי, עם שני צדדים ברורים שעובדים יחד. זו הצורה שמאפשרת \"קלט מצד אחד, פלט מצד שני\".\n\nה־encoder קורא את המקור ובונה ייצוג עשיר, וה־decoder כותב את היעד ומשתמש בייצוג הזה תוך כדי. מודלים כמו T5 לקחו את הרעיון לכיוון text-to-text רחב — תרגום, סיכום, שאלות ותשובות.\n\nלא רק \"להמשיך טקסט\" — גם להמיר ממבנה אחד לאחר. מקור נכנס, יעד יוצא, והארכיטקטורה מחברת ביניהם ב־cross-attention.",
+    "sourceChars": 425,
+    "sourceHash": "d50b01d9fe1c84e8"
+  },
+  {
+    "key": "transformers-deep/s01/p07",
+    "topicId": "transformers-deep",
+    "topicName": "Transformers לעומק (הלב של ChatGPT)",
+    "seriesIndex": 1,
+    "seriesName": "מה זה transformer architecture?",
+    "part": 7,
+    "subtitle": "Residual",
+    "title": "מה זה transformer architecture? (7/10) — Residual",
+    "postType": "explainer",
+    "tags": [
+      "7/10",
+      "סדרה"
+    ],
+    "sourceText": "Residual זה חיבור skip פשוט וחזק: מוסיפים את הקלט לפלט של תת־השכבה, במקום להחליף את המידע לגמרי. המידע הישן לא נעלם — הוא עובר הלאה ליד העדכון.\n\nבלי זה, רשת עמוקה מאוד מתקשה ללמוד יציב — הגרדיאנט מתקשה לזרום למטה באימון. עם זה, המידע הישן לא נמחק בדרך אל הקומה הבאה; הוא מתערבב עם העדכון החדש במקום להידרס.\n\nעומק גדול בלי residual? בדרך כלל כאב ראש הנדסי. זה אחד מהפרטים הקטנים שהופכים ערימות עמוקות לכאלה שבכלל מתאמנות.",
+    "sourceChars": 420,
+    "sourceHash": "8b6c88eab5355a21"
+  },
+  {
+    "key": "transformers-deep/s01/p08",
+    "topicId": "transformers-deep",
+    "topicName": "Transformers לעומק (הלב של ChatGPT)",
+    "seriesIndex": 1,
+    "seriesName": "מה זה transformer architecture?",
+    "part": 8,
+    "subtitle": "Layer Norm",
+    "title": "מה זה transformer architecture? (8/10) — Layer Norm",
+    "postType": "explainer",
+    "tags": [
+      "8/10",
+      "סדרה"
+    ],
+    "sourceText": "Layer Norm מייצב את הערכים לפני או אחרי חלקי הבלוק — ובמודלים מודרניים נפוץ Pre-LN, נרמול לפני Attention ו־FFN. בלי ייצוב, מספרים יכולים \"לברוח\" לסקיילים מוזרים.\n\nזה עוזר לאימון יציב יותר כשיש הרבה שכבות. השכבות מדברות בערך באותו \"סולם\" מספרי לאורך כל המגדל, במקום שכל קומה תרוץ לכיוון אחר.\n\nפרט קטן שמרגיש טכני — והוא קריטי ליציבות. בלי Layer Norm, עומק גדול מתפרק מהר באימון, גם אם שאר הארכיטקטורה נראית מושלמת על הנייר.",
+    "sourceChars": 422,
+    "sourceHash": "e62519e27598e3e9"
+  },
+  {
+    "key": "transformers-deep/s01/p09",
+    "topicId": "transformers-deep",
+    "topicName": "Transformers לעומק (הלב של ChatGPT)",
+    "seriesIndex": 1,
+    "seriesName": "מה זה transformer architecture?",
+    "part": 9,
+    "subtitle": "לא מונולית",
+    "title": "מה זה transformer architecture? (9/10) — לא מונולית",
+    "postType": "explainer",
+    "tags": [
+      "9/10",
+      "סדרה"
+    ],
+    "sourceText": "Transformer לא חייב להיות קוביה אחת סגורה ואטומית — Attention ו־FFN הם מודולים נפרדים שאפשר לגעת בהם. MoE, RoPE, חלונות ארוכים — כולם נכנסים לאותו שלד.\n\nאפשר להחליף חלקים, לדלל, או לערבב מומחים — זה שדה מחקר פעיל, והארכיטקטורה מודולרית בטבעה, לא מקשה אחת. לכן רואים וריאציות בלי לזרוק את הרעיון המרכזי.\n\nלא מונולית — יותר כמו ערכת לגו עם חוקים ברורים. אותו שלד, הרבה וריאציות בפנים, והרבה מקום לניסויים בלי לבנות הכל מחדש.",
+    "sourceChars": 422,
+    "sourceHash": "f1875fd054b94f0f"
+  },
+  {
+    "key": "transformers-deep/s01/p10",
+    "topicId": "transformers-deep",
+    "topicName": "Transformers לעומק (הלב של ChatGPT)",
+    "seriesIndex": 1,
+    "seriesName": "מה זה transformer architecture?",
+    "part": 10,
+    "subtitle": "סיכום",
+    "title": "מה זה transformer architecture? (10/10) — סיכום",
+    "postType": "explainer",
+    "tags": [
+      "10/10",
+      "סדרה"
+    ],
+    "sourceText": "Transformer = ערימת בלוקים עם Self-Attention ועם FFN — אותה תבנית בסיסית שחוזרת שוב ושוב. כל קומה מוסיפה עוד סיבוב של אותו רעיון, עם פרמטרים חדשים.\n\nיש encoder-only, decoder-only, וגם שני הצדדים יחד לפי המשימה. Residual ו־Layer Norm עוזרים לעומק לעבוד בלי להתפרק — זה הלב של רוב ה־LLM המודרניים, לא רק שם יפה על מצגת.\n\nברגע שמבינים את הבלוק, הרבה וריאציות נראות פתאום מוכרות — מ־BERT ועד GPT, מאותה משפחה, עם אותם חלקים בסיסיים.",
+    "sourceChars": 428,
+    "sourceHash": "217b2a9e1e901151"
+  },
+  {
+    "key": "transformers-deep/s02/p01",
+    "topicId": "transformers-deep",
+    "topicName": "Transformers לעומק (הלב של ChatGPT)",
+    "seriesIndex": 2,
+    "seriesName": "מה זה encoder ו-decoder?",
+    "part": 1,
+    "subtitle": "שני תפקידים",
+    "title": "מה זה encoder ו-decoder? (1/10) — שני תפקידים",
+    "postType": "explainer",
+    "tags": [
+      "1/10",
+      "סדרה"
+    ],
+    "sourceText": "Encoder ו־decoder הם שני תפקידים במשפחת ה־Transformer — והם לא תמיד עובדים יחד, אבל הרעיון מארגן את כל השדה. ברגע שמפרידים ביניהם, הרבה שמות של מודלים נהיים ברורים.\n\nה־encoder קורא את הקלט ובונה ייצוג עשיר של מה שנאמר. ה־decoder כותב פלט, ומשתמש בייצוג כשצריך אותו — כמו קורא מול כותב באותו מפעל: אחד מבין את המשפט, השני מייצר המשך או תרגום.\n\nלא תמיד משתמשים בשניהם יחד, אבל ברגע שמפרידים ביניהם בראש, GPT כ־decoder בלבד ו־BERT כ־encoder בלבד נעשים הרבה יותר ברורים.",
+    "sourceChars": 466,
+    "sourceHash": "1b6199e298557b6e"
+  },
+  {
+    "key": "transformers-deep/s02/p02",
+    "topicId": "transformers-deep",
+    "topicName": "Transformers לעומק (הלב של ChatGPT)",
+    "seriesIndex": 2,
+    "seriesName": "מה זה encoder ו-decoder?",
+    "part": 2,
+    "subtitle": "תרגום קלאסי",
+    "title": "מה זה encoder ו-decoder? (2/10) — תרגום קלאסי",
+    "postType": "explainer",
+    "tags": [
+      "2/10",
+      "סדרה"
+    ],
+    "sourceText": "בתרגום קלאסי עם encoder-decoder זה נראה כך: משפט בעברית נכנס ל־encoder ויוצא כווקטורים עשירים. המקור נקרא פעם אחת, והייצוג נשמר לשלב הבא.\n\nה־decoder קורא אותם וכותב אנגלית, טוקן אחרי טוקן. יש צד מקור וצד יעד — לא אותו רצף שנמשך סתם — והמודל לומד ליישר בין השפות תוך כדי יצירה.\n\nזה הסיפור שעליו נבנה המאמר המקורי של Transformer — לא רק להעתיק מילה במילה, אלא לייצר תרגום שלם מתוך ייצוג משותף. תרגום היה הבמה הראשונה, אבל הרעיון של מקור ויעד רחב הרבה יותר.",
+    "sourceChars": 454,
+    "sourceHash": "ac53bd427ff535be"
+  },
+  {
+    "key": "transformers-deep/s02/p03",
+    "topicId": "transformers-deep",
+    "topicName": "Transformers לעומק (הלב של ChatGPT)",
+    "seriesIndex": 2,
+    "seriesName": "מה זה encoder ו-decoder?",
+    "part": 3,
+    "subtitle": "Cross-attention",
+    "title": "מה זה encoder ו-decoder? (3/10) — Cross-attention",
+    "postType": "explainer",
+    "tags": [
+      "3/10",
+      "סדרה"
+    ],
+    "sourceText": "Cross-attention הוא הגשר בין שני הצדדים — ה־decoder מסתכל על פלט ה־encoder ושואל: מה רלוונטי עכשיו לכתיבה? בכל צעד יצירה יש יישור מחדש עם המקור.\n\nככה נוצר קשר חי בין שפות, או בין קלט לפלט בכלל. בלי זה, הכתיבה עלולה \"לשכוח\" את המקור באמצע; עם זה, יש יישור דינמי שמתעדכן תוך כדי יצירה.\n\nשיחה פנימית בין הקורא לכותב בתוך המודל — וזה מה שמאפשר תרגום ומשימות seq2seq לעבוד. cross-attention הוא מה שמונע מה-decoder \"לברוח\" מהמקור באמצע יצירה.",
+    "sourceChars": 436,
+    "sourceHash": "b16c83488012fbaa"
+  },
+  {
+    "key": "transformers-deep/s02/p04",
+    "topicId": "transformers-deep",
+    "topicName": "Transformers לעומק (הלב של ChatGPT)",
+    "seriesIndex": 2,
+    "seriesName": "מה זה encoder ו-decoder?",
+    "part": 4,
+    "subtitle": "Encoder בלבד",
+    "title": "מה זה encoder ו-decoder? (4/10) — Encoder בלבד",
+    "postType": "explainer",
+    "tags": [
+      "4/10",
+      "סדרה"
+    ],
+    "sourceText": "Encoder בלבד — כמו BERT — מתמקד בעיקר בהבנה. הוא לא בנוי לכתוב שיחה ארוכה כמו GPT — הכוח שלו הוא ייצוג חזק של הטקסט שכבר לפניו.\n\nהוא רואה הקשר דו־כיווני (למשל עם מסכה בזמן אימון), ומתאים לסיווג, חיפוש והשלמות מקומיות בטקסט קיים. הוא רואה את המשפט משני הצדדים בזמן הייצוג. bidirectional context נותן לו יתרון ברור כשצריך להבין טקסט שכבר כתוב, לא לייצר שיחה חדשה.\n\nקורא מעולה — לא בהכרח מספר סיפורים בקול רם. למשימות הבנה זה עדיין כלי מרכזי, גם בעידן ה־LLM.",
+    "sourceChars": 455,
+    "sourceHash": "a96bb16d5343fcc3"
+  },
+  {
+    "key": "transformers-deep/s02/p05",
+    "topicId": "transformers-deep",
+    "topicName": "Transformers לעומק (הלב של ChatGPT)",
+    "seriesIndex": 2,
+    "seriesName": "מה זה encoder ו-decoder?",
+    "part": 5,
+    "subtitle": "Decoder בלבד",
+    "title": "מה זה encoder ו-decoder? (5/10) — Decoder בלבד",
+    "postType": "explainer",
+    "tags": [
+      "5/10",
+      "סדרה"
+    ],
+    "sourceText": "Decoder בלבד — כמו GPT — עובד עם causal mask: הוא רואה רק את העבר של הרצף, לא את העתיד שעדיין לא נכתב. העתיד פשוט לא קיים עדיין בזמן החיזוי.\n\nמנבא את הבא, מוסיף אותו להקשר, וממשיך הלאה. משם מגיעה חוויית השיחה שאנחנו מכירים — הכל זורם בכיוון אחד של זמן טקסטואלי ברור. causal mask מגדיר כיוון זמן — רק העבר קיים, והעתיד עדיין לא נכתב.\n\nפשוט יחסית כרעיון, וחזק מאוד כשעושים סקייל. רוב הצ׳אטים שאתם פותחים רצים על הרעיון הזה — decoder בלבד, שוב ושוב.",
+    "sourceChars": 446,
+    "sourceHash": "db0b5e34f6a015a0"
+  },
+  {
+    "key": "transformers-deep/s02/p06",
+    "topicId": "transformers-deep",
+    "topicName": "Transformers לעומק (הלב של ChatGPT)",
+    "seriesIndex": 2,
+    "seriesName": "מה זה encoder ו-decoder?",
+    "part": 6,
+    "subtitle": "T5",
+    "title": "מה זה encoder ו-decoder? (6/10) — T5",
+    "postType": "explainer",
+    "tags": [
+      "6/10",
+      "סדרה"
+    ],
+    "sourceText": "T5 לקח encoder-decoder והפך כמעט הכל ל־text-to-text. במקום ראש נפרד לכל סוג בעיה — אותה תבנית: טקסט נכנס, טקסט יוצא.\n\nתרגום, סיכום, שאלות ותשובות — אותה תבנית: קלט טקסט, פלט טקסט. משימה אחת גמישה במקום ראש נפרד לכל סוג בעיה. prefix קצר בפרומפט מספר למודל מה המשימה — ואז אותו שלד עושה את העבודה.\n\nזה מראה כמה הארכיטקטורה רחבה מעבר להשלמת משפט. לא רק \"מה המילה הבאה\" — גם \"המר את המשימה לטקסט\". אותו שלד בסיסי, הרבה כובעים שונים.",
+    "sourceChars": 428,
+    "sourceHash": "60a583390159d3b5"
+  },
+  {
+    "key": "transformers-deep/s02/p07",
+    "topicId": "transformers-deep",
+    "topicName": "Transformers לעומק (הלב של ChatGPT)",
+    "seriesIndex": 2,
+    "seriesName": "מה זה encoder ו-decoder?",
+    "part": 7,
+    "subtitle": "למה GPT ניצח",
+    "title": "מה זה encoder ו-decoder? (7/10) — למה GPT ניצח",
+    "postType": "explainer",
+    "tags": [
+      "7/10",
+      "סדרה"
+    ],
+    "sourceText": "למה decoder-only תפס ככה בשוק? משימה אחת ברורה מאוד: גנרציה של ההמשך. פחות חלקים זזים, פחות cross-attention — ויותר קל להגדיל.\n\nארכיטקטורה פשוטה יותר לסקייל — והרבה נתונים לידה. ברגע שאימון על חיזוי הטוקן הבא עובד בקנה מידה ענק, שיחה, סיכום ותרגום יכולים לצאת מאותו בסיס עם הוראות. scaling על decoder-only הוכיח את עצמו ב-GPT-3 — פחות חלקים, יותר קל להגדיל.\n\nלא כי encoder \"מת\" — כי הפשטות ניצחה בסקייל. פחות חלקים זזים, יותר קל להגדיל — וזה מה שהשוק בחר.",
+    "sourceChars": 455,
+    "sourceHash": "c788f6356d1baf0c"
+  },
+  {
+    "key": "transformers-deep/s02/p08",
+    "topicId": "transformers-deep",
+    "topicName": "Transformers לעומק (הלב של ChatGPT)",
+    "seriesIndex": 2,
+    "seriesName": "מה זה encoder ו-decoder?",
+    "part": 8,
+    "subtitle": "אותו בלוק",
+    "title": "מה זה encoder ו-decoder? (8/10) — אותו בלוק",
+    "postType": "explainer",
+    "tags": [
+      "8/10",
+      "סדרה"
+    ],
+    "sourceText": "בפנים, encoder ו־decoder דומים מאוד יותר ממה שנשמע. אותו רעיון בסיסי של Attention ו־FFN חוזר בשניהם — ההבדל הגדול הוא במסכות וב־cross-attention כשיש שני צדדים.\n\nכלומר, אלה לא שתי משפחות זרות לגמרי, אלא שני שימושים באותו בלוק בסיסי כמעט. אותה תבנית, חוקים שונים סביב — וזה מפחית הרבה בלבול כשקוראים דיאגרמות. FFN ו-Attention חוזרים בשניהם — ההבדל הוא במסכות וב-cross-attention.\n\nהמודול אותו מודול — החוקים סביב משתנים. ברגע שרואים את זה, השמות encoder ו־decoder מפחידים פחות.",
+    "sourceChars": 474,
+    "sourceHash": "df95cd8ff6a1038b"
+  },
+  {
+    "key": "transformers-deep/s02/p09",
+    "topicId": "transformers-deep",
+    "topicName": "Transformers לעומק (הלב של ChatGPT)",
+    "seriesIndex": 2,
+    "seriesName": "מה זה encoder ו-decoder?",
+    "part": 9,
+    "subtitle": "Seq2seq ישן",
+    "title": "מה זה encoder ו-decoder? (9/10) — Seq2seq ישן",
+    "postType": "explainer",
+    "tags": [
+      "9/10",
+      "סדרה"
+    ],
+    "sourceText": "לפני Transformer היה seq2seq עם LSTM ודומיו — אותו רעיון כללי כבר היה שם: encoder קורא, decoder כותב. הסיפור של מקור־יעד לא התחיל ב־2017.\n\nאבל העיבוד היה רציף ואיטי יותר כשרוצים סקייל אמיתי. Transformer שמר על הסיפור של מקור־יעד והחליף את המנוע — Attention במקום צעדי RNN ארוכים שמדללים מידע. Transformer לא המציא את רעיון מקור-יעד — רק החליף את המנוע האיטי.\n\nרעיון ישן וטוב — מימוש חדש ששינה את הקצב לגמרי, ופתח את הדלת לסקייל שלא היה אפשרי קודם.",
+    "sourceChars": 447,
+    "sourceHash": "da188721b5d25b96"
+  },
+  {
+    "key": "transformers-deep/s02/p10",
+    "topicId": "transformers-deep",
+    "topicName": "Transformers לעומק (הלב של ChatGPT)",
+    "seriesIndex": 2,
+    "seriesName": "מה זה encoder ו-decoder?",
+    "part": 10,
+    "subtitle": "סיכום",
+    "title": "מה זה encoder ו-decoder? (10/10) — סיכום",
+    "postType": "explainer",
+    "tags": [
+      "10/10",
+      "סדרה"
+    ],
+    "sourceText": "Encoder = קורא ומקודד את הקלט לייצוג. Decoder = מייצר טקסט החוצה. שני תפקידים שונים — לפעמים מספיק אחד מהם.\n\nGPT היום הוא בעיקר decoder בלבד — בלי encoder נפרד בצד. שיחה מודרנית רצה מצד אחד של הארכיטקטורה, שוב ושוב. רוב הצ'אטים שאתם פותחים רצים על decoder בלבד — encoder נשאר למשימות הבנה. זה מספיק לרוב השיחות. שווה לשמור את הנקודה הזו.\n\nשני תפקידים חשובים — ולפעמים מספיק אחד מהם. ברגע שמפרידים ביניהם בראש, הרבה ארכיטקטורות נעשות ברורות יותר.",
+    "sourceChars": 445,
+    "sourceHash": "49d84662729f9ff3"
+  },
+  {
+    "key": "transformers-deep/s03/p01",
+    "topicId": "transformers-deep",
+    "topicName": "Transformers לעומק (הלב של ChatGPT)",
+    "seriesIndex": 3,
+    "seriesName": "למה transformers החליפו RNNs?",
+    "part": 1,
+    "subtitle": "RNN בסיס",
+    "title": "למה transformers החליפו RNNs? (1/10) — RNN בסיס",
+    "postType": "explainer",
+    "tags": [
+      "1/10",
+      "סדרה"
+    ],
+    "sourceText": "RNN קורא את הטקסט טוקן אחר טוקן, כמו שרשרת — יש זיכרון נסתר שמתעדכן בכל צעד לפי מה שנכנס עכשיו. כל מילה מחכה שהקודמת תסיים לפני שמתחילים אותה.\n\nהרצף בנוי תלות אחרי תלות, לא כמו מפה פתוחה. באימון זה מקשה על מקבילות אמיתית על כל המשפט — אי אפשר פשוט לזרוק את כל הטוקנים ל־GPU בבת אחת באותו אופן. GPU מודרני לא אוהב לחכות שכל טוקן יסיים לפני שהבא מתחיל.\n\nטוב לרצפים קצרים יחסית, כבד מאוד לסקייל ענק. כשמנסים לאמן על טריליוני טוקנים, המגבלה הזו הופכת לחסם אמיתי.",
+    "sourceChars": 458,
+    "sourceHash": "cd72f5b1a59a6f5c"
+  },
+  {
+    "key": "transformers-deep/s03/p02",
+    "topicId": "transformers-deep",
+    "topicName": "Transformers לעומק (הלב של ChatGPT)",
+    "seriesIndex": 3,
+    "seriesName": "למה transformers החליפו RNNs?",
+    "part": 2,
+    "subtitle": "Vanishing gradient",
+    "title": "למה transformers החליפו RNNs? (2/10) — Vanishing gradient",
+    "postType": "explainer",
+    "tags": [
+      "2/10",
+      "סדרה"
+    ],
+    "sourceText": "במשפט ארוך, גרדיאנט יכול להיעלם בדרך אחורה באימון — ההתחלה \"נשכחת\" כי האות עובר דרך יותר מדי צעדים רקורסיביים. ככל שהמשפט ארוך יותר, הבעיה נהיית חמורה יותר.\n\nזו בעיה קלאסית של רשתות שרצות לאורך זמן ברצף. LSTM ו־GRU ניסו לרכך את זה עם שערים חכמים יותר, אבל הבסיס עדיין נשאר שרשרת ארוכה של תלויות. ככל שהמשפט ארוך יותר, הבעיה נהיית חמורה — והתחלה רחוקה נשכחת.\n\nשוכחים רחוק — גם אם זוכרים די טוב את הקרוב. לשפה עם תלויות ארוכות, זה היה כאב מורגש שנים.",
+    "sourceChars": 448,
+    "sourceHash": "3a49a2db0842c1d3"
+  },
+  {
+    "key": "transformers-deep/s03/p03",
+    "topicId": "transformers-deep",
+    "topicName": "Transformers לעומק (הלב של ChatGPT)",
+    "seriesIndex": 3,
+    "seriesName": "למה transformers החליפו RNNs?",
+    "part": 3,
+    "subtitle": "מקבילות",
+    "title": "למה transformers החליפו RNNs? (3/10) — מקבילות",
+    "postType": "explainer",
+    "tags": [
+      "3/10",
+      "סדרה"
+    ],
+    "sourceText": "ב־Transformer אפשר לעבד הרבה טוקנים יחד בזמן אימון — Attention מחשב קשרים על פני הרצף במקביל, לא רק צעד־צעד. כל המשפט יכול לעבור ביחד על ה־GPU.\n\nה־GPU אוהב בדיוק את סוג החישוב המטריציוני הזה, ולכן האימון יכול להיות מהיר ויעיל יותר בקנה מידה גדול. המקביליות היא לא פרט שולי בארכיטקטורה — היא מנוע סקייל. זו אחת הסיבות שאימון על טריליוני טוקנים הפך לכדאי כלכלית.\n\nארכיטקטורה שמתחברת יפה לחומרה המודרנית — וזה חלק גדול מהסיפור של מדוע Transformer ניצח.",
+    "sourceChars": 449,
+    "sourceHash": "27ec737b5ed66214"
+  },
+  {
+    "key": "transformers-deep/s03/p04",
+    "topicId": "transformers-deep",
+    "topicName": "Transformers לעומק (הלב של ChatGPT)",
+    "seriesIndex": 3,
+    "seriesName": "למה transformers החליפו RNNs?",
+    "part": 4,
+    "subtitle": "מרחק",
+    "title": "למה transformers החליפו RNNs? (4/10) — מרחק",
+    "postType": "explainer",
+    "tags": [
+      "4/10",
+      "סדרה"
+    ],
+    "sourceText": "ב־Attention, מילה יכולה \"לקפוץ\" ישר למילה רחוקה במשפט. ב־RNN אותה מילה רחוקה עוברת דרך צעדים רבים באמצע — ובכל צעד יש סיכון לדילול או לטשטוש של המידע.\n\nקשר ישיר מול שרשרת ארוכה — זה ההבדל המעשי. לשפה שמלאה בתלויות רחוקות, זה משנה את כל המשחק: פחות מסלול באמצע, יותר השפעה נקייה. נושא ונשוא יכולים להיפגש ישירות — גם כשהם רחוקים במשפט.\n\nפחות \"טלפון שבור\" בין תחילת המשפט לסופו — והמודל יכול לקשור נושא לנשוא גם כשהם רחוקים.",
+    "sourceChars": 422,
+    "sourceHash": "b70efbb019612954"
+  },
+  {
+    "key": "transformers-deep/s03/p05",
+    "topicId": "transformers-deep",
+    "topicName": "Transformers לעומק (הלב של ChatGPT)",
+    "seriesIndex": 3,
+    "seriesName": "למה transformers החליפו RNNs?",
+    "part": 5,
+    "subtitle": "2017–2020",
+    "title": "למה transformers החליפו RNNs? (5/10) — 2017–2020",
+    "postType": "explainer",
+    "tags": [
+      "5/10",
+      "סדרה"
+    ],
+    "sourceText": "בין 2017 ל־2020 המעבר בשדה היה מהיר להפליא: תרגום עם Transformer, אחר כך BERT, GPT-2, ואז GPT-3. כל שנה הביאה קפיצה ששינתה את ברירת המחדל.\n\nהתוצאות דיברו חזק יותר מנוסטלגיה ל־RNN הישן. ברגע שהסקייל התחיל לעבוד, השדה רץ קדימה בלי לחכות — לא עשור של ויכוח איטי על נייר, אלא קפיצה בתוצרים. כל שנה הביאה מודל שהראה שהכיוון החדש לא רק נשמע טוב — הוא עובד.\n\nשנים ספורות ששינו את ברירת המחדל של כולם — ממחקר נישתי לתשתית של כמעט כל מודל שפה גדול.",
+    "sourceChars": 439,
+    "sourceHash": "b26bf123bb660229"
+  },
+  {
+    "key": "transformers-deep/s03/p06",
+    "topicId": "transformers-deep",
+    "topicName": "Transformers לעומק (הלב של ChatGPT)",
+    "seriesIndex": 3,
+    "seriesName": "למה transformers החליפו RNNs?",
+    "part": 6,
+    "subtitle": "אורך",
+    "title": "למה transformers החליפו RNNs? (6/10) — אורך",
+    "postType": "explainer",
+    "tags": [
+      "6/10",
+      "סדרה"
+    ],
+    "sourceText": "RNN היה מוגבל מאוד באורך שימושי של הקשר — Transformer פתח חלונות גדולים בהרבה, גם עשרות אלפי טוקנים במודלים מודרניים. סדר הגודל כבר אחר לגמרי.\n\nעדיין יש גבול ועלות לחישוב, אבל סדר הגודל כבר אחר לגמרי. אורך זה לא רק נוחות למשתמש — זה מסמכים, שיחות ארוכות והקשר שמחזיק משמעות. חלון הקשר גדול = פחות שכחה באמצע שיחה ארוכה או מסמך. פחות שכחה באמצע.\n\nיותר זיכרון עבודה לטקסט, יותר מה שאפשר לעשות — ופחות \"שכחה\" באמצע שיחה ארוכה.",
+    "sourceChars": 423,
+    "sourceHash": "3c8b34bf64f9e408"
+  },
+  {
+    "key": "transformers-deep/s03/p07",
+    "topicId": "transformers-deep",
+    "topicName": "Transformers לעומק (הלב של ChatGPT)",
+    "seriesIndex": 3,
+    "seriesName": "למה transformers החליפו RNNs?",
+    "part": 7,
+    "subtitle": "LSTM GRU",
+    "title": "למה transformers החליפו RNNs? (7/10) — LSTM GRU",
+    "postType": "explainer",
+    "tags": [
+      "7/10",
+      "סדרה"
+    ],
+    "sourceText": "LSTM ו־GRU שיפרו מאוד את ה־RNN הקלאסי של פעם — שערים עזרו לזכור טוב יותר לאורך זמן ולשכוח פחות. הם היו שדרוג משמעותי על RNN \"רגיל\".\n\nאבל עדיין היה צריך ללכת צעד־צעד ברצף באימון ובהרצה. לסקייל של מודלי שפה ענקיים, זה פשוט לא הספיק — Transformer החליף את ברירת המחדל כמעט בכל מקום גדול. הם שיפרו RNN — אבל לא שינו את מגבלת הסקייל בזמן אימון.\n\nשדרוג על ישן, מול ארכיטקטורה חדשה לגמרי — שלא רק שיפרה זיכרון, אלא שינתה את כל חוקי המשחק.",
+    "sourceChars": 431,
+    "sourceHash": "2b522811bce7f2ca"
+  },
+  {
+    "key": "transformers-deep/s03/p08",
+    "topicId": "transformers-deep",
+    "topicName": "Transformers לעומק (הלב של ChatGPT)",
+    "seriesIndex": 3,
+    "seriesName": "למה transformers החליפו RNNs?",
+    "part": 8,
+    "subtitle": "עלות Attention",
+    "title": "למה transformers החליפו RNNs? (8/10) — עלות Attention",
+    "postType": "explainer",
+    "tags": [
+      "8/10",
+      "סדרה"
+    ],
+    "sourceText": "Attention עולה בערך O(n²) ביחס לאורך הרצף — וזה באמת בעיה כשרוצים חלונות ארוכים מאוד. ככל שהרצף ארוך יותר, העלות גדלה מהר.\n\nועדיין, עם GPU ואופטימיזציות כמו FlashAttention, הוא ניצח. העלות לא נעלמה מהעולם — היא נהייתה מנוהלת יותר, והיתרונות של מקבילות וקשר ישיר שכנעו את השדה. FlashAttention וחלונות חכמים עוזרים לנהל את המחיר בלי לוותר על הקשר.\n\nיקר חישובית — אבל שווה את המחיר בהרבה משימות שפה, במיוחד כשהאלטרנטיבה היא RNN שלא מסתקל.",
+    "sourceChars": 435,
+    "sourceHash": "7d3f5d455779b6af"
+  },
+  {
+    "key": "transformers-deep/s03/p09",
+    "topicId": "transformers-deep",
+    "topicName": "Transformers לעומק (הלב של ChatGPT)",
+    "seriesIndex": 3,
+    "seriesName": "למה transformers החליפו RNNs?",
+    "part": 9,
+    "subtitle": "לא אפס RNN",
+    "title": "למה transformers החליפו RNNs? (9/10) — לא אפס RNN",
+    "postType": "explainer",
+    "tags": [
+      "9/10",
+      "סדרה"
+    ],
+    "sourceText": "RNN לא מת לגמרי ולא נמחק מספר ההיסטוריה. במערכות קטנות, זמן־אמת מוגבל, או חומרה צרה מאוד — לפעמים הוא עדיין מופיע.\n\nבשפה גדולה וב־LLM, Transformer שולט כמעט לחלוטין. ההחלפה היא בעיקר על מרכז הבמה של מודלי שפה, לא מחיקה מוחלטת מכל פינה בהנדסת למידה. במערכות קטנות ומהירות — לפעמים RNN עדיין הגיוני. לא במרכז ה-LLM. שווה לשמור את הנקודה הזו.\n\nההקשר והסקייל קובעים מי רץ היום. RNN עדיין רלוונטי במקומות צרים — אבל לא במרכז של מודלי השפה הגדולים.",
+    "sourceChars": 442,
+    "sourceHash": "cc60e262a6223e3c"
+  },
+  {
+    "key": "transformers-deep/s03/p10",
+    "topicId": "transformers-deep",
+    "topicName": "Transformers לעומק (הלב של ChatGPT)",
+    "seriesIndex": 3,
+    "seriesName": "למה transformers החליפו RNNs?",
+    "part": 10,
+    "subtitle": "סיכום",
+    "title": "למה transformers החליפו RNNs? (10/10) — סיכום",
+    "postType": "explainer",
+    "tags": [
+      "10/10",
+      "סדרה"
+    ],
+    "sourceText": "RNN = רצף איטי יחסית ששוכח רחוק בקלות. Transformer = קשר ישיר בין מילים ומקבילות חזקה באימון. שני כאבים שונים — שני פתרונות שונים.\n\nלכן מודלי השפה הגדולים עברו אליו כמעט כברירת מחדל — זו לא רק אופנה של כנסים, אלא הנדסה שמתאימה לנתונים ול־GPU. מקבילות בזמן אימון וקשר ישיר בין מילים רחוקות — שני כאבים, שני פתרונות. ברגע שמבינים את שני הכאבים — הבחירה נראית טבעית.\n\nברגע שמבינים את שני הכאבים של RNN — הבחירה ב־Transformer נראית טבעית, לא מפתיעה.",
+    "sourceChars": 445,
+    "sourceHash": "10b01328b34011e7"
+  },
+  {
+    "key": "transformers-deep/s04/p01",
+    "topicId": "transformers-deep",
+    "topicName": "Transformers לעומק (הלב של ChatGPT)",
+    "seriesIndex": 4,
+    "seriesName": "איך self-attention עובד רעיונית?",
+    "part": 1,
+    "subtitle": "שאלה",
+    "title": "איך self-attention עובד רעיונית? (1/10) — שאלה",
+    "postType": "explainer",
+    "tags": [
+      "1/10",
+      "סדרה"
+    ],
+    "sourceText": "Self-attention מתחיל משאלה פשוטה ומפתיעה: לכל מילה — מי באמת רלוונטי במשפט הזה עכשיו? לא \"מי שכן לידי\", אלא מי חשוב לרגע הזה של העיבוד.\n\nSelf אומר: בתוך אותו רצף, לא ממקור חיצוני כמו ויקיפדיה. זו לא חיפוש בעולם הגדול בחוץ — זו שיחה פנימית בין הטוקנים של אותו טקסט עצמו. מכאן נגזרים multi-head, masking וכל שאר משפחת Attention.\n\nמפה של קשרים דינמיים, לא רשימת כללים קבועה מראש. משם מתחיל כל הקסם של Self-Attention — וממנו נגזרים multi-head, masking, וכל השאר.",
+    "sourceChars": 458,
+    "sourceHash": "8f10f11ef1efff06"
+  },
+  {
+    "key": "transformers-deep/s04/p02",
+    "topicId": "transformers-deep",
+    "topicName": "Transformers לעומק (הלב של ChatGPT)",
+    "seriesIndex": 4,
+    "seriesName": "איך self-attention עובד רעיונית?",
+    "part": 2,
+    "subtitle": "שלושה וקטורים",
+    "title": "איך self-attention עובד רעיונית? (2/10) — שלושה וקטורים",
+    "postType": "explainer",
+    "tags": [
+      "2/10",
+      "סדרה"
+    ],
+    "sourceText": "מכל embedding יוצרים שלושה וקטורים עם מטריצות ליניאריות: Q — שאילתה, K — מפתח, V — ערך. שלושה תפקידים שונים — מאותו ייצוג התחלתי.\n\nQ שואל \"מה אני מחפש כרגע?\", K אומר \"במה אני נראה לאחרים?\", V אומר \"מה אעביר הלאה אם בחרו בי?\". המשקלים האלה נלמדים באימון על נתונים — אין טבלת \"משמעות מילה\" שמישהו כתב מראש בקובץ.\n\nאותה מילה, שלוש \"תפקידים\" שונים ברגע העיבוד. Q/K/V נשמעים מפחידים — אבל הם רק שלוש תפקידים שונים של אותו embedding.",
+    "sourceChars": 427,
+    "sourceHash": "cf3060054ef81db1"
+  },
+  {
+    "key": "transformers-deep/s04/p03",
+    "topicId": "transformers-deep",
+    "topicName": "Transformers לעומק (הלב של ChatGPT)",
+    "seriesIndex": 4,
+    "seriesName": "איך self-attention עובד רעיונית?",
+    "part": 3,
+    "subtitle": "ציון",
+    "title": "איך self-attention עובד רעיונית? (3/10) — ציון",
+    "postType": "explainer",
+    "tags": [
+      "3/10",
+      "סדרה"
+    ],
+    "sourceText": "הציון בין מילה i למילה j הוא בערך מכפלה של Q של i ב־K של j. ככל שהדמיון גבוה — הציון עולה.\n\nציון גבוה אומר דומות או קשר חזק יותר לפי מה שהמודל למד. ציון נמוך — פחות רלוונטי לרגע הזה של העיבוד. זה לא \"אהבה בין מילים\" ולא רגש אנושי — זה מדד דמיון מספרי שנלמד למשימה של חיזוי או הבנה. המודל לומד בעצמו מי חשוב — אין טבלת כללים שמישהו כתב מראש. מספרים, לא רגש.\n\nמי חשוב לי עכשיו — מתורגם למספר. ככה המודל \"בוחר\" למי להקשיב ברגע נתון.",
+    "sourceChars": 429,
+    "sourceHash": "8c05021a9275969a"
+  },
+  {
+    "key": "transformers-deep/s04/p04",
+    "topicId": "transformers-deep",
+    "topicName": "Transformers לעומק (הלב של ChatGPT)",
+    "seriesIndex": 4,
+    "seriesName": "איך self-attention עובד רעיונית?",
+    "part": 4,
+    "subtitle": "Softmax",
+    "title": "איך self-attention עובד רעיונית? (4/10) — Softmax",
+    "postType": "explainer",
+    "tags": [
+      "4/10",
+      "סדרה"
+    ],
+    "sourceText": "אחרי הציונים הגולמיים בא Softmax — המספרים הופכים למשקלים בין 0 ל־1, והסכום שלהם 1. ככה מתקבלת התפלגות קשב ברורה.\n\nרוב המילים מקבלות מעט מאוד תשומת לב, ומעטות מקבלות נתח גדול מהקשב. הקשב מרוכז בדרך כלל — לא מפוזר בשווה על כולם. רוב המילים מקבלות מעט — מעטות מקבלות את רוב הקשב. קשב מרוכז.\n\nככה המודל לא \"מאזין\" לכל דבר באותה עוצמה, אלא מתמקד במה שרלוונטי. Softmax מרכז את הקשב — רוב המילים מקבלות מעט, מעטות מקבלות הרבה.",
+    "sourceChars": 420,
+    "sourceHash": "466c19086c0b07f4"
+  },
+  {
+    "key": "transformers-deep/s04/p05",
+    "topicId": "transformers-deep",
+    "topicName": "Transformers לעומק (הלב של ChatGPT)",
+    "seriesIndex": 4,
+    "seriesName": "איך self-attention עובד רעיונית?",
+    "part": 5,
+    "subtitle": "שילוב",
+    "title": "איך self-attention עובד רעיונית? (5/10) — שילוב",
+    "postType": "explainer",
+    "tags": [
+      "5/10",
+      "סדרה"
+    ],
+    "sourceText": "עכשיו מערבבים את כל ה־V לפי המשקלים שקיבלנו — הפלט של המילה הוא סכום משוקלל של הערכים מהרצף. כל מילה תורמת לפי כמה הקשב בחר בה.\n\nהקשר נכנס פנימה לייצוג החדש שלה לשכבה הבאה. מילה לא נשארת מבודדת עם המשמעות ההתחלתית שלה — היא מתעדכנת לפי מי שחשוב סביבה במשפט. בסוף יוצא ייצוג חדש למילה — עשיר יותר ממה שהיה בהתחלה. ייצוג עשיר יותר.\n\nערבוב מושכל של מידע — זה הצעד שמסיים את Attention. בסוף יוצא ייצוג חדש למילה, עשיר יותר מהקודם.",
+    "sourceChars": 426,
+    "sourceHash": "722da36458cb36ad"
+  },
+  {
+    "key": "transformers-deep/s04/p06",
+    "topicId": "transformers-deep",
+    "topicName": "Transformers לעומק (הלב של ChatGPT)",
+    "seriesIndex": 4,
+    "seriesName": "איך self-attention עובד רעיונית?",
+    "part": 6,
+    "subtitle": "אנלוגיה",
+    "title": "איך self-attention עובד רעיונית? (6/10) — אנלוגיה",
+    "postType": "explainer",
+    "tags": [
+      "6/10",
+      "סדרה"
+    ],
+    "sourceText": "אפשר לחשוב על זה כמו חיפוש רך בטבלה: יש שאלה (Q), יש מפתחות (K), ויש ערכים (V) שמוחזרים. מוצאים התאמה לפי דמיון ומחזירים תערובת של ערכים.\n\nהאנלוגיה לא מושלמת ולא צריך לקחת אותה כחוק — זה לא SQL אמיתי, זה דמיון שנלמד במשקלים. אבל היא עוזרת לזכור את שלושת התפקידים. Q/K/V נשמעים מפחידים — עד שרואים את שלושת התפקידים האלה.\n\nדימוי טוב מספיק כדי לזכור את הרעיון בלי להסתבך. אחרי שמבינים את התמונה הזו, Q/K/V נשמעים פחות מאיימים.",
+    "sourceChars": 424,
+    "sourceHash": "41cb1f00b276f794"
+  },
+  {
+    "key": "transformers-deep/s04/p07",
+    "topicId": "transformers-deep",
+    "topicName": "Transformers לעומק (הלב של ChatGPT)",
+    "seriesIndex": 4,
+    "seriesName": "איך self-attention עובד רעיונית?",
+    "part": 7,
+    "subtitle": "ללא מיקום עדיין",
+    "title": "איך self-attention עובד רעיונית? (7/10) — ללא מיקום עדיין",
+    "postType": "explainer",
+    "tags": [
+      "7/10",
+      "סדרה"
+    ],
+    "sourceText": "Attention עצמו לא יודע אוטומטית מי בא לפני מי ברצף — בלי positional encoding, \"לא טוב\" ו־\"טוב לא\" עלולים להתערבב. הסדר לא מגיע מעצמו.\n\nהסדר צריך להגיע ממנגנון אחר שמצטרף לייצוג. לכן מידע המיקום מתווסף לפני או בתוך העיבוד, וביחד הם נותנים קשרים חכמים וגם סדר ברור. positional encoding מגיע ממנגנון נפרד — Attention לא יודע סדר לבד. סדר מגיע מבחוץ. שווה לשמור את הנקודה הזו.\n\nAttention בלי מיקום = חצי סיפור של שפה. שני החלקים חייבים לעבוד יחד.",
+    "sourceChars": 442,
+    "sourceHash": "d1a059185fb5b2f0"
+  },
+  {
+    "key": "transformers-deep/s04/p08",
+    "topicId": "transformers-deep",
+    "topicName": "Transformers לעומק (הלב של ChatGPT)",
+    "seriesIndex": 4,
+    "seriesName": "איך self-attention עובד רעיונית?",
+    "part": 8,
+    "subtitle": "Scaled",
+    "title": "איך self-attention עובד רעיונית? (8/10) — Scaled",
+    "postType": "explainer",
+    "tags": [
+      "8/10",
+      "סדרה"
+    ],
+    "sourceText": "Scaled Attention מחלקים את הציונים בשורש של מימד הווקטור — בלי זה Softmax יכול להפוך לקיצוני מדי כשהמימדים גדולים. הקצוות \"נשרפים\" והאימון נהיה לא יציב.\n\nעם זה, האימון נשאר יציב יותר לאורך הדרך. זה פרט מתמטי קטן עם השפעה גדולה על הלמידה — הוא לא משנה את הרעיון המרכזי, רק מרכך קצוות מסוכנים. פרט מתמטי קטן — השפעה גדולה על יציבות האימון. יציבות באימון.\n\nיציבות לפני דרמה מספרית מיותרת — פרט קטן, תוצאה גדולה באימון עמוק.",
+    "sourceChars": 420,
+    "sourceHash": "9f9221ea5d918020"
+  },
+  {
+    "key": "transformers-deep/s04/p09",
+    "topicId": "transformers-deep",
+    "topicName": "Transformers לעומק (הלב של ChatGPT)",
+    "seriesIndex": 4,
+    "seriesName": "איך self-attention עובד רעיונית?",
+    "part": 9,
+    "subtitle": "חזרה",
+    "title": "איך self-attention עובד רעיונית? (9/10) — חזרה",
+    "postType": "explainer",
+    "tags": [
+      "9/10",
+      "סדרה"
+    ],
+    "sourceText": "אותו מנגנון Attention חוזר בכל שכבה במעלה המודל — למטה הקשרים נוטים להיות יותר מקומיים או פשוטים, למעלה יכולים להופיע מושגים עמוקים יותר לפי מה שנלמד באימון.\n\nלא ממציאים מנגנון חדש לגמרי בכל קומה. אותה שפה של קשב, על ייצוגים הולכים ומתעשרים — חזרה מסודרת שיוצרת עומק אמיתי. אותו כלי בכל קומה — אבל על ייצוגים הולכים ומתעשרים. שווה לשמור את הנקודה הזו.\n\nאותו כלי, תמונה עמוקה יותר בכל עלייה. ככה נבנה \"הבנה\" הדרגתית של המשפט.",
+    "sourceChars": 424,
+    "sourceHash": "4f22a7b74eb06833"
+  },
+  {
+    "key": "transformers-deep/s04/p10",
+    "topicId": "transformers-deep",
+    "topicName": "Transformers לעומק (הלב של ChatGPT)",
+    "seriesIndex": 4,
+    "seriesName": "איך self-attention עובד רעיונית?",
+    "part": 10,
+    "subtitle": "סיכום",
+    "title": "איך self-attention עובד רעיונית? (10/10) — סיכום",
+    "postType": "explainer",
+    "tags": [
+      "10/10",
+      "סדרה"
+    ],
+    "sourceText": "Self-attention = לכל מילה: מי דומה לי לפי Q·K, ואז מערבבים את ה־V לפי משקלים. ארבעה שלבים פשוטים — שאלה, ציון, Softmax, שילוב.\n\nSoftmax הופך ציונים גולמיים להתפלגות קשב ברורה. מיקום מתווסף בנפרד כי Attention לבד לא יודע סדר. ארבעה שלבים: שאלה, ציון, Softmax, שילוב — ומכאן כל המשפחה. Q·K, Softmax, V — ארבעה שלבים.\n\nרעיון פשוט יחסית — ועוצמה ענקית כשמשלבים אותו בשפה. ארבעה שלבים קצרים שמסבירים למה המטריצה הזו שינתה הכל.",
+    "sourceChars": 421,
+    "sourceHash": "47cba13ec6bdf94e"
+  },
+  {
+    "key": "transformers-deep/s05/p01",
+    "topicId": "transformers-deep",
+    "topicName": "Transformers לעומק (הלב של ChatGPT)",
+    "seriesIndex": 5,
+    "seriesName": "איך כל מילה מדברת עם כל מילה?",
+    "part": 1,
+    "subtitle": "מטריצה מלאה",
+    "title": "איך כל מילה מדברת עם כל מילה? (1/10) — מטריצה מלאה",
+    "postType": "explainer",
+    "tags": [
+      "1/10",
+      "סדרה"
+    ],
+    "sourceText": "N מילים נותנות מטריצת קשרים פוטנציאלית בגודל N×N — כל זוג יכול \"לדבר\", לא רק שכנים מיידיים במשפט. זו לא שרשרת — זו מפה.\n\nזה הלב של הרעיון \"כל מילה עם כל מילה\". ב־RNN היית צריך ללכת בשרשרת ארוכה כדי להגיע רחוק; כאן יש מפה מלאה של אפשרויות קשב כבר מההתחלה. ב-RNN היית צריך שרשרת ארוכה — כאן יש מפת קשרים מההתחלה. מפה, לא שרשרת. שווה לשמור את הנקודה הזו.\n\nרשת קשרים פתוחה — לא תור צר של צעדים. זה ההבדל שמרגישים כשמדברים על \"כל מילה עם כל מילה\".",
+    "sourceChars": 442,
+    "sourceHash": "05a5adffcd8fac24"
+  },
+  {
+    "key": "transformers-deep/s05/p02",
+    "topicId": "transformers-deep",
+    "topicName": "Transformers לעומק (הלב של ChatGPT)",
+    "seriesIndex": 5,
+    "seriesName": "איך כל מילה מדברת עם כל מילה?",
+    "part": 2,
+    "subtitle": "דוגמה",
+    "title": "איך כל מילה מדברת עם כל מילה? (2/10) — דוגמה",
+    "postType": "explainer",
+    "tags": [
+      "2/10",
+      "סדרה"
+    ],
+    "sourceText": "קחו משפט פשוט: החתול ישב על המחצלת. המילה \"ישב\" יכולה להסתכל גם על \"חתול\" וגם על \"מחצלת\" — המשקלים יהיו שונים, לא אותו חוזק לכל מילה ברצף.\n\nהפועל מחפש נושא ומקום באותו רגע עיבוד, והמטריצה מאפשרת את שני הקשרים בבת אחת בלי ללכת צעד־צעד. שני הקשרים קורים במקביל, לא בזה אחר זה. שני הקשרים — נושא ומקום — קורים במקביל, בלי ללכת בשרשרת.\n\nדוגמה קטנה לרעיון גדול שחוזר בכל שכבה — אותו עיקרון עובד גם במשפטים ארוכים ומסובכים בהרבה.",
+    "sourceChars": 423,
+    "sourceHash": "5329d0d55d47c887"
+  },
+  {
+    "key": "transformers-deep/s05/p03",
+    "topicId": "transformers-deep",
+    "topicName": "Transformers לעומק (הלב של ChatGPT)",
+    "seriesIndex": 5,
+    "seriesName": "איך כל מילה מדברת עם כל מילה?",
+    "part": 3,
+    "subtitle": "לא שווה",
+    "title": "איך כל מילה מדברת עם כל מילה? (3/10) — לא שווה",
+    "postType": "explainer",
+    "tags": [
+      "3/10",
+      "סדרה"
+    ],
+    "sourceText": "לא כל הקשרים במטריצה חזקים באותה מידה — וזה חשוב. רוב המשקלים נמוכים, ורק מעט מהם גבוהים באמת. המודל לומד להיות סלקטיבי.\n\nרעיונית זה מרגיש sparse — גם כשהחישוב עצמו מלא על כל הזוגות. המודל לומד להתמקד במה שעוזר למשימה, ולא חייב לבזבז תשומת לב שווה על כל זוג מילים. המודל לומד להיות סלקטיבי — לא לבזבז קשב שווה על כל זוג. סלקטיבי, לא שווה. שווה לשמור את הנקודה הזו.\n\nשיחה סלקטיבית בתוך מטריצה מלאה של אפשרויות — לא כל זוג מילים חשוב באותה מידה.",
+    "sourceChars": 443,
+    "sourceHash": "e676587e0ce510a7"
+  },
+  {
+    "key": "transformers-deep/s05/p04",
+    "topicId": "transformers-deep",
+    "topicName": "Transformers לעומק (הלב של ChatGPT)",
+    "seriesIndex": 5,
+    "seriesName": "איך כל מילה מדברת עם כל מילה?",
+    "part": 4,
+    "subtitle": "Multi-head",
+    "title": "איך כל מילה מדברת עם כל מילה? (4/10) — Multi-head",
+    "postType": "explainer",
+    "tags": [
+      "4/10",
+      "סדרה"
+    ],
+    "sourceText": "Multi-head מריץ כמה ראשי Attention במקביל על אותו רצף — ראש אחד יכול לתפוס דקדוק, אחר קשרים רחוקים, אחר דגש אחר. כמה מבטים על אותו טקסט.\n\nבסוף מחברים את התוצאות לייצוג אחד עשיר יותר. זו לא הבטחה ש\"רגש\" או \"עובדה\" יושבים בראש נפרד — זו דרך הנדסית לתת כמה מבטים שונים על אותו טקסט. כמה עדשות על אותו טקסט — לא עדשה אחת בלבד. כמה עדשות. שווה לשמור את הנקודה הזו.\n\nכמה עדשות במקום עדשה אחת בלבד — וזה נותן למודל קיבולת לדפוסים מגוונים.",
+    "sourceChars": 431,
+    "sourceHash": "4a7d8682acc77d50"
+  },
+  {
+    "key": "transformers-deep/s05/p05",
+    "topicId": "transformers-deep",
+    "topicName": "Transformers לעומק (הלב של ChatGPT)",
+    "seriesIndex": 5,
+    "seriesName": "איך כל מילה מדברת עם כל מילה?",
+    "part": 5,
+    "subtitle": "שכבה 1 vs 40",
+    "title": "איך כל מילה מדברת עם כל מילה? (5/10) — שכבה 1 vs 40",
+    "postType": "explainer",
+    "tags": [
+      "5/10",
+      "סדרה"
+    ],
+    "sourceText": "בשכבה נמוכה הקשרים נוטים להיות יותר מקומיים או בסיסיים. בשכבות גבוהות יותר יכולים להופיע מושגים עשירים ומורכבים יותר — אותה מטריצה, משמעות אחרת.\n\nאותה צורת מטריצה חוזרת — אבל המשמעות משתנה עם העומק. לא ממציאים מנגנון אחר לגמרי למעלה במגדל; אותו כלי Attention רץ על ייצוגים אחרים לגמרי. אותה מטריצה — אבל המשמעות משתנה עם העומק. עומק משנה משמעות. שווה לשמור את הנקודה הזו.\n\nהקומה משנה את סוג השיחה בין המילים — לא רק את הפרטים, אלא את רמת ההפשטה.",
+    "sourceChars": 445,
+    "sourceHash": "89315744a4abc8dc"
+  },
+  {
+    "key": "transformers-deep/s05/p06",
+    "topicId": "transformers-deep",
+    "topicName": "Transformers לעומק (הלב של ChatGPT)",
+    "seriesIndex": 5,
+    "seriesName": "איך כל מילה מדברת עם כל מילה?",
+    "part": 6,
+    "subtitle": "Causal",
+    "title": "איך כל מילה מדברת עם כל מילה? (6/10) — Causal",
+    "postType": "explainer",
+    "tags": [
+      "6/10",
+      "סדרה"
+    ],
+    "sourceText": "ב־GPT המטריצה ממוסכת — זה נקרא causal attention. מילה לא רואה את העתיד של הרצף, רק את מה שכבר נכתב, ונשאר משולש תחתון של קשרים אפשריים במטריצה.\n\nבלי זה קשה לעשות גנרציה ישרה טוקן־אחר־טוקן — המודל היה עלול \"לראות תשובות\" שעדיין לא נוצרו. המסכה שומרת על כיוון זמן ברור. המסכה שומרת על כיוון זמן ברור — בלי להציץ לעתיד. בלי הצצה לעתיד. שווה לשמור את הנקודה הזו.\n\nשיחה עם כיוון זמן ברור ומוכרח. בלי המסכה — אין באמת \"מילה הבאה\" במובן של GPT.",
+    "sourceChars": 437,
+    "sourceHash": "a0d5921906eee003"
+  },
+  {
+    "key": "transformers-deep/s05/p07",
+    "topicId": "transformers-deep",
+    "topicName": "Transformers לעומק (הלב של ChatGPT)",
+    "seriesIndex": 5,
+    "seriesName": "איך כל מילה מדברת עם כל מילה?",
+    "part": 7,
+    "subtitle": "Bidirectional",
+    "title": "איך כל מילה מדברת עם כל מילה? (7/10) — Bidirectional",
+    "postType": "explainer",
+    "tags": [
+      "7/10",
+      "סדרה"
+    ],
+    "sourceText": "ב־BERT המטריצה יכולה להיות מלאה יותר — דו־כיוונית. מילה רואה הקשר משני הצדדים של המשפט בזמן הייצוג, וזה מעולה להבנה, סיווג וחיפוש סמנטי.\n\nפחות מתאים לחיזוי חופשי של המשך בשיחה — כי בעולם האמיתי העתיד של הטקסט עדיין לא נכתב. GPT צריך causal; BERT יכול bidirectional. GPT צריך causal — BERT יכול לראות הקשר משני הצדדים. שני כיוונים. שווה לשמור את הנקודה הזו.\n\nהבנה מול יצירה — מסכות שונות לאותה משפחה. אותה מטריצה, חוקים אחרים בקצוות.",
+    "sourceChars": 432,
+    "sourceHash": "eab65a272bf97706"
+  },
+  {
+    "key": "transformers-deep/s05/p08",
+    "topicId": "transformers-deep",
+    "topicName": "Transformers לעומק (הלב של ChatGPT)",
+    "seriesIndex": 5,
+    "seriesName": "איך כל מילה מדברת עם כל מילה?",
+    "part": 8,
+    "subtitle": "עלות",
+    "title": "איך כל מילה מדברת עם כל מילה? (8/10) — עלות",
+    "postType": "explainer",
+    "tags": [
+      "8/10",
+      "סדרה"
+    ],
+    "sourceText": "כל מילה כפול כל מילה = חישוב יקר בזיכרון ובזמן. ככל שהרצף ארוך יותר, העלות גדלה מהר מאוד — לכן יש אופטימיזציות, חלונות הקשר, ומחקר על Attention זול יותר.\n\nהיופי של מטריצה מלאה מגיע עם מחיר ברור. ההנדסה מנסה לשמור על היתרון בלי לשלם יותר מדי בכל צעד — FlashAttention, חלונות, ועוד. לכן חלון הקשר לא אינסופי — יש מחיר חישובי אמיתי. מחיר אמיתי. שווה לשמור את הנקודה הזו.\n\nקשרים רחבים עולים כסף חישובי אמיתי — וזה חלק מהסיבה שחלון הקשר לא אינסופי.",
+    "sourceChars": 443,
+    "sourceHash": "a5bd750f6be060e5"
+  },
+  {
+    "key": "transformers-deep/s05/p09",
+    "topicId": "transformers-deep",
+    "topicName": "Transformers לעומק (הלב של ChatGPT)",
+    "seriesIndex": 5,
+    "seriesName": "איך כל מילה מדברת עם כל מילה?",
+    "part": 9,
+    "subtitle": "Induction",
+    "title": "איך כל מילה מדברת עם כל מילה? (9/10) — Induction",
+    "postType": "explainer",
+    "tags": [
+      "9/10",
+      "סדרה"
+    ],
+    "sourceText": "יש דפוסים שנלמדים במטריצה — למשל בסגנון induction. רואים A ואז B במקום אחד, ואחר כך A שוב — והמודל מצפה ל־B. מעגל שחוזר על עצמו.\n\nמעגלים כאלה נחקרים כשמנסים לפרש מה קורה בפנים. זה לא אומר שהמודל \"מבין סיפור\" כמו אדם שקורא ספר — זה אומר שיש מעגלים שימושיים שנלמדו מהנתונים. דפוס חוזר בטקסט — תגובה חוזרת בקשב, לא 'הבנה' אנושית. דפוס חוזר. שווה לשמור את הנקודה הזו.\n\nדפוס חוזר בטקסט — תגובה חוזרת בקשב. מעניין לפרשנות, לא בהכרח \"הבנה אנושית\".",
+    "sourceChars": 440,
+    "sourceHash": "54ed8b4bcbdf44a3"
+  },
+  {
+    "key": "transformers-deep/s05/p10",
+    "topicId": "transformers-deep",
+    "topicName": "Transformers לעומק (הלב של ChatGPT)",
+    "seriesIndex": 5,
+    "seriesName": "איך כל מילה מדברת עם כל מילה?",
+    "part": 10,
+    "subtitle": "סיכום",
+    "title": "איך כל מילה מדברת עם כל מילה? (10/10) — סיכום",
+    "postType": "explainer",
+    "tags": [
+      "10/10",
+      "סדרה"
+    ],
+    "sourceText": "כל מילה \"מדברת\" עם כל מילה = מטריצת Attention מלאה (או ממוסכת ב־GPT). Multi-head נותן כמה שיחות במקביל על אותו רצף — כמה עדשות, מטריצה אחת.\n\nהעלות גבוהה — והתועלת לשפה עצומה כשהסקייל עובד. שפה כרשת קשרים חיה, לא כשרשרת בודדת של צעדים. Multi-head + מטריצה = שפה כרשת קשרים, לא כשרשרת צעדים. ברגע שרואים את המטריצה — הרבה 'קסמים' נעשים פחות מסתוריים. רשת, לא שרשרת.\n\nברגע שרואים את המטריצה, הרבה קסמים של מודלים נעשים פחות מסתוריים.",
+    "sourceChars": 430,
+    "sourceHash": "e3eb22f15dbe3b16"
+  },
+  {
+    "key": "transformers-deep/s06/p01",
+    "topicId": "transformers-deep",
+    "topicName": "Transformers לעומק (הלב של ChatGPT)",
+    "seriesIndex": 6,
+    "seriesName": "מה זה positional encoding?",
+    "part": 1,
+    "subtitle": "הבעיה",
+    "title": "מה זה positional encoding? (1/10) — הבעיה",
+    "postType": "explainer",
+    "tags": [
+      "1/10",
+      "סדרה"
+    ],
+    "sourceText": "Attention לבד סימטרי מדי כשמדובר בסדר מילים — בלי מיקום, \"חתול ישב\" ו־\"ישב חתול\" עלולים להיראות דומים מדי למודל. הסדר פשוט לא נכנס לחישוב.\n\nאבל בעברית, ובכל שפה, הסדר משנה משמעות לגמרי. צריך אות ברורה למיקום של כל טוקן ברצף — אחרת נשארת שקית מילים חכמה בלי כיוון. בלי מיקום — גם Attention הכי חזק מתבלבל בסדר המילים. סדר משנה הכל.\n\nהבעיה פשוטה להסבר — והפתרון הכרחי לארכיטקטורה. בלי זה, גם Attention הכי חזק מתבלבל בסדר.",
+    "sourceChars": 420,
+    "sourceHash": "02d7609ba5605ea4"
+  },
+  {
+    "key": "transformers-deep/s06/p02",
+    "topicId": "transformers-deep",
+    "topicName": "Transformers לעומק (הלב של ChatGPT)",
+    "seriesIndex": 6,
+    "seriesName": "מה זה positional encoding?",
+    "part": 2,
+    "subtitle": "סינוסים מקוריים",
+    "title": "מה זה positional encoding? (2/10) — סינוסים מקוריים",
+    "postType": "explainer",
+    "tags": [
+      "2/10",
+      "סדרה"
+    ],
+    "sourceText": "במאמר מ־2017 השתמשו בפונקציות sin ו־cos לפי מיקום — אלה פונקציות קבועות מראש, לא נלמדות כפרמטרים. כל מיקום מקבל \"גל\" מספרי ייחודי.\n\nיש להן יופי מתמטי ויכולת להביע גם מרחקים יחסיים. זה היה הפתרון הראשון המפורסם של המשפחה, והוא לא היחיד שנשאר עד היום במודלים מודרניים. גלים מספריים — רעיון אלגנטי מהמאמר המקורי מ-2017. גלים מ-2017. שווה לשמור את הנקודה הזו.\n\nמיקום כגלים מספריים — רעיון אלגנטי שהתחיל הכל, גם אם היום יש וריאציות רבות יותר.",
+    "sourceChars": 437,
+    "sourceHash": "ff724bdfdbb21077"
+  },
+  {
+    "key": "transformers-deep/s06/p03",
+    "topicId": "transformers-deep",
+    "topicName": "Transformers לעומק (הלב של ChatGPT)",
+    "seriesIndex": 6,
+    "seriesName": "מה זה positional encoding?",
+    "part": 3,
+    "subtitle": "Learned",
+    "title": "מה זה positional encoding? (3/10) — Learned",
+    "postType": "explainer",
+    "tags": [
+      "3/10",
+      "סדרה"
+    ],
+    "sourceText": "גישה אחרת פופולרית: וקטור נלמד לכל מיקום 0…N. המודל לומד מה שימושי לכל מקום ברצף ישירות מהנתונים — זה היה נפוץ במשפחת GPT הקלאסית ודומיה.\n\nגמיש יותר מסינוסים קבועים לכל אורך, אבל מוגבל באורך שנראה באימון — אלא אם מרחיבים אחר כך בטכניקות. מעבר ל־N שהמודל ראה — צריך טריקים. גמיש יותר מסינוסים — אבל מוגבל לאורך שנראה באימון. נלמד מהנתונים. שווה לשמור את הנקודה הזו.\n\nמיקום כפרמטרים שנלמדים, לא רק כנוסחה קבועה. שתי גישות שונות לאותה בעיה בסיסית.",
+    "sourceChars": 444,
+    "sourceHash": "e2ef1285e227a8a4"
+  },
+  {
+    "key": "transformers-deep/s06/p04",
+    "topicId": "transformers-deep",
+    "topicName": "Transformers לעומק (הלב של ChatGPT)",
+    "seriesIndex": 6,
+    "seriesName": "מה זה positional encoding?",
+    "part": 4,
+    "subtitle": "חיבור",
+    "title": "מה זה positional encoding? (4/10) — חיבור",
+    "postType": "explainer",
+    "tags": [
+      "4/10",
+      "סדרה"
+    ],
+    "sourceText": "בדרך כלל מחברים את embedding של המילה עם מידע המיקום — לפני השכבה הראשונה, לרוב בסכום פשוט או שילוב דומה. שני אותות נכנסים לייצוג אחד.\n\nמשם Attention כבר רואה גם תוכן וגם איפה הטוקן יושב. בלי החיבור הזה המיקום לא באמת נכנס למשחק העיבוד; עם זה, כל שכבה עובדת על ייצוג מועשר מההתחלה. תוכן + מקום = נקודת ההתחלה של כל הרצף לפני השכבה הראשונה.\n\nתוכן + מקום = נקודת ההתחלה של כל הרצף. בלי החתיכה הזו, גם Attention הכי חכם מתבלבל בסדר המילים.",
+    "sourceChars": 436,
+    "sourceHash": "b8b4db00581d8002"
+  },
+  {
+    "key": "transformers-deep/s06/p05",
+    "topicId": "transformers-deep",
+    "topicName": "Transformers לעומק (הלב של ChatGPT)",
+    "seriesIndex": 6,
+    "seriesName": "מה זה positional encoding?",
+    "part": 5,
+    "subtitle": "RoPE",
+    "title": "מה זה positional encoding? (5/10) — RoPE",
+    "postType": "explainer",
+    "tags": [
+      "5/10",
+      "סדרה"
+    ],
+    "sourceText": "RoPE — Rotary Positional Embedding — מסובב את הווקטורים Q ו־K. המיקום נכנס כיחס בין טוקנים, לא רק כטבלת אינדקסים קבועה. מרחק בין מילים מורגש בצורה טבעית ל־Attention.\n\nנפוץ במודלים כמו Llama והפך לסטנדרט במקומות רבים בשנים האחרונות. הדגש הוא על מרחק יחסי בין מילים ברצף — קרוב מול רחוק מורגש בצורה שנוחה ל־Attention לעבוד איתה. נפוץ ב-Llama ובמודלים חדשים — מרחק יחסי, לא רק אינדקס.\n\nסיבוב במקום תווית מיקום פשוטה על הטבלה — גישה שמתאימה במיוחד לחלונות ארוכים.",
+    "sourceChars": 459,
+    "sourceHash": "10be50f5a314d780"
+  },
+  {
+    "key": "transformers-deep/s06/p06",
+    "topicId": "transformers-deep",
+    "topicName": "Transformers לעומק (הלב של ChatGPT)",
+    "seriesIndex": 6,
+    "seriesName": "מה זה positional encoding?",
+    "part": 6,
+    "subtitle": "ALiBi",
+    "title": "מה זה positional encoding? (6/10) — ALiBi",
+    "postType": "explainer",
+    "tags": [
+      "6/10",
+      "סדרה"
+    ],
+    "sourceText": "ALiBi מוסיף הטיה ליניארית לפי מרחק בין טוקנים — בלי טבלת מיקום כבדה לכל אינדקס אפשרי ברצף. פחות פרמטרים, יותר גמישות באורך.\n\nזה עוזר לפעמים להאריך חלון מעבר למה שאימנו עליו במקור. זו חלופה חשובה במשפחת רעיונות המיקום — לא כל מודל משתמש בה, אבל הרעיון שווה להכיר. פחות פרמטרים — לפעמים יותר גמישות באורך חלון. הטיה לפי מרחק. שווה לשמור את הנקודה הזו.\n\nמרחק כהטיה ישירה, לא כטבלת embeddings נפרדת. עוד דרך להגיד למודל מי קרוב ומי רחוק.",
+    "sourceChars": 433,
+    "sourceHash": "58e36790c3c3fde2"
+  },
+  {
+    "key": "transformers-deep/s06/p07",
+    "topicId": "transformers-deep",
+    "topicName": "Transformers לעומק (הלב של ChatGPT)",
+    "seriesIndex": 6,
+    "seriesName": "מה זה positional encoding?",
+    "part": 7,
+    "subtitle": "אורך",
+    "title": "מה זה positional encoding? (7/10) — אורך",
+    "postType": "explainer",
+    "tags": [
+      "7/10",
+      "סדרה"
+    ],
+    "sourceText": "מיקום גבוה מאוד — למשל עשרות אלפים — לא תמיד \"מוכר\" מהאימון. אם אימנו רק עד N, מעבר לזה דורש טכניקות הרחבה מיוחדות. RoPE ו־ALiBi הם חלק מהתשובה.\n\nיש שיטות שעובדות חלקית — וגם מגבלות ברורות. אורך הקשר הוא גם סיפור של איך מייצגים מיקום, לא רק של כמה זיכרון GPU יש על השרת. הרחבת חלון = גם סיפור של איך מייצגים מיקום, לא רק GPU. גבול האימון. שווה לשמור את הנקודה הזו.\n\nגבול האימון רודף אחרי גודל החלון כל הזמן — וזה נושא פעיל במחקר.",
+    "sourceChars": 429,
+    "sourceHash": "ed3eddff4e9b7314"
+  },
+  {
+    "key": "transformers-deep/s06/p08",
+    "topicId": "transformers-deep",
+    "topicName": "Transformers לעומק (הלב של ChatGPT)",
+    "seriesIndex": 6,
+    "seriesName": "מה זה positional encoding?",
+    "part": 8,
+    "subtitle": "לא תאריך",
+    "title": "מה זה positional encoding? (8/10) — לא תאריך",
+    "postType": "explainer",
+    "tags": [
+      "8/10",
+      "סדרה"
+    ],
+    "sourceText": "Positional encoding זה לא שעון קיר ולא תאריך בלוח שנה — זה סדר הטוקנים ברצף שהמודל רואה כרגע. \"מיקום 17\" — לא \"17 בחודש\".\n\n\"שלישי במשפט\" — לא \"יום שלישי בשבוע\" ולא חותמת זמן אמיתית. קל להתבלבל בגלל המילה \"מיקום\" בעברית וגם באנגלית, אבל כאן הכוונה לאינדקס ברצף הטקסט הפנימי. אינדקס ברצף הפנימי — לא זמן בעולם האמיתי. אינדקס, לא תאריך. שווה לשמור את הנקודה הזו.\n\nסדר פנימי במכונה — לא זמן בעולם האמיתי. שני מושגים שונים, אותה מילה.",
+    "sourceChars": 429,
+    "sourceHash": "9cdc90e2935b1401"
+  },
+  {
+    "key": "transformers-deep/s06/p09",
+    "topicId": "transformers-deep",
+    "topicName": "Transformers לעומק (הלב של ChatGPT)",
+    "seriesIndex": 6,
+    "seriesName": "מה זה positional encoding?",
+    "part": 9,
+    "subtitle": "בלי = כשל",
+    "title": "מה זה positional encoding? (9/10) — בלי = כשל",
+    "postType": "explainer",
+    "tags": [
+      "9/10",
+      "סדרה"
+    ],
+    "sourceText": "בלי positional encoding המודל מתבלבל בסדר המילים — משמעות נשברת, דקדוק נחלש, והלמידה נפגעת קשות מאוד. זו לא תוספת נחמדה — זו חובה.\n\nAttention בלי סדר = כמעט בלגן אלגנטי של קשרים; עם מיקום = שפה שיכולה להבדיל בין סידורים שונים. ההבדל בין \"חתול ישב\" ל־\"ישב חתול\" תלוי בזה. לא nice-to-have — חובה בסיסית, בלי זה השפה נשברת. חובה, לא בונוס. שווה לשמור את הנקודה הזו.\n\nבלי זה הארכיטקטורה פשוט לא מחזיקה לשפה — לא עניין של \"nice to have\".",
+    "sourceChars": 432,
+    "sourceHash": "5947561c23e3b218"
+  },
+  {
+    "key": "transformers-deep/s06/p10",
+    "topicId": "transformers-deep",
+    "topicName": "Transformers לעומק (הלב של ChatGPT)",
+    "seriesIndex": 6,
+    "seriesName": "מה זה positional encoding?",
+    "part": 10,
+    "subtitle": "סיכום",
+    "title": "מה זה positional encoding? (10/10) — סיכום",
+    "postType": "explainer",
+    "tags": [
+      "10/10",
+      "סדרה"
+    ],
+    "sourceText": "Positional encoding = מידע \"איפה הטוקן במשפט\". מוסיפים אותו ל־embedding, או משלבים אותו ב־Attention כמו ב־RoPE. sin/cos, learned, ALiBi — כולם פותרים את אותה בעיה.\n\nAttention בתוספת מיקום = הבסיס לשפה מסודרת שעובדת. בלי החתיכה הזו, גם הקשב הכי חכם מתבלבל בסדר. sin/cos, learned, RoPE, ALiBi — וריאציות על אותה בעיה. סדר הוא חלק מהמשמעות — לא תוספת נוי. וריאציות רבות. שווה לשמור את הנקודה הזו.\n\nסדר הוא חלק מהמשמעות, לא תוספת נוי.",
+    "sourceChars": 430,
+    "sourceHash": "522e41396ae5b2bb"
+  },
+  {
+    "key": "transformers-deep/s07/p01",
+    "topicId": "transformers-deep",
+    "topicName": "Transformers לעומק (הלב של ChatGPT)",
+    "seriesIndex": 7,
+    "seriesName": "איך מודל יודע סדר של מילים?",
+    "part": 1,
+    "subtitle": "לא מטבעית",
+    "title": "איך מודל יודע סדר של מילים? (1/10) — לא מטבעית",
+    "postType": "explainer",
+    "tags": [
+      "1/10",
+      "סדרה"
+    ],
+    "sourceText": "ל־Transformer אין תחושת סדר מובנית כמו לקריאה אנושית משמאל לימין — בלי מידע מיקום נשארת בעיקר שקית מילים חכמה, והסדר אבוד. המודל לא \"יודע\" מי בא לפני מי.\n\nהמשמעות נשברת מהר מאוד. לכן מוסיפים קידוד מיקום ומסכות כיוון — הסדר מגיע מההנדסה המפורשת, לא מקסם פנימי. הסדר מגיע מההנדסה המפורשת — לא מקסם פנימי. מתוכנן, לא טבעי. שווה לשמור את הנקודה הזו.\n\nלא מטבעי למודל — מתוכנן בקפידה בשבילו. בלי זה הוא רואה בעיקר שק של מילים, לא משפט.",
+    "sourceChars": 429,
+    "sourceHash": "f5a3202c203511a7"
+  },
+  {
+    "key": "transformers-deep/s07/p02",
+    "topicId": "transformers-deep",
+    "topicName": "Transformers לעומק (הלב של ChatGPT)",
+    "seriesIndex": 7,
+    "seriesName": "איך מודל יודע סדר של מילים?",
+    "part": 2,
+    "subtitle": "מיקום בוקטור",
+    "title": "איך מודל יודע סדר של מילים? (2/10) — מיקום בוקטור",
+    "postType": "explainer",
+    "tags": [
+      "2/10",
+      "סדרה"
+    ],
+    "sourceText": "טוקן שיושב במקום 3 מקבל אות מיקום משלו בייצוג — אותה מילה במקום אחר ברצף תקבל אות מיקום אחר. המיקום הוא חלק מהווקטור.\n\nבתוך אותו משפט, המיקום הוא מה שמבדיל ביניהם. הווקטור נושא גם תוכן וגם איפה הטוקן נמצא, ו־Attention משתמש בשני האותות האלה יחד אחר כך. בלי המספר — אותה מילה נראית אותו דבר בכל מקום ברצף. מיקום = חלק מהווקטור. שווה לשמור את הנקודה הזו.\n\nמספר סידורי שנכנס לייצוג המספרי מההתחלה. בלי המספר הזה — אותה מילה נראית אותו דבר בכל מקום.",
+    "sourceChars": 445,
+    "sourceHash": "5bfc91558a3c0638"
+  },
+  {
+    "key": "transformers-deep/s07/p03",
+    "topicId": "transformers-deep",
+    "topicName": "Transformers לעומק (הלב של ChatGPT)",
+    "seriesIndex": 7,
+    "seriesName": "איך מודל יודע סדר של מילים?",
+    "part": 3,
+    "subtitle": "יחסי",
+    "title": "איך מודל יודע סדר של מילים? (3/10) — יחסי",
+    "postType": "explainer",
+    "tags": [
+      "3/10",
+      "סדרה"
+    ],
+    "sourceText": "שיטות כמו RoPE מדגישות מרחק יחסי בין מילים — קרוב מול רחוק, לא רק התווית \"אני במקום 17 במשפט\". המרחק עצמו נושא מידע.\n\nהמודל לומד דפוסים של מרחקים שחוזרים שוב ושוב בנתונים. זה עוזר גם לדקדוק מקומי וגם לתלויות ארוכות יותר — שכנים מתנהגים אחרת ממילים רחוקות באותו רצף. RoPE מדגיש מרחק יחסי — לא רק 'אני במקום 17'. שכנים קרובים מתנהגים אחרת ממילים רחוקות באותו משפט.\n\nיחסים בין מקומות — לא רק אינדקסים בודדים. המרחק עצמו נושא מידע.",
+    "sourceChars": 427,
+    "sourceHash": "ab26fbb4d6606175"
+  },
+  {
+    "key": "transformers-deep/s07/p04",
+    "topicId": "transformers-deep",
+    "topicName": "Transformers לעומק (הלב של ChatGPT)",
+    "seriesIndex": 7,
+    "seriesName": "איך מודל יודע סדר של מילים?",
+    "part": 4,
+    "subtitle": "Causal",
+    "title": "איך מודל יודע סדר של מילים? (4/10) — Causal",
+    "postType": "explainer",
+    "tags": [
+      "4/10",
+      "סדרה"
+    ],
+    "sourceText": "Causal mask מוסיף סדר זמן אמיתי לגנרציה — המודל רואה רק שמאל, רק את העבר של הרצף. העתיד עדיין לא קיים שם, ולכן אסור להציץ אליו.\n\nכך נוצר כיוון ברור: מה שכבר נכתב קובע מה מותר לנבא עכשיו. בלי זה אין סיפור יציב של \"הטוקן הבא בתור\". בלי המסכה — אין סיפור יציב של 'הטוקן הבא בתור'. זה מה שהופך גנרציה לסיפור עם כיוון ברור.\n\nסדר כאילוץ חזק, לא רק כרמז עדין. זה מה שהופך גנרציה לסיפור עם כיוון — ולא לניחוש על עתיד שעוד לא נכתב.",
+    "sourceChars": 422,
+    "sourceHash": "5bd7d54c63a82c8d"
+  },
+  {
+    "key": "transformers-deep/s07/p05",
+    "topicId": "transformers-deep",
+    "topicName": "Transformers לעומק (הלב של ChatGPT)",
+    "seriesIndex": 7,
+    "seriesName": "איך מודל יודע סדר של מילים?",
+    "part": 5,
+    "subtitle": "דקדוק",
+    "title": "איך מודל יודע סדר של מילים? (5/10) — דקדוק",
+    "postType": "explainer",
+    "tags": [
+      "5/10",
+      "סדרה"
+    ],
+    "sourceText": "נושא לפני פועל — ועוד אלפי דפוסי סדר — מופיעים שוב ושוב באימון. המודל לא מקבל ספר דקדוק לבית הספר; הוא רואה מיליוני דוגמאות שבהן מיקום ו־Attention עובדים יחד.\n\nהסדר הופך לסטטיסטיקה חזקה מאוד על השפה — זה לא אותו דבר כמו הבנה אנושית מודעת של כללים. הוא \"יודע\" סדר כי ראה אותו מיליוני פעמים. כללים כסטטיסטיקה מנתונים — לא כתאוריה פנימית שהמודל 'מבין'.\n\nדקדוק כדפוס חוזר בנתונים — לא כתאוריה פנימית שהמודל \"מבין\" כמו בן אדם.",
+    "sourceChars": 421,
+    "sourceHash": "a4cbc5d8fcf6d1da"
+  },
+  {
+    "key": "transformers-deep/s07/p06",
+    "topicId": "transformers-deep",
+    "topicName": "Transformers לעומק (הלב של ChatGPT)",
+    "seriesIndex": 7,
+    "seriesName": "איך מודל יודע סדר של מילים?",
+    "part": 6,
+    "subtitle": "היפוך",
+    "title": "איך מודל יודע סדר של מילים? (6/10) — היפוך",
+    "postType": "explainer",
+    "tags": [
+      "6/10",
+      "סדרה"
+    ],
+    "sourceText": "רוב האימון רץ על סדר \"נכון\" ונפוץ של השפה. היפוכים מוזרים נדירים יותר בנתונים שמזינים את המודל — לכן הוא לא \"מבין היפוך כמו אדם\", הוא מגיב לסטטיסטיקה שראה.\n\nאם תהפכו משפט, התוצאה עלולה לצאת מוזרה או שבורה. לא כי המודל נעלב — כי ראה פחות דוגמאות כאלה באימון. היפוך משפט = דוגמה נדירה באימון — התוצאה עלולה לצאת שבורה.\n\nסדר נדיר בנתונים = התנהגות פחות יציבה בשימוש. זו מגבלה שכדאי לזכור כשמנסים לבדוק \"הבנה\" על ידי היפוך משפטים.",
+    "sourceChars": 426,
+    "sourceHash": "0417d6768843b7e9"
+  },
+  {
+    "key": "transformers-deep/s07/p07",
+    "topicId": "transformers-deep",
+    "topicName": "Transformers לעומק (הלב של ChatGPT)",
+    "seriesIndex": 7,
+    "seriesName": "איך מודל יודע סדר של מילים?",
+    "part": 7,
+    "subtitle": "רשימות",
+    "title": "איך מודל יודע סדר של מילים? (7/10) — רשימות",
+    "postType": "explainer",
+    "tags": [
+      "7/10",
+      "סדרה"
+    ],
+    "sourceText": "ברשימות כמו 1, 2, 3 המיקום קריטי להמשך הנכון — התוכן (\"שתיים\") והמקום ברצף עובדים יחד כרמזים. בלי מיקום, \"3\" לא יודע שאחריו אמור לבוא \"4\".\n\nהמודל לומד להמשיך סדרות כאלה מהמון דוגמאות דומות. בלי מיקום, הרשימה מתפרקת לחתיכות בלי כיוון; עם מיקום, יש כיוון ברור למה אמור לבוא אחר כך. המיקום ברשימה חשוב לא פחות מהתוכן — '3' יודע שאחריו '4'.\n\nגם מספרים הם סיפור של סדר, לא רק של ערך. המודל צריך לדעת איפה הוא ברשימה, לא רק מה כתוב עליה.",
+    "sourceChars": 431,
+    "sourceHash": "43b8cec481354748"
+  },
+  {
+    "key": "transformers-deep/s07/p08",
+    "topicId": "transformers-deep",
+    "topicName": "Transformers לעומק (הלב של ChatGPT)",
+    "seriesIndex": 7,
+    "seriesName": "איך מודל יודע סדר של מילים?",
+    "part": 8,
+    "subtitle": "עברית RTL",
+    "title": "איך מודל יודע סדר של מילים? (8/10) — עברית RTL",
+    "postType": "explainer",
+    "tags": [
+      "8/10",
+      "סדרה"
+    ],
+    "sourceText": "עברית מוצגת מימין לשמאל על המסך — אבל זה לא אותו דבר כמו סדר הטוקנים במודל. מה שאתם רואים על המסך ≠ מה שהמודל מחשב.\n\nה־tokenizer והרצף הפנימי קובעים את המיקומים שהמודל רואה. תצוגה ל־UI אינה זהה לסדר החישובי בפנים — קל מאוד לבלבל בין כיוון מסך לכיוון רצף מספרי. מה שרואים על המסך ≠ סדר הטוקנים שהמודל מחשב בפנים. UI ≠ רצף פנימי. שווה לשמור את הנקודה הזו.\n\nבפנים יש אינדקסים ברורים שהמודל עובד איתם. RTL לעין האדם — רצף מסודר למכונה.",
+    "sourceChars": 431,
+    "sourceHash": "15dba606cae94acf"
+  },
+  {
+    "key": "transformers-deep/s07/p09",
+    "topicId": "transformers-deep",
+    "topicName": "Transformers לעומק (הלב של ChatGPT)",
+    "seriesIndex": 7,
+    "seriesName": "איך מודל יודע סדר של מילים?",
+    "part": 9,
+    "subtitle": "חלון",
+    "title": "איך מודל יודע סדר של מילים? (9/10) — חלון",
+    "postType": "explainer",
+    "tags": [
+      "9/10",
+      "סדרה"
+    ],
+    "sourceText": "מעבר לחלון ההקשר — הסדר הרחוק פשוט נחתך החוצה. המודל לא זוכר מה שהיה לפני N טוקנים אם זה מחוץ לחלון — לא משנה כמה מיקום מושלם.\n\nגם מיקום מושלם לא מציל טקסט שמעולם לא נכנס לזיכרון העבודה. לכן מסמכים ארוכים דורשים חלון גדול, סיכום, או פיצול. מעבר ל-N טוקנים — הסדר הרחוק פשוט נחתך מהזיכרון. מסמכים ארוכים דורשים חלון גדול, סיכום, או פיצול. גבול זיכרון.\n\nסדר קיים רק בתוך מה שבאמת נכנס לרצף הפעיל. גבול החלון הוא גם גבול הזיכרון לסדר.",
+    "sourceChars": 431,
+    "sourceHash": "078ed34c5709ecc0"
+  },
+  {
+    "key": "transformers-deep/s07/p10",
+    "topicId": "transformers-deep",
+    "topicName": "Transformers לעומק (הלב של ChatGPT)",
+    "seriesIndex": 7,
+    "seriesName": "איך מודל יודע סדר של מילים?",
+    "part": 10,
+    "subtitle": "סיכום",
+    "title": "איך מודל יודע סדר של מילים? (10/10) — סיכום",
+    "postType": "explainer",
+    "tags": [
+      "10/10",
+      "סדרה"
+    ],
+    "sourceText": "סדר במודל = positional encoding + causal mask + דפוסי אימון. שלושה מנגנונים שונים — יחד הם נותנים שפה מסודרת.\n\nאין בפנים \"תחושת זמן\" אנושית כמו של קורא ספר — יש אותות מיקום ואילוצים שמאפשרים שפה מסודרת בפועל. encoding + mask + דפוסי אימון — שלושה מנגנונים, לא קסם. עם זה — המשפט מקבל כיוון, והמודל יודע מי בא לפני מי. שלושה מנגנונים.\n\nבלי כל זה, נשאר בעיקר אנגרם חכם של מילים. עם זה, המשפט מקבל כיוון, והמודל יודע מי בא לפני מי.",
+    "sourceChars": 428,
+    "sourceHash": "26cec597930e5ad8"
+  },
+  {
+    "key": "transformers-deep/s08/p01",
+    "topicId": "transformers-deep",
+    "topicName": "Transformers לעומק (הלב של ChatGPT)",
+    "seriesIndex": 8,
+    "seriesName": "מה זה שכבות בתוך transformer?",
+    "part": 1,
+    "subtitle": "בלוק = שכבה",
+    "title": "מה זה שכבות בתוך transformer? (1/10) — בלוק = שכבה",
+    "postType": "explainer",
+    "tags": [
+      "1/10",
+      "סדרה"
+    ],
+    "sourceText": "לעתים קרובות \"שכבה\" ב־Transformer פשוט אומרת בלוק אחד שלם — 12, 32, 96, המספר אומר כמה פעמים חוזרים על אותו רעיון בערימה. לא קומות שונות לגמרי בכל פעם.\n\nזה העומק של המודל בפועל. לא קומות שונות לגמרי בעיצוב הפנימי בכל פעם — אותה תבנית בסיסית, עם פרמטרים חדשים בכל קומה. 12, 32, 96 — המספר אומר כמה פעמים חוזרים על אותו רעיון. חזרה על אותו רעיון.\n\nעומק = חזרה מכוונת על אותו בלוק שוב ושוב. ככל שהמספר גדול — יותר סיבובים של אותו רעיון.",
+    "sourceChars": 433,
+    "sourceHash": "45dd5d0097efe682"
+  },
+  {
+    "key": "transformers-deep/s08/p02",
+    "topicId": "transformers-deep",
+    "topicName": "Transformers לעומק (הלב של ChatGPT)",
+    "seriesIndex": 8,
+    "seriesName": "מה זה שכבות בתוך transformer?",
+    "part": 2,
+    "subtitle": "תת-שכבות",
+    "title": "מה זה שכבות בתוך transformer? (2/10) — תת-שכבות",
+    "postType": "explainer",
+    "tags": [
+      "2/10",
+      "סדרה"
+    ],
+    "sourceText": "בתוך בלוק יש תת־שכבות מסודרות בסדר קבוע: Multi-Head Attention, אחר כך Add&Norm, ואז FFN, ושוב Add&Norm. הסדר הזה חוזר בכל קומה.\n\nשני שלבים גדולים בכל קומה של המגדל — אחד מערבב מידע בין טוקנים, אחד מעבד כל טוקן לעומק יותר. בלוק = מיני־צינור קבוע שחוזר בכל השכבות. Attention ואז FFN — סדר קבוע בכל קומה, שוב ושוב. Attention, FFN, Norm. שווה לשמור את הנקודה הזו.\n\nברגע שמכירים את הסדר הזה, קל יותר לקרוא דיאגרמות — ולהבין מה קורה בכל קומה.",
+    "sourceChars": 436,
+    "sourceHash": "d8635ac55f981a76"
+  },
+  {
+    "key": "transformers-deep/s08/p03",
+    "topicId": "transformers-deep",
+    "topicName": "Transformers לעומק (הלב של ChatGPT)",
+    "seriesIndex": 8,
+    "seriesName": "מה זה שכבות בתוך transformer?",
+    "part": 3,
+    "subtitle": "FFN",
+    "title": "מה זה שכבות בתוך transformer? (3/10) — FFN",
+    "postType": "explainer",
+    "tags": [
+      "3/10",
+      "סדרה"
+    ],
+    "sourceText": "Feed-Forward הוא הרשת הקטנה שבאה אחרי Attention בכל בלוק — לרוב מרחיבים את המימד פנימה (למשל פי 4) ואז מחזירים חזרה. כל טוקן עובר עיבוד עמוק משלו.\n\nזה עיבוד \"מקומי\" לכל טוקן בנפרד, בלי לדבר עם שכנים. Attention מדבר עם מילים אחרות ברצף; FFN מעמיק את מה שכבר הגיע אל הטוקן עצמו. Attention מדבר עם שכנים — FFN מעמיק כל טוקן בנפרד. עיבוד מקומי. שווה לשמור את הנקודה הזו.\n\nשתי עבודות שונות שיושבות זו ליד זו באותו בלוק — ושתיהן חיוניות.",
+    "sourceChars": 431,
+    "sourceHash": "7fb3f07a5ed45fd3"
+  },
+  {
+    "key": "transformers-deep/s08/p04",
+    "topicId": "transformers-deep",
+    "topicName": "Transformers לעומק (הלב של ChatGPT)",
+    "seriesIndex": 8,
+    "seriesName": "מה זה שכבות בתוך transformer?",
+    "part": 4,
+    "subtitle": "היררכיה",
+    "title": "מה זה שכבות בתוך transformer? (4/10) — היררכיה",
+    "postType": "explainer",
+    "tags": [
+      "4/10",
+      "סדרה"
+    ],
+    "sourceText": "יש נטייה לראות היררכיה בעומק של המודל: שכבות נמוכות — יותר תחביר ומקומיות, שכבות גבוהות — מושגים ועובדות מופשטות יותר. לא חוק ברזל, אבל דימוי שימושי.\n\nזה לא חוק ברזל בכל מודל ובכל ראש Attention, אבל זה דימוי שימושי שמחקר לפעמים תומך בו חלקית. הקומה משנה את רמת ההפשטה של הייצוג — לא תמיד באותה חדות, אבל הכיוון הכללי חוזר הרבה. לא חוק ברזל — אבל דימוי שימושי שמחקר לפעמים תומך בו.\n\nככל שעולים במגדל — הייצוג נעשה עשיר ומופשט יותר.",
+    "sourceChars": 430,
+    "sourceHash": "48922ab33e508093"
+  },
+  {
+    "key": "transformers-deep/s08/p05",
+    "topicId": "transformers-deep",
+    "topicName": "Transformers לעומק (הלב של ChatGPT)",
+    "seriesIndex": 8,
+    "seriesName": "מה זה שכבות בתוך transformer?",
+    "part": 5,
+    "subtitle": "יותר = יותר?",
+    "title": "מה זה שכבות בתוך transformer? (5/10) — יותר = יותר?",
+    "postType": "explainer",
+    "tags": [
+      "5/10",
+      "סדרה"
+    ],
+    "sourceText": "יותר שכבות לא תמיד אומר אוטומטית מודל טוב יותר. מחקרים בסגנון Chinchilla מדגישים איזון בין גודל המודל לנפח הנתונים. עומק בלי דאטה — מבוזבז.\n\nבלי מספיק דאטה וחישוב, עומק נוסף פשוט מבוזבז. Scale זה משחק של כמה משתנים יחד, לא כפתור אחד — אי אפשר רק להוסיף קומות ולחכות לקסם שיקרה לבד. Chinchilla: איזון בין גודל מודל, נתונים וחישוב — לא רק קומות. לא אוטומטי.\n\nיותר אפשרי — לא מובטח שזה ישתלם. צריך גם דלק: נתונים, חישוב, ואימון יציב.",
+    "sourceChars": 430,
+    "sourceHash": "7633bdcb7cba0ac4"
+  },
+  {
+    "key": "transformers-deep/s08/p06",
+    "topicId": "transformers-deep",
+    "topicName": "Transformers לעומק (הלב של ChatGPT)",
+    "seriesIndex": 8,
+    "seriesName": "מה זה שכבות בתוך transformer?",
+    "part": 6,
+    "subtitle": "Residual",
+    "title": "מה זה שכבות בתוך transformer? (6/10) — Residual",
+    "postType": "explainer",
+    "tags": [
+      "6/10",
+      "סדרה"
+    ],
+    "sourceText": "Residual בתוך השכבה נראה כך: x + sublayer(x) — יש מעבר ישיר למידע הישן ליד העיבוד החדש. המידע הישן לא נמחק — הוא עובר הלאה.\n\nהלמידה נעשית על השינוי, לא על להמציא את כל הייצוג מחדש בכל קומה. בלי זה עומק גדול מתקשה מאוד להתאמן יציב; עם זה, אפשר לערום עשרות בלוקים בלי שהאות ייעלם. x + sublayer(x) — המידע הישן לא נמחק, הוא עובר הלאה. skip connection. שווה לשמור את הנקודה הזו.\n\nכביש מהיר שרץ ליד עמדת העיבוד. בלי הכביש הזה — העומק הופך מהר לבעיה.",
+    "sourceChars": 444,
+    "sourceHash": "f723ae2341e2b8be"
+  },
+  {
+    "key": "transformers-deep/s08/p07",
+    "topicId": "transformers-deep",
+    "topicName": "Transformers לעומק (הלב של ChatGPT)",
+    "seriesIndex": 8,
+    "seriesName": "מה זה שכבות בתוך transformer?",
+    "part": 7,
+    "subtitle": "Dropout",
+    "title": "מה זה שכבות בתוך transformer? (7/10) — Dropout",
+    "postType": "explainer",
+    "tags": [
+      "7/10",
+      "סדרה"
+    ],
+    "sourceText": "Dropout באימון מכבה באקראי חלקים מהחישוב או מהקשרים — זה עוזר להפחית overfit במקרים רבים ולהכריח את המודל להיות פחות תלוי במסלול אחד. רעש מבוקר.\n\nב־inference בדרך כלל מכבים את זה — רוצים תשובה מלאה ויציבה יותר. זה כלי של שלב האימון, לא חלק מ\"חשיבה\" בזמן שימוש אצל המשתמש. רעש מבוקר באימון — כבוי ב-inference, כשצריך תשובה יציבה. רק באימון. שווה לשמור את הנקודה הזו.\n\nפרט קטן שמופיע בהרבה ארכיטקטורות קלאסיות — רעש מבוקר שעוזר ללמידה הכללית.",
+    "sourceChars": 440,
+    "sourceHash": "7172269002a45bef"
+  },
+  {
+    "key": "transformers-deep/s08/p08",
+    "topicId": "transformers-deep",
+    "topicName": "Transformers לעומק (הלב של ChatGPT)",
+    "seriesIndex": 8,
+    "seriesName": "מה זה שכבות בתוך transformer?",
+    "part": 8,
+    "subtitle": "MoE",
+    "title": "מה זה שכבות בתוך transformer? (8/10) — MoE",
+    "postType": "explainer",
+    "tags": [
+      "8/10",
+      "סדרה"
+    ],
+    "sourceText": "Mixture of Experts מחליף חלק מ־FFN בכמה מומחים במקביל — בכל צעד מופעל רק חלק מהפרמטרים, גישה sparse. לא כל המומחים עובדים בכל טוקן.\n\nאפשר להגיע למיליארדים רבים בלי לחשב את כולם בכל טוקן. יש מודלים גדולים שמשתמשים ברעיון הזה בפועל, והפרטים המדויקים של כל מוצר סגור לא תמיד מפורסמים החוצה. לא כל המומחים עובדים בכל טוקן — sparse activation. Mixtral ודומיו מראים שהרעיון עובד בקנה מידה גדול.\n\nעומק ורוחב חכמים יותר — לא רק ערימה אחידה של אותו FFN.",
+    "sourceChars": 444,
+    "sourceHash": "d62e511d6496e64a"
+  },
+  {
+    "key": "transformers-deep/s08/p09",
+    "topicId": "transformers-deep",
+    "topicName": "Transformers לעומק (הלב של ChatGPT)",
+    "seriesIndex": 8,
+    "seriesName": "מה זה שכבות בתוך transformer?",
+    "part": 9,
+    "subtitle": "Pruning",
+    "title": "מה זה שכבות בתוך transformer? (9/10) — Pruning",
+    "postType": "explainer",
+    "tags": [
+      "9/10",
+      "סדרה"
+    ],
+    "sourceText": "Pruning מנסה להסיר שכבות או משקלים שנראים מיותרים — המודל נהיה קטן וזול יותר להרצה אצל המשתמש או בשרת. פחות פרמטרים, פחות עלות.\n\nלעתים קרובות יש מחיר באיכות, תלוי כמה חתכתם ובאיזו שיטה. זו דחיסה אחרי האימון או תוך כדי תהליך ייעודי — לא תחליף מלא לעומק כשיש משאבים ורוצים יכולת מקסימלית. פשרה מודעת: קטן וזול מול יכולת — לא קסם חינם. קטן וזול. שווה לשמור את הנקודה הזו.\n\nפחות קומות — לפעמים גם פחות יכולת. פשרה מודעת, לא קסם חינם.",
+    "sourceChars": 429,
+    "sourceHash": "604595ef5bf1cfc5"
+  },
+  {
+    "key": "transformers-deep/s08/p10",
+    "topicId": "transformers-deep",
+    "topicName": "Transformers לעומק (הלב של ChatGPT)",
+    "seriesIndex": 8,
+    "seriesName": "מה זה שכבות בתוך transformer?",
+    "part": 10,
+    "subtitle": "סיכום",
+    "title": "מה זה שכבות בתוך transformer? (10/10) — סיכום",
+    "postType": "explainer",
+    "tags": [
+      "10/10",
+      "סדרה"
+    ],
+    "sourceText": "שכבות ב־Transformer = חזרה מסודרת על Attention ואז FFN. כל שכבה מעמיקה את הייצוג עוד קצת במעלה הערימה — אותו בלוק, ייצוג עשיר יותר.\n\nResidual, Norm ולפעמים MoE הם חלקי ההנדסה שיושבים מסביב. עומק זה לא קסם לבד — זה פרמטרים + נתונים + חישוב שעובדים יחד. עומק = חזרה על אותו בלוק — ייצוג עשיר יותר בכל קומה. חזרה = עומק. שווה לשמור את הנקודה הזו.\n\nיותר קומות עוזרות רק כשיש מספיק דלק מסביב. הבלוק חוזר — והיכולת נבנית מהחזרה הזו.",
+    "sourceChars": 426,
+    "sourceHash": "51a13af71e81f42f"
+  },
+  {
+    "key": "transformers-deep/s09/p01",
+    "topicId": "transformers-deep",
+    "topicName": "Transformers לעומק (הלב של ChatGPT)",
+    "seriesIndex": 9,
+    "seriesName": "איך מידע זורם בתוך מודל?",
+    "part": 1,
+    "subtitle": "כניסה",
+    "title": "איך מידע זורם בתוך מודל? (1/10) — כניסה",
+    "postType": "explainer",
+    "tags": [
+      "1/10",
+      "סדרה"
+    ],
+    "sourceText": "הכל מתחיל בכניסה פשוטה יחסית: טקסט הופך לטוקנים, ואז ל־embedding עם מידע מיקום. עדיין אין כאן \"תשובה\" — רק ייצוג מספרי של הרצף.\n\nמתקבל טנסור בצורת [batch, seq, dim] שמוכן לעיבוד. מכאן המידע מתחיל לטפס בשכבות — logits וגנרציה מגיעים הרבה אחר כך. logits וגנרציה מגיעים הרבה קומות אחרי — זו רק הדלת. embeddings + מיקום.\n\nזו הדלת שממנה המידע מתחיל לטפס למעלה. כל מה שיקרה אחר כך — logits, בחירת טוקן, לולאת גנרציה — מתחיל מהנקודה הזו.",
+    "sourceChars": 430,
+    "sourceHash": "68d011952242aebb"
+  },
+  {
+    "key": "transformers-deep/s09/p02",
+    "topicId": "transformers-deep",
+    "topicName": "Transformers לעומק (הלב של ChatGPT)",
+    "seriesIndex": 9,
+    "seriesName": "איך מידע זורם בתוך מודל?",
+    "part": 2,
+    "subtitle": "למעלה",
+    "title": "איך מידע זורם בתוך מודל? (2/10) — למעלה",
+    "postType": "explainer",
+    "tags": [
+      "2/10",
+      "סדרה"
+    ],
+    "sourceText": "הזרימה האנכית ברורה: שכבה 1, 2, … עד השכבה האחרונה. כל טוקן מתעדכן בכל קומה לפי מה שקרה בבלוק, והמידע מתעשר בהדרגה ככל שעולים במגדל.\n\nזה לא קפיצה אחת גדולה לקסם בסוף — זה שיפור הדרגתי של אותו רצף ייצוגים לאורך העומק. כל קומה מוסיפה עוד שכבה של עיבוד. שיפור הדרגתי — לא קפיצה אחת לקסם בסוף המגדל. כל קומה משאירה את הרצף קצת יותר עשיר מהקודמת. שווה לשמור את הנקודה הזו.\n\nמעלית של עיבוד, קומה אחרי קומה. כל קומה משאירה את הרצף קצת יותר עשיר.",
+    "sourceChars": 438,
+    "sourceHash": "c0f85e49b045b9d7"
+  },
+  {
+    "key": "transformers-deep/s09/p03",
+    "topicId": "transformers-deep",
+    "topicName": "Transformers לעומק (הלב של ChatGPT)",
+    "seriesIndex": 9,
+    "seriesName": "איך מידע זורם בתוך מודל?",
+    "part": 3,
+    "subtitle": "רוחב",
+    "title": "איך מידע זורם בתוך מודל? (3/10) — רוחב",
+    "postType": "explainer",
+    "tags": [
+      "3/10",
+      "סדרה"
+    ],
+    "sourceText": "בכל שכבה יש גם זרימה לרוחב בין הטוקנים — Attention מעביר מידע ממילה למילה באותה קומה. המשפט מדבר עם עצמו בכל שלב.\n\nמילה לומדת מאחיותיה ברצף לפני שהיא עולה הלאה. בלי הרוחב הזה, כל טוקן היה נשאר מבודד אחרי הכניסה; עם הרוחב, המשפט באמת מדבר עם עצמו בכל שלב. בלי רוחב — כל טוקן נשאר מבודד, בלי הקשר מהשכנים. Attention בין טוקנים. שווה לשמור את הנקודה הזו.\n\nלמעלה ולצדדים קורים יחד, לא בנפרד. בלי אחד מהם הזרימה נשברת — ואין \"הבנה\" של הקשר.",
+    "sourceChars": 435,
+    "sourceHash": "c560867c2cc3cd82"
+  },
+  {
+    "key": "transformers-deep/s09/p04",
+    "topicId": "transformers-deep",
+    "topicName": "Transformers לעומק (הלב של ChatGPT)",
+    "seriesIndex": 9,
+    "seriesName": "איך מידע זורם בתוך מודל?",
+    "part": 4,
+    "subtitle": "Residual highway",
+    "title": "איך מידע זורם בתוך מודל? (4/10) — Residual highway",
+    "postType": "explainer",
+    "tags": [
+      "4/10",
+      "סדרה"
+    ],
+    "sourceText": "Residual יוצר כביש מהיר למידע ישן בתוך הבלוק — מה שנכנס לא נמחק, הוא מתווסף לעדכון של תת־השכבה. מידע מוקדם יכול לשרוד עמוק.\n\nיש שילוב מבוקר, לא החלפה מוחלטת של הייצוג בכל פעם. ככה אותות מוקדמים יכולים לשרוד גם עמוק במגדל, והמודל לומד בעיקר מה לשנות, לא רק מה לזרוק מאחור. המודל לומד מה לשנות — לא רק מה לזרוק מאחור. מידע ישן שורד. שווה לשמור את הנקודה הזו.\n\nHighway קטן שרץ ליד העיבוד הכבד. בלי המסלול הזה — מידע ישן נעלם מהר מדי.",
+    "sourceChars": 430,
+    "sourceHash": "8c0f8d563d112dd5"
+  },
+  {
+    "key": "transformers-deep/s09/p05",
+    "topicId": "transformers-deep",
+    "topicName": "Transformers לעומק (הלב של ChatGPT)",
+    "seriesIndex": 9,
+    "seriesName": "איך מידע זורם בתוך מודל?",
+    "part": 5,
+    "subtitle": "פלט",
+    "title": "איך מידע זורם בתוך מודל? (5/10) — פלט",
+    "postType": "explainer",
+    "tags": [
+      "5/10",
+      "סדרה"
+    ],
+    "sourceText": "בשכבה האחרונה מגיעים סוף־סוף ל־logits על אוצר המילים — מהם בוחרים או דוגמים את הטוקן הבא שיוצא החוצה. החלטה אחת בכל סיבוב.\n\nואז הלולאה החיצונית ממשיכה: מוסיפים אותו לרצף ומריצים שוב. הזרימה הפנימית נגמרת בבחירה אחת בכל סיבוב, והשיחה כולה נבנית מחזרות על אותו צינור ארוך. כל טוקן חדש = סיבוב שלם דרך המגדל, ואז בחירה אחת. סיפור ארוך בחוץ — מסלול ארוך בפנים.\n\nיציאה קטנה בכל פעם — סיפור ארוך שנבנה בחוץ. כל טוקן = סיבוב שלם דרך המגדל.",
+    "sourceChars": 432,
+    "sourceHash": "08685f46a9fe1cd9"
+  },
+  {
+    "key": "transformers-deep/s09/p06",
+    "topicId": "transformers-deep",
+    "topicName": "Transformers לעומק (הלב של ChatGPT)",
+    "seriesIndex": 9,
+    "seriesName": "איך מידע זורם בתוך מודל?",
+    "part": 6,
+    "subtitle": "KV cache",
+    "title": "איך מידע זורם בתוך מודל? (6/10) — KV cache",
+    "postType": "explainer",
+    "tags": [
+      "6/10",
+      "סדרה"
+    ],
+    "sourceText": "ב־inference יש טריק חשוב שנקרא KV cache — לא מחשבים מחדש את כל ה־K וה־V של העבר בכל טוקן חדש. שומרים מה שכבר חושב וממשיכים.\n\nשומרים אותם וממשיכים רק עם החישוב של הצעד הנוכחי. בלי זה גנרציה ארוכה הייתה יקרה ואיטית מדי לשיחה; עם זה, אפשר לשוחח בזמן סביר על חומרה רגילה יחסית. קריטי לצ'אט בזמן אמת — בלי זה גנרציה ארוכה איטית מדי. מהירות ב-inference.\n\nזיכרון ביניים שעושה את הזרימה מהירה יותר — קריטי לחוויית צ׳אט בזמן אמת.",
+    "sourceChars": 420,
+    "sourceHash": "c51fa22613b9f5ec"
+  },
+  {
+    "key": "transformers-deep/s09/p07",
+    "topicId": "transformers-deep",
+    "topicName": "Transformers לעומק (הלב של ChatGPT)",
+    "seriesIndex": 9,
+    "seriesName": "איך מידע זורם בתוך מודל?",
+    "part": 7,
+    "subtitle": "Gradient באימון",
+    "title": "איך מידע זורם בתוך מודל? (7/10) — Gradient באימון",
+    "postType": "explainer",
+    "tags": [
+      "7/10",
+      "סדרה"
+    ],
+    "sourceText": "באימון יש גם זרימה הפוכה לגמרי מכיוון החיזוי — גרדיאנט יורד מהפלט אחורה דרך כל השכבות עד ההתחלה. backprop על אותה ארכיטקטורה.\n\nה־weights מתעדכנים לפי הטעות בין מה שניבאנו למה שהיה צריך. קדימה = חיזוי על הרצף הקיים; אחורה = למידה שמשנה את המשקלים. backprop — כיוון הפוך על אותה ארכיטקטורה, רק באימון. weights מתעדכנים. שווה לשמור את הנקודה הזו.\n\nשתי זרימות על אותה ארכיטקטורה, בכיוונים הפוכים. בשימוש יומיומי אתם רואים בעיקר את הכיוון קדימה.",
+    "sourceChars": 440,
+    "sourceHash": "55c88e7b75309ee0"
+  },
+  {
+    "key": "transformers-deep/s09/p08",
+    "topicId": "transformers-deep",
+    "topicName": "Transformers לעומק (הלב של ChatGPT)",
+    "seriesIndex": 9,
+    "seriesName": "איך מידע זורם בתוך מודל?",
+    "part": 8,
+    "subtitle": "Bottleneck",
+    "title": "איך מידע זורם בתוך מודל? (8/10) — Bottleneck",
+    "postType": "explainer",
+    "tags": [
+      "8/10",
+      "סדרה"
+    ],
+    "sourceText": "המימד dim נשאר קבוע ברוב הדרך — וזה bottleneck מכוון. אי אפשר להעביר הכל ברוחב אינסופי בין השכבות. יש \"צוואר בקבוק\" מעוצב.\n\nFFN מרחיב זמנית את המימד ואז דוחס חזרה — מסחר מחושב של קיבולת. הזרימה תמיד עוברת דרך צוואר בקבוק מעוצב מראש, והיכולת תלויה במה שהצלחנו לדחוס לתוך המימד הזה. dim קבוע = צוואר בקבוק מעוצב — לא כל המידע נכנס. dim קבוע. שווה לשמור את הנקודה הזו.\n\nמקום מוגבל בייצוג — ולכן הבחירות בפנים חשובות. dim קטן = פחות מקום לכל המידע.",
+    "sourceChars": 444,
+    "sourceHash": "ce8791e7f0d2380c"
+  },
+  {
+    "key": "transformers-deep/s09/p09",
+    "topicId": "transformers-deep",
+    "topicName": "Transformers לעומק (הלב של ChatGPT)",
+    "seriesIndex": 9,
+    "seriesName": "איך מידע זורם בתוך מודל?",
+    "part": 9,
+    "subtitle": "Information mixing",
+    "title": "איך מידע זורם בתוך מודל? (9/10) — Information mixing",
+    "postType": "explainer",
+    "tags": [
+      "9/10",
+      "סדרה"
+    ],
+    "sourceText": "בשכבות האחרונות כל טוקן \"יודע\" הרבה מההקשר סביבו — המידע התערבב שוב ושוב למעלה במגדל ולרוחב ב־Attention. אין בידוד אמיתי יותר.\n\nלכן הטוקן האחרון יכול לנבא טוב יחסית את ההמשך — הוא נושא סיכום חי של השיחה או המסמך עד הנקודה הזו. כל מה שנאמר קודם כבר \"נמזג\" לתוכו. הטוקן האחרון נושא סיכום חי של ההקשר עד הנקודה הזו. ואז — logits ובחירת הטוקן הבא. סיכום חי. שווה לשמור את הנקודה הזו.\n\nערבוב עמוק עד לנקודת ההחלטה הסופית — ואז logits ובחירה.",
+    "sourceChars": 436,
+    "sourceHash": "1808c3e3d72bb7f5"
+  },
+  {
+    "key": "transformers-deep/s09/p10",
+    "topicId": "transformers-deep",
+    "topicName": "Transformers לעומק (הלב של ChatGPT)",
+    "seriesIndex": 9,
+    "seriesName": "איך מידע זורם בתוך מודל?",
+    "part": 10,
+    "subtitle": "סיכום",
+    "title": "איך מידע זורם בתוך מודל? (10/10) — סיכום",
+    "postType": "explainer",
+    "tags": [
+      "10/10",
+      "סדרה"
+    ],
+    "sourceText": "זרימת מידע = למעלה בשכבות + לרוחב ב־Attention + skip connections. שלושה כיוונים שעובדים יחד בכל forward pass.\n\nבכניסה embeddings עם מיקום, ביציאה logits, ובדרך KV cache ב־inference. מילה אחת עוברת דרך המון פעולות לפני שהטוקן הבא נבחר. למעלה + לרוחב + skip — שלושה כיוונים שעובדים יחד. forward pass אחד. שווה לשמור את הנקודה הזו.\n\nמסלול ארוך בפנים — לתשובה שנראית קצרה בחוץ. ברגע שמציירים את המסלול הזה, המודל מפסיק להרגיש כמו קופסה שחורה לגמרי.",
+    "sourceChars": 444,
+    "sourceHash": "4cc198270372b90f"
+  },
+  {
+    "key": "transformers-deep/s10/p01",
+    "topicId": "transformers-deep",
+    "topicName": "Transformers לעומק (הלב של ChatGPT)",
+    "seriesIndex": 10,
+    "seriesName": "למה transformers טובים לשפה?",
+    "part": 1,
+    "subtitle": "תלות ארוכה",
+    "title": "למה transformers טובים לשפה? (1/10) — תלות ארוכה",
+    "postType": "explainer",
+    "tags": [
+      "1/10",
+      "סדרה"
+    ],
+    "sourceText": "בשפה מילה רחוקה יכולה לשנות לגמרי את המשמעות — Attention נותן קשר ישיר אליה, בלי מאה צעדי RNN באמצע הדרך. נושא ונשוא יכולים להיפגש גם כשהם רחוקים במשפט.\n\nההפניה, הנושא והפרונום יכולים להיפגש מהר באותה מטריצה. זה בדיוק סוג התלות ששפה טבעית מלאה בה כל הזמן, ולכן הארכיטקטורה מרגישה טבעית כל כך למשימה הזו. זו התאמה ישירה בין מבנה השפה לבין מבנה החישוב.\n\nרחוק במשפט — ועדיין רלוונטי מאוד למודל. התאמה ישירה בין מבנה השפה לבין מבנה החישוב — לא מקרה.",
+    "sourceChars": 445,
+    "sourceHash": "efa3e87bce76515f"
+  },
+  {
+    "key": "transformers-deep/s10/p02",
+    "topicId": "transformers-deep",
+    "topicName": "Transformers לעומק (הלב של ChatGPT)",
+    "seriesIndex": 10,
+    "seriesName": "למה transformers טובים לשפה?",
+    "part": 2,
+    "subtitle": "דו-כיוון הקשר",
+    "title": "למה transformers טובים לשפה? (2/10) — דו-כיוון הקשר",
+    "postType": "explainer",
+    "tags": [
+      "2/10",
+      "סדרה"
+    ],
+    "sourceText": "יש גמישות אמיתית בכיוון ההקשר שנותנים למודל. BERT יכול לקחת הקשר מלא משני צדדים כשרוצים הבנה; GPT לוקח את ההיסטוריה קדימה כשרוצים גנרציה חיה.\n\nאותו רעיון Attention מתחת — התאמה שונה למשימה בקצה. שפה אנושית צריכה גם להבין טקסט קיים וגם להמשיך אותו, ושני הכיוונים נתמכים על אותו שלד בסיסי. BERT להבנה — GPT לגנרציה, על אותו שלד בסיסי.\n\nכיוון לפי הצורך — לא תבנית אחת קשיחה לכולם. bidirectional להבנה, causal לגנרציה — אותה ארכיטקטורה, מסכות שונות.",
+    "sourceChars": 445,
+    "sourceHash": "b6f95e8b1dae8f79"
+  },
+  {
+    "key": "transformers-deep/s10/p03",
+    "topicId": "transformers-deep",
+    "topicName": "Transformers לעומק (הלב של ChatGPT)",
+    "seriesIndex": 10,
+    "seriesName": "למה transformers טובים לשפה?",
+    "part": 3,
+    "subtitle": "מקבילות אימון",
+    "title": "למה transformers טובים לשפה? (3/10) — מקבילות אימון",
+    "postType": "explainer",
+    "tags": [
+      "3/10",
+      "סדרה"
+    ],
+    "sourceText": "באימון אפשר לעבד משפט שלם או רצף ארוך יחד — וזה מאפשר לזלול טריליוני טוקנים בקנה מידה תעשייתי על חוות GPU. המקביליות היא מנוע הסקייל, לא פרט שולי.\n\nבלי מקבילות כזו, הסקייל של מודלי שפה היה נראה אחרת לגמרי. שפה גדולה דורשת נתונים עצומים כדי ללמוד דפוסים עדינים, ו־Transformer מתחבר טוב לחומרה שמאמנת אותם היום. GPU + מטריצות = קצב למידה שמתאים לטריליוני טוקנים.\n\nקצב למידה שמתאים לעולם של דאטה עצום — GPU, מטריצות, ואימון על הרבה טוקנים במקביל.",
+    "sourceChars": 443,
+    "sourceHash": "104a520f4be893f1"
+  },
+  {
+    "key": "transformers-deep/s10/p04",
+    "topicId": "transformers-deep",
+    "topicName": "Transformers לעומק (הלב של ChatGPT)",
+    "seriesIndex": 10,
+    "seriesName": "למה transformers טובים לשפה?",
+    "part": 4,
+    "subtitle": "משימה אחת",
+    "title": "למה transformers טובים לשפה? (4/10) — משימה אחת",
+    "postType": "explainer",
+    "tags": [
+      "4/10",
+      "סדרה"
+    ],
+    "sourceText": "חיזוי המילה הבאה נשמע צר — וממנו נגזר הרבה מאוד. תרגום, סיכום, שאלות ותשובות — אפשר ב־fine-tune או בהוראות בפרומפט, מאותו בסיס.\n\nמשימה אחת חזקה במקום עשרות ראשים נפרדים לכל סוג בעיה. שפה מגוונת יוצאת מאותו מנוע בסיסי שוב ושוב — GPT הוא הדוגמה הקלאסית לכך. GPT הוא הדוגמה הקלאסית — משימה אחת, הרבה שימושים בחוץ. הרבה גזירות. שווה לשמור את הנקודה הזו.\n\nבסיס אחד פשוט — שימושים רבים בחוץ, מאותו מנוע של חיזוי המשך. זה חלק גדול מהקסם ההנדסי.",
+    "sourceChars": 437,
+    "sourceHash": "bf8de8ed5803f34b"
+  },
+  {
+    "key": "transformers-deep/s10/p05",
+    "topicId": "transformers-deep",
+    "topicName": "Transformers לעומק (הלב של ChatGPT)",
+    "seriesIndex": 10,
+    "seriesName": "למה transformers טובים לשפה?",
+    "part": 5,
+    "subtitle": "דפוסים רב-קנים",
+    "title": "למה transformers טובים לשפה? (5/10) — דפוסים רב-קנים",
+    "postType": "explainer",
+    "tags": [
+      "5/10",
+      "סדרה"
+    ],
+    "sourceText": "שפה זה דקדוק, סגנון, עובדות ורמזים שרצים יחד באותו משפט. Multi-head ושכבות נותנים מקום לדפוסים שונים במקביל — כמה עדשות על אותו טקסט.\n\nההפרדה בין הראשים לא מושלמת — אבל יש קיבולת לכמה סוגי קשרים. משפט אחד דורש כמה עדשות בבת אחת, והארכיטקטורה בנויה לתת אותן בלי לבחור רק זווית אחת. משפט אחד דורש כמה סוגי קשרים — דקדוק, סגנון, עובדות. כמה עדשות.\n\nרב־קנים במקום תבנית אחת קשיחה — דקדוק, סגנון ועובדות יכולים לעבוד יחד באותו משפט.",
+    "sourceChars": 427,
+    "sourceHash": "d3e9dc0e6c7665b2"
+  },
+  {
+    "key": "transformers-deep/s10/p06",
+    "topicId": "transformers-deep",
+    "topicName": "Transformers לעומק (הלב של ChatGPT)",
+    "seriesIndex": 10,
+    "seriesName": "למה transformers טובים לשפה?",
+    "part": 6,
+    "subtitle": "Few-shot",
+    "title": "למה transformers טובים לשפה? (6/10) — Few-shot",
+    "postType": "explainer",
+    "tags": [
+      "6/10",
+      "סדרה"
+    ],
+    "sourceText": "לפעמים מספיקות כמה דוגמאות טובות בפרומפט עצמו — Attention מקשר בין הדוגמה למשימה החדשה באותו חלון הקשר. בלי אימון חדש על דיסק.\n\nבלי אימון חדש על דיסק, רק מה שנמצא כרגע ברצף. זה לא קסם שעובד על כל בעיה, אבל לשפה זה מרגיש גמיש להפליא כשזה מצליח — למידה מתוך השיחה. דוגמאות בפרומפט — בלי אימון חדש על דיסק. ללמוד מהדוגמה תוך כדי השיחה — בלי fine-tune.\n\nללמוד מהדוגמה תוך כדי השיחה — בלי לשלוח את המודל לאימון מחדש. few-shot בפרומפט, לא fine-tune.",
+    "sourceChars": 443,
+    "sourceHash": "603647028b4e6aa2"
+  },
+  {
+    "key": "transformers-deep/s10/p07",
+    "topicId": "transformers-deep",
+    "topicName": "Transformers לעומק (הלב של ChatGPT)",
+    "seriesIndex": 10,
+    "seriesName": "למה transformers טובים לשפה?",
+    "part": 7,
+    "subtitle": "רב-לשוני",
+    "title": "למה transformers טובים לשפה? (7/10) — רב-לשוני",
+    "postType": "explainer",
+    "tags": [
+      "7/10",
+      "סדרה"
+    ],
+    "sourceText": "אותה ארכיטקטורה משרתת עברית, אנגלית ועוד שפות באותו שלד. Tokenizer משותף או רב־לשוני מכניס הכל לאותו מרחב טוקנים — מנוע אחד, מילונים רבים.\n\nהבלוקים לא \"יודעים עברית\" כשפה — הם לומדים דפוסים מהנתונים שראו. שפות שונות רצות על אותו מנוע בסיסי, וזה חלק מלמה Transformer הפך לברירת מחדל עולמית כל כך מהר. מנוע אחד — עברית, אנגלית ועוד, בלי ארכיטקטורה נפרדת. שווה לשמור את הנקודה הזו.\n\nמנוע אחד בפנים — מילונים רבים בחוץ, בלי ארכיטקטורה נפרדת לכל שפה.",
+    "sourceChars": 445,
+    "sourceHash": "f9a476f2f6a13537"
+  },
+  {
+    "key": "transformers-deep/s10/p08",
+    "topicId": "transformers-deep",
+    "topicName": "Transformers לעומק (הלב של ChatGPT)",
+    "seriesIndex": 10,
+    "seriesName": "למה transformers טובים לשפה?",
+    "part": 8,
+    "subtitle": "לא מושלם",
+    "title": "למה transformers טובים לשפה? (8/10) — לא מושלם",
+    "postType": "explainer",
+    "tags": [
+      "8/10",
+      "סדרה"
+    ],
+    "sourceText": "חשוב לומר גם את הצד השני: הם לא מושלמים. מתמטיקה קשה, לוגיקה עמוקה ועובדות רגישות — עדיין נשברים בקלות, גם במודלים הגדולים.\n\nזה כלי חזק מאוד לשפה, לא סוף הדרך של בינה מלאכותית. כדאי לזכור את הגבול בזמן שמתלהבים מהיכולת בשיחה — טוב לשפה ≠ מושלם בכל משימה. טוב לשפה ≠ מושלם בכל משימה — חשוב לזכור את הגבול. הגבולות חשובים לא פחות מהיכולות. גבולות פתוחים.\n\nכוח גדול — עם חורים שעדיין פתוחים. הגבולות חשובים לא פחות מהיכולות.",
+    "sourceChars": 421,
+    "sourceHash": "016b849242f40713"
+  },
+  {
+    "key": "transformers-deep/s10/p09",
+    "topicId": "transformers-deep",
+    "topicName": "Transformers לעומק (הלב של ChatGPT)",
+    "seriesIndex": 10,
+    "seriesName": "למה transformers טובים לשפה?",
+    "part": 9,
+    "subtitle": "דומיננטיות",
+    "title": "למה transformers טובים לשפה? (9/10) — דומיננטיות",
+    "postType": "explainer",
+    "tags": [
+      "9/10",
+      "סדרה"
+    ],
+    "sourceText": "רוב ה־LLM המודרניים יושבים על שלד של Transformer — מחליפים חלקים, Attention זול יותר, MoE, חלונות ארוכים, אבל המשפחה נשארת.\n\nכשכמעט כולם רצים על אותה ארכיטקטורה בסיסית, ברור שהיא התאימה לשפה בקנה מידה גדול. לא רק זיכרון של 2017 — הנדסה שעובדת היום, בקנה מידה ענק. לא רק זיכרון של 2017 — הנדסה שעובדת היום בקנה מידה ענק. כשכמעט כולם רצים על אותו שלד — ברור שזה לא מקרה.\n\nסטנדרט דה־פקטו של התעשייה — לא רק מגמה, אלא הנדסה שעובדת.",
+    "sourceChars": 427,
+    "sourceHash": "9f1ff48944c8de95"
+  },
+  {
+    "key": "transformers-deep/s10/p10",
+    "topicId": "transformers-deep",
+    "topicName": "Transformers לעומק (הלב של ChatGPT)",
+    "seriesIndex": 10,
+    "seriesName": "למה transformers טובים לשפה?",
+    "part": 10,
+    "subtitle": "סיכום",
+    "title": "למה transformers טובים לשפה? (10/10) — סיכום",
+    "postType": "explainer",
+    "tags": [
+      "10/10",
+      "סדרה"
+    ],
+    "sourceText": "Transformers טובים לשפה כי שפה = קשרים ארוכים + הרבה דפוסים + סקייל. שלושה דברים שהארכיטקטורה נבנתה סביבם — לא במקרה.\n\nהארכיטקטורה נבנתה בדיוק סביב הדברים האלה. ChatGPT לא יצא במקרה מאותה משפחה של מודלים — אותם רעיונות, אותו שלד. ChatGPT לא יצא במקרה — מאותה משפחה, סביב אותם רעיונות. כשמבינים למה זה מתאים — קל יותר לראות גם איפה זה נשבר.\n\nהתאמה טובה בין סוג הבעיה לכלים — וזה נשמע בחוץ כמו שיחה חיה. כשמבינים למה זה מתאים, קל יותר לראות גם איפה זה נשבר.",
+    "sourceChars": 455,
+    "sourceHash": "b1f0c395638c1a5f"
+  }
+]

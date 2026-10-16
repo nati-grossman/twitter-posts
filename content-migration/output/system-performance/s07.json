@@ -1,0 +1,52 @@
+[
+  {
+    "key": "system-performance/s07/p01",
+    "sourceHash": "966981b5527c6ab1",
+    "tweet": "מיליון משתמשים לא דורשים שרת \"חזק יותר\". מערכות גדולות גדלות לרוחב (Horizontal Scaling): עשרות או מאות שרתים זהים מאחורי Load Balancer. צריך עוד כוח? מוסיפים שרת לצי, ומורידים כשהעומס יורד."
+  },
+  {
+    "key": "system-performance/s07/p02",
+    "sourceHash": "431b7c576fc6c99d",
+    "tweet": "אם כל שרת שומר סשן או עגלה בזיכרון שלו, אי אפשר להעביר משתמש לשרת אחר. לכן שרתים מודרניים הם Stateless: המידע מגיע בבקשה, למשל JWT, או נשמר ב-Redis או ב-DB. כך כל שרת מטפל בכל משתמש."
+  },
+  {
+    "key": "system-performance/s07/p03",
+    "sourceHash": "2ce6f6d4cb466337",
+    "tweet": "Load Balancer מחליט לאיזה מ-100 השרתים תגיע כל בקשה, לפי Round Robin, Least Connections או משקל. בעזרת Health Checks הוא מזהה שרתים שנפלו ומוציא אותם מהסיבוב. המשתמש רואה כתובת אחת, ומאחוריה צי."
+  },
+  {
+    "key": "system-performance/s07/p04",
+    "sourceHash": "2d55fc16712172cd",
+    "tweet": "מוסיפים עשרות שרתי אפליקציה, ובסוף כמעט כל בקשה מגיעה למסד. לכן יש Read Replicas, Sharding שמחלק את המידע בין מסדים, Partitioning ואינדקסים טובים. שרתי Web קל להוסיף, את ה-DB צריך לתכנן מראש."
+  },
+  {
+    "key": "system-performance/s07/p05",
+    "sourceHash": "2b3fdfc7d142d0f1",
+    "tweet": "אם אלף משתמשים מבקשים אותו פרופיל, אין סיבה לשלוף אותו אלף פעם מה-DB. Cache כמו Redis שומר נתונים פופולריים עם TTL שקובע מתי לרענן. לפעמים הוא משפיע יותר משדרוג שרתים, אם יודעים מתי המידע התיישן."
+  },
+  {
+    "key": "system-performance/s07/p06",
+    "sourceHash": "2acb3960c22f79ac",
+    "tweet": "תמונות, CSS ו-JavaScript לא צריכים לצאת מהשרת שלכם בכל טעינה. CDN שומר עותקים ב-Points of Presence בעולם, והמשתמש מוריד מהקרוב. טעינה מהירה ופחות עומס על המקור, אבל זה לא מחליף Scaling של ה-API."
+  },
+  {
+    "key": "system-performance/s07/p07",
+    "sourceHash": "e863c10d17fa9624",
+    "tweet": "לא כל פעולה צריכה לקרות בתוך בקשת ה-HTTP. מייל, PDF, עיבוד תמונה או התראה נכנסים ל-Queue, ו-Workers מבצעים ברקע. המשתמש מקבל \"התקבל\" תוך מילישניות, והמערכת סופגת שיאי עומס בלי שה-API יקרוס."
+  },
+  {
+    "key": "system-performance/s07/p08",
+    "sourceHash": "3e694e46fb830c5a",
+    "tweet": "מערכות גדולות מניחות שמשהו תמיד ייכשל: שרת ייפול, רשת תתנתק, דיסק יתמלא. לכן יש Retry, Timeout, Circuit Breaker וכמה Availability Zones, ו-Chaos Engineering מכבה שרת בכוונה כדי לגלות חולשות מראש."
+  },
+  {
+    "key": "system-performance/s07/p09",
+    "sourceHash": "24e3dea2f0dfc297",
+    "tweet": "מיליון משתמשים רשומים לא שולחים מיליון בקשות בשנייה. מה שקובע הוא כמה פעילים בו-זמנית וכמה בקשות בשנייה (RPS) מגיעות, ביום רגיל ובשיא. מתכננים לפי פרופיל התנועה, לא לפי טבלת Users."
+  },
+  {
+    "key": "system-performance/s07/p10",
+    "sourceHash": "e4a85c6b41723759",
+    "tweet": "אין רכיב קסם שמחזיק מיליון משתמשים. זה שילוב: Horizontal Scaling, שרתים Stateless, Load Balancer, Scaling למסד, Cache, CDN, Queues ו-Resilience, לפי RPS אמיתי. המטרה: מערכת שעובדת גם כשיש תקלות."
+  }
+]

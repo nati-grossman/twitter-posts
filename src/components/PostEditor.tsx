@@ -7,6 +7,7 @@ import {
 import { useAutosave, type SaveState } from '../hooks/useAppData'
 import type { Post, PostStatus, PostType, Topic } from '../types'
 import { parseTagsInput, tagsToInput } from '../utils'
+import { getSingleTweet } from '../utils/singleTweet'
 import {
   formatTwitterThreadForCopy,
   splitPostIntoTwitterThread,
@@ -69,12 +70,14 @@ export function PostEditor({
   const [draft, setDraft] = useState<Post | null>(post)
   const [tagsInput, setTagsInput] = useState('')
   const [copied, setCopied] = useState(false)
+  const [singleCopied, setSingleCopied] = useState(false)
 
   useEffect(() => {
     setDraft(post)
     setTagsInput(post ? tagsToInput(post.tags) : '')
     setIsEditing(editOnOpen)
     setCopied(false)
+    setSingleCopied(false)
     onDraftChange(null)
   }, [post?.id, editOnOpen])
 
@@ -85,6 +88,19 @@ export function PostEditor({
         : [],
     [draft?.title, draft?.content],
   )
+
+  const singleTweet = draft ? getSingleTweet(draft.topic, draft.title) : null
+
+  const handleCopySingle = async () => {
+    if (!singleTweet) return
+    try {
+      await navigator.clipboard.writeText(singleTweet)
+      setSingleCopied(true)
+      window.setTimeout(() => setSingleCopied(false), 2000)
+    } catch {
+      window.prompt('העתק את הציוץ:', singleTweet)
+    }
+  }
 
   const handleCopyPost = async () => {
     if (!draft) return
@@ -225,6 +241,25 @@ export function PostEditor({
         >
           {draft.title || 'פוסט ללא כותרת'}
         </h1>
+
+        {singleTweet && (
+          <section className="single-tweet" aria-label="ציוץ יחיד">
+            <header className="single-tweet-header">
+              <h2 className="twitter-thread-title">ציוץ יחיד</h2>
+              <span className="twitter-thread-part-count">
+                {[...singleTweet].length}/200 תווים
+              </span>
+              <button
+                type="button"
+                className={`btn-secondary post-copy-btn ${singleCopied ? 'copied' : ''}`}
+                onClick={handleCopySingle}
+              >
+                {singleCopied ? 'הועתק ✓' : 'העתק ציוץ'}
+              </button>
+            </header>
+            <p className="twitter-thread-part-text">{singleTweet}</p>
+          </section>
+        )}
 
         <section
           className="twitter-thread"

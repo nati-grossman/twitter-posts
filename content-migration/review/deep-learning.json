@@ -1,0 +1,504 @@
+[
+  {
+    "key": "deep-learning/s01/p01",
+    "tweetHash": "fdd9f9a9af73cd98",
+    "verdict": "pass"
+  },
+  {
+    "key": "deep-learning/s01/p02",
+    "tweetHash": "7a1812ad348668c6",
+    "verdict": "pass"
+  },
+  {
+    "key": "deep-learning/s01/p03",
+    "tweetHash": "56469df2854e90ea",
+    "verdict": "pass"
+  },
+  {
+    "key": "deep-learning/s01/p04",
+    "tweetHash": "7839f14cf910b516",
+    "verdict": "pass"
+  },
+  {
+    "key": "deep-learning/s01/p05",
+    "tweetHash": "63a5af9db49e2e0a",
+    "verdict": "pass"
+  },
+  {
+    "key": "deep-learning/s01/p06",
+    "tweetHash": "c73bc4f65e44d301",
+    "verdict": "pass"
+  },
+  {
+    "key": "deep-learning/s01/p07",
+    "tweetHash": "7a30a3283a14957d",
+    "verdict": "pass"
+  },
+  {
+    "key": "deep-learning/s01/p08",
+    "tweetHash": "ea0d240c916dde06",
+    "verdict": "pass"
+  },
+  {
+    "key": "deep-learning/s01/p09",
+    "tweetHash": "6d1d1eab9f1760d1",
+    "verdict": "pass"
+  },
+  {
+    "key": "deep-learning/s01/p10",
+    "tweetHash": "1247ab6b898f01f3",
+    "verdict": "pass"
+  },
+  {
+    "key": "deep-learning/s02/p01",
+    "tweetHash": "a7591cc18d5f2564",
+    "verdict": "pass"
+  },
+  {
+    "key": "deep-learning/s02/p02",
+    "tweetHash": "d68dd583d03fb254",
+    "verdict": "pass"
+  },
+  {
+    "key": "deep-learning/s02/p03",
+    "tweetHash": "fc23ee7304389a76",
+    "verdict": "pass"
+  },
+  {
+    "key": "deep-learning/s02/p04",
+    "tweetHash": "160c982c0affe680",
+    "verdict": "pass"
+  },
+  {
+    "key": "deep-learning/s02/p05",
+    "tweetHash": "f058c8198cefcc05",
+    "verdict": "pass"
+  },
+  {
+    "key": "deep-learning/s02/p06",
+    "tweetHash": "dd341c268408b7ce",
+    "verdict": "pass"
+  },
+  {
+    "key": "deep-learning/s02/p07",
+    "tweetHash": "581b7dfb82da8782",
+    "verdict": "pass"
+  },
+  {
+    "key": "deep-learning/s02/p08",
+    "tweetHash": "ff4c60470a5ff76f",
+    "verdict": "pass"
+  },
+  {
+    "key": "deep-learning/s02/p09",
+    "tweetHash": "5e4e47a3eab44ad1",
+    "verdict": "pass"
+  },
+  {
+    "key": "deep-learning/s02/p10",
+    "tweetHash": "ef196856d86bbd89",
+    "verdict": "pass"
+  },
+  {
+    "key": "deep-learning/s03/p01",
+    "tweetHash": "d86d4f3241e04b47",
+    "verdict": "pass"
+  },
+  {
+    "key": "deep-learning/s03/p02",
+    "tweetHash": "dd2c19aa84f70ad1",
+    "verdict": "pass"
+  },
+  {
+    "key": "deep-learning/s03/p03",
+    "tweetHash": "a9634bf17da6a94d",
+    "verdict": "pass"
+  },
+  {
+    "key": "deep-learning/s03/p04",
+    "tweetHash": "df1777c9a9f4a5f9",
+    "verdict": "pass"
+  },
+  {
+    "key": "deep-learning/s03/p05",
+    "tweetHash": "4e253ddb78996c65",
+    "verdict": "pass"
+  },
+  {
+    "key": "deep-learning/s03/p06",
+    "tweetHash": "2a1482ba727e14b3",
+    "verdict": "pass"
+  },
+  {
+    "key": "deep-learning/s03/p07",
+    "tweetHash": "3e803cc72f6bae54",
+    "verdict": "pass"
+  },
+  {
+    "key": "deep-learning/s03/p08",
+    "tweetHash": "37e823783fd6a456",
+    "verdict": "pass"
+  },
+  {
+    "key": "deep-learning/s03/p09",
+    "tweetHash": "f5080fd7394613e6",
+    "verdict": "pass"
+  },
+  {
+    "key": "deep-learning/s03/p10",
+    "tweetHash": "539afdefa4b0f010",
+    "verdict": "pass"
+  },
+  {
+    "key": "deep-learning/s04/p01",
+    "tweetHash": "ca63dfbcc44ed00a",
+    "verdict": "pass"
+  },
+  {
+    "key": "deep-learning/s04/p02",
+    "tweetHash": "9db874c9c34e5d1c",
+    "verdict": "pass"
+  },
+  {
+    "key": "deep-learning/s04/p03",
+    "tweetHash": "03488a87a7f1844d",
+    "verdict": "pass"
+  },
+  {
+    "key": "deep-learning/s04/p04",
+    "tweetHash": "2980f2ed0705d6bc",
+    "verdict": "pass"
+  },
+  {
+    "key": "deep-learning/s04/p05",
+    "tweetHash": "f05f0c9e24e0850d",
+    "verdict": "pass"
+  },
+  {
+    "key": "deep-learning/s04/p06",
+    "tweetHash": "54439c7188d35d1c",
+    "verdict": "pass"
+  },
+  {
+    "key": "deep-learning/s04/p07",
+    "tweetHash": "2a3df3bff787795e",
+    "verdict": "pass"
+  },
+  {
+    "key": "deep-learning/s04/p08",
+    "tweetHash": "616a74215f9e2ca4",
+    "verdict": "pass"
+  },
+  {
+    "key": "deep-learning/s04/p09",
+    "tweetHash": "25f1f9ede929e092",
+    "verdict": "pass"
+  },
+  {
+    "key": "deep-learning/s04/p10",
+    "tweetHash": "a82b79449f8d48a7",
+    "verdict": "pass"
+  },
+  {
+    "key": "deep-learning/s05/p01",
+    "tweetHash": "42c2608a2045d6de",
+    "verdict": "pass"
+  },
+  {
+    "key": "deep-learning/s05/p02",
+    "tweetHash": "0c4e4f9340730c1d",
+    "verdict": "pass"
+  },
+  {
+    "key": "deep-learning/s05/p03",
+    "tweetHash": "fcc5fffebb6f6d8b",
+    "verdict": "revise",
+    "reason": "Invents a causal claim not in the source: \"וזה בדיוק מה ש-Attention בא לפתור\" (Attention was created to fix Bag of Words losing order). The original only says BoW is an earlier chapter, before Attention, useful for simple classification but losing order. Attention did not come to solve BoW (it addressed RNN seq2seq limits); drop or rephrase as \"a chapter from before Attention\"."
+  },
+  {
+    "key": "deep-learning/s05/p04",
+    "tweetHash": "ffa1aa1343cfca74",
+    "verdict": "pass"
+  },
+  {
+    "key": "deep-learning/s05/p05",
+    "tweetHash": "6a076cd52948d99a",
+    "verdict": "pass"
+  },
+  {
+    "key": "deep-learning/s05/p06",
+    "tweetHash": "9b775a140d2e3a61",
+    "verdict": "pass"
+  },
+  {
+    "key": "deep-learning/s05/p07",
+    "tweetHash": "16262e2dfef79ea9",
+    "verdict": "pass"
+  },
+  {
+    "key": "deep-learning/s05/p08",
+    "tweetHash": "b0ff54942b60d9c4",
+    "verdict": "pass"
+  },
+  {
+    "key": "deep-learning/s05/p09",
+    "tweetHash": "96c71db1e3f6139f",
+    "verdict": "pass"
+  },
+  {
+    "key": "deep-learning/s05/p10",
+    "tweetHash": "69600b5873f3bd86",
+    "verdict": "pass"
+  },
+  {
+    "key": "deep-learning/s06/p01",
+    "tweetHash": "8942d6a3bc1960c5",
+    "verdict": "pass"
+  },
+  {
+    "key": "deep-learning/s06/p02",
+    "tweetHash": "79f3694312590d8d",
+    "verdict": "pass"
+  },
+  {
+    "key": "deep-learning/s06/p03",
+    "tweetHash": "69d9698e7865cbd6",
+    "verdict": "pass"
+  },
+  {
+    "key": "deep-learning/s06/p04",
+    "tweetHash": "0845f0937f42011f",
+    "verdict": "pass"
+  },
+  {
+    "key": "deep-learning/s06/p05",
+    "tweetHash": "6eeac31eb58d0105",
+    "verdict": "pass"
+  },
+  {
+    "key": "deep-learning/s06/p06",
+    "tweetHash": "5e4fe726377c8c2a",
+    "verdict": "pass"
+  },
+  {
+    "key": "deep-learning/s06/p07",
+    "tweetHash": "08e1e538bf2d4a47",
+    "verdict": "pass"
+  },
+  {
+    "key": "deep-learning/s06/p08",
+    "tweetHash": "bd379ea22a93e47a",
+    "verdict": "pass"
+  },
+  {
+    "key": "deep-learning/s06/p09",
+    "tweetHash": "2ae5604f2e325e18",
+    "verdict": "pass"
+  },
+  {
+    "key": "deep-learning/s06/p10",
+    "tweetHash": "6289d4a2a723d2a3",
+    "verdict": "pass"
+  },
+  {
+    "key": "deep-learning/s07/p01",
+    "tweetHash": "30f87a428cae429a",
+    "verdict": "pass"
+  },
+  {
+    "key": "deep-learning/s07/p02",
+    "tweetHash": "9335a46651779102",
+    "verdict": "pass"
+  },
+  {
+    "key": "deep-learning/s07/p03",
+    "tweetHash": "00ee81258e69e550",
+    "verdict": "pass"
+  },
+  {
+    "key": "deep-learning/s07/p04",
+    "tweetHash": "2a9d2e1b77f57909",
+    "verdict": "pass"
+  },
+  {
+    "key": "deep-learning/s07/p05",
+    "tweetHash": "da242c9c146595a5",
+    "verdict": "pass"
+  },
+  {
+    "key": "deep-learning/s07/p06",
+    "tweetHash": "cb092342593b7750",
+    "verdict": "pass"
+  },
+  {
+    "key": "deep-learning/s07/p07",
+    "tweetHash": "0405952a66b610a9",
+    "verdict": "pass"
+  },
+  {
+    "key": "deep-learning/s07/p08",
+    "tweetHash": "9515c45558d1ded2",
+    "verdict": "pass"
+  },
+  {
+    "key": "deep-learning/s07/p09",
+    "tweetHash": "cb29efad463453b1",
+    "verdict": "pass"
+  },
+  {
+    "key": "deep-learning/s07/p10",
+    "tweetHash": "4dd5c4b73deb8216",
+    "verdict": "pass"
+  },
+  {
+    "key": "deep-learning/s08/p01",
+    "tweetHash": "e9bd482feed08e71",
+    "verdict": "pass"
+  },
+  {
+    "key": "deep-learning/s08/p02",
+    "tweetHash": "627b1d2e5fe034eb",
+    "verdict": "pass"
+  },
+  {
+    "key": "deep-learning/s08/p03",
+    "tweetHash": "7ce31b5d1709936d",
+    "verdict": "pass"
+  },
+  {
+    "key": "deep-learning/s08/p04",
+    "tweetHash": "c90ec4687cd74b21",
+    "verdict": "pass"
+  },
+  {
+    "key": "deep-learning/s08/p05",
+    "tweetHash": "5d3810b0bcd93945",
+    "verdict": "pass"
+  },
+  {
+    "key": "deep-learning/s08/p06",
+    "tweetHash": "f7f69a4443f50c95",
+    "verdict": "pass"
+  },
+  {
+    "key": "deep-learning/s08/p07",
+    "tweetHash": "b7e1046f89195246",
+    "verdict": "pass"
+  },
+  {
+    "key": "deep-learning/s08/p08",
+    "tweetHash": "f6d73e507f8a6184",
+    "verdict": "pass"
+  },
+  {
+    "key": "deep-learning/s08/p09",
+    "tweetHash": "f584e680d3258d2f",
+    "verdict": "pass"
+  },
+  {
+    "key": "deep-learning/s08/p10",
+    "tweetHash": "b17fc4d36391e646",
+    "verdict": "pass"
+  },
+  {
+    "key": "deep-learning/s09/p01",
+    "tweetHash": "d761ec2e54dc0bad",
+    "verdict": "pass"
+  },
+  {
+    "key": "deep-learning/s09/p02",
+    "tweetHash": "a4194f33352ba191",
+    "verdict": "pass"
+  },
+  {
+    "key": "deep-learning/s09/p03",
+    "tweetHash": "2b4126e9e59f6c40",
+    "verdict": "pass"
+  },
+  {
+    "key": "deep-learning/s09/p04",
+    "tweetHash": "92338f0ed31aaed7",
+    "verdict": "pass"
+  },
+  {
+    "key": "deep-learning/s09/p05",
+    "tweetHash": "38c9626686f24ae8",
+    "verdict": "pass"
+  },
+  {
+    "key": "deep-learning/s09/p06",
+    "tweetHash": "d513349260f55105",
+    "verdict": "pass"
+  },
+  {
+    "key": "deep-learning/s09/p07",
+    "tweetHash": "32839a278a0e3604",
+    "verdict": "pass"
+  },
+  {
+    "key": "deep-learning/s09/p08",
+    "tweetHash": "687eec27f9be0e0a",
+    "verdict": "pass"
+  },
+  {
+    "key": "deep-learning/s09/p09",
+    "tweetHash": "00c8284152ef28ac",
+    "verdict": "revise",
+    "reason": "Essentially the same content as s09/p03 in the same series: both say Transformers moved teams from building a model from scratch per task to adapting one strong base model (\"במקום לבנות מאפס לכל מוצר\" vs \"נאמן מסווג ספאם מאפס ... בסיס חכם אחד ולהתאים אותו\"). Differentiate p09, e.g. focus on the before/after contrast of a separate model per small task vs one base model steered by prompt, and the shift in team work culture, without repeating p03's pretrain+fine-tune / development-speed point."
+  },
+  {
+    "key": "deep-learning/s09/p10",
+    "tweetHash": "7908cd6c2a2e5822",
+    "verdict": "pass"
+  },
+  {
+    "key": "deep-learning/s10/p01",
+    "tweetHash": "7b1ebfef223e19e2",
+    "verdict": "pass"
+  },
+  {
+    "key": "deep-learning/s10/p02",
+    "tweetHash": "270eaaac2b12eacf",
+    "verdict": "pass"
+  },
+  {
+    "key": "deep-learning/s10/p03",
+    "tweetHash": "a2eda8613bfb3f6d",
+    "verdict": "pass"
+  },
+  {
+    "key": "deep-learning/s10/p04",
+    "tweetHash": "59839c42d6db4ac3",
+    "verdict": "pass"
+  },
+  {
+    "key": "deep-learning/s10/p05",
+    "tweetHash": "12ce7fb2267a5ce3",
+    "verdict": "pass"
+  },
+  {
+    "key": "deep-learning/s10/p06",
+    "tweetHash": "0a7da79e800f9afc",
+    "verdict": "pass"
+  },
+  {
+    "key": "deep-learning/s10/p07",
+    "tweetHash": "7dc13dbe97ffec8c",
+    "verdict": "pass"
+  },
+  {
+    "key": "deep-learning/s10/p08",
+    "tweetHash": "0ce2dbd134bbcfea",
+    "verdict": "pass"
+  },
+  {
+    "key": "deep-learning/s10/p09",
+    "tweetHash": "e18ced0724edac99",
+    "verdict": "pass"
+  },
+  {
+    "key": "deep-learning/s10/p10",
+    "tweetHash": "9a0ac489174c61f4",
+    "verdict": "pass"
+  }
+]

@@ -1,0 +1,502 @@
+[
+  {
+    "key": "how-models-learn/s01/p01",
+    "tweetHash": "0482309b2bab0d49",
+    "verdict": "pass"
+  },
+  {
+    "key": "how-models-learn/s01/p02",
+    "tweetHash": "5efc41b31fc65821",
+    "verdict": "pass"
+  },
+  {
+    "key": "how-models-learn/s01/p03",
+    "tweetHash": "49a07c042b8db50f",
+    "verdict": "pass"
+  },
+  {
+    "key": "how-models-learn/s01/p04",
+    "tweetHash": "608666f227bff6ac",
+    "verdict": "pass"
+  },
+  {
+    "key": "how-models-learn/s01/p05",
+    "tweetHash": "afbad4a500fc46e4",
+    "verdict": "pass"
+  },
+  {
+    "key": "how-models-learn/s01/p06",
+    "tweetHash": "f28d2ffa840111fe",
+    "verdict": "pass"
+  },
+  {
+    "key": "how-models-learn/s01/p07",
+    "tweetHash": "e87b345ddd1b5015",
+    "verdict": "pass"
+  },
+  {
+    "key": "how-models-learn/s01/p08",
+    "tweetHash": "ca9d6514a4e81822",
+    "verdict": "pass"
+  },
+  {
+    "key": "how-models-learn/s01/p09",
+    "tweetHash": "cea9bbbde473ecf8",
+    "verdict": "pass"
+  },
+  {
+    "key": "how-models-learn/s01/p10",
+    "tweetHash": "92e7727b4fb40f2b",
+    "verdict": "pass"
+  },
+  {
+    "key": "how-models-learn/s02/p01",
+    "tweetHash": "76bb8a4860beb5db",
+    "verdict": "pass"
+  },
+  {
+    "key": "how-models-learn/s02/p02",
+    "tweetHash": "6c14943905bb89ec",
+    "verdict": "pass"
+  },
+  {
+    "key": "how-models-learn/s02/p03",
+    "tweetHash": "9140b90b48fcd526",
+    "verdict": "pass"
+  },
+  {
+    "key": "how-models-learn/s02/p04",
+    "tweetHash": "dafc50101d7b1486",
+    "verdict": "pass"
+  },
+  {
+    "key": "how-models-learn/s02/p05",
+    "tweetHash": "2f5a4966a6d0fd6c",
+    "verdict": "pass"
+  },
+  {
+    "key": "how-models-learn/s02/p06",
+    "tweetHash": "ba6f6decbb4be0ab",
+    "verdict": "pass"
+  },
+  {
+    "key": "how-models-learn/s02/p07",
+    "tweetHash": "9db486d97018eab5",
+    "verdict": "pass"
+  },
+  {
+    "key": "how-models-learn/s02/p08",
+    "tweetHash": "6bf006896e7b773d",
+    "verdict": "pass"
+  },
+  {
+    "key": "how-models-learn/s02/p09",
+    "tweetHash": "4948ca6a5e30a55a",
+    "verdict": "pass"
+  },
+  {
+    "key": "how-models-learn/s02/p10",
+    "tweetHash": "ec4713c74a060360",
+    "verdict": "pass"
+  },
+  {
+    "key": "how-models-learn/s03/p01",
+    "tweetHash": "97a880b1bf300667",
+    "verdict": "pass"
+  },
+  {
+    "key": "how-models-learn/s03/p02",
+    "tweetHash": "febba0f2902fdae1",
+    "verdict": "pass"
+  },
+  {
+    "key": "how-models-learn/s03/p03",
+    "tweetHash": "a7a452c2bcb4f12d",
+    "verdict": "pass"
+  },
+  {
+    "key": "how-models-learn/s03/p04",
+    "tweetHash": "3321c35493bf8188",
+    "verdict": "pass"
+  },
+  {
+    "key": "how-models-learn/s03/p05",
+    "tweetHash": "49d77123ce252bb5",
+    "verdict": "pass"
+  },
+  {
+    "key": "how-models-learn/s03/p06",
+    "tweetHash": "c0dd8a89645cd615",
+    "verdict": "pass"
+  },
+  {
+    "key": "how-models-learn/s03/p07",
+    "tweetHash": "aa35d0cb34445168",
+    "verdict": "pass"
+  },
+  {
+    "key": "how-models-learn/s03/p08",
+    "tweetHash": "40a8a3b1216a02b7",
+    "verdict": "pass"
+  },
+  {
+    "key": "how-models-learn/s03/p09",
+    "tweetHash": "c352f74ad50a3f27",
+    "verdict": "pass"
+  },
+  {
+    "key": "how-models-learn/s03/p10",
+    "tweetHash": "c6982eeca02c66dc",
+    "verdict": "pass"
+  },
+  {
+    "key": "how-models-learn/s04/p01",
+    "tweetHash": "7e8a08cc62becf94",
+    "verdict": "pass"
+  },
+  {
+    "key": "how-models-learn/s04/p02",
+    "tweetHash": "3949b67a1b99238f",
+    "verdict": "pass"
+  },
+  {
+    "key": "how-models-learn/s04/p03",
+    "tweetHash": "80c19fc29e67f2a4",
+    "verdict": "pass"
+  },
+  {
+    "key": "how-models-learn/s04/p04",
+    "tweetHash": "5b5d8fa67400bb92",
+    "verdict": "pass"
+  },
+  {
+    "key": "how-models-learn/s04/p05",
+    "tweetHash": "c0fa01479c2bcecf",
+    "verdict": "pass"
+  },
+  {
+    "key": "how-models-learn/s04/p06",
+    "tweetHash": "bad1f5bf34494f98",
+    "verdict": "pass"
+  },
+  {
+    "key": "how-models-learn/s04/p07",
+    "tweetHash": "78fd4080c4e3141d",
+    "verdict": "pass"
+  },
+  {
+    "key": "how-models-learn/s04/p08",
+    "tweetHash": "6520c62a542b70a0",
+    "verdict": "pass"
+  },
+  {
+    "key": "how-models-learn/s04/p09",
+    "tweetHash": "1089144fdd1117d9",
+    "verdict": "pass"
+  },
+  {
+    "key": "how-models-learn/s04/p10",
+    "tweetHash": "5882999810c7ac9b",
+    "verdict": "pass"
+  },
+  {
+    "key": "how-models-learn/s05/p01",
+    "tweetHash": "bc3180b1f95b741e",
+    "verdict": "pass"
+  },
+  {
+    "key": "how-models-learn/s05/p02",
+    "tweetHash": "5ac725f88590395d",
+    "verdict": "pass"
+  },
+  {
+    "key": "how-models-learn/s05/p03",
+    "tweetHash": "f70eae0cf1603cc7",
+    "verdict": "pass"
+  },
+  {
+    "key": "how-models-learn/s05/p04",
+    "tweetHash": "91b02d62c7ace1c3",
+    "verdict": "pass"
+  },
+  {
+    "key": "how-models-learn/s05/p05",
+    "tweetHash": "f8622d93e9ce1892",
+    "verdict": "pass"
+  },
+  {
+    "key": "how-models-learn/s05/p06",
+    "tweetHash": "6bbde2f4bdee401c",
+    "verdict": "pass"
+  },
+  {
+    "key": "how-models-learn/s05/p07",
+    "tweetHash": "e13504465a1a574c",
+    "verdict": "pass"
+  },
+  {
+    "key": "how-models-learn/s05/p08",
+    "tweetHash": "3e06d110b2a00efc",
+    "verdict": "pass"
+  },
+  {
+    "key": "how-models-learn/s05/p09",
+    "tweetHash": "403e2ab118f8b196",
+    "verdict": "pass"
+  },
+  {
+    "key": "how-models-learn/s05/p10",
+    "tweetHash": "9ba3d590936445b9",
+    "verdict": "pass"
+  },
+  {
+    "key": "how-models-learn/s06/p01",
+    "tweetHash": "9c2f10d666d96b16",
+    "verdict": "pass"
+  },
+  {
+    "key": "how-models-learn/s06/p02",
+    "tweetHash": "49aeb68100407240",
+    "verdict": "pass"
+  },
+  {
+    "key": "how-models-learn/s06/p03",
+    "tweetHash": "585f666a3387849b",
+    "verdict": "pass"
+  },
+  {
+    "key": "how-models-learn/s06/p04",
+    "tweetHash": "0cdb8db752caad02",
+    "verdict": "pass"
+  },
+  {
+    "key": "how-models-learn/s06/p05",
+    "tweetHash": "c2c21500f003d67e",
+    "verdict": "pass"
+  },
+  {
+    "key": "how-models-learn/s06/p06",
+    "tweetHash": "62eb69d0885c52f2",
+    "verdict": "pass"
+  },
+  {
+    "key": "how-models-learn/s06/p07",
+    "tweetHash": "0fd9df24c2d3d3ed",
+    "verdict": "pass"
+  },
+  {
+    "key": "how-models-learn/s06/p08",
+    "tweetHash": "2907c62ccd0af56d",
+    "verdict": "pass"
+  },
+  {
+    "key": "how-models-learn/s06/p09",
+    "tweetHash": "78a9485ecf2ef7ff",
+    "verdict": "pass"
+  },
+  {
+    "key": "how-models-learn/s06/p10",
+    "tweetHash": "eb2922d00132f371",
+    "verdict": "pass"
+  },
+  {
+    "key": "how-models-learn/s07/p01",
+    "tweetHash": "e85f267abe078b84",
+    "verdict": "pass"
+  },
+  {
+    "key": "how-models-learn/s07/p02",
+    "tweetHash": "9be3867fc7e993b6",
+    "verdict": "pass"
+  },
+  {
+    "key": "how-models-learn/s07/p03",
+    "tweetHash": "210ec780ce3a79c9",
+    "verdict": "pass"
+  },
+  {
+    "key": "how-models-learn/s07/p04",
+    "tweetHash": "ebc7a8407ca37cc5",
+    "verdict": "pass"
+  },
+  {
+    "key": "how-models-learn/s07/p05",
+    "tweetHash": "4e6c9b5ae47649bd",
+    "verdict": "pass"
+  },
+  {
+    "key": "how-models-learn/s07/p06",
+    "tweetHash": "922d1d2ec109d1fe",
+    "verdict": "pass"
+  },
+  {
+    "key": "how-models-learn/s07/p07",
+    "tweetHash": "01cb34312ee91291",
+    "verdict": "pass"
+  },
+  {
+    "key": "how-models-learn/s07/p08",
+    "tweetHash": "b9b62408974e7250",
+    "verdict": "pass"
+  },
+  {
+    "key": "how-models-learn/s07/p09",
+    "tweetHash": "aabff28f9d115003",
+    "verdict": "pass"
+  },
+  {
+    "key": "how-models-learn/s07/p10",
+    "tweetHash": "0730387c69fc342d",
+    "verdict": "pass"
+  },
+  {
+    "key": "how-models-learn/s08/p01",
+    "tweetHash": "80ee399a32d8a993",
+    "verdict": "pass"
+  },
+  {
+    "key": "how-models-learn/s08/p02",
+    "tweetHash": "82872714451142bf",
+    "verdict": "pass"
+  },
+  {
+    "key": "how-models-learn/s08/p03",
+    "tweetHash": "7fe98557cc497076",
+    "verdict": "pass"
+  },
+  {
+    "key": "how-models-learn/s08/p04",
+    "tweetHash": "a9e2727f2bb4c0d9",
+    "verdict": "pass"
+  },
+  {
+    "key": "how-models-learn/s08/p05",
+    "tweetHash": "5ae3164d8c261df8",
+    "verdict": "pass"
+  },
+  {
+    "key": "how-models-learn/s08/p06",
+    "tweetHash": "2d180ff3fac34cee",
+    "verdict": "pass"
+  },
+  {
+    "key": "how-models-learn/s08/p07",
+    "tweetHash": "0fadb8d0d8ceff86",
+    "verdict": "pass"
+  },
+  {
+    "key": "how-models-learn/s08/p08",
+    "tweetHash": "cd9ebc9225d86a0c",
+    "verdict": "pass"
+  },
+  {
+    "key": "how-models-learn/s08/p09",
+    "tweetHash": "98c7d8465d5af566",
+    "verdict": "pass"
+  },
+  {
+    "key": "how-models-learn/s08/p10",
+    "tweetHash": "b65c7f2917fa1025",
+    "verdict": "pass"
+  },
+  {
+    "key": "how-models-learn/s09/p01",
+    "tweetHash": "8d74181c62681d7d",
+    "verdict": "pass"
+  },
+  {
+    "key": "how-models-learn/s09/p02",
+    "tweetHash": "5db671a0ba569f62",
+    "verdict": "pass"
+  },
+  {
+    "key": "how-models-learn/s09/p03",
+    "tweetHash": "009983c8fa4f6141",
+    "verdict": "pass"
+  },
+  {
+    "key": "how-models-learn/s09/p04",
+    "tweetHash": "28ea62c33849c1b9",
+    "verdict": "pass"
+  },
+  {
+    "key": "how-models-learn/s09/p05",
+    "tweetHash": "e250bcfa91548a20",
+    "verdict": "pass"
+  },
+  {
+    "key": "how-models-learn/s09/p06",
+    "tweetHash": "096ce67ff55a0ce6",
+    "verdict": "pass"
+  },
+  {
+    "key": "how-models-learn/s09/p07",
+    "tweetHash": "d6047e41d46d509e",
+    "verdict": "pass"
+  },
+  {
+    "key": "how-models-learn/s09/p08",
+    "tweetHash": "cec5bde36297957f",
+    "verdict": "pass"
+  },
+  {
+    "key": "how-models-learn/s09/p09",
+    "tweetHash": "90d74f8f330ec3fd",
+    "verdict": "pass"
+  },
+  {
+    "key": "how-models-learn/s09/p10",
+    "tweetHash": "86ea90d3504c790f",
+    "verdict": "pass"
+  },
+  {
+    "key": "how-models-learn/s10/p01",
+    "tweetHash": "74f8c1e07f3db6f7",
+    "verdict": "pass"
+  },
+  {
+    "key": "how-models-learn/s10/p02",
+    "tweetHash": "b40d182b5c5511bb",
+    "verdict": "pass"
+  },
+  {
+    "key": "how-models-learn/s10/p03",
+    "tweetHash": "77f9b55aa0877799",
+    "verdict": "pass"
+  },
+  {
+    "key": "how-models-learn/s10/p04",
+    "tweetHash": "4e2e8ecdc445e1e7",
+    "verdict": "pass"
+  },
+  {
+    "key": "how-models-learn/s10/p05",
+    "tweetHash": "509444bded0a68c2",
+    "verdict": "pass"
+  },
+  {
+    "key": "how-models-learn/s10/p06",
+    "tweetHash": "4572e969527aa944",
+    "verdict": "pass"
+  },
+  {
+    "key": "how-models-learn/s10/p07",
+    "tweetHash": "b1b500b832cf3812",
+    "verdict": "pass"
+  },
+  {
+    "key": "how-models-learn/s10/p08",
+    "tweetHash": "5c68eb3df92ff70f",
+    "verdict": "pass"
+  },
+  {
+    "key": "how-models-learn/s10/p09",
+    "tweetHash": "c506ca57868367ac",
+    "verdict": "pass"
+  },
+  {
+    "key": "how-models-learn/s10/p10",
+    "tweetHash": "86e23b3eaf19293b",
+    "verdict": "pass"
+  }
+]

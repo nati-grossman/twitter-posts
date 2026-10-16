@@ -1,0 +1,502 @@
+[
+    {
+        "key":  "tech-foundations/s01/p01",
+        "tweetHash":  "915638c2b6950ad8",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "tech-foundations/s01/p02",
+        "tweetHash":  "8f889957adb56be6",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "tech-foundations/s01/p03",
+        "tweetHash":  "b6e17511e3b65688",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "tech-foundations/s01/p04",
+        "tweetHash":  "f908334cc78d2203",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "tech-foundations/s01/p05",
+        "tweetHash":  "ca11a64c9d638cef",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "tech-foundations/s01/p06",
+        "tweetHash":  "cba0f225b6eea26f",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "tech-foundations/s01/p07",
+        "tweetHash":  "de07f92c2f64574c",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "tech-foundations/s01/p08",
+        "tweetHash":  "02e7bb17f586a29d",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "tech-foundations/s01/p09",
+        "tweetHash":  "6f8c40b0433ce138",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "tech-foundations/s01/p10",
+        "tweetHash":  "d64e93d423ead4d6",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "tech-foundations/s02/p01",
+        "tweetHash":  "846b04ec81703dbe",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "tech-foundations/s02/p02",
+        "tweetHash":  "36116891d6cef848",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "tech-foundations/s02/p03",
+        "tweetHash":  "03099a7fe8887709",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "tech-foundations/s02/p04",
+        "tweetHash":  "0141ef149aa271c8",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "tech-foundations/s02/p05",
+        "tweetHash":  "dba1f9b79cf1fbe3",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "tech-foundations/s02/p06",
+        "tweetHash":  "c2f97a254dbcc2b0",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "tech-foundations/s02/p07",
+        "tweetHash":  "938416707854b309",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "tech-foundations/s02/p08",
+        "tweetHash":  "b1a3963cd11ff7f6",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "tech-foundations/s02/p09",
+        "tweetHash":  "b7777301d577c1f0",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "tech-foundations/s02/p10",
+        "tweetHash":  "bbc142cae65e0299",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "tech-foundations/s03/p01",
+        "tweetHash":  "591629ebb03b9f40",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "tech-foundations/s03/p02",
+        "tweetHash":  "5250b27a40d1dd18",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "tech-foundations/s03/p03",
+        "tweetHash":  "1f63cd8a93880222",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "tech-foundations/s03/p04",
+        "tweetHash":  "9496c279deb3197d",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "tech-foundations/s03/p05",
+        "tweetHash":  "f955bcb158d6803b",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "tech-foundations/s03/p06",
+        "tweetHash":  "3c15e7bbb2cf2fc6",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "tech-foundations/s03/p07",
+        "tweetHash":  "a05411614f71b59d",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "tech-foundations/s03/p08",
+        "tweetHash":  "4985c0cc57885821",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "tech-foundations/s03/p09",
+        "tweetHash":  "929e17177337f757",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "tech-foundations/s03/p10",
+        "tweetHash":  "e2babdc4af80b501",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "tech-foundations/s04/p01",
+        "tweetHash":  "7b93a201e30f5a2a",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "tech-foundations/s04/p02",
+        "tweetHash":  "7c0a79afdd13111d",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "tech-foundations/s04/p03",
+        "tweetHash":  "75eda0d2c9e77396",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "tech-foundations/s04/p04",
+        "tweetHash":  "6f2848eefd47cbd0",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "tech-foundations/s04/p05",
+        "tweetHash":  "634cee5201c27932",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "tech-foundations/s04/p06",
+        "tweetHash":  "d99b551b657bfeaa",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "tech-foundations/s04/p07",
+        "tweetHash":  "caf6ddf507e7612b",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "tech-foundations/s04/p08",
+        "tweetHash":  "1874e58cd543e2a6",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "tech-foundations/s04/p09",
+        "tweetHash":  "5d317e309359fbf4",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "tech-foundations/s04/p10",
+        "tweetHash":  "7a00f401cc4ab563",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "tech-foundations/s05/p01",
+        "tweetHash":  "7858d6ddab29d78d",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "tech-foundations/s05/p02",
+        "tweetHash":  "f5478eb960ceafbd",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "tech-foundations/s05/p03",
+        "tweetHash":  "2b2efbae1f6cc22f",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "tech-foundations/s05/p04",
+        "tweetHash":  "888fd6c4580453b8",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "tech-foundations/s05/p05",
+        "tweetHash":  "3c9b3b17540bcc2f",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "tech-foundations/s05/p06",
+        "tweetHash":  "af97c17b3e33b2bf",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "tech-foundations/s05/p07",
+        "tweetHash":  "5377344d641263f9",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "tech-foundations/s05/p08",
+        "tweetHash":  "cb02ef0dcae0913b",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "tech-foundations/s05/p09",
+        "tweetHash":  "220860fd4dad83de",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "tech-foundations/s05/p10",
+        "tweetHash":  "69f64693d22cfe3f",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "tech-foundations/s06/p01",
+        "tweetHash":  "9409a51238e55c3e",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "tech-foundations/s06/p02",
+        "tweetHash":  "f843ff576dc5f21e",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "tech-foundations/s06/p03",
+        "tweetHash":  "8a079ab150c04df7",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "tech-foundations/s06/p04",
+        "tweetHash":  "20c92fe8b692aa00",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "tech-foundations/s06/p05",
+        "tweetHash":  "e4fba1ade96e723e",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "tech-foundations/s06/p06",
+        "tweetHash":  "11ec2ba2cc6ffc4b",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "tech-foundations/s06/p07",
+        "tweetHash":  "0f46ff5d1241205b",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "tech-foundations/s06/p08",
+        "tweetHash":  "0ae510a790c8d972",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "tech-foundations/s06/p09",
+        "tweetHash":  "1bce2ef245b03240",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "tech-foundations/s06/p10",
+        "tweetHash":  "e1c54b266d913144",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "tech-foundations/s07/p01",
+        "tweetHash":  "e2280e85e6cd1616",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "tech-foundations/s07/p02",
+        "tweetHash":  "1aa26cdfd98665dc",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "tech-foundations/s07/p03",
+        "tweetHash":  "65769c66551006c1",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "tech-foundations/s07/p04",
+        "tweetHash":  "f2d0d3fed50c7cb9",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "tech-foundations/s07/p05",
+        "tweetHash":  "6953e385e7a2ff2c",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "tech-foundations/s07/p06",
+        "tweetHash":  "b6ee32cb6e6575d7",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "tech-foundations/s07/p07",
+        "tweetHash":  "2f0c3f56c3879623",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "tech-foundations/s07/p08",
+        "tweetHash":  "cbd7d75f3fbe3023",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "tech-foundations/s07/p09",
+        "tweetHash":  "757397269a8a230b",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "tech-foundations/s07/p10",
+        "tweetHash":  "012a2724c6d4c26e",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "tech-foundations/s08/p01",
+        "tweetHash":  "52e2822f2ba9fa37",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "tech-foundations/s08/p02",
+        "tweetHash":  "a1169b27c552131c",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "tech-foundations/s08/p03",
+        "tweetHash":  "707550d147a62486",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "tech-foundations/s08/p04",
+        "tweetHash":  "af89dabf6fc2c586",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "tech-foundations/s08/p05",
+        "tweetHash":  "21d4cf3a4a8a7c04",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "tech-foundations/s08/p06",
+        "tweetHash":  "c5ff6d60d4d2094e",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "tech-foundations/s08/p07",
+        "tweetHash":  "b87044af6bd92089",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "tech-foundations/s08/p08",
+        "tweetHash":  "0557d1ac95ff7d6a",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "tech-foundations/s08/p09",
+        "tweetHash":  "0918a12aafd3cd68",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "tech-foundations/s08/p10",
+        "tweetHash":  "ec1edcc9f27f20df",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "tech-foundations/s09/p01",
+        "tweetHash":  "60c3a6b8acd2d23f",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "tech-foundations/s09/p02",
+        "tweetHash":  "89b36de4735942e3",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "tech-foundations/s09/p03",
+        "tweetHash":  "a3378ebdbaaf8f09",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "tech-foundations/s09/p04",
+        "tweetHash":  "7b05965257f2cd08",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "tech-foundations/s09/p05",
+        "tweetHash":  "1c9979dc8361269c",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "tech-foundations/s09/p06",
+        "tweetHash":  "33e406320ffaf3bd",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "tech-foundations/s09/p07",
+        "tweetHash":  "f5fae11cfc35ad74",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "tech-foundations/s09/p08",
+        "tweetHash":  "b0611f35fe4dae8d",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "tech-foundations/s09/p09",
+        "tweetHash":  "f8374f8dc5de2aa2",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "tech-foundations/s09/p10",
+        "tweetHash":  "97c74544e4bac433",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "tech-foundations/s10/p01",
+        "tweetHash":  "7adf61e95031693e",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "tech-foundations/s10/p02",
+        "tweetHash":  "b8379a0c20875fef",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "tech-foundations/s10/p03",
+        "tweetHash":  "8130aa45255192bd",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "tech-foundations/s10/p04",
+        "tweetHash":  "89cf27a4d04290af",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "tech-foundations/s10/p05",
+        "tweetHash":  "633f1577c1b4521b",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "tech-foundations/s10/p06",
+        "tweetHash":  "a3a724ebe455701d",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "tech-foundations/s10/p07",
+        "tweetHash":  "68f40eafde5c3c03",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "tech-foundations/s10/p08",
+        "tweetHash":  "07a438e431c4c34f",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "tech-foundations/s10/p09",
+        "tweetHash":  "3e05856843c4675f",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "tech-foundations/s10/p10",
+        "tweetHash":  "9c90d2a3a041631c",
+        "verdict":  "pass"
+    }
+]

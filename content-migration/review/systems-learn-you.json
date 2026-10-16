@@ -1,0 +1,504 @@
+[
+  {
+    "key": "systems-learn-you/s01/p01",
+    "tweetHash": "70278beb0a7535e9",
+    "verdict": "pass"
+  },
+  {
+    "key": "systems-learn-you/s01/p02",
+    "tweetHash": "045086599302ced0",
+    "verdict": "pass"
+  },
+  {
+    "key": "systems-learn-you/s01/p03",
+    "tweetHash": "8ee55736e423b60c",
+    "verdict": "pass"
+  },
+  {
+    "key": "systems-learn-you/s01/p04",
+    "tweetHash": "2f3c371828ba6b71",
+    "verdict": "pass"
+  },
+  {
+    "key": "systems-learn-you/s01/p05",
+    "tweetHash": "d4311433bd35a0dd",
+    "verdict": "pass"
+  },
+  {
+    "key": "systems-learn-you/s01/p06",
+    "tweetHash": "788b5cd36648213a",
+    "verdict": "pass"
+  },
+  {
+    "key": "systems-learn-you/s01/p07",
+    "tweetHash": "e242863eb90387df",
+    "verdict": "pass"
+  },
+  {
+    "key": "systems-learn-you/s01/p08",
+    "tweetHash": "375a81a075a251a4",
+    "verdict": "pass"
+  },
+  {
+    "key": "systems-learn-you/s01/p09",
+    "tweetHash": "90bfc51bda065d54",
+    "verdict": "pass"
+  },
+  {
+    "key": "systems-learn-you/s01/p10",
+    "tweetHash": "cba375e25b617b8c",
+    "verdict": "revise",
+    "reason": "Near-duplicate of s01/p01: both tweets say sites don't read minds, they collect clicks/watch time and build a statistically updated profile ('זו לא קריאת מחשבות' / 'אתרים לא קוראים מחשבות'). The summary should add the series' synthesis (patterns, context, device, collaborative signals, decay) rather than repeat the opener's thesis."
+  },
+  {
+    "key": "systems-learn-you/s02/p01",
+    "tweetHash": "fe03ead2d84d7471",
+    "verdict": "pass"
+  },
+  {
+    "key": "systems-learn-you/s02/p02",
+    "tweetHash": "0aaeaa1f92c72563",
+    "verdict": "pass"
+  },
+  {
+    "key": "systems-learn-you/s02/p03",
+    "tweetHash": "3b5e98277fc67faa",
+    "verdict": "pass"
+  },
+  {
+    "key": "systems-learn-you/s02/p04",
+    "tweetHash": "efedce5492414694",
+    "verdict": "pass"
+  },
+  {
+    "key": "systems-learn-you/s02/p05",
+    "tweetHash": "a365d21843cb2ea1",
+    "verdict": "pass"
+  },
+  {
+    "key": "systems-learn-you/s02/p06",
+    "tweetHash": "cff128fc0576dc63",
+    "verdict": "pass"
+  },
+  {
+    "key": "systems-learn-you/s02/p07",
+    "tweetHash": "92b975fd3fa8c5a9",
+    "verdict": "pass"
+  },
+  {
+    "key": "systems-learn-you/s02/p08",
+    "tweetHash": "5c8b75ba0605905d",
+    "verdict": "pass"
+  },
+  {
+    "key": "systems-learn-you/s02/p09",
+    "tweetHash": "b1f998bd879ad05d",
+    "verdict": "pass"
+  },
+  {
+    "key": "systems-learn-you/s02/p10",
+    "tweetHash": "ea6620c8ae3b8fca",
+    "verdict": "pass"
+  },
+  {
+    "key": "systems-learn-you/s03/p01",
+    "tweetHash": "43cc4c0947e5d74d",
+    "verdict": "pass"
+  },
+  {
+    "key": "systems-learn-you/s03/p02",
+    "tweetHash": "efdbaceef5c8f029",
+    "verdict": "pass"
+  },
+  {
+    "key": "systems-learn-you/s03/p03",
+    "tweetHash": "a444875e6d4795d0",
+    "verdict": "pass"
+  },
+  {
+    "key": "systems-learn-you/s03/p04",
+    "tweetHash": "8a2ad4636aa4bfc3",
+    "verdict": "pass"
+  },
+  {
+    "key": "systems-learn-you/s03/p05",
+    "tweetHash": "95dad17dca23602b",
+    "verdict": "pass"
+  },
+  {
+    "key": "systems-learn-you/s03/p06",
+    "tweetHash": "44559befe05b8e93",
+    "verdict": "pass"
+  },
+  {
+    "key": "systems-learn-you/s03/p07",
+    "tweetHash": "7f68de032eaf847a",
+    "verdict": "pass"
+  },
+  {
+    "key": "systems-learn-you/s03/p08",
+    "tweetHash": "c090c2fa61b06504",
+    "verdict": "pass"
+  },
+  {
+    "key": "systems-learn-you/s03/p09",
+    "tweetHash": "59b701fd1712060e",
+    "verdict": "pass"
+  },
+  {
+    "key": "systems-learn-you/s03/p10",
+    "tweetHash": "e69755388f1d5b00",
+    "verdict": "pass"
+  },
+  {
+    "key": "systems-learn-you/s04/p01",
+    "tweetHash": "88c63cdda7fdfa4b",
+    "verdict": "pass"
+  },
+  {
+    "key": "systems-learn-you/s04/p02",
+    "tweetHash": "400754eca22818c0",
+    "verdict": "pass"
+  },
+  {
+    "key": "systems-learn-you/s04/p03",
+    "tweetHash": "fd08d31626e44e8a",
+    "verdict": "pass"
+  },
+  {
+    "key": "systems-learn-you/s04/p04",
+    "tweetHash": "cc31d7184cb32692",
+    "verdict": "pass"
+  },
+  {
+    "key": "systems-learn-you/s04/p05",
+    "tweetHash": "60ee8bca1c336874",
+    "verdict": "pass"
+  },
+  {
+    "key": "systems-learn-you/s04/p06",
+    "tweetHash": "fd6f5f35943a2ee6",
+    "verdict": "pass"
+  },
+  {
+    "key": "systems-learn-you/s04/p07",
+    "tweetHash": "4be6175f86467425",
+    "verdict": "pass"
+  },
+  {
+    "key": "systems-learn-you/s04/p08",
+    "tweetHash": "16951a8912a40910",
+    "verdict": "pass"
+  },
+  {
+    "key": "systems-learn-you/s04/p09",
+    "tweetHash": "a66b57b87731de73",
+    "verdict": "pass"
+  },
+  {
+    "key": "systems-learn-you/s04/p10",
+    "tweetHash": "762188e9738b25aa",
+    "verdict": "pass"
+  },
+  {
+    "key": "systems-learn-you/s05/p01",
+    "tweetHash": "2ac226f1bed39e71",
+    "verdict": "pass"
+  },
+  {
+    "key": "systems-learn-you/s05/p02",
+    "tweetHash": "0a394a7684858a9b",
+    "verdict": "pass"
+  },
+  {
+    "key": "systems-learn-you/s05/p03",
+    "tweetHash": "505c91f940a3342d",
+    "verdict": "pass"
+  },
+  {
+    "key": "systems-learn-you/s05/p04",
+    "tweetHash": "f68a8651d4c86c10",
+    "verdict": "pass"
+  },
+  {
+    "key": "systems-learn-you/s05/p05",
+    "tweetHash": "4f7551044dc970c4",
+    "verdict": "pass"
+  },
+  {
+    "key": "systems-learn-you/s05/p06",
+    "tweetHash": "df49e10901fed635",
+    "verdict": "pass"
+  },
+  {
+    "key": "systems-learn-you/s05/p07",
+    "tweetHash": "ac40c80fb72a7b1a",
+    "verdict": "pass"
+  },
+  {
+    "key": "systems-learn-you/s05/p08",
+    "tweetHash": "2d4ad65eb70f4657",
+    "verdict": "pass"
+  },
+  {
+    "key": "systems-learn-you/s05/p09",
+    "tweetHash": "9fedb9a563a9b529",
+    "verdict": "pass"
+  },
+  {
+    "key": "systems-learn-you/s05/p10",
+    "tweetHash": "4e91f71752080541",
+    "verdict": "revise",
+    "reason": "Near-duplicate of s05/p01: both define behavioral data as the actions you take on screen turned into events that feed recommendations, analytics and product improvement 'without a form / without writing a word'. Make the summary distinct, e.g. draw on event streams, features, sessions/funnels, anonymity of cookie IDs, retention."
+  },
+  {
+    "key": "systems-learn-you/s06/p01",
+    "tweetHash": "2300426c7c836e8c",
+    "verdict": "pass"
+  },
+  {
+    "key": "systems-learn-you/s06/p02",
+    "tweetHash": "9694f4120dfc1e95",
+    "verdict": "pass"
+  },
+  {
+    "key": "systems-learn-you/s06/p03",
+    "tweetHash": "20d97e8010a055d2",
+    "verdict": "pass"
+  },
+  {
+    "key": "systems-learn-you/s06/p04",
+    "tweetHash": "9ebe9781a562d643",
+    "verdict": "pass"
+  },
+  {
+    "key": "systems-learn-you/s06/p05",
+    "tweetHash": "965ab772905dd097",
+    "verdict": "pass"
+  },
+  {
+    "key": "systems-learn-you/s06/p06",
+    "tweetHash": "a22cee052be750bc",
+    "verdict": "pass"
+  },
+  {
+    "key": "systems-learn-you/s06/p07",
+    "tweetHash": "d890463caa4068e9",
+    "verdict": "pass"
+  },
+  {
+    "key": "systems-learn-you/s06/p08",
+    "tweetHash": "3e383f567e8b4676",
+    "verdict": "pass"
+  },
+  {
+    "key": "systems-learn-you/s06/p09",
+    "tweetHash": "b974d0918faba548",
+    "verdict": "pass"
+  },
+  {
+    "key": "systems-learn-you/s06/p10",
+    "tweetHash": "c147f014f1278118",
+    "verdict": "pass"
+  },
+  {
+    "key": "systems-learn-you/s07/p01",
+    "tweetHash": "6f75ed58833d6dae",
+    "verdict": "pass"
+  },
+  {
+    "key": "systems-learn-you/s07/p02",
+    "tweetHash": "fd5f026ec8945fa7",
+    "verdict": "pass"
+  },
+  {
+    "key": "systems-learn-you/s07/p03",
+    "tweetHash": "33cf481438d3d756",
+    "verdict": "pass"
+  },
+  {
+    "key": "systems-learn-you/s07/p04",
+    "tweetHash": "e35cc69b3e61e8e0",
+    "verdict": "pass"
+  },
+  {
+    "key": "systems-learn-you/s07/p05",
+    "tweetHash": "68df2f1a524614b3",
+    "verdict": "pass"
+  },
+  {
+    "key": "systems-learn-you/s07/p06",
+    "tweetHash": "11d9e81ae6800391",
+    "verdict": "pass"
+  },
+  {
+    "key": "systems-learn-you/s07/p07",
+    "tweetHash": "ca7302b18432d459",
+    "verdict": "pass"
+  },
+  {
+    "key": "systems-learn-you/s07/p08",
+    "tweetHash": "ba390ee2e0672ad6",
+    "verdict": "pass"
+  },
+  {
+    "key": "systems-learn-you/s07/p09",
+    "tweetHash": "eaf06021c148d968",
+    "verdict": "pass"
+  },
+  {
+    "key": "systems-learn-you/s07/p10",
+    "tweetHash": "4a1d379cb85252ef",
+    "verdict": "pass"
+  },
+  {
+    "key": "systems-learn-you/s08/p01",
+    "tweetHash": "0d9cdb29dd137404",
+    "verdict": "pass"
+  },
+  {
+    "key": "systems-learn-you/s08/p02",
+    "tweetHash": "a3cc086d542f0063",
+    "verdict": "pass"
+  },
+  {
+    "key": "systems-learn-you/s08/p03",
+    "tweetHash": "aaf7886b9c3d0795",
+    "verdict": "pass"
+  },
+  {
+    "key": "systems-learn-you/s08/p04",
+    "tweetHash": "d324300f50e16d13",
+    "verdict": "pass"
+  },
+  {
+    "key": "systems-learn-you/s08/p05",
+    "tweetHash": "5cd19b29452a4fef",
+    "verdict": "pass"
+  },
+  {
+    "key": "systems-learn-you/s08/p06",
+    "tweetHash": "96a26769b57eecc6",
+    "verdict": "pass"
+  },
+  {
+    "key": "systems-learn-you/s08/p07",
+    "tweetHash": "4067a760b8b84cb1",
+    "verdict": "pass"
+  },
+  {
+    "key": "systems-learn-you/s08/p08",
+    "tweetHash": "87aa61b6ebd679af",
+    "verdict": "pass"
+  },
+  {
+    "key": "systems-learn-you/s08/p09",
+    "tweetHash": "b1e0ba685f155047",
+    "verdict": "pass"
+  },
+  {
+    "key": "systems-learn-you/s08/p10",
+    "tweetHash": "bed33ee009454089",
+    "verdict": "pass"
+  },
+  {
+    "key": "systems-learn-you/s09/p01",
+    "tweetHash": "d43ee6c82107a87d",
+    "verdict": "pass"
+  },
+  {
+    "key": "systems-learn-you/s09/p02",
+    "tweetHash": "5a81357083d88987",
+    "verdict": "pass"
+  },
+  {
+    "key": "systems-learn-you/s09/p03",
+    "tweetHash": "5e8f671daf317097",
+    "verdict": "pass"
+  },
+  {
+    "key": "systems-learn-you/s09/p04",
+    "tweetHash": "3ac260b9b24e0a0a",
+    "verdict": "pass"
+  },
+  {
+    "key": "systems-learn-you/s09/p05",
+    "tweetHash": "5df2d7005e5a7e06",
+    "verdict": "pass"
+  },
+  {
+    "key": "systems-learn-you/s09/p06",
+    "tweetHash": "f512b1ef854d02ea",
+    "verdict": "pass"
+  },
+  {
+    "key": "systems-learn-you/s09/p07",
+    "tweetHash": "bd326eddf65a3e93",
+    "verdict": "pass"
+  },
+  {
+    "key": "systems-learn-you/s09/p08",
+    "tweetHash": "b86e0a02cbcb4fbc",
+    "verdict": "pass"
+  },
+  {
+    "key": "systems-learn-you/s09/p09",
+    "tweetHash": "724183de2fc898b5",
+    "verdict": "pass"
+  },
+  {
+    "key": "systems-learn-you/s09/p10",
+    "tweetHash": "a8d36eb6f4f643c8",
+    "verdict": "pass"
+  },
+  {
+    "key": "systems-learn-you/s10/p01",
+    "tweetHash": "38c9f75f3ca10dd7",
+    "verdict": "pass"
+  },
+  {
+    "key": "systems-learn-you/s10/p02",
+    "tweetHash": "b0704053c84dada2",
+    "verdict": "pass"
+  },
+  {
+    "key": "systems-learn-you/s10/p03",
+    "tweetHash": "6b00ba81a98846b5",
+    "verdict": "pass"
+  },
+  {
+    "key": "systems-learn-you/s10/p04",
+    "tweetHash": "2afef35f0b2c09ff",
+    "verdict": "pass"
+  },
+  {
+    "key": "systems-learn-you/s10/p05",
+    "tweetHash": "5a877ac060e24b82",
+    "verdict": "pass"
+  },
+  {
+    "key": "systems-learn-you/s10/p06",
+    "tweetHash": "cb69ca7528bd46f9",
+    "verdict": "pass"
+  },
+  {
+    "key": "systems-learn-you/s10/p07",
+    "tweetHash": "1557c345b7f185f0",
+    "verdict": "pass"
+  },
+  {
+    "key": "systems-learn-you/s10/p08",
+    "tweetHash": "cab2b765906139da",
+    "verdict": "pass"
+  },
+  {
+    "key": "systems-learn-you/s10/p09",
+    "tweetHash": "915cf90e4e9ff522",
+    "verdict": "pass"
+  },
+  {
+    "key": "systems-learn-you/s10/p10",
+    "tweetHash": "b692775f1fc163fc",
+    "verdict": "pass"
+  }
+]

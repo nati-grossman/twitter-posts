@@ -1,0 +1,502 @@
+[
+  {
+    "key": "realtime-systems/s01/p01",
+    "tweetHash": "1e208413f44db9e2",
+    "verdict": "pass"
+  },
+  {
+    "key": "realtime-systems/s01/p02",
+    "tweetHash": "53bdbe660ea46278",
+    "verdict": "pass"
+  },
+  {
+    "key": "realtime-systems/s01/p03",
+    "tweetHash": "87f98215c794a9c7",
+    "verdict": "pass"
+  },
+  {
+    "key": "realtime-systems/s01/p04",
+    "tweetHash": "8d5b98b54c9b7203",
+    "verdict": "pass"
+  },
+  {
+    "key": "realtime-systems/s01/p05",
+    "tweetHash": "818d96da0c7228d3",
+    "verdict": "pass"
+  },
+  {
+    "key": "realtime-systems/s01/p06",
+    "tweetHash": "1b3b960673cf3ac9",
+    "verdict": "pass"
+  },
+  {
+    "key": "realtime-systems/s01/p07",
+    "tweetHash": "9fcf9d087eb6b24c",
+    "verdict": "pass"
+  },
+  {
+    "key": "realtime-systems/s01/p08",
+    "tweetHash": "cce2b6bd79fc6657",
+    "verdict": "pass"
+  },
+  {
+    "key": "realtime-systems/s01/p09",
+    "tweetHash": "2801a17a02e03806",
+    "verdict": "pass"
+  },
+  {
+    "key": "realtime-systems/s01/p10",
+    "tweetHash": "d0918f1b07deea81",
+    "verdict": "pass"
+  },
+  {
+    "key": "realtime-systems/s02/p01",
+    "tweetHash": "6f9b4cad7b38128b",
+    "verdict": "pass"
+  },
+  {
+    "key": "realtime-systems/s02/p02",
+    "tweetHash": "eef557ad4168dd85",
+    "verdict": "pass"
+  },
+  {
+    "key": "realtime-systems/s02/p03",
+    "tweetHash": "02c8d40d24e4e245",
+    "verdict": "pass"
+  },
+  {
+    "key": "realtime-systems/s02/p04",
+    "tweetHash": "e5a545da97a8688a",
+    "verdict": "pass"
+  },
+  {
+    "key": "realtime-systems/s02/p05",
+    "tweetHash": "fb49c2e471c7c23e",
+    "verdict": "pass"
+  },
+  {
+    "key": "realtime-systems/s02/p06",
+    "tweetHash": "6f4c2467062ddf87",
+    "verdict": "pass"
+  },
+  {
+    "key": "realtime-systems/s02/p07",
+    "tweetHash": "90b9ce714716dff9",
+    "verdict": "pass"
+  },
+  {
+    "key": "realtime-systems/s02/p08",
+    "tweetHash": "6eb321a1f623fb5d",
+    "verdict": "pass"
+  },
+  {
+    "key": "realtime-systems/s02/p09",
+    "tweetHash": "b16c4d90217ca432",
+    "verdict": "pass"
+  },
+  {
+    "key": "realtime-systems/s02/p10",
+    "tweetHash": "93a1a74f9bbdd2e9",
+    "verdict": "pass"
+  },
+  {
+    "key": "realtime-systems/s03/p01",
+    "tweetHash": "f252f944eb956cbe",
+    "verdict": "pass"
+  },
+  {
+    "key": "realtime-systems/s03/p02",
+    "tweetHash": "a2581b1080b18917",
+    "verdict": "pass"
+  },
+  {
+    "key": "realtime-systems/s03/p03",
+    "tweetHash": "814fa0e4f16c6f85",
+    "verdict": "pass"
+  },
+  {
+    "key": "realtime-systems/s03/p04",
+    "tweetHash": "12f37d945db10e0b",
+    "verdict": "pass"
+  },
+  {
+    "key": "realtime-systems/s03/p05",
+    "tweetHash": "5409f5921fd9ebd8",
+    "verdict": "pass"
+  },
+  {
+    "key": "realtime-systems/s03/p06",
+    "tweetHash": "5f53378be465775b",
+    "verdict": "pass"
+  },
+  {
+    "key": "realtime-systems/s03/p07",
+    "tweetHash": "64741bbfa01d7941",
+    "verdict": "pass"
+  },
+  {
+    "key": "realtime-systems/s03/p08",
+    "tweetHash": "97ab864ed395b98a",
+    "verdict": "pass"
+  },
+  {
+    "key": "realtime-systems/s03/p09",
+    "tweetHash": "67d07096c984d593",
+    "verdict": "pass"
+  },
+  {
+    "key": "realtime-systems/s03/p10",
+    "tweetHash": "60ff7fca413dfe6a",
+    "verdict": "pass"
+  },
+  {
+    "key": "realtime-systems/s04/p01",
+    "tweetHash": "68a16ca75753d5d8",
+    "verdict": "pass"
+  },
+  {
+    "key": "realtime-systems/s04/p02",
+    "tweetHash": "f6c7a0c8df4f69fb",
+    "verdict": "pass"
+  },
+  {
+    "key": "realtime-systems/s04/p03",
+    "tweetHash": "3eabc239613a30b0",
+    "verdict": "pass"
+  },
+  {
+    "key": "realtime-systems/s04/p04",
+    "tweetHash": "0ac69aab2a70c480",
+    "verdict": "pass"
+  },
+  {
+    "key": "realtime-systems/s04/p05",
+    "tweetHash": "5b951a2554211457",
+    "verdict": "pass"
+  },
+  {
+    "key": "realtime-systems/s04/p06",
+    "tweetHash": "71a1abdf5ed7de57",
+    "verdict": "pass"
+  },
+  {
+    "key": "realtime-systems/s04/p07",
+    "tweetHash": "9d2142752fb241cd",
+    "verdict": "pass"
+  },
+  {
+    "key": "realtime-systems/s04/p08",
+    "tweetHash": "311c79244146c481",
+    "verdict": "pass"
+  },
+  {
+    "key": "realtime-systems/s04/p09",
+    "tweetHash": "e20a788eb4384434",
+    "verdict": "pass"
+  },
+  {
+    "key": "realtime-systems/s04/p10",
+    "tweetHash": "3e2dd86bc2a727fa",
+    "verdict": "pass"
+  },
+  {
+    "key": "realtime-systems/s05/p01",
+    "tweetHash": "336abe67ff980497",
+    "verdict": "pass"
+  },
+  {
+    "key": "realtime-systems/s05/p02",
+    "tweetHash": "cf90325db8756ca9",
+    "verdict": "pass"
+  },
+  {
+    "key": "realtime-systems/s05/p03",
+    "tweetHash": "401ac747e4345072",
+    "verdict": "pass"
+  },
+  {
+    "key": "realtime-systems/s05/p04",
+    "tweetHash": "a1217f439bf90b78",
+    "verdict": "pass"
+  },
+  {
+    "key": "realtime-systems/s05/p05",
+    "tweetHash": "4f2453bf582bbc9d",
+    "verdict": "pass"
+  },
+  {
+    "key": "realtime-systems/s05/p06",
+    "tweetHash": "41cf1c29c510287f",
+    "verdict": "pass"
+  },
+  {
+    "key": "realtime-systems/s05/p07",
+    "tweetHash": "eea0b137ff02a5e3",
+    "verdict": "pass"
+  },
+  {
+    "key": "realtime-systems/s05/p08",
+    "tweetHash": "8bf7c97b3c2eae44",
+    "verdict": "pass"
+  },
+  {
+    "key": "realtime-systems/s05/p09",
+    "tweetHash": "47eb8f95c963dc29",
+    "verdict": "pass"
+  },
+  {
+    "key": "realtime-systems/s05/p10",
+    "tweetHash": "5038e16315808182",
+    "verdict": "pass"
+  },
+  {
+    "key": "realtime-systems/s06/p01",
+    "tweetHash": "d2530f829389f637",
+    "verdict": "pass"
+  },
+  {
+    "key": "realtime-systems/s06/p02",
+    "tweetHash": "1887503e9112a961",
+    "verdict": "pass"
+  },
+  {
+    "key": "realtime-systems/s06/p03",
+    "tweetHash": "1b9d13cdc2931b55",
+    "verdict": "pass"
+  },
+  {
+    "key": "realtime-systems/s06/p04",
+    "tweetHash": "7123231121fd6c76",
+    "verdict": "pass"
+  },
+  {
+    "key": "realtime-systems/s06/p05",
+    "tweetHash": "83e0b252f4241c86",
+    "verdict": "pass"
+  },
+  {
+    "key": "realtime-systems/s06/p06",
+    "tweetHash": "17a051e1dbb4e837",
+    "verdict": "pass"
+  },
+  {
+    "key": "realtime-systems/s06/p07",
+    "tweetHash": "bf8293afcfcc8335",
+    "verdict": "pass"
+  },
+  {
+    "key": "realtime-systems/s06/p08",
+    "tweetHash": "be97a23d1ee7a351",
+    "verdict": "pass"
+  },
+  {
+    "key": "realtime-systems/s06/p09",
+    "tweetHash": "283472f85f3e0cc7",
+    "verdict": "pass"
+  },
+  {
+    "key": "realtime-systems/s06/p10",
+    "tweetHash": "4bb30f9d8dbed643",
+    "verdict": "pass"
+  },
+  {
+    "key": "realtime-systems/s07/p01",
+    "tweetHash": "115d011e8f2eea5e",
+    "verdict": "pass"
+  },
+  {
+    "key": "realtime-systems/s07/p02",
+    "tweetHash": "c8222c7fd5493a8b",
+    "verdict": "pass"
+  },
+  {
+    "key": "realtime-systems/s07/p03",
+    "tweetHash": "88aef555d40a4177",
+    "verdict": "pass"
+  },
+  {
+    "key": "realtime-systems/s07/p04",
+    "tweetHash": "952d7b81f72cf83b",
+    "verdict": "pass"
+  },
+  {
+    "key": "realtime-systems/s07/p05",
+    "tweetHash": "d06a4f4de8ad7858",
+    "verdict": "pass"
+  },
+  {
+    "key": "realtime-systems/s07/p06",
+    "tweetHash": "bb7a76e0a5679d19",
+    "verdict": "pass"
+  },
+  {
+    "key": "realtime-systems/s07/p07",
+    "tweetHash": "8b2d1eb6c3ca751f",
+    "verdict": "pass"
+  },
+  {
+    "key": "realtime-systems/s07/p08",
+    "tweetHash": "3702c42d6ccbb560",
+    "verdict": "pass"
+  },
+  {
+    "key": "realtime-systems/s07/p09",
+    "tweetHash": "a17ec8190b41d914",
+    "verdict": "pass"
+  },
+  {
+    "key": "realtime-systems/s07/p10",
+    "tweetHash": "00ee4897a324dfd4",
+    "verdict": "pass"
+  },
+  {
+    "key": "realtime-systems/s08/p01",
+    "tweetHash": "a7fc8b70c926b691",
+    "verdict": "pass"
+  },
+  {
+    "key": "realtime-systems/s08/p02",
+    "tweetHash": "3930396bb5feb6c9",
+    "verdict": "pass"
+  },
+  {
+    "key": "realtime-systems/s08/p03",
+    "tweetHash": "77e8606e568de6e2",
+    "verdict": "pass"
+  },
+  {
+    "key": "realtime-systems/s08/p04",
+    "tweetHash": "ae25f483b80681eb",
+    "verdict": "pass"
+  },
+  {
+    "key": "realtime-systems/s08/p05",
+    "tweetHash": "4135b04d0c188b40",
+    "verdict": "pass"
+  },
+  {
+    "key": "realtime-systems/s08/p06",
+    "tweetHash": "a45e6f7a7d5b2d17",
+    "verdict": "pass"
+  },
+  {
+    "key": "realtime-systems/s08/p07",
+    "tweetHash": "65729cb8d727898d",
+    "verdict": "pass"
+  },
+  {
+    "key": "realtime-systems/s08/p08",
+    "tweetHash": "c5516734ec4eae64",
+    "verdict": "pass"
+  },
+  {
+    "key": "realtime-systems/s08/p09",
+    "tweetHash": "7640420cd0837fe4",
+    "verdict": "pass"
+  },
+  {
+    "key": "realtime-systems/s08/p10",
+    "tweetHash": "cbb9aef970ad4b9a",
+    "verdict": "pass"
+  },
+  {
+    "key": "realtime-systems/s09/p01",
+    "tweetHash": "e7e6066dfe32c910",
+    "verdict": "pass"
+  },
+  {
+    "key": "realtime-systems/s09/p02",
+    "tweetHash": "8d528c82bcde71fb",
+    "verdict": "pass"
+  },
+  {
+    "key": "realtime-systems/s09/p03",
+    "tweetHash": "98096f9aa52baa21",
+    "verdict": "pass"
+  },
+  {
+    "key": "realtime-systems/s09/p04",
+    "tweetHash": "7d0128247047b762",
+    "verdict": "pass"
+  },
+  {
+    "key": "realtime-systems/s09/p05",
+    "tweetHash": "13b678bcfbb610e0",
+    "verdict": "pass"
+  },
+  {
+    "key": "realtime-systems/s09/p06",
+    "tweetHash": "7aab540e7f9fc89b",
+    "verdict": "pass"
+  },
+  {
+    "key": "realtime-systems/s09/p07",
+    "tweetHash": "64a511464b0485db",
+    "verdict": "pass"
+  },
+  {
+    "key": "realtime-systems/s09/p08",
+    "tweetHash": "0c93e34e0a33a441",
+    "verdict": "pass"
+  },
+  {
+    "key": "realtime-systems/s09/p09",
+    "tweetHash": "d3ed1e838531dac1",
+    "verdict": "pass"
+  },
+  {
+    "key": "realtime-systems/s09/p10",
+    "tweetHash": "6185b8e97b294561",
+    "verdict": "pass"
+  },
+  {
+    "key": "realtime-systems/s10/p01",
+    "tweetHash": "056aec266895fbef",
+    "verdict": "pass"
+  },
+  {
+    "key": "realtime-systems/s10/p02",
+    "tweetHash": "ccd228db4bbca007",
+    "verdict": "pass"
+  },
+  {
+    "key": "realtime-systems/s10/p03",
+    "tweetHash": "6aae3393da681e3f",
+    "verdict": "pass"
+  },
+  {
+    "key": "realtime-systems/s10/p04",
+    "tweetHash": "336ece8f3dc8de02",
+    "verdict": "pass"
+  },
+  {
+    "key": "realtime-systems/s10/p05",
+    "tweetHash": "a0d62289abf89c45",
+    "verdict": "pass"
+  },
+  {
+    "key": "realtime-systems/s10/p06",
+    "tweetHash": "d14a681fa13bc486",
+    "verdict": "pass"
+  },
+  {
+    "key": "realtime-systems/s10/p07",
+    "tweetHash": "d12e5060eed2c8bc",
+    "verdict": "pass"
+  },
+  {
+    "key": "realtime-systems/s10/p08",
+    "tweetHash": "286fd1b36b7b5179",
+    "verdict": "pass"
+  },
+  {
+    "key": "realtime-systems/s10/p09",
+    "tweetHash": "3aaa3d97db920dcf",
+    "verdict": "pass"
+  },
+  {
+    "key": "realtime-systems/s10/p10",
+    "tweetHash": "a3c18faf67b96ee7",
+    "verdict": "pass"
+  }
+]

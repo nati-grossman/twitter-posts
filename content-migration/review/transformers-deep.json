@@ -1,0 +1,503 @@
+[
+ {
+  "key": "transformers-deep/s01/p01",
+  "tweetHash": "6440dd8102b40877",
+  "verdict": "pass"
+ },
+ {
+  "key": "transformers-deep/s01/p02",
+  "tweetHash": "ad0c73be521a6849",
+  "verdict": "pass"
+ },
+ {
+  "key": "transformers-deep/s01/p03",
+  "tweetHash": "218665209da1a74a",
+  "verdict": "pass"
+ },
+ {
+  "key": "transformers-deep/s01/p04",
+  "tweetHash": "c52d1a2cd68c1a8a",
+  "verdict": "pass"
+ },
+ {
+  "key": "transformers-deep/s01/p05",
+  "tweetHash": "ee27cba59b4fd159",
+  "verdict": "pass"
+ },
+ {
+  "key": "transformers-deep/s01/p06",
+  "tweetHash": "3b482290c326fe50",
+  "verdict": "pass"
+ },
+ {
+  "key": "transformers-deep/s01/p07",
+  "tweetHash": "8492a0b54f9cd612",
+  "verdict": "pass"
+ },
+ {
+  "key": "transformers-deep/s01/p08",
+  "tweetHash": "b974a894ebfe096b",
+  "verdict": "pass"
+ },
+ {
+  "key": "transformers-deep/s01/p09",
+  "tweetHash": "f7753378599b0dea",
+  "verdict": "pass"
+ },
+ {
+  "key": "transformers-deep/s01/p10",
+  "tweetHash": "7fb93b407f1816e4",
+  "verdict": "pass"
+ },
+ {
+  "key": "transformers-deep/s02/p01",
+  "tweetHash": "2eb12ebd6f1a801b",
+  "verdict": "pass"
+ },
+ {
+  "key": "transformers-deep/s02/p02",
+  "tweetHash": "0d40b6ab92c9a43a",
+  "verdict": "pass"
+ },
+ {
+  "key": "transformers-deep/s02/p03",
+  "tweetHash": "c19f1570b8955af3",
+  "verdict": "pass"
+ },
+ {
+  "key": "transformers-deep/s02/p04",
+  "tweetHash": "f46ab0f9abe2e503",
+  "verdict": "pass"
+ },
+ {
+  "key": "transformers-deep/s02/p05",
+  "tweetHash": "b3d846c489104ec4",
+  "verdict": "pass"
+ },
+ {
+  "key": "transformers-deep/s02/p06",
+  "tweetHash": "7b84dd0cdd3b60b3",
+  "verdict": "pass"
+ },
+ {
+  "key": "transformers-deep/s02/p07",
+  "tweetHash": "e294d5f39bfb2a4b",
+  "verdict": "pass"
+ },
+ {
+  "key": "transformers-deep/s02/p08",
+  "tweetHash": "27eb8302bd80c759",
+  "verdict": "pass"
+ },
+ {
+  "key": "transformers-deep/s02/p09",
+  "tweetHash": "88625ad0e76e142f",
+  "verdict": "pass"
+ },
+ {
+  "key": "transformers-deep/s02/p10",
+  "tweetHash": "a9dcffddbf2b03d3",
+  "verdict": "pass"
+ },
+ {
+  "key": "transformers-deep/s03/p01",
+  "tweetHash": "a45d86cf81bbd821",
+  "verdict": "pass"
+ },
+ {
+  "key": "transformers-deep/s03/p02",
+  "tweetHash": "f156fcd1e363c898",
+  "verdict": "pass"
+ },
+ {
+  "key": "transformers-deep/s03/p03",
+  "tweetHash": "95f262442493ce1e",
+  "verdict": "pass"
+ },
+ {
+  "key": "transformers-deep/s03/p04",
+  "tweetHash": "15aea23587e5abc2",
+  "verdict": "pass"
+ },
+ {
+  "key": "transformers-deep/s03/p05",
+  "tweetHash": "a16515642e0363d6",
+  "verdict": "pass"
+ },
+ {
+  "key": "transformers-deep/s03/p06",
+  "tweetHash": "029c97cbbb65a880",
+  "verdict": "pass"
+ },
+ {
+  "key": "transformers-deep/s03/p07",
+  "tweetHash": "3ce1e229f8ac5f79",
+  "verdict": "pass"
+ },
+ {
+  "key": "transformers-deep/s03/p08",
+  "tweetHash": "541162bd800acff6",
+  "verdict": "pass"
+ },
+ {
+  "key": "transformers-deep/s03/p09",
+  "tweetHash": "8e09ed4062ac22f6",
+  "verdict": "pass"
+ },
+ {
+  "key": "transformers-deep/s03/p10",
+  "tweetHash": "74e2ebc7053cc0bb",
+  "verdict": "pass"
+ },
+ {
+  "key": "transformers-deep/s04/p01",
+  "tweetHash": "22a17c544639a6af",
+  "verdict": "pass"
+ },
+ {
+  "key": "transformers-deep/s04/p02",
+  "tweetHash": "69037d403f577b4e",
+  "verdict": "pass"
+ },
+ {
+  "key": "transformers-deep/s04/p03",
+  "tweetHash": "f4b51b47504f59bc",
+  "verdict": "pass"
+ },
+ {
+  "key": "transformers-deep/s04/p04",
+  "tweetHash": "a8ccdc523073cc00",
+  "verdict": "pass"
+ },
+ {
+  "key": "transformers-deep/s04/p05",
+  "tweetHash": "3fc2e78f1e44c032",
+  "verdict": "pass"
+ },
+ {
+  "key": "transformers-deep/s04/p06",
+  "tweetHash": "a317dee298191bb0",
+  "verdict": "pass"
+ },
+ {
+  "key": "transformers-deep/s04/p07",
+  "tweetHash": "a07fd0a7dc778839",
+  "verdict": "pass"
+ },
+ {
+  "key": "transformers-deep/s04/p08",
+  "tweetHash": "fa9dba3c88f13e1f",
+  "verdict": "pass"
+ },
+ {
+  "key": "transformers-deep/s04/p09",
+  "tweetHash": "2da0668b824b7194",
+  "verdict": "pass"
+ },
+ {
+  "key": "transformers-deep/s04/p10",
+  "tweetHash": "aec2e0d66cb791e6",
+  "verdict": "pass"
+ },
+ {
+  "key": "transformers-deep/s05/p01",
+  "tweetHash": "9a0bcb2d58b680ad",
+  "verdict": "pass"
+ },
+ {
+  "key": "transformers-deep/s05/p02",
+  "tweetHash": "578cc47c1800d324",
+  "verdict": "pass"
+ },
+ {
+  "key": "transformers-deep/s05/p03",
+  "tweetHash": "72a09bccb1e536e1",
+  "verdict": "pass"
+ },
+ {
+  "key": "transformers-deep/s05/p04",
+  "tweetHash": "5dfc2efaa32a4187",
+  "verdict": "pass"
+ },
+ {
+  "key": "transformers-deep/s05/p05",
+  "tweetHash": "9f04b42ca90ce666",
+  "verdict": "pass"
+ },
+ {
+  "key": "transformers-deep/s05/p06",
+  "tweetHash": "c51153f17d356131",
+  "verdict": "pass"
+ },
+ {
+  "key": "transformers-deep/s05/p07",
+  "tweetHash": "e3eb9702994b2047",
+  "verdict": "pass"
+ },
+ {
+  "key": "transformers-deep/s05/p08",
+  "tweetHash": "db3573116da39681",
+  "verdict": "pass"
+ },
+ {
+  "key": "transformers-deep/s05/p09",
+  "tweetHash": "6fd76c2bfcd6f57a",
+  "verdict": "pass"
+ },
+ {
+  "key": "transformers-deep/s05/p10",
+  "tweetHash": "ce1fd9a14aac1bd5",
+  "verdict": "pass"
+ },
+ {
+  "key": "transformers-deep/s06/p01",
+  "tweetHash": "962614d7d5e887c6",
+  "verdict": "pass"
+ },
+ {
+  "key": "transformers-deep/s06/p02",
+  "tweetHash": "e98d5e75ccc5e5ff",
+  "verdict": "pass"
+ },
+ {
+  "key": "transformers-deep/s06/p03",
+  "tweetHash": "154a7480a39413b3",
+  "verdict": "pass"
+ },
+ {
+  "key": "transformers-deep/s06/p04",
+  "tweetHash": "ae5d246890a96a9c",
+  "verdict": "pass"
+ },
+ {
+  "key": "transformers-deep/s06/p05",
+  "tweetHash": "157ffdd6e8ace053",
+  "verdict": "pass"
+ },
+ {
+  "key": "transformers-deep/s06/p06",
+  "tweetHash": "7e87c95751e8d508",
+  "verdict": "pass"
+ },
+ {
+  "key": "transformers-deep/s06/p07",
+  "tweetHash": "df766d77317306ec",
+  "verdict": "pass"
+ },
+ {
+  "key": "transformers-deep/s06/p08",
+  "tweetHash": "c56f0059758bb9f1",
+  "verdict": "pass"
+ },
+ {
+  "key": "transformers-deep/s06/p09",
+  "tweetHash": "47a5318987be1ebd",
+  "verdict": "revise",
+  "reason": "Essentially duplicates s06/p01 in the same series: both say Attention alone can't see word order, both use the same 'חתול ישב' vs 'ישב חתול' example and the same conclusion. Focus on what is specific to this post (without positional encoding grammar weakens, meaning breaks and learning is badly hurt — it is a must, not a nice-to-have) and drop the repeated example."
+ },
+ {
+  "key": "transformers-deep/s06/p10",
+  "tweetHash": "163e28ce23c5464f",
+  "verdict": "pass"
+ },
+ {
+  "key": "transformers-deep/s07/p01",
+  "tweetHash": "bcdb066da0fee2df",
+  "verdict": "pass"
+ },
+ {
+  "key": "transformers-deep/s07/p02",
+  "tweetHash": "de9eaf7b477545c2",
+  "verdict": "pass"
+ },
+ {
+  "key": "transformers-deep/s07/p03",
+  "tweetHash": "8d35dec73cda2c03",
+  "verdict": "pass"
+ },
+ {
+  "key": "transformers-deep/s07/p04",
+  "tweetHash": "7e56928b4512a2a9",
+  "verdict": "pass"
+ },
+ {
+  "key": "transformers-deep/s07/p05",
+  "tweetHash": "6b45884e00cf3b7d",
+  "verdict": "pass"
+ },
+ {
+  "key": "transformers-deep/s07/p06",
+  "tweetHash": "2ef9652c661ee004",
+  "verdict": "pass"
+ },
+ {
+  "key": "transformers-deep/s07/p07",
+  "tweetHash": "79b6a3dc2fd42b20",
+  "verdict": "pass"
+ },
+ {
+  "key": "transformers-deep/s07/p08",
+  "tweetHash": "d7853a426a36d4dc",
+  "verdict": "pass"
+ },
+ {
+  "key": "transformers-deep/s07/p09",
+  "tweetHash": "7e448eed356507b6",
+  "verdict": "pass"
+ },
+ {
+  "key": "transformers-deep/s07/p10",
+  "tweetHash": "ffe6b7d6ec23fadf",
+  "verdict": "pass"
+ },
+ {
+  "key": "transformers-deep/s08/p01",
+  "tweetHash": "b61e4d23cb947a7d",
+  "verdict": "pass"
+ },
+ {
+  "key": "transformers-deep/s08/p02",
+  "tweetHash": "839142d8af47d5f4",
+  "verdict": "pass"
+ },
+ {
+  "key": "transformers-deep/s08/p03",
+  "tweetHash": "a29e62147768b839",
+  "verdict": "pass"
+ },
+ {
+  "key": "transformers-deep/s08/p04",
+  "tweetHash": "4a7356f84808bb10",
+  "verdict": "pass"
+ },
+ {
+  "key": "transformers-deep/s08/p05",
+  "tweetHash": "b695b529f356050b",
+  "verdict": "pass"
+ },
+ {
+  "key": "transformers-deep/s08/p06",
+  "tweetHash": "4b9354631e8e8966",
+  "verdict": "pass"
+ },
+ {
+  "key": "transformers-deep/s08/p07",
+  "tweetHash": "6e3ea2fd358c2f14",
+  "verdict": "pass"
+ },
+ {
+  "key": "transformers-deep/s08/p08",
+  "tweetHash": "6cec4e27092ccaa6",
+  "verdict": "pass"
+ },
+ {
+  "key": "transformers-deep/s08/p09",
+  "tweetHash": "07832b15e90e9dfc",
+  "verdict": "pass"
+ },
+ {
+  "key": "transformers-deep/s08/p10",
+  "tweetHash": "9ff6ea9931a9ff60",
+  "verdict": "pass"
+ },
+ {
+  "key": "transformers-deep/s09/p01",
+  "tweetHash": "f52c03028ed62bd0",
+  "verdict": "pass"
+ },
+ {
+  "key": "transformers-deep/s09/p02",
+  "tweetHash": "16308b048a6137ec",
+  "verdict": "pass"
+ },
+ {
+  "key": "transformers-deep/s09/p03",
+  "tweetHash": "de8397af345219eb",
+  "verdict": "pass"
+ },
+ {
+  "key": "transformers-deep/s09/p04",
+  "tweetHash": "ff1474cf22c7fe02",
+  "verdict": "pass"
+ },
+ {
+  "key": "transformers-deep/s09/p05",
+  "tweetHash": "5fab4f9483b3089a",
+  "verdict": "pass"
+ },
+ {
+  "key": "transformers-deep/s09/p06",
+  "tweetHash": "865d2b335b44edff",
+  "verdict": "pass"
+ },
+ {
+  "key": "transformers-deep/s09/p07",
+  "tweetHash": "8dd985cf49ca79cb",
+  "verdict": "pass"
+ },
+ {
+  "key": "transformers-deep/s09/p08",
+  "tweetHash": "7ef507e2be5cb136",
+  "verdict": "pass"
+ },
+ {
+  "key": "transformers-deep/s09/p09",
+  "tweetHash": "bfb27330657003ff",
+  "verdict": "pass"
+ },
+ {
+  "key": "transformers-deep/s09/p10",
+  "tweetHash": "2507b9a4d63ec0ab",
+  "verdict": "pass"
+ },
+ {
+  "key": "transformers-deep/s10/p01",
+  "tweetHash": "b4485c450233f517",
+  "verdict": "pass"
+ },
+ {
+  "key": "transformers-deep/s10/p02",
+  "tweetHash": "81f2de461cbb9abc",
+  "verdict": "pass"
+ },
+ {
+  "key": "transformers-deep/s10/p03",
+  "tweetHash": "c36e137c7b7a4dc0",
+  "verdict": "pass"
+ },
+ {
+  "key": "transformers-deep/s10/p04",
+  "tweetHash": "476d2191feeb511d",
+  "verdict": "pass"
+ },
+ {
+  "key": "transformers-deep/s10/p05",
+  "tweetHash": "c5818b9720dbdf29",
+  "verdict": "pass"
+ },
+ {
+  "key": "transformers-deep/s10/p06",
+  "tweetHash": "5c5d28793bbbedc4",
+  "verdict": "pass"
+ },
+ {
+  "key": "transformers-deep/s10/p07",
+  "tweetHash": "7148f603f7dbcda9",
+  "verdict": "pass"
+ },
+ {
+  "key": "transformers-deep/s10/p08",
+  "tweetHash": "315fbac81e7d9a5f",
+  "verdict": "pass"
+ },
+ {
+  "key": "transformers-deep/s10/p09",
+  "tweetHash": "c8b5b4d3343461f2",
+  "verdict": "pass"
+ },
+ {
+  "key": "transformers-deep/s10/p10",
+  "tweetHash": "17975fb27c7f3b8e",
+  "verdict": "pass"
+ }
+]

@@ -1,0 +1,52 @@
+[
+  {
+    "key": "deep-learning/s08/p01",
+    "sourceHash": "32923324515b1175",
+    "tweet": "ב-2017 פרסמו בגוגל את המאמר Attention Is All You Need. הוא הציע ארכיטקטורה עם Self-Attention במרכז שבמקרים רבים ייתרה את ה-RNN: תבנית חדשה, לא עוד שיפור קטן. ממנו התחילה המהפכה שאנחנו חיים בה."
+  },
+  {
+    "key": "deep-learning/s08/p02",
+    "sourceHash": "c2ac72a3e2882172",
+    "tweet": "ב-Self-Attention כל מילה שואלת את כל המילים בחלון \"כמה אני קשורה אלייך?\", ואז המידע מתערבב לפי המשקלים. מילה רחוקה יכולה להשפיע חזק אם היא חשובה להקשר. זה הלב של ה-Transformer, ומכאן השם."
+  },
+  {
+    "key": "deep-learning/s08/p03",
+    "sourceHash": "8d083dfe822444f2",
+    "tweet": "בניגוד ל-RNN, ב-Transformer מעבדים הרבה טוקנים יחד באותו שלב, בדיוק סוג החישוב ש-GPU אוהב. המקביליות הזו היא לא פרט שולי, היא מה שאפשר לאמן על טריליוני טוקנים. לא במקרה הכול התפוצץ אחרי GPU."
+  },
+  {
+    "key": "deep-learning/s08/p04",
+    "sourceHash": "59311e09a7605c62",
+    "tweet": "לא כל Transformer נולד לאותה עבודה. BERT בנוי סביב Encoder וחזק בהבנה וסיווג של טקסט קיים, GPT בנוי סביב Decoder וחזק ביצירת טקסט שממשיך קדימה. אותו רעיון Attention, תפקידים שונים."
+  },
+  {
+    "key": "deep-learning/s08/p05",
+    "sourceHash": "ab0dad88fb5a4ed7",
+    "tweet": "Multi-head Attention מריץ כמה ראשים במקביל, וכל אחד יכול לתפוס זווית אחרת: דקדוק, קשרים רחוקים, דגשים. אין ראש מובטח ל\"רגש\" או ל\"עובדה\", אבל יותר זוויות נותנות יותר מידע לשכבה הבאה."
+  },
+  {
+    "key": "deep-learning/s08/p06",
+    "sourceHash": "1a11f8664b2433e7",
+    "tweet": "ל-Attention אין מושג מי בא לפני מי, אז Transformer מוסיף Positional encoding: מידע על מיקום כל טוקן, עם sin/cos או ייצוג נלמד. בלעדיו \"לא טוב\" ו\"טוב לא\" נראים אותו דבר, כי סדר הוא חלק מהמשמעות."
+  },
+  {
+    "key": "deep-learning/s08/p07",
+    "sourceHash": "3b577c42ea189e14",
+    "tweet": "Transformer עמוק הוא הרבה בלוקים זה על גבי זה, 12, 96 ולפעמים יותר, וכל בלוק מוסיף Attention ועיבוד. כשיש דאטה וחישוב, הפרמטרים והיכולת גדלים יחד, ומודלים כמו GPT נשענים על העומק הזה."
+  },
+  {
+    "key": "deep-learning/s08/p08",
+    "sourceHash": "c95ecd03b2f155c2",
+    "tweet": "Vision Transformer, ViT, מתייחס לתמונה כמו לטקסט: חותך אותה לפתחים, הופך כל אחד לטוקן ומריץ Attention. זה מראה שה-Transformer הוא תבנית כללית לתמונות, לטקסט ולשילובים, לא רק מודל שפה."
+  },
+  {
+    "key": "deep-learning/s08/p09",
+    "sourceHash": "d9f841ba31fbf808",
+    "tweet": "ב-Transformer, עלות ה-Attention גדלה בערך כמו O(n²) עם אורך הרצף, אז חלון ארוך מנפח חישוב וזיכרון. FlashAttention ושיטות אחרות מקלות, אבל הגדלת ההקשר אף פעם לא בחינם, וזה trade-off שחשוב להכיר."
+  },
+  {
+    "key": "deep-learning/s08/p10",
+    "sourceHash": "ab6f8fb014268108",
+    "tweet": "Transformer הוא Self-Attention, שכבות ומקביליות, ושינוי ארכיטקטוני ולא רק עוד פרמטרים. מ-Attention Is All You Need ב-2017 ועד ChatGPT, Claude ו-Gemini, זו התבנית שמאחורי כמעט כל מודל שפה גדול."
+  }
+]

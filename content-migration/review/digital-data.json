@@ -1,0 +1,502 @@
+[
+  {
+    "key": "digital-data/s01/p01",
+    "tweetHash": "6b08a565aa7f3d60",
+    "verdict": "pass"
+  },
+  {
+    "key": "digital-data/s01/p02",
+    "tweetHash": "bb44d5ee193d40d9",
+    "verdict": "pass"
+  },
+  {
+    "key": "digital-data/s01/p03",
+    "tweetHash": "cf0941e94b29ede8",
+    "verdict": "pass"
+  },
+  {
+    "key": "digital-data/s01/p04",
+    "tweetHash": "e9050492df675e10",
+    "verdict": "pass"
+  },
+  {
+    "key": "digital-data/s01/p05",
+    "tweetHash": "5a22c58161985a5c",
+    "verdict": "pass"
+  },
+  {
+    "key": "digital-data/s01/p06",
+    "tweetHash": "5368a0da7068fa39",
+    "verdict": "pass"
+  },
+  {
+    "key": "digital-data/s01/p07",
+    "tweetHash": "09628a52de3a4170",
+    "verdict": "pass"
+  },
+  {
+    "key": "digital-data/s01/p08",
+    "tweetHash": "c6b1f81442b5d29d",
+    "verdict": "pass"
+  },
+  {
+    "key": "digital-data/s01/p09",
+    "tweetHash": "7c2f204f82fd5f47",
+    "verdict": "pass"
+  },
+  {
+    "key": "digital-data/s01/p10",
+    "tweetHash": "cade38f1433e0851",
+    "verdict": "pass"
+  },
+  {
+    "key": "digital-data/s02/p01",
+    "tweetHash": "8cb99514dfbdfe5b",
+    "verdict": "pass"
+  },
+  {
+    "key": "digital-data/s02/p02",
+    "tweetHash": "4747b3a030441b7e",
+    "verdict": "pass"
+  },
+  {
+    "key": "digital-data/s02/p03",
+    "tweetHash": "bf839e3b8e192c94",
+    "verdict": "pass"
+  },
+  {
+    "key": "digital-data/s02/p04",
+    "tweetHash": "233c75c4c8eae48f",
+    "verdict": "pass"
+  },
+  {
+    "key": "digital-data/s02/p05",
+    "tweetHash": "582468b32518123c",
+    "verdict": "pass"
+  },
+  {
+    "key": "digital-data/s02/p06",
+    "tweetHash": "98ddb2f1e5aef73e",
+    "verdict": "pass"
+  },
+  {
+    "key": "digital-data/s02/p07",
+    "tweetHash": "7adb829f4ad673ce",
+    "verdict": "pass"
+  },
+  {
+    "key": "digital-data/s02/p08",
+    "tweetHash": "1702221a8239698a",
+    "verdict": "pass"
+  },
+  {
+    "key": "digital-data/s02/p09",
+    "tweetHash": "690c870a80a82015",
+    "verdict": "pass"
+  },
+  {
+    "key": "digital-data/s02/p10",
+    "tweetHash": "36dde39505ddcb6a",
+    "verdict": "pass"
+  },
+  {
+    "key": "digital-data/s03/p01",
+    "tweetHash": "3bac1d1aeaa1241e",
+    "verdict": "pass"
+  },
+  {
+    "key": "digital-data/s03/p02",
+    "tweetHash": "65728debf90e85d8",
+    "verdict": "pass"
+  },
+  {
+    "key": "digital-data/s03/p03",
+    "tweetHash": "7fdfd4aeb85c228d",
+    "verdict": "pass"
+  },
+  {
+    "key": "digital-data/s03/p04",
+    "tweetHash": "c454ac7bff9c1148",
+    "verdict": "pass"
+  },
+  {
+    "key": "digital-data/s03/p05",
+    "tweetHash": "7820a2dae6e99bba",
+    "verdict": "pass"
+  },
+  {
+    "key": "digital-data/s03/p06",
+    "tweetHash": "acdbafc1c6226d43",
+    "verdict": "pass"
+  },
+  {
+    "key": "digital-data/s03/p07",
+    "tweetHash": "c5f789aea7007e65",
+    "verdict": "pass"
+  },
+  {
+    "key": "digital-data/s03/p08",
+    "tweetHash": "c1019134b2fa0c98",
+    "verdict": "pass"
+  },
+  {
+    "key": "digital-data/s03/p09",
+    "tweetHash": "d52aea251c88da16",
+    "verdict": "pass"
+  },
+  {
+    "key": "digital-data/s03/p10",
+    "tweetHash": "e6d6896ec4b63ddc",
+    "verdict": "pass"
+  },
+  {
+    "key": "digital-data/s04/p01",
+    "tweetHash": "d4f88cafb379bcd9",
+    "verdict": "pass"
+  },
+  {
+    "key": "digital-data/s04/p02",
+    "tweetHash": "9b7122131e432dc9",
+    "verdict": "pass"
+  },
+  {
+    "key": "digital-data/s04/p03",
+    "tweetHash": "04bde709df238157",
+    "verdict": "pass"
+  },
+  {
+    "key": "digital-data/s04/p04",
+    "tweetHash": "2de6fb244e25cad0",
+    "verdict": "pass"
+  },
+  {
+    "key": "digital-data/s04/p05",
+    "tweetHash": "97c80d1cb0e05f71",
+    "verdict": "pass"
+  },
+  {
+    "key": "digital-data/s04/p06",
+    "tweetHash": "81fd7447c9aed73b",
+    "verdict": "pass"
+  },
+  {
+    "key": "digital-data/s04/p07",
+    "tweetHash": "99bb4baf319bbe5f",
+    "verdict": "pass"
+  },
+  {
+    "key": "digital-data/s04/p08",
+    "tweetHash": "aa9ff006c1416932",
+    "verdict": "pass"
+  },
+  {
+    "key": "digital-data/s04/p09",
+    "tweetHash": "27069aea80342bba",
+    "verdict": "pass"
+  },
+  {
+    "key": "digital-data/s04/p10",
+    "tweetHash": "163b7d9b6d5aa1f4",
+    "verdict": "pass"
+  },
+  {
+    "key": "digital-data/s05/p01",
+    "tweetHash": "27f7f3416be7fb79",
+    "verdict": "pass"
+  },
+  {
+    "key": "digital-data/s05/p02",
+    "tweetHash": "9c10fb9168aa3755",
+    "verdict": "pass"
+  },
+  {
+    "key": "digital-data/s05/p03",
+    "tweetHash": "a185d596f8fe46a7",
+    "verdict": "pass"
+  },
+  {
+    "key": "digital-data/s05/p04",
+    "tweetHash": "645e0ce3b7939957",
+    "verdict": "pass"
+  },
+  {
+    "key": "digital-data/s05/p05",
+    "tweetHash": "9361beb1aa642c66",
+    "verdict": "pass"
+  },
+  {
+    "key": "digital-data/s05/p06",
+    "tweetHash": "8fd15ee884d6454b",
+    "verdict": "pass"
+  },
+  {
+    "key": "digital-data/s05/p07",
+    "tweetHash": "b121f51be9f34957",
+    "verdict": "pass"
+  },
+  {
+    "key": "digital-data/s05/p08",
+    "tweetHash": "b24e447cbe3adbcb",
+    "verdict": "pass"
+  },
+  {
+    "key": "digital-data/s05/p09",
+    "tweetHash": "b7ef661886904973",
+    "verdict": "pass"
+  },
+  {
+    "key": "digital-data/s05/p10",
+    "tweetHash": "90f59c56f8440a73",
+    "verdict": "pass"
+  },
+  {
+    "key": "digital-data/s06/p01",
+    "tweetHash": "37f7ec034fbcd954",
+    "verdict": "pass"
+  },
+  {
+    "key": "digital-data/s06/p02",
+    "tweetHash": "2b3b33fff9f64575",
+    "verdict": "pass"
+  },
+  {
+    "key": "digital-data/s06/p03",
+    "tweetHash": "67f5dbf04362f18c",
+    "verdict": "pass"
+  },
+  {
+    "key": "digital-data/s06/p04",
+    "tweetHash": "e60ea82ee6591784",
+    "verdict": "pass"
+  },
+  {
+    "key": "digital-data/s06/p05",
+    "tweetHash": "97c22e9f91a6c5be",
+    "verdict": "pass"
+  },
+  {
+    "key": "digital-data/s06/p06",
+    "tweetHash": "1f83102e21895785",
+    "verdict": "pass"
+  },
+  {
+    "key": "digital-data/s06/p07",
+    "tweetHash": "b15e694cd41356ca",
+    "verdict": "pass"
+  },
+  {
+    "key": "digital-data/s06/p08",
+    "tweetHash": "4d2d1ed34c8118d3",
+    "verdict": "pass"
+  },
+  {
+    "key": "digital-data/s06/p09",
+    "tweetHash": "de2e20942e87b218",
+    "verdict": "pass"
+  },
+  {
+    "key": "digital-data/s06/p10",
+    "tweetHash": "d2dcd171630f3d7a",
+    "verdict": "pass"
+  },
+  {
+    "key": "digital-data/s07/p01",
+    "tweetHash": "afc2c1c7965718dd",
+    "verdict": "pass"
+  },
+  {
+    "key": "digital-data/s07/p02",
+    "tweetHash": "366c74ed83178820",
+    "verdict": "pass"
+  },
+  {
+    "key": "digital-data/s07/p03",
+    "tweetHash": "59d3791b248ee0f6",
+    "verdict": "pass"
+  },
+  {
+    "key": "digital-data/s07/p04",
+    "tweetHash": "86241233d952bee3",
+    "verdict": "pass"
+  },
+  {
+    "key": "digital-data/s07/p05",
+    "tweetHash": "382c7c65de4779fa",
+    "verdict": "pass"
+  },
+  {
+    "key": "digital-data/s07/p06",
+    "tweetHash": "89c48a52be54fe15",
+    "verdict": "pass"
+  },
+  {
+    "key": "digital-data/s07/p07",
+    "tweetHash": "f60d9b46f1937086",
+    "verdict": "pass"
+  },
+  {
+    "key": "digital-data/s07/p08",
+    "tweetHash": "3096733c0f7125eb",
+    "verdict": "pass"
+  },
+  {
+    "key": "digital-data/s07/p09",
+    "tweetHash": "6b40994bbfa0cd3d",
+    "verdict": "pass"
+  },
+  {
+    "key": "digital-data/s07/p10",
+    "tweetHash": "c6cade4d955fa245",
+    "verdict": "pass"
+  },
+  {
+    "key": "digital-data/s08/p01",
+    "tweetHash": "584ace02ee8368f0",
+    "verdict": "pass"
+  },
+  {
+    "key": "digital-data/s08/p02",
+    "tweetHash": "bde91938772a8285",
+    "verdict": "pass"
+  },
+  {
+    "key": "digital-data/s08/p03",
+    "tweetHash": "84d14235b2f55ace",
+    "verdict": "pass"
+  },
+  {
+    "key": "digital-data/s08/p04",
+    "tweetHash": "f68f9cb980a6682e",
+    "verdict": "pass"
+  },
+  {
+    "key": "digital-data/s08/p05",
+    "tweetHash": "e09cb69645176f3e",
+    "verdict": "pass"
+  },
+  {
+    "key": "digital-data/s08/p06",
+    "tweetHash": "03e37829c7200017",
+    "verdict": "pass"
+  },
+  {
+    "key": "digital-data/s08/p07",
+    "tweetHash": "b7692d9948327072",
+    "verdict": "pass"
+  },
+  {
+    "key": "digital-data/s08/p08",
+    "tweetHash": "f8c24e4514dc698e",
+    "verdict": "pass"
+  },
+  {
+    "key": "digital-data/s08/p09",
+    "tweetHash": "9f9448b14670da76",
+    "verdict": "pass"
+  },
+  {
+    "key": "digital-data/s08/p10",
+    "tweetHash": "dca678cb51e2b011",
+    "verdict": "pass"
+  },
+  {
+    "key": "digital-data/s09/p01",
+    "tweetHash": "31577ccc75f0c5f3",
+    "verdict": "pass"
+  },
+  {
+    "key": "digital-data/s09/p02",
+    "tweetHash": "d3cff6c14aa2cede",
+    "verdict": "pass"
+  },
+  {
+    "key": "digital-data/s09/p03",
+    "tweetHash": "9749d6b5b6d833bd",
+    "verdict": "pass"
+  },
+  {
+    "key": "digital-data/s09/p04",
+    "tweetHash": "18ddcd22e25ce3f8",
+    "verdict": "pass"
+  },
+  {
+    "key": "digital-data/s09/p05",
+    "tweetHash": "fe84dd8eddbd468e",
+    "verdict": "pass"
+  },
+  {
+    "key": "digital-data/s09/p06",
+    "tweetHash": "47d6f804eb71936c",
+    "verdict": "pass"
+  },
+  {
+    "key": "digital-data/s09/p07",
+    "tweetHash": "5ad17c31a16176ad",
+    "verdict": "pass"
+  },
+  {
+    "key": "digital-data/s09/p08",
+    "tweetHash": "b6cac8352ad5a804",
+    "verdict": "pass"
+  },
+  {
+    "key": "digital-data/s09/p09",
+    "tweetHash": "fe586c5d85dbc06e",
+    "verdict": "pass"
+  },
+  {
+    "key": "digital-data/s09/p10",
+    "tweetHash": "7a98ef6b9299f6dc",
+    "verdict": "pass"
+  },
+  {
+    "key": "digital-data/s10/p01",
+    "tweetHash": "ec0402f0c578d209",
+    "verdict": "pass"
+  },
+  {
+    "key": "digital-data/s10/p02",
+    "tweetHash": "2d4a6a3798cd4822",
+    "verdict": "pass"
+  },
+  {
+    "key": "digital-data/s10/p03",
+    "tweetHash": "19cf3c05dd57771f",
+    "verdict": "pass"
+  },
+  {
+    "key": "digital-data/s10/p04",
+    "tweetHash": "58a4c27abd362b23",
+    "verdict": "pass"
+  },
+  {
+    "key": "digital-data/s10/p05",
+    "tweetHash": "9ce7e706ae6c2e4d",
+    "verdict": "pass"
+  },
+  {
+    "key": "digital-data/s10/p06",
+    "tweetHash": "20d700b178421de3",
+    "verdict": "pass"
+  },
+  {
+    "key": "digital-data/s10/p07",
+    "tweetHash": "dcd835e82c3fc165",
+    "verdict": "pass"
+  },
+  {
+    "key": "digital-data/s10/p08",
+    "tweetHash": "ab2421b7d98a2b62",
+    "verdict": "pass"
+  },
+  {
+    "key": "digital-data/s10/p09",
+    "tweetHash": "64e2459a1b78dead",
+    "verdict": "pass"
+  },
+  {
+    "key": "digital-data/s10/p10",
+    "tweetHash": "ced247dc1bfc333a",
+    "verdict": "pass"
+  }
+]

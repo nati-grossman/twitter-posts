@@ -872,6 +872,25 @@ button {
   cursor: not-allowed;
 }
 
+.single-tweet {
+  margin: 8px 0 20px;
+  padding: 14px 16px;
+  border-radius: var(--radius-sm);
+  background: rgba(255, 255, 255, 0.85);
+  border: 2px solid var(--accent);
+}
+
+.single-tweet-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 10px;
+}
+
+.single-tweet-header .post-copy-btn {
+  margin-inline-start: auto;
+}
+
 .twitter-thread {
   display: flex;
   flex-direction: column;

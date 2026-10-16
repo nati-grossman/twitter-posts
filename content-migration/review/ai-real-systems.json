@@ -1,0 +1,503 @@
+[
+ {
+  "key": "ai-real-systems/s01/p01",
+  "tweetHash": "8e0075c15cf8c133",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-real-systems/s01/p02",
+  "tweetHash": "176ac766f9c23df9",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-real-systems/s01/p03",
+  "tweetHash": "216c1b58b78b9cb4",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-real-systems/s01/p04",
+  "tweetHash": "7ec7674c3008fb34",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-real-systems/s01/p05",
+  "tweetHash": "151bdca6dfa58119",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-real-systems/s01/p06",
+  "tweetHash": "fdb8ad0343c0e2e0",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-real-systems/s01/p07",
+  "tweetHash": "29fb7ac39ea86641",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-real-systems/s01/p08",
+  "tweetHash": "d1e0cf5513e9a608",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-real-systems/s01/p09",
+  "tweetHash": "3ac327d54467c91a",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-real-systems/s01/p10",
+  "tweetHash": "0caafc18a80accd2",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-real-systems/s02/p01",
+  "tweetHash": "bc431460aad0fdbb",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-real-systems/s02/p02",
+  "tweetHash": "c3ec72f68a04e287",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-real-systems/s02/p03",
+  "tweetHash": "cd5ca2550417b822",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-real-systems/s02/p04",
+  "tweetHash": "8b32884c36026258",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-real-systems/s02/p05",
+  "tweetHash": "df122d0ba7225575",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-real-systems/s02/p06",
+  "tweetHash": "5dd4bf56368f18fd",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-real-systems/s02/p07",
+  "tweetHash": "7d8ba4220d81e783",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-real-systems/s02/p08",
+  "tweetHash": "d1cad24323e58040",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-real-systems/s02/p09",
+  "tweetHash": "88f681d6bffc449f",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-real-systems/s02/p10",
+  "tweetHash": "bf5a758294632a6e",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-real-systems/s03/p01",
+  "tweetHash": "133f36c856a71111",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-real-systems/s03/p02",
+  "tweetHash": "4f02f8fd37878387",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-real-systems/s03/p03",
+  "tweetHash": "6a5f501875eddec4",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-real-systems/s03/p04",
+  "tweetHash": "5bcb5a73204927ed",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-real-systems/s03/p05",
+  "tweetHash": "cb74d6e2c8678754",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-real-systems/s03/p06",
+  "tweetHash": "a4ade0a2570c8250",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-real-systems/s03/p07",
+  "tweetHash": "1907952b23e01c2c",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-real-systems/s03/p08",
+  "tweetHash": "9348ff85fadfddc3",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-real-systems/s03/p09",
+  "tweetHash": "b016ea19a50db25e",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-real-systems/s03/p10",
+  "tweetHash": "890e0d1a708fd5ce",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-real-systems/s04/p01",
+  "tweetHash": "f2dfb14150557674",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-real-systems/s04/p02",
+  "tweetHash": "16983b93f318805d",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-real-systems/s04/p03",
+  "tweetHash": "7c1c9db90de9450c",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-real-systems/s04/p04",
+  "tweetHash": "82c75646320b6bf2",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-real-systems/s04/p05",
+  "tweetHash": "c0bc37657c08ff9d",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-real-systems/s04/p06",
+  "tweetHash": "92786a5f6343b98f",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-real-systems/s04/p07",
+  "tweetHash": "3d3212aaa732f4d0",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-real-systems/s04/p08",
+  "tweetHash": "64def82293ef22c4",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-real-systems/s04/p09",
+  "tweetHash": "38ba12e80e5c14b8",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-real-systems/s04/p10",
+  "tweetHash": "d7d3f39c905fcc07",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-real-systems/s05/p01",
+  "tweetHash": "01478be23388a075",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-real-systems/s05/p02",
+  "tweetHash": "5be22aad4e59ae88",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-real-systems/s05/p03",
+  "tweetHash": "a23efad82eae384f",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-real-systems/s05/p04",
+  "tweetHash": "103f52b44640a383",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-real-systems/s05/p05",
+  "tweetHash": "fc1dfe2b9c4bbe8c",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-real-systems/s05/p06",
+  "tweetHash": "accde8b457f3760b",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-real-systems/s05/p07",
+  "tweetHash": "131733cf6d9ac0c7",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-real-systems/s05/p08",
+  "tweetHash": "db1f48550f190586",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-real-systems/s05/p09",
+  "tweetHash": "308e24a968015ddc",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-real-systems/s05/p10",
+  "tweetHash": "b1ed3a839c06eff4",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-real-systems/s06/p01",
+  "tweetHash": "718a11beabffd73d",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-real-systems/s06/p02",
+  "tweetHash": "62b14ed1e2561ac8",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-real-systems/s06/p03",
+  "tweetHash": "eab5763051b8c75d",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-real-systems/s06/p04",
+  "tweetHash": "f82e1ea9171550f1",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-real-systems/s06/p05",
+  "tweetHash": "86f11d005244806e",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-real-systems/s06/p06",
+  "tweetHash": "711f0dc5039467e8",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-real-systems/s06/p07",
+  "tweetHash": "87bbccc3c67c9e03",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-real-systems/s06/p08",
+  "tweetHash": "b3e5cefceb04a3ab",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-real-systems/s06/p09",
+  "tweetHash": "3fc284d06732740c",
+  "verdict": "revise",
+  "reason": "Wrong Hebrew word: 'הופכים חישוב ארוך לסביל' — 'סביל' means 'passive', not 'tolerable' ('נסבל'). The phrase is broken; rephrase (e.g. 'הופכים המתנה ארוכה לנסבלת')."
+ },
+ {
+  "key": "ai-real-systems/s06/p10",
+  "tweetHash": "1ae81fb7d7fd654f",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-real-systems/s07/p01",
+  "tweetHash": "4077df624589a857",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-real-systems/s07/p02",
+  "tweetHash": "6681daebfa2c4e44",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-real-systems/s07/p03",
+  "tweetHash": "0ae0eb6355b84d5e",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-real-systems/s07/p04",
+  "tweetHash": "c0bf9c441592a0d1",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-real-systems/s07/p05",
+  "tweetHash": "cce0b5ef3b364b4b",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-real-systems/s07/p06",
+  "tweetHash": "b93233869e6b9b62",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-real-systems/s07/p07",
+  "tweetHash": "c03b964b1c844db0",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-real-systems/s07/p08",
+  "tweetHash": "fc024250593ec999",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-real-systems/s07/p09",
+  "tweetHash": "9f35da0a8f4171d0",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-real-systems/s07/p10",
+  "tweetHash": "793cf00d3a8ae28e",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-real-systems/s08/p01",
+  "tweetHash": "b621311cc932a75d",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-real-systems/s08/p02",
+  "tweetHash": "c20e7a1497c64a4d",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-real-systems/s08/p03",
+  "tweetHash": "33d1ce078f61cc07",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-real-systems/s08/p04",
+  "tweetHash": "1290ea40b078b2b6",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-real-systems/s08/p05",
+  "tweetHash": "8799ff8597f36ca9",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-real-systems/s08/p06",
+  "tweetHash": "8f3be2efc10e8d53",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-real-systems/s08/p07",
+  "tweetHash": "3ebd6e317501a5e1",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-real-systems/s08/p08",
+  "tweetHash": "2287e5a13b952322",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-real-systems/s08/p09",
+  "tweetHash": "94ec88d274654e52",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-real-systems/s08/p10",
+  "tweetHash": "0808601c3f044a3a",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-real-systems/s09/p01",
+  "tweetHash": "9ffaf8186f75245e",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-real-systems/s09/p02",
+  "tweetHash": "d9ab8681b913448d",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-real-systems/s09/p03",
+  "tweetHash": "9f84fa0aef7f5c59",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-real-systems/s09/p04",
+  "tweetHash": "5cb293fdfcf25f5b",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-real-systems/s09/p05",
+  "tweetHash": "dbcce51e58520698",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-real-systems/s09/p06",
+  "tweetHash": "62a3652e7748f789",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-real-systems/s09/p07",
+  "tweetHash": "0c01c03ffe580471",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-real-systems/s09/p08",
+  "tweetHash": "1cff14e9ff2ead49",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-real-systems/s09/p09",
+  "tweetHash": "e0cc50eca16721c7",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-real-systems/s09/p10",
+  "tweetHash": "1d1883ea875c568d",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-real-systems/s10/p01",
+  "tweetHash": "546757baf2bb1063",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-real-systems/s10/p02",
+  "tweetHash": "ac5b42e2b9888e7a",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-real-systems/s10/p03",
+  "tweetHash": "26ce60c4a8545fac",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-real-systems/s10/p04",
+  "tweetHash": "5657667fb384ec46",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-real-systems/s10/p05",
+  "tweetHash": "e427324ab7943cdd",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-real-systems/s10/p06",
+  "tweetHash": "5e97ab9760e71011",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-real-systems/s10/p07",
+  "tweetHash": "c9effce68c321e27",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-real-systems/s10/p08",
+  "tweetHash": "e762a6c474fe05d5",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-real-systems/s10/p09",
+  "tweetHash": "28d39a3d8cc041ff",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-real-systems/s10/p10",
+  "tweetHash": "8076e4bd9f1916ef",
+  "verdict": "pass"
+ }
+]

@@ -1,0 +1,504 @@
+[
+  {
+    "key": "future-internet/s01/p01",
+    "tweetHash": "f9d92bb98d19bbbd",
+    "verdict": "pass"
+  },
+  {
+    "key": "future-internet/s01/p02",
+    "tweetHash": "1af9f696dd33da74",
+    "verdict": "pass"
+  },
+  {
+    "key": "future-internet/s01/p03",
+    "tweetHash": "25de3ff6e6d6776a",
+    "verdict": "pass"
+  },
+  {
+    "key": "future-internet/s01/p04",
+    "tweetHash": "b39393435b094972",
+    "verdict": "pass"
+  },
+  {
+    "key": "future-internet/s01/p05",
+    "tweetHash": "5ae6df752246534c",
+    "verdict": "pass"
+  },
+  {
+    "key": "future-internet/s01/p06",
+    "tweetHash": "80db43e3b91dc521",
+    "verdict": "pass"
+  },
+  {
+    "key": "future-internet/s01/p07",
+    "tweetHash": "5028d974b5f9f7c4",
+    "verdict": "pass"
+  },
+  {
+    "key": "future-internet/s01/p08",
+    "tweetHash": "bb185adef830b294",
+    "verdict": "pass"
+  },
+  {
+    "key": "future-internet/s01/p09",
+    "tweetHash": "00a9cb55dae2e9bc",
+    "verdict": "pass"
+  },
+  {
+    "key": "future-internet/s01/p10",
+    "tweetHash": "0f08511760d12c28",
+    "verdict": "pass"
+  },
+  {
+    "key": "future-internet/s02/p01",
+    "tweetHash": "8e31f1c8a17f95f1",
+    "verdict": "pass"
+  },
+  {
+    "key": "future-internet/s02/p02",
+    "tweetHash": "09c94e34270ede56",
+    "verdict": "pass"
+  },
+  {
+    "key": "future-internet/s02/p03",
+    "tweetHash": "3772a349294478f4",
+    "verdict": "pass"
+  },
+  {
+    "key": "future-internet/s02/p04",
+    "tweetHash": "ef8dc318f2d90059",
+    "verdict": "pass"
+  },
+  {
+    "key": "future-internet/s02/p05",
+    "tweetHash": "d4dd87253d9f52dd",
+    "verdict": "pass"
+  },
+  {
+    "key": "future-internet/s02/p06",
+    "tweetHash": "0a3ae50b47127ad8",
+    "verdict": "pass"
+  },
+  {
+    "key": "future-internet/s02/p07",
+    "tweetHash": "b951494e8a427f83",
+    "verdict": "pass"
+  },
+  {
+    "key": "future-internet/s02/p08",
+    "tweetHash": "d6313fbe39554c28",
+    "verdict": "pass"
+  },
+  {
+    "key": "future-internet/s02/p09",
+    "tweetHash": "a4e3c9ea940bf064",
+    "verdict": "pass"
+  },
+  {
+    "key": "future-internet/s02/p10",
+    "tweetHash": "1e9d7865993761d3",
+    "verdict": "pass"
+  },
+  {
+    "key": "future-internet/s03/p01",
+    "tweetHash": "0316d2b85734ed70",
+    "verdict": "pass"
+  },
+  {
+    "key": "future-internet/s03/p02",
+    "tweetHash": "8c16320e901ed17c",
+    "verdict": "pass"
+  },
+  {
+    "key": "future-internet/s03/p03",
+    "tweetHash": "6403dcfbe4d5d046",
+    "verdict": "pass"
+  },
+  {
+    "key": "future-internet/s03/p04",
+    "tweetHash": "167fd52fe3602bad",
+    "verdict": "pass"
+  },
+  {
+    "key": "future-internet/s03/p05",
+    "tweetHash": "92eeb65b515b1cf6",
+    "verdict": "pass"
+  },
+  {
+    "key": "future-internet/s03/p06",
+    "tweetHash": "cf2d52ee62b9e202",
+    "verdict": "pass"
+  },
+  {
+    "key": "future-internet/s03/p07",
+    "tweetHash": "76bdcc21719c72f4",
+    "verdict": "pass"
+  },
+  {
+    "key": "future-internet/s03/p08",
+    "tweetHash": "db9c334a30fb4dad",
+    "verdict": "pass"
+  },
+  {
+    "key": "future-internet/s03/p09",
+    "tweetHash": "5ea7a125e96af8ac",
+    "verdict": "pass"
+  },
+  {
+    "key": "future-internet/s03/p10",
+    "tweetHash": "263968892f7b23a9",
+    "verdict": "pass"
+  },
+  {
+    "key": "future-internet/s04/p01",
+    "tweetHash": "b0fe6026f29a1f53",
+    "verdict": "pass"
+  },
+  {
+    "key": "future-internet/s04/p02",
+    "tweetHash": "9f2741868207a28b",
+    "verdict": "pass"
+  },
+  {
+    "key": "future-internet/s04/p03",
+    "tweetHash": "adf3eca136e8c146",
+    "verdict": "pass"
+  },
+  {
+    "key": "future-internet/s04/p04",
+    "tweetHash": "6c3601a60124e841",
+    "verdict": "pass"
+  },
+  {
+    "key": "future-internet/s04/p05",
+    "tweetHash": "e30b5f55770e5d7d",
+    "verdict": "pass"
+  },
+  {
+    "key": "future-internet/s04/p06",
+    "tweetHash": "a351ff5f3044d6f7",
+    "verdict": "pass"
+  },
+  {
+    "key": "future-internet/s04/p07",
+    "tweetHash": "16d8e23ba5b6cab0",
+    "verdict": "pass"
+  },
+  {
+    "key": "future-internet/s04/p08",
+    "tweetHash": "6c5a7779773edced",
+    "verdict": "pass"
+  },
+  {
+    "key": "future-internet/s04/p09",
+    "tweetHash": "7c6e63107ddea9c7",
+    "verdict": "pass"
+  },
+  {
+    "key": "future-internet/s04/p10",
+    "tweetHash": "7676ee0f8211ae49",
+    "verdict": "pass"
+  },
+  {
+    "key": "future-internet/s05/p01",
+    "tweetHash": "5f5d420cae9a216c",
+    "verdict": "pass"
+  },
+  {
+    "key": "future-internet/s05/p02",
+    "tweetHash": "51fb907737af21c4",
+    "verdict": "pass"
+  },
+  {
+    "key": "future-internet/s05/p03",
+    "tweetHash": "b4f8dea46bba0279",
+    "verdict": "pass"
+  },
+  {
+    "key": "future-internet/s05/p04",
+    "tweetHash": "d2844ab1c99d4fec",
+    "verdict": "pass"
+  },
+  {
+    "key": "future-internet/s05/p05",
+    "tweetHash": "da3401163e3b5e41",
+    "verdict": "pass"
+  },
+  {
+    "key": "future-internet/s05/p06",
+    "tweetHash": "2365c0f73dd10c2e",
+    "verdict": "pass"
+  },
+  {
+    "key": "future-internet/s05/p07",
+    "tweetHash": "4c4b6c1ee7af6fbb",
+    "verdict": "pass"
+  },
+  {
+    "key": "future-internet/s05/p08",
+    "tweetHash": "4ddadc4f5f844373",
+    "verdict": "pass"
+  },
+  {
+    "key": "future-internet/s05/p09",
+    "tweetHash": "403208cc5ac4de8e",
+    "verdict": "pass"
+  },
+  {
+    "key": "future-internet/s05/p10",
+    "tweetHash": "4a65255acaec40d9",
+    "verdict": "pass"
+  },
+  {
+    "key": "future-internet/s06/p01",
+    "tweetHash": "38ee2e6393bb149b",
+    "verdict": "pass"
+  },
+  {
+    "key": "future-internet/s06/p02",
+    "tweetHash": "560e335b0348c1f3",
+    "verdict": "pass"
+  },
+  {
+    "key": "future-internet/s06/p03",
+    "tweetHash": "9240bc43cc96dfb2",
+    "verdict": "pass"
+  },
+  {
+    "key": "future-internet/s06/p04",
+    "tweetHash": "5c93d454a8e7c133",
+    "verdict": "pass"
+  },
+  {
+    "key": "future-internet/s06/p05",
+    "tweetHash": "a12c6bf32ee9e9a7",
+    "verdict": "pass"
+  },
+  {
+    "key": "future-internet/s06/p06",
+    "tweetHash": "9e0372c131e02032",
+    "verdict": "pass"
+  },
+  {
+    "key": "future-internet/s06/p07",
+    "tweetHash": "22de749f8a0a1b53",
+    "verdict": "pass"
+  },
+  {
+    "key": "future-internet/s06/p08",
+    "tweetHash": "ac840efb99c15688",
+    "verdict": "pass"
+  },
+  {
+    "key": "future-internet/s06/p09",
+    "tweetHash": "dabd83591e49ae7d",
+    "verdict": "pass"
+  },
+  {
+    "key": "future-internet/s06/p10",
+    "tweetHash": "2899222a59a06829",
+    "verdict": "pass"
+  },
+  {
+    "key": "future-internet/s07/p01",
+    "tweetHash": "954a8b3c619fe99f",
+    "verdict": "pass"
+  },
+  {
+    "key": "future-internet/s07/p02",
+    "tweetHash": "b53cf0fc67036519",
+    "verdict": "pass"
+  },
+  {
+    "key": "future-internet/s07/p03",
+    "tweetHash": "95bffc61ef145104",
+    "verdict": "pass"
+  },
+  {
+    "key": "future-internet/s07/p04",
+    "tweetHash": "f34866a124d0e345",
+    "verdict": "pass"
+  },
+  {
+    "key": "future-internet/s07/p05",
+    "tweetHash": "90a8442b1f3f34f9",
+    "verdict": "pass"
+  },
+  {
+    "key": "future-internet/s07/p06",
+    "tweetHash": "510198e540e379d9",
+    "verdict": "pass"
+  },
+  {
+    "key": "future-internet/s07/p07",
+    "tweetHash": "7e3608f6408cef2b",
+    "verdict": "pass"
+  },
+  {
+    "key": "future-internet/s07/p08",
+    "tweetHash": "eeb4689f7ee38e1f",
+    "verdict": "pass"
+  },
+  {
+    "key": "future-internet/s07/p09",
+    "tweetHash": "ac37a979d0428a93",
+    "verdict": "pass"
+  },
+  {
+    "key": "future-internet/s07/p10",
+    "tweetHash": "92f36d308b8ad15e",
+    "verdict": "revise",
+    "reason": "Near-duplicate of s07/p03 in the same series: both make the same point that edge does not replace the cloud and the two work together in their own roles ('close when you need speed, central when you need power' vs 'cloud thinks big, edge reacts fast'). Make the summary distinct, e.g. recap the series' concrete uses (latency, IoT filtering, on-device AI, privacy) instead of restating the hybrid point."
+  },
+  {
+    "key": "future-internet/s08/p01",
+    "tweetHash": "15344c18c1ebbada",
+    "verdict": "pass"
+  },
+  {
+    "key": "future-internet/s08/p02",
+    "tweetHash": "3e8f04fa9c4d43a8",
+    "verdict": "pass"
+  },
+  {
+    "key": "future-internet/s08/p03",
+    "tweetHash": "8bc9a41cc4e271c9",
+    "verdict": "pass"
+  },
+  {
+    "key": "future-internet/s08/p04",
+    "tweetHash": "e0de2a47825ebf93",
+    "verdict": "pass"
+  },
+  {
+    "key": "future-internet/s08/p05",
+    "tweetHash": "1c6877a9fcdc75e8",
+    "verdict": "pass"
+  },
+  {
+    "key": "future-internet/s08/p06",
+    "tweetHash": "f958957e6de51f93",
+    "verdict": "pass"
+  },
+  {
+    "key": "future-internet/s08/p07",
+    "tweetHash": "ec8eb5f5a4e0e02c",
+    "verdict": "pass"
+  },
+  {
+    "key": "future-internet/s08/p08",
+    "tweetHash": "d179b7197f677032",
+    "verdict": "pass"
+  },
+  {
+    "key": "future-internet/s08/p09",
+    "tweetHash": "929cd9788b42a854",
+    "verdict": "pass"
+  },
+  {
+    "key": "future-internet/s08/p10",
+    "tweetHash": "224c6961145b28a9",
+    "verdict": "pass"
+  },
+  {
+    "key": "future-internet/s09/p01",
+    "tweetHash": "ec0619db1d8edbcb",
+    "verdict": "pass"
+  },
+  {
+    "key": "future-internet/s09/p02",
+    "tweetHash": "ecd8a12c78f478b5",
+    "verdict": "pass"
+  },
+  {
+    "key": "future-internet/s09/p03",
+    "tweetHash": "4a0fc0ae1517dc1d",
+    "verdict": "pass"
+  },
+  {
+    "key": "future-internet/s09/p04",
+    "tweetHash": "8cfb0b0234b6066d",
+    "verdict": "pass"
+  },
+  {
+    "key": "future-internet/s09/p05",
+    "tweetHash": "633239f4c10b74cc",
+    "verdict": "pass"
+  },
+  {
+    "key": "future-internet/s09/p06",
+    "tweetHash": "c63b3694b949c7a8",
+    "verdict": "pass"
+  },
+  {
+    "key": "future-internet/s09/p07",
+    "tweetHash": "47bcc8ad76e04c80",
+    "verdict": "pass"
+  },
+  {
+    "key": "future-internet/s09/p08",
+    "tweetHash": "639938b46d7f8d75",
+    "verdict": "pass"
+  },
+  {
+    "key": "future-internet/s09/p09",
+    "tweetHash": "e1ce23e82221e27d",
+    "verdict": "pass"
+  },
+  {
+    "key": "future-internet/s09/p10",
+    "tweetHash": "7bba082735ddc2b9",
+    "verdict": "pass"
+  },
+  {
+    "key": "future-internet/s10/p01",
+    "tweetHash": "f7dfba23e7b6d52b",
+    "verdict": "pass"
+  },
+  {
+    "key": "future-internet/s10/p02",
+    "tweetHash": "c4d33c0442861c5f",
+    "verdict": "pass"
+  },
+  {
+    "key": "future-internet/s10/p03",
+    "tweetHash": "b1b478eb39d94f80",
+    "verdict": "pass"
+  },
+  {
+    "key": "future-internet/s10/p04",
+    "tweetHash": "2003b733277fd681",
+    "verdict": "pass"
+  },
+  {
+    "key": "future-internet/s10/p05",
+    "tweetHash": "2c9330e6ee81eb8c",
+    "verdict": "pass"
+  },
+  {
+    "key": "future-internet/s10/p06",
+    "tweetHash": "97558f6076ec92fa",
+    "verdict": "pass"
+  },
+  {
+    "key": "future-internet/s10/p07",
+    "tweetHash": "9cb2c973c34a1abf",
+    "verdict": "pass"
+  },
+  {
+    "key": "future-internet/s10/p08",
+    "tweetHash": "10c15853b8a2f653",
+    "verdict": "pass"
+  },
+  {
+    "key": "future-internet/s10/p09",
+    "tweetHash": "6d167a1e42527918",
+    "verdict": "pass"
+  },
+  {
+    "key": "future-internet/s10/p10",
+    "tweetHash": "65e86baa486fa33e",
+    "verdict": "revise",
+    "reason": "Near-duplicate of s10/p02 in the same series: both say the engine stays, the shell/habit changes, and the browser becomes a 'portal'. Differentiate the summary, e.g. recap why the browser survives (openness/links without gatekeeper, WebAssembly, privacy, AI built-in) rather than repeating the 'engine stays, portal' line."
+  }
+]

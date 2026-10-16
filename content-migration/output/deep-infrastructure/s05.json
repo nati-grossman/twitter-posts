@@ -1,0 +1,52 @@
+[
+  {
+    "key": "deep-infrastructure/s05/p01",
+    "sourceHash": "aced0f89dab506a3",
+    "tweet": "מאה containers רצים איפשהו. איפה כל אחד? מי נפל? צריך עוד עותק בלילה? לנהל את זה ידנית כמעט בלתי אפשרי. Kubernetes הוא מנצח התזמורת: מחליט איפה כל דבר ירוץ, מתקן מה שנפל ושומר על המערכת רצה."
+  },
+  {
+    "key": "deep-infrastructure/s05/p02",
+    "sourceHash": "d21b4ecf4f9eda3c",
+    "tweet": "Cluster של Kubernetes בנוי משני חלקים: ה-control plane הוא המוח, שמחליט מה ירוץ ואיפה ושומר על המצב הרצוי, וה-nodes הם המכונות שמריצות את ה-Pods בפועל. אחד מחליט, השני מבצע."
+  },
+  {
+    "key": "deep-infrastructure/s05/p03",
+    "sourceHash": "02fc2e1d986f0461",
+    "tweet": "Pod היא היחידה הקטנה ביותר ב-Kubernetes: לפעמים container אחד, לפעמים כמה שצריכים זה את זה מקרוב. הם חולקים רשת וחיים ומתים יחד, ו-Kubernetes מזיז את ה-Pods בין מכונות לפי הצורך, לא אתם ידנית."
+  },
+  {
+    "key": "deep-infrastructure/s05/p04",
+    "sourceHash": "645309968e5a19a3",
+    "tweet": "ב-Deployment של Kubernetes אתם מגדירים מה המצב הרצוי, למשל חמישה עותקים של האפליקציה. נפל אחד? הוא מחליף אותו לבד, גם באמצע היום וגם בזמן עדכון גרסה. אתם אומרים כמה, והוא שומר על כמה."
+  },
+  {
+    "key": "deep-infrastructure/s05/p05",
+    "sourceHash": "6d970b62f0fabfe6",
+    "tweet": "ב-Kubernetes ה-Pods מתחלפים כל הזמן וכתובות באות והולכות. Service נותן להם כתובת פנימית יציבה, ו-Ingress הוא הכניסה מבחוץ, לרוב עם HTTPS. מבפנים הכול זז, ומבחוץ יש דלת קבועה אחת שעובדת."
+  },
+  {
+    "key": "deep-infrastructure/s05/p06",
+    "sourceHash": "c55ab3c05fc68b11",
+    "tweet": "ב-Kubernetes הגדרות וסודות לא יושבים בתוך ה-image. ConfigMap מחזיק הגדרות ו-Secret מחזיק סיסמאות ומפתחות, ושניהם מוזרקים ל-Pod בזמן ריצה. כך מחליפים סיסמה בלי build חדש ומפרידים קוד מסביבה."
+  },
+  {
+    "key": "deep-infrastructure/s05/p07",
+    "sourceHash": "0910af0f7fb55736",
+    "tweet": "Kubernetes הוא לא חובה לכל אחד. לסטארטאפ קטן PaaS פשוט מספיק, בלי YAML ובלי צוות DevOps שלם. הוא מביא כוח וגם מורכבות, ומשתלם כשיש הרבה שירותים וצוות שיודע לתפעל אותו, לא כי כולם מדברים עליו."
+  },
+  {
+    "key": "deep-infrastructure/s05/p08",
+    "sourceHash": "02b0729ac956c337",
+    "tweet": "EKS, GKE ו-AKS הם Kubernetes מנוהל אצל ספקי הענן: הספק מפעיל בשבילכם את ה-Control plane, ואתם מביאים Nodes ו-YAML. זה מוריד חלק מהעומס, לא את כולו, כי עדיין צריך להבין את ה-Pods, הרשת וההגדרות."
+  },
+  {
+    "key": "deep-infrastructure/s05/p09",
+    "sourceHash": "2263500747e14679",
+    "tweet": "Helm הוא מנהל חבילות ל-Kubernetes, כמו apt או npm: במקום לכתוב YAML ארוך מאפס, מתקינים chart מוכן ל-monitoring, למסד נתונים ולכלים נפוצים. הוא חוסך YAML, לא הבנה, וחבילה מוכנה עוד צריכה התאמה."
+  },
+  {
+    "key": "deep-infrastructure/s05/p10",
+    "sourceHash": "9d33db0a58a9431c",
+    "tweet": "Kubernetes הוא אורקסטרציה של containers בקנה מידה: שומר על מספר העותקים, מחליף מה שנפל ומנהל רשת וכניסה מבחוץ. הוא לא הענן עצמו אלא כלי שרץ בענן או on-prem, וחזק כשצריך אותו, לא תמיד כצעד ראשון."
+  }
+]

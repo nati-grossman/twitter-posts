@@ -6,12 +6,18 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "tweets:extract": "tsx content-migration/scripts/extract.ts",
+    "tweets:validate": "tsx content-migration/scripts/validate.ts",
+    "tweets:merge": "tsx content-migration/scripts/merge.ts"
   },
   "devDependencies": {
     "@types/react": "^19.2.15",
     "@types/react-dom": "^19.2.3",
+    "@types/twitter-text": "^3.1.10",
     "@vitejs/plugin-react": "^6.0.2",
+    "tsx": "^4.23.15",
+    "twitter-text": "^3.1.0",
     "typescript": "~6.0.2",
     "vite": "^8.0.12"
   },

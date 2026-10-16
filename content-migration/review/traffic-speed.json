@@ -1,0 +1,502 @@
+[
+    {
+        "key":  "traffic-speed/s01/p01",
+        "tweetHash":  "81cb515662f147f4",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "traffic-speed/s01/p02",
+        "tweetHash":  "b4255e0f064155b5",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "traffic-speed/s01/p03",
+        "tweetHash":  "a7d24605ce5e7fab",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "traffic-speed/s01/p04",
+        "tweetHash":  "66722fac420eaba4",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "traffic-speed/s01/p05",
+        "tweetHash":  "02fb9f267579f8d5",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "traffic-speed/s01/p06",
+        "tweetHash":  "5d24afc1f92af16b",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "traffic-speed/s01/p07",
+        "tweetHash":  "21991c4f79575330",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "traffic-speed/s01/p08",
+        "tweetHash":  "3c6a9632146aca15",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "traffic-speed/s01/p09",
+        "tweetHash":  "1473f94882bd08b1",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "traffic-speed/s01/p10",
+        "tweetHash":  "e32b246f3eb3d8e8",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "traffic-speed/s02/p01",
+        "tweetHash":  "81ab16d1990a4e98",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "traffic-speed/s02/p02",
+        "tweetHash":  "69c514397e62162a",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "traffic-speed/s02/p03",
+        "tweetHash":  "fbd284704a27b401",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "traffic-speed/s02/p04",
+        "tweetHash":  "28eda6748ee3f881",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "traffic-speed/s02/p05",
+        "tweetHash":  "23021429160ed202",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "traffic-speed/s02/p06",
+        "tweetHash":  "5386bb72d514ef20",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "traffic-speed/s02/p07",
+        "tweetHash":  "b1c9b2d9d28cc158",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "traffic-speed/s02/p08",
+        "tweetHash":  "ca6b9469397aa73a",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "traffic-speed/s02/p09",
+        "tweetHash":  "ee8d072e9d831665",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "traffic-speed/s02/p10",
+        "tweetHash":  "cb9d945c0a99a328",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "traffic-speed/s03/p01",
+        "tweetHash":  "bf86a53ce18cad71",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "traffic-speed/s03/p02",
+        "tweetHash":  "3852ec75e83257e6",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "traffic-speed/s03/p03",
+        "tweetHash":  "62a12f0cc3e7b4c2",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "traffic-speed/s03/p04",
+        "tweetHash":  "a26536872c231f9a",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "traffic-speed/s03/p05",
+        "tweetHash":  "56e4adba87b1ec95",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "traffic-speed/s03/p06",
+        "tweetHash":  "09cd93b00b604642",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "traffic-speed/s03/p07",
+        "tweetHash":  "3be5930ed906ee62",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "traffic-speed/s03/p08",
+        "tweetHash":  "7ef134393bb2d1c2",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "traffic-speed/s03/p09",
+        "tweetHash":  "7dacaa37391369a2",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "traffic-speed/s03/p10",
+        "tweetHash":  "61d25dc01a06f436",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "traffic-speed/s04/p01",
+        "tweetHash":  "f1dbaf428e233741",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "traffic-speed/s04/p02",
+        "tweetHash":  "f892258806abfd18",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "traffic-speed/s04/p03",
+        "tweetHash":  "3efa3b0ed86d534b",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "traffic-speed/s04/p04",
+        "tweetHash":  "869758c5605ddf45",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "traffic-speed/s04/p05",
+        "tweetHash":  "e1d18bf00693458a",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "traffic-speed/s04/p06",
+        "tweetHash":  "a023cb438b5a0d59",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "traffic-speed/s04/p07",
+        "tweetHash":  "03652dad24615daa",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "traffic-speed/s04/p08",
+        "tweetHash":  "d54e3cfd9827ffa9",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "traffic-speed/s04/p09",
+        "tweetHash":  "eea4d935ee4b0914",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "traffic-speed/s04/p10",
+        "tweetHash":  "39416f9419364183",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "traffic-speed/s05/p01",
+        "tweetHash":  "2eeb169234798c50",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "traffic-speed/s05/p02",
+        "tweetHash":  "557bae060868acb9",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "traffic-speed/s05/p03",
+        "tweetHash":  "98531c18750c8b04",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "traffic-speed/s05/p04",
+        "tweetHash":  "b56c4a4d7d6dc948",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "traffic-speed/s05/p05",
+        "tweetHash":  "2b9bf8af07f8c263",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "traffic-speed/s05/p06",
+        "tweetHash":  "05a81778f1277a15",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "traffic-speed/s05/p07",
+        "tweetHash":  "3b1f80e6a7125c12",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "traffic-speed/s05/p08",
+        "tweetHash":  "a18a4884b7a3f57c",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "traffic-speed/s05/p09",
+        "tweetHash":  "89a866b4ead094a4",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "traffic-speed/s05/p10",
+        "tweetHash":  "14e152fe0444eef3",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "traffic-speed/s06/p01",
+        "tweetHash":  "7c3f577cc7c7ab83",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "traffic-speed/s06/p02",
+        "tweetHash":  "db9ee76d3c3ce809",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "traffic-speed/s06/p03",
+        "tweetHash":  "d1ac808a9d8d8807",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "traffic-speed/s06/p04",
+        "tweetHash":  "044e4e0df0088b2a",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "traffic-speed/s06/p05",
+        "tweetHash":  "5c4d37c99c7fc101",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "traffic-speed/s06/p06",
+        "tweetHash":  "fcc043c60ab526c1",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "traffic-speed/s06/p07",
+        "tweetHash":  "3359d5b641526f85",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "traffic-speed/s06/p08",
+        "tweetHash":  "b4e06c8963f511e2",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "traffic-speed/s06/p09",
+        "tweetHash":  "4e7d7d558c99cfa3",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "traffic-speed/s06/p10",
+        "tweetHash":  "cf00a348393692be",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "traffic-speed/s07/p01",
+        "tweetHash":  "2b23f0bccb010359",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "traffic-speed/s07/p02",
+        "tweetHash":  "84e0118364287f20",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "traffic-speed/s07/p03",
+        "tweetHash":  "c758f2811504e6c2",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "traffic-speed/s07/p04",
+        "tweetHash":  "b37036ea80987bc5",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "traffic-speed/s07/p05",
+        "tweetHash":  "9fb837ba6aa09e16",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "traffic-speed/s07/p06",
+        "tweetHash":  "433ea63b318fa0f8",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "traffic-speed/s07/p07",
+        "tweetHash":  "3d2688b1e874396e",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "traffic-speed/s07/p08",
+        "tweetHash":  "fe8d7f2bad182ee6",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "traffic-speed/s07/p09",
+        "tweetHash":  "3daedcc77368964f",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "traffic-speed/s07/p10",
+        "tweetHash":  "4ec26189b225f920",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "traffic-speed/s08/p01",
+        "tweetHash":  "e9f1a5d2b718a2b4",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "traffic-speed/s08/p02",
+        "tweetHash":  "d13b0e146cc8deca",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "traffic-speed/s08/p03",
+        "tweetHash":  "230a8036a75dbb60",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "traffic-speed/s08/p04",
+        "tweetHash":  "4561ad2cb8162926",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "traffic-speed/s08/p05",
+        "tweetHash":  "97824bbca78add34",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "traffic-speed/s08/p06",
+        "tweetHash":  "7896f062e43a8cc8",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "traffic-speed/s08/p07",
+        "tweetHash":  "742007d75e34e9c6",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "traffic-speed/s08/p08",
+        "tweetHash":  "874f5ae6286968a5",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "traffic-speed/s08/p09",
+        "tweetHash":  "56f848bae54ffa67",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "traffic-speed/s08/p10",
+        "tweetHash":  "7543ff3994b72a22",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "traffic-speed/s09/p01",
+        "tweetHash":  "09c4e8759af85299",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "traffic-speed/s09/p02",
+        "tweetHash":  "2b025320e528a49b",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "traffic-speed/s09/p03",
+        "tweetHash":  "14963eeb2e3a8776",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "traffic-speed/s09/p04",
+        "tweetHash":  "840679aa089a5f2b",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "traffic-speed/s09/p05",
+        "tweetHash":  "c93e0f6cd856e9db",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "traffic-speed/s09/p06",
+        "tweetHash":  "9b98a200f1684fb2",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "traffic-speed/s09/p07",
+        "tweetHash":  "41d70faf3e80445a",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "traffic-speed/s09/p08",
+        "tweetHash":  "3cf8d1e557732a0d",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "traffic-speed/s09/p09",
+        "tweetHash":  "c2277cfd78907f42",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "traffic-speed/s09/p10",
+        "tweetHash":  "fbff9ee49403bfeb",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "traffic-speed/s10/p01",
+        "tweetHash":  "e7ad333e34d1eea9",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "traffic-speed/s10/p02",
+        "tweetHash":  "63e1d284fffe9561",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "traffic-speed/s10/p03",
+        "tweetHash":  "74452c3328505f4c",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "traffic-speed/s10/p04",
+        "tweetHash":  "51ca372b0da85455",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "traffic-speed/s10/p05",
+        "tweetHash":  "00186d6f050f8889",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "traffic-speed/s10/p06",
+        "tweetHash":  "932a6090f79ca4f8",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "traffic-speed/s10/p07",
+        "tweetHash":  "2eb0e9919533470a",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "traffic-speed/s10/p08",
+        "tweetHash":  "9ec6c01ab1cc1963",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "traffic-speed/s10/p09",
+        "tweetHash":  "db8dddfe339316ab",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "traffic-speed/s10/p10",
+        "tweetHash":  "30885a3adde4729f",
+        "verdict":  "pass"
+    }
+]

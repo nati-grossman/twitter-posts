@@ -1,0 +1,502 @@
+[
+    {
+        "key":  "communication-security/s01/p01",
+        "tweetHash":  "da6942dd526114c1",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "communication-security/s01/p02",
+        "tweetHash":  "ba0e434c0aea6f0c",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "communication-security/s01/p03",
+        "tweetHash":  "9871fa80eeedd0c9",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "communication-security/s01/p04",
+        "tweetHash":  "4df73648a4051d73",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "communication-security/s01/p05",
+        "tweetHash":  "353c002b668e526c",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "communication-security/s01/p06",
+        "tweetHash":  "363edaba3a81387d",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "communication-security/s01/p07",
+        "tweetHash":  "f15c93fa725398b8",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "communication-security/s01/p08",
+        "tweetHash":  "ce92c51bb7e79ea3",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "communication-security/s01/p09",
+        "tweetHash":  "ed7233f941d8b9bf",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "communication-security/s01/p10",
+        "tweetHash":  "c7b57bd55394b43c",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "communication-security/s02/p01",
+        "tweetHash":  "ae93240f7b7037db",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "communication-security/s02/p02",
+        "tweetHash":  "4620c24611280a2b",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "communication-security/s02/p03",
+        "tweetHash":  "7b4a888262abd1e4",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "communication-security/s02/p04",
+        "tweetHash":  "30fa7f90a419674d",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "communication-security/s02/p05",
+        "tweetHash":  "3146a55f4b23c219",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "communication-security/s02/p06",
+        "tweetHash":  "f0cebfaad03621b9",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "communication-security/s02/p07",
+        "tweetHash":  "fc14b95baaba2efd",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "communication-security/s02/p08",
+        "tweetHash":  "8c1ccd1a151a13ad",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "communication-security/s02/p09",
+        "tweetHash":  "8ff3ae5d405189c7",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "communication-security/s02/p10",
+        "tweetHash":  "79e132d3714ebaa8",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "communication-security/s03/p01",
+        "tweetHash":  "5095a94fc0f85f0f",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "communication-security/s03/p02",
+        "tweetHash":  "4f289d8f1c7dca4e",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "communication-security/s03/p03",
+        "tweetHash":  "8ddb1b6da590cf43",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "communication-security/s03/p04",
+        "tweetHash":  "6aafd4c70318ec0f",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "communication-security/s03/p05",
+        "tweetHash":  "abe3da161592f5bc",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "communication-security/s03/p06",
+        "tweetHash":  "f2b4717bd6af5dbe",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "communication-security/s03/p07",
+        "tweetHash":  "5f311aa6c17896a6",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "communication-security/s03/p08",
+        "tweetHash":  "5354f2ce761fc853",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "communication-security/s03/p09",
+        "tweetHash":  "9470a4e8da6db9b0",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "communication-security/s03/p10",
+        "tweetHash":  "563e7853b16bbe41",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "communication-security/s04/p01",
+        "tweetHash":  "674898953ee96d23",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "communication-security/s04/p02",
+        "tweetHash":  "bc2d24cfe1aae9e2",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "communication-security/s04/p03",
+        "tweetHash":  "ee92a990e48c987f",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "communication-security/s04/p04",
+        "tweetHash":  "02701c4aa8da4d5b",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "communication-security/s04/p05",
+        "tweetHash":  "e6434a1587b6f3cb",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "communication-security/s04/p06",
+        "tweetHash":  "e21b3b2adeb9c233",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "communication-security/s04/p07",
+        "tweetHash":  "fccd4517707cd9ef",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "communication-security/s04/p08",
+        "tweetHash":  "0abffb90fe4570e6",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "communication-security/s04/p09",
+        "tweetHash":  "e8209fe5f8f88a87",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "communication-security/s04/p10",
+        "tweetHash":  "91823b3aabeeb9bc",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "communication-security/s05/p01",
+        "tweetHash":  "d88cffb256b6f7d4",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "communication-security/s05/p02",
+        "tweetHash":  "1778c104704a2bff",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "communication-security/s05/p03",
+        "tweetHash":  "eb1ab47737fab3dc",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "communication-security/s05/p04",
+        "tweetHash":  "ec2707e6944c7f29",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "communication-security/s05/p05",
+        "tweetHash":  "5091a7976faccbed",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "communication-security/s05/p06",
+        "tweetHash":  "5ffc018f61e6357c",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "communication-security/s05/p07",
+        "tweetHash":  "e6848eae93076032",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "communication-security/s05/p08",
+        "tweetHash":  "c1cea8a42732df9c",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "communication-security/s05/p09",
+        "tweetHash":  "860839729ec02074",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "communication-security/s05/p10",
+        "tweetHash":  "e7bf10e4a69a9521",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "communication-security/s06/p01",
+        "tweetHash":  "dc896e3924cef69d",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "communication-security/s06/p02",
+        "tweetHash":  "4a6c89047b15cc64",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "communication-security/s06/p03",
+        "tweetHash":  "09d0b66e026594ee",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "communication-security/s06/p04",
+        "tweetHash":  "89103b6fdcd2044a",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "communication-security/s06/p05",
+        "tweetHash":  "1b833b396c031cb2",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "communication-security/s06/p06",
+        "tweetHash":  "f6e2ce4e41a76de3",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "communication-security/s06/p07",
+        "tweetHash":  "386a1ae72198f76b",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "communication-security/s06/p08",
+        "tweetHash":  "d70c2054711631c2",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "communication-security/s06/p09",
+        "tweetHash":  "3d8bda1533888ead",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "communication-security/s06/p10",
+        "tweetHash":  "8790d2d1eb33ce5c",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "communication-security/s07/p01",
+        "tweetHash":  "8ec9105befbfc8ad",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "communication-security/s07/p02",
+        "tweetHash":  "a1ed8e7dd9a4bccd",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "communication-security/s07/p03",
+        "tweetHash":  "dd3a278aae0d3334",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "communication-security/s07/p04",
+        "tweetHash":  "ed1350401546b8a0",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "communication-security/s07/p05",
+        "tweetHash":  "61919ac05bcf3cd8",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "communication-security/s07/p06",
+        "tweetHash":  "74112670775f8e38",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "communication-security/s07/p07",
+        "tweetHash":  "9bcfee91e23e73ce",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "communication-security/s07/p08",
+        "tweetHash":  "2ec657660696d6a8",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "communication-security/s07/p09",
+        "tweetHash":  "9b4f1be5e7c3c30c",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "communication-security/s07/p10",
+        "tweetHash":  "4b17bc7681fb9fab",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "communication-security/s08/p01",
+        "tweetHash":  "fe75f9eef94cbd5b",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "communication-security/s08/p02",
+        "tweetHash":  "151ef88f673f1b7c",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "communication-security/s08/p03",
+        "tweetHash":  "36489b808b5ce16b",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "communication-security/s08/p04",
+        "tweetHash":  "1cfc38378993cad7",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "communication-security/s08/p05",
+        "tweetHash":  "0dac02629a6ea143",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "communication-security/s08/p06",
+        "tweetHash":  "db7c04e12e1025ee",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "communication-security/s08/p07",
+        "tweetHash":  "b8c88b23b32a723c",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "communication-security/s08/p08",
+        "tweetHash":  "df56d0ab799e9bb7",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "communication-security/s08/p09",
+        "tweetHash":  "5d36696a8517a683",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "communication-security/s08/p10",
+        "tweetHash":  "8233a687325b49a9",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "communication-security/s09/p01",
+        "tweetHash":  "8b5cff3f637264a6",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "communication-security/s09/p02",
+        "tweetHash":  "2677509867d4719b",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "communication-security/s09/p03",
+        "tweetHash":  "1c98c5a0777a2f23",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "communication-security/s09/p04",
+        "tweetHash":  "b53a11b5fa523074",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "communication-security/s09/p05",
+        "tweetHash":  "ff440c4421bd8a67",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "communication-security/s09/p06",
+        "tweetHash":  "b96ecffd57b0aa6f",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "communication-security/s09/p07",
+        "tweetHash":  "1aaea829eaff23c9",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "communication-security/s09/p08",
+        "tweetHash":  "963ad97d5beaff02",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "communication-security/s09/p09",
+        "tweetHash":  "e2f1524509c4eb04",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "communication-security/s09/p10",
+        "tweetHash":  "d080c05a37390726",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "communication-security/s10/p01",
+        "tweetHash":  "23eaedf88d58d34f",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "communication-security/s10/p02",
+        "tweetHash":  "6226b5d9eda62663",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "communication-security/s10/p03",
+        "tweetHash":  "f2ace392db5d5a60",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "communication-security/s10/p04",
+        "tweetHash":  "1342dc8171fe2ca3",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "communication-security/s10/p05",
+        "tweetHash":  "919b02d829920060",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "communication-security/s10/p06",
+        "tweetHash":  "eae8ebf42d9ef94e",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "communication-security/s10/p07",
+        "tweetHash":  "730542f3ee454347",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "communication-security/s10/p08",
+        "tweetHash":  "ed75eb4cae5f92d1",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "communication-security/s10/p09",
+        "tweetHash":  "0249f0d4d0ef7778",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "communication-security/s10/p10",
+        "tweetHash":  "c85712e01aa595ae",
+        "verdict":  "pass"
+    }
+]

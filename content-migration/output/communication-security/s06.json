@@ -1,0 +1,52 @@
+[
+  {
+    "key": "communication-security/s06/p01",
+    "sourceHash": "2eb7b0b07648a084",
+    "tweet": "Session הוא הזיכרון שהשרת מוסיף מעל HTTP: מצב זמני כמו מזהה חשבון, הרשאות או שלב בתהליך. הדפדפן מחזיק רק Session ID אקראי ב-cookie. ה-ID הוא מפתח, לא סיסמה, ובלי רשומה פעילה בשרת הוא חסר ערך."
+  },
+  {
+    "key": "communication-security/s06/p02",
+    "sourceHash": "c872e0cd26a3c7f0",
+    "tweet": "Session נולד ברגע ה-login: השרת מאמת את הסיסמה, מייצר Session ID ארוך ואקראי ושולח אותו ב-cookie מאובטח, ומעכשיו לא צריך סיסמה בכל עמוד. וחשוב להחליף את המזהה הקודם כדי למנוע session fixation."
+  },
+  {
+    "key": "communication-security/s06/p03",
+    "sourceHash": "1c40d84d207a7f41",
+    "tweet": "איפה שומרים sessions? בזיכרון התהליך, במסד נתונים או ב-Redis. אם בקשה אחת מגיעה לשרת A והבאה לשרת B, אחסון משותף מאפשר לשניהם לזהות אתכם. והדפדפן מחזיק רק מפתח, אז השרת יכול לבטל מצב מיד."
+  },
+  {
+    "key": "communication-security/s06/p04",
+    "sourceHash": "c1dadc53e99b464a",
+    "tweet": "Session בלי גבול זמן הופך מחשב שנשכח פתוח להזמנה לתוקף. Idle timeout מנתק אחרי חוסר פעילות, ו-absolute timeout אחרי זמן קבוע בכל מקרה. הארכה אוטומטית בכל פעולה מסוכנת, כי גם תוקף \"פעיל\"."
+  },
+  {
+    "key": "communication-security/s06/p05",
+    "sourceHash": "ff47329927be5045",
+    "tweet": "Session ו-JWT שומרים את האמון במקומות שונים. ב-session השרת מחזיק רשומה, וביטול הוא מיידי. ב-JWT הטוקן נושא claims חתומים, והוא עשוי להישאר תקף עד שיפוג. אף אחד מהם לא \"בטוח יותר\" או \"מיושן\"."
+  },
+  {
+    "key": "communication-security/s06/p06",
+    "sourceHash": "5eeb82bf31063ff1",
+    "tweet": "ב-session fixation התוקף קובע מראש את ה-Session ID של הקורבן, למשל בקישור, ומחכה שיתחבר. אם האתר שומר את אותו מזהה אחרי ה-login, לתוקף יש סשן מחובר. ההגנה: ID חדש מיד אחרי כניסה ובכל שינוי הרשאה."
+  },
+  {
+    "key": "communication-security/s06/p07",
+    "sourceHash": "23c07e697e60dfcb",
+    "tweet": "Session לא שמור רק למשתמשים מחוברים. חנות יכולה לפתוח session אנונימי לעגלת קניות או לטופס, ורק בקופה לקשר אותו לחשבון או למזג עם עגלה קיימת. גם לו צריך תפוגה והגנה, כי יש בו מידע אישי."
+  },
+  {
+    "key": "communication-security/s06/p08",
+    "sourceHash": "9dea980171f21d8a",
+    "tweet": "כל כניסה מטלפון, מחשב או טאבלט יכולה ליצור session נפרד, עם ID וסוג מכשיר, וכולם מקושרים לאותו user ID. כך אפשר לבטל רק מחשב לא מוכר, או להתנתק מכולם. המחיר: צריך לנקות sessions ישנים."
+  },
+  {
+    "key": "communication-security/s06/p09",
+    "sourceHash": "a941b70972545437",
+    "tweet": "Logout אמיתי לא נגמר במעבר למסך הכניסה. השרת חייב לבטל את רשומת ה-session, כי אם מישהו העתיק את ה-cookie קודם, מחיקה מקומית לא תעזור. כשהרשומה מבוטלת, גם העותק הגנוב נדחה בבקשה הבאה."
+  },
+  {
+    "key": "communication-security/s06/p10",
+    "sourceHash": "787be72cc40c1cbe",
+    "tweet": "Session הוא מצב שנשמר בשרת, והלקוח רק נושא אליו מפתח. אחרי login נוצרת רשומה ו-Session ID אקראי שעובר ב-cookie. timeout מגביל את חייה, החלפת ID מונעת fixation ו-logout מבטל אותה בצד השרת."
+  }
+]

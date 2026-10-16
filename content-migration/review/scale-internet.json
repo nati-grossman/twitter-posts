@@ -1,0 +1,504 @@
+[
+    {
+        "key":  "scale-internet/s01/p01",
+        "tweetHash":  "b6317ac36abf51e9",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "scale-internet/s01/p02",
+        "tweetHash":  "6b90004b10e48af5",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "scale-internet/s01/p03",
+        "tweetHash":  "3e22d366586d0b9b",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "scale-internet/s01/p04",
+        "tweetHash":  "3225540d71dc3417",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "scale-internet/s01/p05",
+        "tweetHash":  "ebadf994fda74aac",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "scale-internet/s01/p06",
+        "tweetHash":  "adfb715c25587865",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "scale-internet/s01/p07",
+        "tweetHash":  "dccad5b95865436f",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "scale-internet/s01/p08",
+        "tweetHash":  "672b472753300a9c",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "scale-internet/s01/p09",
+        "tweetHash":  "5a6d5d149f0add28",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "scale-internet/s01/p10",
+        "tweetHash":  "5fe762b35fe15b0f",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "scale-internet/s02/p01",
+        "tweetHash":  "df10d115592ab2ac",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "scale-internet/s02/p02",
+        "tweetHash":  "d6b52d635f440678",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "scale-internet/s02/p03",
+        "tweetHash":  "d65c43db9d2a9004",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "scale-internet/s02/p04",
+        "tweetHash":  "f5860b27a40f2438",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "scale-internet/s02/p05",
+        "tweetHash":  "7c0234bd1d8aca03",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "scale-internet/s02/p06",
+        "tweetHash":  "8293e5c75809a885",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "scale-internet/s02/p07",
+        "tweetHash":  "21b7850070ec05f7",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "scale-internet/s02/p08",
+        "tweetHash":  "4c6bef32f56b4f5d",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "scale-internet/s02/p09",
+        "tweetHash":  "8c4be46f774dffa5",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "scale-internet/s02/p10",
+        "tweetHash":  "f6c23bc9ea97dacc",
+        "verdict":  "revise",
+        "reason":  "Essentially duplicates s02/p01 of the same series: both tweets say the engine is three parts (Crawlers/Crawling, Indexers/Indexing, Ranking) and that most work happens long before the user types. Pick a different angle from the summary body, e.g. the full pipeline Crawling -\u003e Parsing -\u003e Tokenization -\u003e Inverted Index -\u003e Ranking Signals -\u003e Personalization."
+    },
+    {
+        "key":  "scale-internet/s03/p01",
+        "tweetHash":  "179aadab7d5953d3",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "scale-internet/s03/p02",
+        "tweetHash":  "7c14b8f205a9cd87",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "scale-internet/s03/p03",
+        "tweetHash":  "9a7e752a6e324f9d",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "scale-internet/s03/p04",
+        "tweetHash":  "942cd1ba530d3552",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "scale-internet/s03/p05",
+        "tweetHash":  "92e03457c44e9786",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "scale-internet/s03/p06",
+        "tweetHash":  "e0335e32f9c526a3",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "scale-internet/s03/p07",
+        "tweetHash":  "d3703cae19ce43b6",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "scale-internet/s03/p08",
+        "tweetHash":  "c53805cc6c320ed6",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "scale-internet/s03/p09",
+        "tweetHash":  "d8b7a2145070e3d4",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "scale-internet/s03/p10",
+        "tweetHash":  "91ae510f7c58ce4e",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "scale-internet/s04/p01",
+        "tweetHash":  "140f418cf55bab73",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "scale-internet/s04/p02",
+        "tweetHash":  "31ba3941350aa19e",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "scale-internet/s04/p03",
+        "tweetHash":  "5bd00fe1d263bdbb",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "scale-internet/s04/p04",
+        "tweetHash":  "a8b40fe48dbbed4c",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "scale-internet/s04/p05",
+        "tweetHash":  "65b81db97d182a6e",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "scale-internet/s04/p06",
+        "tweetHash":  "df2b659d1a8c45a0",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "scale-internet/s04/p07",
+        "tweetHash":  "9a3c29c911776e1f",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "scale-internet/s04/p08",
+        "tweetHash":  "f12e17c1dc1a81c0",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "scale-internet/s04/p09",
+        "tweetHash":  "777465eda103cc78",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "scale-internet/s04/p10",
+        "tweetHash":  "52439176a8251351",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "scale-internet/s05/p01",
+        "tweetHash":  "af68f356353a0bb5",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "scale-internet/s05/p02",
+        "tweetHash":  "bab4e3a8506b230d",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "scale-internet/s05/p03",
+        "tweetHash":  "149ebb33a04bc4af",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "scale-internet/s05/p04",
+        "tweetHash":  "60d3641bb71edac2",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "scale-internet/s05/p05",
+        "tweetHash":  "bff3bd89ce52521f",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "scale-internet/s05/p06",
+        "tweetHash":  "af58ad5be97ec29a",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "scale-internet/s05/p07",
+        "tweetHash":  "c193ec5aaa01f8e8",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "scale-internet/s05/p08",
+        "tweetHash":  "68bfea1eb9835280",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "scale-internet/s05/p09",
+        "tweetHash":  "64a7648e1fc12373",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "scale-internet/s05/p10",
+        "tweetHash":  "d229b5ef745d1af5",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "scale-internet/s06/p01",
+        "tweetHash":  "8e18a58842ebae35",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "scale-internet/s06/p02",
+        "tweetHash":  "513943ea21a657af",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "scale-internet/s06/p03",
+        "tweetHash":  "7a84bbc9f17b7dbf",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "scale-internet/s06/p04",
+        "tweetHash":  "665b1cb4ead02d9f",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "scale-internet/s06/p05",
+        "tweetHash":  "ecfe501d35984b5b",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "scale-internet/s06/p06",
+        "tweetHash":  "4e32883c725452b1",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "scale-internet/s06/p07",
+        "tweetHash":  "5f76e0d8ca366519",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "scale-internet/s06/p08",
+        "tweetHash":  "1120d19963fcf517",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "scale-internet/s06/p09",
+        "tweetHash":  "157cf50ae286e9a7",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "scale-internet/s06/p10",
+        "tweetHash":  "1b7b073b50ba63c0",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "scale-internet/s07/p01",
+        "tweetHash":  "b5497660dbc9b9ee",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "scale-internet/s07/p02",
+        "tweetHash":  "516b41aa94aa4d06",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "scale-internet/s07/p03",
+        "tweetHash":  "472421e6fe9eb397",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "scale-internet/s07/p04",
+        "tweetHash":  "40c91113de6fb0a1",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "scale-internet/s07/p05",
+        "tweetHash":  "57f84087ec85c685",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "scale-internet/s07/p06",
+        "tweetHash":  "4e3f9ef479c3a452",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "scale-internet/s07/p07",
+        "tweetHash":  "d7d4cde46d0bffe9",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "scale-internet/s07/p08",
+        "tweetHash":  "5b0996d610f21869",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "scale-internet/s07/p09",
+        "tweetHash":  "3fc9372339244103",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "scale-internet/s07/p10",
+        "tweetHash":  "0922b2bc258f5b5a",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "scale-internet/s08/p01",
+        "tweetHash":  "a0195782aec9484d",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "scale-internet/s08/p02",
+        "tweetHash":  "3565287eacc3b3da",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "scale-internet/s08/p03",
+        "tweetHash":  "071f1636e618de15",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "scale-internet/s08/p04",
+        "tweetHash":  "bbb2a2aaf96937ed",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "scale-internet/s08/p05",
+        "tweetHash":  "6fc0d820fccf492b",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "scale-internet/s08/p06",
+        "tweetHash":  "5241cb4cc21ba95b",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "scale-internet/s08/p07",
+        "tweetHash":  "09247872ec890532",
+        "verdict":  "revise",
+        "reason":  "Wrong Hebrew word: \"החיפוש מתפשט\" means \"the search spreads / undresses\", not \"becomes simpler\". The source says \"חיפוש יהפוך לפשוט יותר\" (search degrades to a simpler version). Use e.g. \"החיפוש נעשה פשוט יותר\"."
+    },
+    {
+        "key":  "scale-internet/s08/p08",
+        "tweetHash":  "7441e6991c95d7ce",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "scale-internet/s08/p09",
+        "tweetHash":  "b1dd4bb948c119bb",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "scale-internet/s08/p10",
+        "tweetHash":  "449668e84b6bb390",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "scale-internet/s09/p01",
+        "tweetHash":  "cd337978614eeccc",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "scale-internet/s09/p02",
+        "tweetHash":  "ed18712e21464e22",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "scale-internet/s09/p03",
+        "tweetHash":  "c1da7768fc160672",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "scale-internet/s09/p04",
+        "tweetHash":  "c7ed915d5db7a167",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "scale-internet/s09/p05",
+        "tweetHash":  "c3b272c83608deff",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "scale-internet/s09/p06",
+        "tweetHash":  "02d33f0f079dd6c1",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "scale-internet/s09/p07",
+        "tweetHash":  "9b72f2ee6dcab946",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "scale-internet/s09/p08",
+        "tweetHash":  "57f9664a04fc1277",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "scale-internet/s09/p09",
+        "tweetHash":  "a630cfe0c04d8db1",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "scale-internet/s09/p10",
+        "tweetHash":  "2891838faff2cbb1",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "scale-internet/s10/p01",
+        "tweetHash":  "af022c66dfa4bf19",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "scale-internet/s10/p02",
+        "tweetHash":  "931a1bfd4716cf92",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "scale-internet/s10/p03",
+        "tweetHash":  "ddbd9aa7587bbfe2",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "scale-internet/s10/p04",
+        "tweetHash":  "c1a0592fce706364",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "scale-internet/s10/p05",
+        "tweetHash":  "c40b03a3e11eea30",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "scale-internet/s10/p06",
+        "tweetHash":  "2256dd1297f94a92",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "scale-internet/s10/p07",
+        "tweetHash":  "80e2ac4d58667a38",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "scale-internet/s10/p08",
+        "tweetHash":  "94c36154fc106fd4",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "scale-internet/s10/p09",
+        "tweetHash":  "6836f9d50fe136c9",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "scale-internet/s10/p10",
+        "tweetHash":  "274cb13f2d8d6a56",
+        "verdict":  "pass"
+    }
+]

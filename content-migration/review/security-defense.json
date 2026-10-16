@@ -1,0 +1,502 @@
+[
+    {
+        "key":  "security-defense/s01/p01",
+        "tweetHash":  "25f5dea196d28335",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "security-defense/s01/p02",
+        "tweetHash":  "251e3ae3094240f9",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "security-defense/s01/p03",
+        "tweetHash":  "79a0c205d406ba2d",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "security-defense/s01/p04",
+        "tweetHash":  "1fc358cfb5f16bbe",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "security-defense/s01/p05",
+        "tweetHash":  "ede314692fb90951",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "security-defense/s01/p06",
+        "tweetHash":  "3f9b29a295370cad",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "security-defense/s01/p07",
+        "tweetHash":  "978e8e2544addd04",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "security-defense/s01/p08",
+        "tweetHash":  "cc74b67d89ed9cf0",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "security-defense/s01/p09",
+        "tweetHash":  "c294f49834450744",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "security-defense/s01/p10",
+        "tweetHash":  "41e5378e25c314db",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "security-defense/s02/p01",
+        "tweetHash":  "78b2302cd4655209",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "security-defense/s02/p02",
+        "tweetHash":  "ee2774e9dbf8eb8e",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "security-defense/s02/p03",
+        "tweetHash":  "92a3416380425dd7",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "security-defense/s02/p04",
+        "tweetHash":  "204e63e56d82bb64",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "security-defense/s02/p05",
+        "tweetHash":  "874a2d6908dad9ab",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "security-defense/s02/p06",
+        "tweetHash":  "4ce329de694ce036",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "security-defense/s02/p07",
+        "tweetHash":  "21f2abd0eac99be2",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "security-defense/s02/p08",
+        "tweetHash":  "c2b2dea9eee3f315",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "security-defense/s02/p09",
+        "tweetHash":  "23d53d8ecc7526d8",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "security-defense/s02/p10",
+        "tweetHash":  "d4058aee5b289dc1",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "security-defense/s03/p01",
+        "tweetHash":  "0df440c179cd23bb",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "security-defense/s03/p02",
+        "tweetHash":  "677408f2efd7316c",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "security-defense/s03/p03",
+        "tweetHash":  "33548ca22561058e",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "security-defense/s03/p04",
+        "tweetHash":  "0e1f015c6bfef372",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "security-defense/s03/p05",
+        "tweetHash":  "4784bcce784162fc",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "security-defense/s03/p06",
+        "tweetHash":  "2d6de1654c4565bb",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "security-defense/s03/p07",
+        "tweetHash":  "df5cd7545ed1a716",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "security-defense/s03/p08",
+        "tweetHash":  "a318e6e81f2065f5",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "security-defense/s03/p09",
+        "tweetHash":  "fa1be5c281cab38a",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "security-defense/s03/p10",
+        "tweetHash":  "fe99db4c5005e398",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "security-defense/s04/p01",
+        "tweetHash":  "b7dfbea198cb2cff",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "security-defense/s04/p02",
+        "tweetHash":  "5f8b7388002b7a2f",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "security-defense/s04/p03",
+        "tweetHash":  "6c55fc99eb418c3f",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "security-defense/s04/p04",
+        "tweetHash":  "434ec88c04fab23c",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "security-defense/s04/p05",
+        "tweetHash":  "fdcde726b9bad9c7",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "security-defense/s04/p06",
+        "tweetHash":  "39729568bd8106dd",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "security-defense/s04/p07",
+        "tweetHash":  "79a5ce74accb9701",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "security-defense/s04/p08",
+        "tweetHash":  "1b09eb2b40699d71",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "security-defense/s04/p09",
+        "tweetHash":  "23bd29dc33d528b9",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "security-defense/s04/p10",
+        "tweetHash":  "29dcba67bea77570",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "security-defense/s05/p01",
+        "tweetHash":  "a8ca97219a7bf347",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "security-defense/s05/p02",
+        "tweetHash":  "49534c53ea007303",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "security-defense/s05/p03",
+        "tweetHash":  "18475a8f330313a6",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "security-defense/s05/p04",
+        "tweetHash":  "cba4cc803633b1fc",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "security-defense/s05/p05",
+        "tweetHash":  "e80955563d8a8c1f",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "security-defense/s05/p06",
+        "tweetHash":  "b576bb7bdfa28bea",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "security-defense/s05/p07",
+        "tweetHash":  "a5a06cd34017b16d",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "security-defense/s05/p08",
+        "tweetHash":  "fa6e50f2f4210551",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "security-defense/s05/p09",
+        "tweetHash":  "a71039dafde6bcae",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "security-defense/s05/p10",
+        "tweetHash":  "c0a591193d38a4ee",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "security-defense/s06/p01",
+        "tweetHash":  "e0e79d132f224f43",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "security-defense/s06/p02",
+        "tweetHash":  "6005ae878cd3f69b",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "security-defense/s06/p03",
+        "tweetHash":  "46ccf81311f5afd4",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "security-defense/s06/p04",
+        "tweetHash":  "a940a8aebb4cc3eb",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "security-defense/s06/p05",
+        "tweetHash":  "f97b7e824fbf92ef",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "security-defense/s06/p06",
+        "tweetHash":  "1df50672e1e29418",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "security-defense/s06/p07",
+        "tweetHash":  "43317810a453bdc7",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "security-defense/s06/p08",
+        "tweetHash":  "4000e58826f1b209",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "security-defense/s06/p09",
+        "tweetHash":  "d217c984ac40fd4a",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "security-defense/s06/p10",
+        "tweetHash":  "9c2ca60960c55bf5",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "security-defense/s07/p01",
+        "tweetHash":  "c91d5c103058707b",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "security-defense/s07/p02",
+        "tweetHash":  "07024958478aadf7",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "security-defense/s07/p03",
+        "tweetHash":  "6560890e04cf7411",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "security-defense/s07/p04",
+        "tweetHash":  "9e484e7ca095901c",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "security-defense/s07/p05",
+        "tweetHash":  "d2506eba9b8c1109",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "security-defense/s07/p06",
+        "tweetHash":  "e75332412315abf0",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "security-defense/s07/p07",
+        "tweetHash":  "5ae4d5cb1dee1422",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "security-defense/s07/p08",
+        "tweetHash":  "4182e606b33e93e7",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "security-defense/s07/p09",
+        "tweetHash":  "ce31e8b3e5386c9b",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "security-defense/s07/p10",
+        "tweetHash":  "5dc4b631e4d8b46d",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "security-defense/s08/p01",
+        "tweetHash":  "ddca2cb3b220cd98",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "security-defense/s08/p02",
+        "tweetHash":  "280c3bf10fb41f4f",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "security-defense/s08/p03",
+        "tweetHash":  "db4d08fe61c4908e",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "security-defense/s08/p04",
+        "tweetHash":  "5a5f2c6c0cc72a34",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "security-defense/s08/p05",
+        "tweetHash":  "b39cdae7f7991cce",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "security-defense/s08/p06",
+        "tweetHash":  "d925bf69e7c310e5",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "security-defense/s08/p07",
+        "tweetHash":  "9222f510fda5f3c3",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "security-defense/s08/p08",
+        "tweetHash":  "af7e1be311ab38b7",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "security-defense/s08/p09",
+        "tweetHash":  "d29cc7eac8bfdbd4",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "security-defense/s08/p10",
+        "tweetHash":  "c603a6f362887eee",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "security-defense/s09/p01",
+        "tweetHash":  "f02912afa3142f6d",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "security-defense/s09/p02",
+        "tweetHash":  "04ba539629e3c56c",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "security-defense/s09/p03",
+        "tweetHash":  "98376d0b902065d7",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "security-defense/s09/p04",
+        "tweetHash":  "807e2c7b61a51710",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "security-defense/s09/p05",
+        "tweetHash":  "d5de46b6f600464e",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "security-defense/s09/p06",
+        "tweetHash":  "25d548eab549a4ab",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "security-defense/s09/p07",
+        "tweetHash":  "0e33c57aed3c1748",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "security-defense/s09/p08",
+        "tweetHash":  "c205ccf4c05b3d70",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "security-defense/s09/p09",
+        "tweetHash":  "ebb121858f55bec7",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "security-defense/s09/p10",
+        "tweetHash":  "074d2d6eb1497c3e",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "security-defense/s10/p01",
+        "tweetHash":  "d0f6cf12da1220e9",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "security-defense/s10/p02",
+        "tweetHash":  "2bbf865c9928223f",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "security-defense/s10/p03",
+        "tweetHash":  "5400906c2f7da931",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "security-defense/s10/p04",
+        "tweetHash":  "360bf7b84514f81d",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "security-defense/s10/p05",
+        "tweetHash":  "f504947ed9d89449",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "security-defense/s10/p06",
+        "tweetHash":  "f2234c070d6f5671",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "security-defense/s10/p07",
+        "tweetHash":  "cdb8293697b9b4ac",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "security-defense/s10/p08",
+        "tweetHash":  "8dfef3f0a8e272bc",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "security-defense/s10/p09",
+        "tweetHash":  "fec6d7ae1bfd1a4b",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "security-defense/s10/p10",
+        "tweetHash":  "aac86034aaa59cbf",
+        "verdict":  "pass"
+    }
+]

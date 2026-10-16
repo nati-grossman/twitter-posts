@@ -1,0 +1,505 @@
+[
+  {
+    "key": "global-internet/s01/p01",
+    "tweetHash": "282c2166cd3ad86b",
+    "verdict": "pass"
+  },
+  {
+    "key": "global-internet/s01/p02",
+    "tweetHash": "5bc27b12b889e024",
+    "verdict": "pass"
+  },
+  {
+    "key": "global-internet/s01/p03",
+    "tweetHash": "e648cb7a83cf133f",
+    "verdict": "pass"
+  },
+  {
+    "key": "global-internet/s01/p04",
+    "tweetHash": "a378ab6ef251ae01",
+    "verdict": "pass"
+  },
+  {
+    "key": "global-internet/s01/p05",
+    "tweetHash": "ae65694d67a83642",
+    "verdict": "pass"
+  },
+  {
+    "key": "global-internet/s01/p06",
+    "tweetHash": "e15dc5505b7d0d22",
+    "verdict": "pass"
+  },
+  {
+    "key": "global-internet/s01/p07",
+    "tweetHash": "ab768f8c2067b181",
+    "verdict": "pass"
+  },
+  {
+    "key": "global-internet/s01/p08",
+    "tweetHash": "f86d03ab2f8bc39c",
+    "verdict": "pass"
+  },
+  {
+    "key": "global-internet/s01/p09",
+    "tweetHash": "aa6fc70153c0b19d",
+    "verdict": "pass"
+  },
+  {
+    "key": "global-internet/s01/p10",
+    "tweetHash": "5ee7c8d27f226b71",
+    "verdict": "revise",
+    "reason": "Near-duplicate of s01/p01: both state the internet isn't divided by borders and that what countries add is local infrastructure, laws and exchange points. Also the causal 'ולכן אותו אתר מרגיש שונה בכל מדינה' doesn't follow from 'the network connects networks' and overgeneralizes ('בכל מדינה'); the original says same network, different experiences by place and rules."
+  },
+  {
+    "key": "global-internet/s02/p01",
+    "tweetHash": "223e55cca91f5f30",
+    "verdict": "pass"
+  },
+  {
+    "key": "global-internet/s02/p02",
+    "tweetHash": "f4edf566b6e7a33e",
+    "verdict": "pass"
+  },
+  {
+    "key": "global-internet/s02/p03",
+    "tweetHash": "f6fcea8aff48c788",
+    "verdict": "pass"
+  },
+  {
+    "key": "global-internet/s02/p04",
+    "tweetHash": "275e2abe9acafa1d",
+    "verdict": "pass"
+  },
+  {
+    "key": "global-internet/s02/p05",
+    "tweetHash": "02983c7bcd695f94",
+    "verdict": "pass"
+  },
+  {
+    "key": "global-internet/s02/p06",
+    "tweetHash": "951610462aa679e9",
+    "verdict": "pass"
+  },
+  {
+    "key": "global-internet/s02/p07",
+    "tweetHash": "b11e3376a5376128",
+    "verdict": "pass"
+  },
+  {
+    "key": "global-internet/s02/p08",
+    "tweetHash": "76702e9a6b81ace2",
+    "verdict": "pass"
+  },
+  {
+    "key": "global-internet/s02/p09",
+    "tweetHash": "b0b3b326cb0e3431",
+    "verdict": "pass"
+  },
+  {
+    "key": "global-internet/s02/p10",
+    "tweetHash": "85fe3dda3ead43d3",
+    "verdict": "pass"
+  },
+  {
+    "key": "global-internet/s03/p01",
+    "tweetHash": "ee63c5de7673ad05",
+    "verdict": "pass"
+  },
+  {
+    "key": "global-internet/s03/p02",
+    "tweetHash": "dc64ba0df4294952",
+    "verdict": "pass"
+  },
+  {
+    "key": "global-internet/s03/p03",
+    "tweetHash": "19fb5e2708214726",
+    "verdict": "pass"
+  },
+  {
+    "key": "global-internet/s03/p04",
+    "tweetHash": "ffa1cae61ca3bd22",
+    "verdict": "pass"
+  },
+  {
+    "key": "global-internet/s03/p05",
+    "tweetHash": "c2f93f273c7645f0",
+    "verdict": "pass"
+  },
+  {
+    "key": "global-internet/s03/p06",
+    "tweetHash": "c2019339edea0568",
+    "verdict": "pass"
+  },
+  {
+    "key": "global-internet/s03/p07",
+    "tweetHash": "c7cea57a376ee61f",
+    "verdict": "pass"
+  },
+  {
+    "key": "global-internet/s03/p08",
+    "tweetHash": "3ceaf337745a47cd",
+    "verdict": "pass"
+  },
+  {
+    "key": "global-internet/s03/p09",
+    "tweetHash": "c778e021a1be5312",
+    "verdict": "pass"
+  },
+  {
+    "key": "global-internet/s03/p10",
+    "tweetHash": "0cc4dd50cc4db0eb",
+    "verdict": "pass"
+  },
+  {
+    "key": "global-internet/s04/p01",
+    "tweetHash": "e3880f1b32053f71",
+    "verdict": "pass"
+  },
+  {
+    "key": "global-internet/s04/p02",
+    "tweetHash": "8a8e486245349c3c",
+    "verdict": "pass"
+  },
+  {
+    "key": "global-internet/s04/p03",
+    "tweetHash": "c6e43f9e81efd4d4",
+    "verdict": "pass"
+  },
+  {
+    "key": "global-internet/s04/p04",
+    "tweetHash": "f92a399d333c5675",
+    "verdict": "pass"
+  },
+  {
+    "key": "global-internet/s04/p05",
+    "tweetHash": "8a618b094a6abbab",
+    "verdict": "pass"
+  },
+  {
+    "key": "global-internet/s04/p06",
+    "tweetHash": "7add8f76418b0451",
+    "verdict": "pass"
+  },
+  {
+    "key": "global-internet/s04/p07",
+    "tweetHash": "8ca12af0fc2d9647",
+    "verdict": "pass"
+  },
+  {
+    "key": "global-internet/s04/p08",
+    "tweetHash": "4683117efbd61765",
+    "verdict": "pass"
+  },
+  {
+    "key": "global-internet/s04/p09",
+    "tweetHash": "a35004886a903b5c",
+    "verdict": "pass"
+  },
+  {
+    "key": "global-internet/s04/p10",
+    "tweetHash": "a0c8448693878aa2",
+    "verdict": "revise",
+    "reason": "Near-duplicate of s04/p01: both describe BGP as how networks tell each other 'ככה מגיעים אליי' on a dynamically changing map and conclude it keeps the world connected. The summary should be distinct, e.g. recap AS/prefixes, policy over shortest path, peering/transit economics, and the leak/hijack/RPKI trust issue."
+  },
+  {
+    "key": "global-internet/s05/p01",
+    "tweetHash": "f222ca694a92a629",
+    "verdict": "pass"
+  },
+  {
+    "key": "global-internet/s05/p02",
+    "tweetHash": "bf83dcd9e66dbffb",
+    "verdict": "pass"
+  },
+  {
+    "key": "global-internet/s05/p03",
+    "tweetHash": "c0926854949aca77",
+    "verdict": "pass"
+  },
+  {
+    "key": "global-internet/s05/p04",
+    "tweetHash": "31f74ad48308f303",
+    "verdict": "pass"
+  },
+  {
+    "key": "global-internet/s05/p05",
+    "tweetHash": "a7500b936528f0dd",
+    "verdict": "pass"
+  },
+  {
+    "key": "global-internet/s05/p06",
+    "tweetHash": "c4aa5742a1afe367",
+    "verdict": "pass"
+  },
+  {
+    "key": "global-internet/s05/p07",
+    "tweetHash": "53c10076422c8205",
+    "verdict": "pass"
+  },
+  {
+    "key": "global-internet/s05/p08",
+    "tweetHash": "c7aa28916078bf19",
+    "verdict": "pass"
+  },
+  {
+    "key": "global-internet/s05/p09",
+    "tweetHash": "4fdfc151df3af2be",
+    "verdict": "pass"
+  },
+  {
+    "key": "global-internet/s05/p10",
+    "tweetHash": "71d78a7df6962562",
+    "verdict": "pass"
+  },
+  {
+    "key": "global-internet/s06/p01",
+    "tweetHash": "c2c8be73e955dc87",
+    "verdict": "pass"
+  },
+  {
+    "key": "global-internet/s06/p02",
+    "tweetHash": "73ef4fe01ee09f81",
+    "verdict": "pass"
+  },
+  {
+    "key": "global-internet/s06/p03",
+    "tweetHash": "696086fff44e0ddb",
+    "verdict": "pass"
+  },
+  {
+    "key": "global-internet/s06/p04",
+    "tweetHash": "d065f386b0035b96",
+    "verdict": "pass"
+  },
+  {
+    "key": "global-internet/s06/p05",
+    "tweetHash": "aa39260666b48af3",
+    "verdict": "pass"
+  },
+  {
+    "key": "global-internet/s06/p06",
+    "tweetHash": "d55ae7b42753c022",
+    "verdict": "pass"
+  },
+  {
+    "key": "global-internet/s06/p07",
+    "tweetHash": "dd683a719fed1545",
+    "verdict": "pass"
+  },
+  {
+    "key": "global-internet/s06/p08",
+    "tweetHash": "236622d43e5438fc",
+    "verdict": "pass"
+  },
+  {
+    "key": "global-internet/s06/p09",
+    "tweetHash": "b7bfc2c4e669bf96",
+    "verdict": "pass"
+  },
+  {
+    "key": "global-internet/s06/p10",
+    "tweetHash": "c8d87583e28e6067",
+    "verdict": "pass"
+  },
+  {
+    "key": "global-internet/s07/p01",
+    "tweetHash": "bfa678120e700615",
+    "verdict": "pass"
+  },
+  {
+    "key": "global-internet/s07/p02",
+    "tweetHash": "4321f455b497922b",
+    "verdict": "pass"
+  },
+  {
+    "key": "global-internet/s07/p03",
+    "tweetHash": "56dbfdc5f36bd39c",
+    "verdict": "pass"
+  },
+  {
+    "key": "global-internet/s07/p04",
+    "tweetHash": "0e7d86ccbb501bae",
+    "verdict": "pass"
+  },
+  {
+    "key": "global-internet/s07/p05",
+    "tweetHash": "2f095ad46904ea2a",
+    "verdict": "pass"
+  },
+  {
+    "key": "global-internet/s07/p06",
+    "tweetHash": "e90228bb182d07ed",
+    "verdict": "pass"
+  },
+  {
+    "key": "global-internet/s07/p07",
+    "tweetHash": "5eba76a0675d7996",
+    "verdict": "pass"
+  },
+  {
+    "key": "global-internet/s07/p08",
+    "tweetHash": "265e32bebd085ac5",
+    "verdict": "pass"
+  },
+  {
+    "key": "global-internet/s07/p09",
+    "tweetHash": "afc95326d4830cff",
+    "verdict": "pass"
+  },
+  {
+    "key": "global-internet/s07/p10",
+    "tweetHash": "a7cc31551803545a",
+    "verdict": "pass"
+  },
+  {
+    "key": "global-internet/s08/p01",
+    "tweetHash": "d3376e4dcf1d11c9",
+    "verdict": "pass"
+  },
+  {
+    "key": "global-internet/s08/p02",
+    "tweetHash": "20da64176cd60a66",
+    "verdict": "pass"
+  },
+  {
+    "key": "global-internet/s08/p03",
+    "tweetHash": "41480198f2fb9325",
+    "verdict": "pass"
+  },
+  {
+    "key": "global-internet/s08/p04",
+    "tweetHash": "926e40890ab5cc07",
+    "verdict": "pass"
+  },
+  {
+    "key": "global-internet/s08/p05",
+    "tweetHash": "d5770bd4ee5d4de0",
+    "verdict": "pass"
+  },
+  {
+    "key": "global-internet/s08/p06",
+    "tweetHash": "34a6c3ac3ed5101e",
+    "verdict": "pass"
+  },
+  {
+    "key": "global-internet/s08/p07",
+    "tweetHash": "291b3c35340da539",
+    "verdict": "pass"
+  },
+  {
+    "key": "global-internet/s08/p08",
+    "tweetHash": "39db1eb7c770879a",
+    "verdict": "pass"
+  },
+  {
+    "key": "global-internet/s08/p09",
+    "tweetHash": "a6a3a4fac4c1ce0b",
+    "verdict": "pass"
+  },
+  {
+    "key": "global-internet/s08/p10",
+    "tweetHash": "92e6fad0000c5b6f",
+    "verdict": "pass"
+  },
+  {
+    "key": "global-internet/s09/p01",
+    "tweetHash": "5b0a8c8cc0da9b25",
+    "verdict": "pass"
+  },
+  {
+    "key": "global-internet/s09/p02",
+    "tweetHash": "2b72e6c0b1934eb1",
+    "verdict": "pass"
+  },
+  {
+    "key": "global-internet/s09/p03",
+    "tweetHash": "f4a2d86f405d69b0",
+    "verdict": "pass"
+  },
+  {
+    "key": "global-internet/s09/p04",
+    "tweetHash": "dda7a476b6ce59a7",
+    "verdict": "pass"
+  },
+  {
+    "key": "global-internet/s09/p05",
+    "tweetHash": "5795e53e893a73ec",
+    "verdict": "pass"
+  },
+  {
+    "key": "global-internet/s09/p06",
+    "tweetHash": "2666f116bba25527",
+    "verdict": "pass"
+  },
+  {
+    "key": "global-internet/s09/p07",
+    "tweetHash": "b696cad3a72b0c94",
+    "verdict": "pass"
+  },
+  {
+    "key": "global-internet/s09/p08",
+    "tweetHash": "d4eb22fb434046be",
+    "verdict": "pass"
+  },
+  {
+    "key": "global-internet/s09/p09",
+    "tweetHash": "49cdf53570933d47",
+    "verdict": "pass"
+  },
+  {
+    "key": "global-internet/s09/p10",
+    "tweetHash": "67bed4b57ed2c0de",
+    "verdict": "pass"
+  },
+  {
+    "key": "global-internet/s10/p01",
+    "tweetHash": "a56a8d03a243dea9",
+    "verdict": "pass"
+  },
+  {
+    "key": "global-internet/s10/p02",
+    "tweetHash": "269c03f9483a7db8",
+    "verdict": "pass"
+  },
+  {
+    "key": "global-internet/s10/p03",
+    "tweetHash": "f104d0a617602fdc",
+    "verdict": "pass"
+  },
+  {
+    "key": "global-internet/s10/p04",
+    "tweetHash": "a6a16b66b470bb56",
+    "verdict": "pass"
+  },
+  {
+    "key": "global-internet/s10/p05",
+    "tweetHash": "df034cbe57da6088",
+    "verdict": "pass"
+  },
+  {
+    "key": "global-internet/s10/p06",
+    "tweetHash": "b463c0515292c500",
+    "verdict": "pass"
+  },
+  {
+    "key": "global-internet/s10/p07",
+    "tweetHash": "e311dbcf37544c34",
+    "verdict": "pass"
+  },
+  {
+    "key": "global-internet/s10/p08",
+    "tweetHash": "d28e05e86a8c842f",
+    "verdict": "pass"
+  },
+  {
+    "key": "global-internet/s10/p09",
+    "tweetHash": "41bfaa452329fdc8",
+    "verdict": "revise",
+    "reason": "Near-duplicate of s10/p03 in the same series: both lead with big cloud providers (Cloudflare/AWS/Google) failing and taking many services down, and both contrast distributed paths with centralized services (also repeated in s10/p01). Focus this one on what's distinct in the source: the concentration risk as a 2020s dependency debate / 'are the sites we need alive', without repeating p03's framing."
+  },
+  {
+    "key": "global-internet/s10/p10",
+    "tweetHash": "c02e4dce290d34ff",
+    "verdict": "pass"
+  }
+]

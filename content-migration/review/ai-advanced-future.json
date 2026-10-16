@@ -1,0 +1,502 @@
+[
+ {
+  "key": "ai-advanced-future/s01/p01",
+  "tweetHash": "ea05381f2801efd4",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-advanced-future/s01/p02",
+  "tweetHash": "16ee6951969b597e",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-advanced-future/s01/p03",
+  "tweetHash": "16dac61be7af8cf8",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-advanced-future/s01/p04",
+  "tweetHash": "61d0efcfd5d4cc89",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-advanced-future/s01/p05",
+  "tweetHash": "e7182566e3831714",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-advanced-future/s01/p06",
+  "tweetHash": "99cb451a4dadac05",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-advanced-future/s01/p07",
+  "tweetHash": "b4cf427411221843",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-advanced-future/s01/p08",
+  "tweetHash": "763ff0798c72583d",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-advanced-future/s01/p09",
+  "tweetHash": "ee64a27ecfe09af2",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-advanced-future/s01/p10",
+  "tweetHash": "733029a80b95b8b4",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-advanced-future/s02/p01",
+  "tweetHash": "78d3f2cbcaa472e6",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-advanced-future/s02/p02",
+  "tweetHash": "8c2a5b7c7939d534",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-advanced-future/s02/p03",
+  "tweetHash": "c0afb7f63e03d08e",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-advanced-future/s02/p04",
+  "tweetHash": "e5dfb5449ba20408",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-advanced-future/s02/p05",
+  "tweetHash": "4c244d0f66e1cefa",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-advanced-future/s02/p06",
+  "tweetHash": "48be969d01e5737d",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-advanced-future/s02/p07",
+  "tweetHash": "fbd5dd3570d1a611",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-advanced-future/s02/p08",
+  "tweetHash": "5f979065db78a963",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-advanced-future/s02/p09",
+  "tweetHash": "555339fa813e04ce",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-advanced-future/s02/p10",
+  "tweetHash": "64d259eb7fe87455",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-advanced-future/s03/p01",
+  "tweetHash": "50885341b80ab42e",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-advanced-future/s03/p02",
+  "tweetHash": "bcb872650bf6279b",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-advanced-future/s03/p03",
+  "tweetHash": "7d04af15170045da",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-advanced-future/s03/p04",
+  "tweetHash": "15dd69807cbf5f7a",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-advanced-future/s03/p05",
+  "tweetHash": "5a9a10606d78c95d",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-advanced-future/s03/p06",
+  "tweetHash": "f5f9628e75b7b91a",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-advanced-future/s03/p07",
+  "tweetHash": "f550e276dad5c48e",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-advanced-future/s03/p08",
+  "tweetHash": "1e92135c34679c9a",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-advanced-future/s03/p09",
+  "tweetHash": "e741fa6731e381e2",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-advanced-future/s03/p10",
+  "tweetHash": "4e9b5a430e658e6f",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-advanced-future/s04/p01",
+  "tweetHash": "3ecc0322b33f2f40",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-advanced-future/s04/p02",
+  "tweetHash": "22365691094d89f4",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-advanced-future/s04/p03",
+  "tweetHash": "7ff83bdadb5aa9cd",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-advanced-future/s04/p04",
+  "tweetHash": "a80641eb9af3cb52",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-advanced-future/s04/p05",
+  "tweetHash": "8b7c6fa4cd00ba29",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-advanced-future/s04/p06",
+  "tweetHash": "73682ce13c4ce052",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-advanced-future/s04/p07",
+  "tweetHash": "0e872da59be6431d",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-advanced-future/s04/p08",
+  "tweetHash": "cc9597cbada6b787",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-advanced-future/s04/p09",
+  "tweetHash": "8c04c879ae378e57",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-advanced-future/s04/p10",
+  "tweetHash": "7a9d8dd1c83fc09f",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-advanced-future/s05/p01",
+  "tweetHash": "f1c1bacf39da3827",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-advanced-future/s05/p02",
+  "tweetHash": "287b9387c07d813a",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-advanced-future/s05/p03",
+  "tweetHash": "cceb6a545f57e7e2",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-advanced-future/s05/p04",
+  "tweetHash": "0b1884373abe5def",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-advanced-future/s05/p05",
+  "tweetHash": "ae3f4d0c5e715fa5",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-advanced-future/s05/p06",
+  "tweetHash": "73270a1c9913f0a0",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-advanced-future/s05/p07",
+  "tweetHash": "377758b63a65cb2b",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-advanced-future/s05/p08",
+  "tweetHash": "31fec3b643c64153",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-advanced-future/s05/p09",
+  "tweetHash": "adb245c4f61d407a",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-advanced-future/s05/p10",
+  "tweetHash": "2f27b40fc68b1e29",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-advanced-future/s06/p01",
+  "tweetHash": "d4f2612ca0d9b268",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-advanced-future/s06/p02",
+  "tweetHash": "43fe851db88a723b",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-advanced-future/s06/p03",
+  "tweetHash": "f1924d9e93f77617",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-advanced-future/s06/p04",
+  "tweetHash": "5b80de8f3e9d90a9",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-advanced-future/s06/p05",
+  "tweetHash": "17a85fba8952925e",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-advanced-future/s06/p06",
+  "tweetHash": "26576a82e6c5eab3",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-advanced-future/s06/p07",
+  "tweetHash": "211b5535119d06ff",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-advanced-future/s06/p08",
+  "tweetHash": "ae699eea08e14831",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-advanced-future/s06/p09",
+  "tweetHash": "9b241bff78a0d946",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-advanced-future/s06/p10",
+  "tweetHash": "c22247d97d7bfecb",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-advanced-future/s07/p01",
+  "tweetHash": "a48add29fc9bf4e7",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-advanced-future/s07/p02",
+  "tweetHash": "7c6cce7badb0800c",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-advanced-future/s07/p03",
+  "tweetHash": "52c12c49e2243e1a",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-advanced-future/s07/p04",
+  "tweetHash": "31b9299a718b1c0e",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-advanced-future/s07/p05",
+  "tweetHash": "5918d69677f7ef9a",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-advanced-future/s07/p06",
+  "tweetHash": "15bac629b3d580d6",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-advanced-future/s07/p07",
+  "tweetHash": "9098e5d1ad6ce7ba",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-advanced-future/s07/p08",
+  "tweetHash": "530e6360ead31b51",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-advanced-future/s07/p09",
+  "tweetHash": "cc3c964018df3bca",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-advanced-future/s07/p10",
+  "tweetHash": "1881045aae238c10",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-advanced-future/s08/p01",
+  "tweetHash": "7c3ce1f293c80778",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-advanced-future/s08/p02",
+  "tweetHash": "1707fee9f304ff52",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-advanced-future/s08/p03",
+  "tweetHash": "e88603329c3cbd8e",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-advanced-future/s08/p04",
+  "tweetHash": "db7e756f3bbf625d",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-advanced-future/s08/p05",
+  "tweetHash": "339d9c7e6f9646a4",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-advanced-future/s08/p06",
+  "tweetHash": "4794b510477c5940",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-advanced-future/s08/p07",
+  "tweetHash": "eb9fa3e1c60d1183",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-advanced-future/s08/p08",
+  "tweetHash": "aeebcfb66fd58557",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-advanced-future/s08/p09",
+  "tweetHash": "434e63435cd5468b",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-advanced-future/s08/p10",
+  "tweetHash": "31afde73cfdb155d",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-advanced-future/s09/p01",
+  "tweetHash": "6acf5e7f0fa6d154",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-advanced-future/s09/p02",
+  "tweetHash": "0f7e6f6c533b5bd8",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-advanced-future/s09/p03",
+  "tweetHash": "d12fc50a1e6d0297",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-advanced-future/s09/p04",
+  "tweetHash": "dbc1138163eee663",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-advanced-future/s09/p05",
+  "tweetHash": "0809ec214f713592",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-advanced-future/s09/p06",
+  "tweetHash": "f6a0f7dceb7232b6",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-advanced-future/s09/p07",
+  "tweetHash": "0c3f4730f78ed40f",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-advanced-future/s09/p08",
+  "tweetHash": "e783cc5e608c4d01",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-advanced-future/s09/p09",
+  "tweetHash": "3b35826814ba347a",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-advanced-future/s09/p10",
+  "tweetHash": "eebbace0d1bc42c8",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-advanced-future/s10/p01",
+  "tweetHash": "98d3afcc9d09a3c0",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-advanced-future/s10/p02",
+  "tweetHash": "8a9a182ef3c88d83",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-advanced-future/s10/p03",
+  "tweetHash": "945dbdaf97743051",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-advanced-future/s10/p04",
+  "tweetHash": "a912f88f3d5d4acb",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-advanced-future/s10/p05",
+  "tweetHash": "85b82b1ae3bb6ade",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-advanced-future/s10/p06",
+  "tweetHash": "24e85a1465ef4841",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-advanced-future/s10/p07",
+  "tweetHash": "b2bfab4e14f17f07",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-advanced-future/s10/p08",
+  "tweetHash": "1b0738a49ebe02dc",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-advanced-future/s10/p09",
+  "tweetHash": "08ea970b7373a5fd",
+  "verdict": "pass"
+ },
+ {
+  "key": "ai-advanced-future/s10/p10",
+  "tweetHash": "5d71f5f65d73e05d",
+  "verdict": "pass"
+ }
+]

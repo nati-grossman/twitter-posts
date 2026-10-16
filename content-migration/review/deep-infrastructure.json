@@ -1,0 +1,504 @@
+[
+  {
+    "key": "deep-infrastructure/s01/p01",
+    "tweetHash": "7b64bce6f66763a0",
+    "verdict": "pass"
+  },
+  {
+    "key": "deep-infrastructure/s01/p02",
+    "tweetHash": "121342e5f8c2b115",
+    "verdict": "pass"
+  },
+  {
+    "key": "deep-infrastructure/s01/p03",
+    "tweetHash": "4153d95951d18d61",
+    "verdict": "pass"
+  },
+  {
+    "key": "deep-infrastructure/s01/p04",
+    "tweetHash": "50310ebbd1799e87",
+    "verdict": "pass"
+  },
+  {
+    "key": "deep-infrastructure/s01/p05",
+    "tweetHash": "5495a131cd20256e",
+    "verdict": "pass"
+  },
+  {
+    "key": "deep-infrastructure/s01/p06",
+    "tweetHash": "3f146bcc99b10cab",
+    "verdict": "pass"
+  },
+  {
+    "key": "deep-infrastructure/s01/p07",
+    "tweetHash": "0633d0f4e1a04f34",
+    "verdict": "pass"
+  },
+  {
+    "key": "deep-infrastructure/s01/p08",
+    "tweetHash": "3a6718288ed55ed9",
+    "verdict": "pass"
+  },
+  {
+    "key": "deep-infrastructure/s01/p09",
+    "tweetHash": "3d9844b43f24f146",
+    "verdict": "pass"
+  },
+  {
+    "key": "deep-infrastructure/s01/p10",
+    "tweetHash": "57ddf54ee9af91ee",
+    "verdict": "pass"
+  },
+  {
+    "key": "deep-infrastructure/s02/p01",
+    "tweetHash": "27a5ff08a621eead",
+    "verdict": "pass"
+  },
+  {
+    "key": "deep-infrastructure/s02/p02",
+    "tweetHash": "0c320f77811c3ee4",
+    "verdict": "pass"
+  },
+  {
+    "key": "deep-infrastructure/s02/p03",
+    "tweetHash": "30e21f4c6383ac2a",
+    "verdict": "pass"
+  },
+  {
+    "key": "deep-infrastructure/s02/p04",
+    "tweetHash": "bf38acbfc0a9ac25",
+    "verdict": "pass"
+  },
+  {
+    "key": "deep-infrastructure/s02/p05",
+    "tweetHash": "affec9902c8fe1fe",
+    "verdict": "pass"
+  },
+  {
+    "key": "deep-infrastructure/s02/p06",
+    "tweetHash": "4bed13a19da001c7",
+    "verdict": "pass"
+  },
+  {
+    "key": "deep-infrastructure/s02/p07",
+    "tweetHash": "094baabb3d03841a",
+    "verdict": "pass"
+  },
+  {
+    "key": "deep-infrastructure/s02/p08",
+    "tweetHash": "4d6d8542054236ea",
+    "verdict": "pass"
+  },
+  {
+    "key": "deep-infrastructure/s02/p09",
+    "tweetHash": "e47be27be3f28d14",
+    "verdict": "pass"
+  },
+  {
+    "key": "deep-infrastructure/s02/p10",
+    "tweetHash": "0c7899a41817de25",
+    "verdict": "pass"
+  },
+  {
+    "key": "deep-infrastructure/s03/p01",
+    "tweetHash": "d7343c190f05aee9",
+    "verdict": "pass"
+  },
+  {
+    "key": "deep-infrastructure/s03/p02",
+    "tweetHash": "3e3bb83ff1622184",
+    "verdict": "pass"
+  },
+  {
+    "key": "deep-infrastructure/s03/p03",
+    "tweetHash": "f6b9dafb2f2bc71e",
+    "verdict": "pass"
+  },
+  {
+    "key": "deep-infrastructure/s03/p04",
+    "tweetHash": "b4ae4387daec57e7",
+    "verdict": "pass"
+  },
+  {
+    "key": "deep-infrastructure/s03/p05",
+    "tweetHash": "5d57b708dca429c2",
+    "verdict": "pass"
+  },
+  {
+    "key": "deep-infrastructure/s03/p06",
+    "tweetHash": "105696f813a88c07",
+    "verdict": "pass"
+  },
+  {
+    "key": "deep-infrastructure/s03/p07",
+    "tweetHash": "2e07954328a4c5a8",
+    "verdict": "pass"
+  },
+  {
+    "key": "deep-infrastructure/s03/p08",
+    "tweetHash": "0e242ac449a84a00",
+    "verdict": "pass"
+  },
+  {
+    "key": "deep-infrastructure/s03/p09",
+    "tweetHash": "7a753304e73276ba",
+    "verdict": "pass"
+  },
+  {
+    "key": "deep-infrastructure/s03/p10",
+    "tweetHash": "1b7c5e2f0c4f9a29",
+    "verdict": "pass"
+  },
+  {
+    "key": "deep-infrastructure/s04/p01",
+    "tweetHash": "88a0ce5a13c1f715",
+    "verdict": "pass"
+  },
+  {
+    "key": "deep-infrastructure/s04/p02",
+    "tweetHash": "f1031c2ef795704f",
+    "verdict": "pass"
+  },
+  {
+    "key": "deep-infrastructure/s04/p03",
+    "tweetHash": "3b381a7161a7f35c",
+    "verdict": "pass"
+  },
+  {
+    "key": "deep-infrastructure/s04/p04",
+    "tweetHash": "0bd2b4e58aef25ba",
+    "verdict": "pass"
+  },
+  {
+    "key": "deep-infrastructure/s04/p05",
+    "tweetHash": "3869d0b890a90070",
+    "verdict": "pass"
+  },
+  {
+    "key": "deep-infrastructure/s04/p06",
+    "tweetHash": "593337889fe21d9e",
+    "verdict": "pass"
+  },
+  {
+    "key": "deep-infrastructure/s04/p07",
+    "tweetHash": "89be6ec471cba152",
+    "verdict": "pass"
+  },
+  {
+    "key": "deep-infrastructure/s04/p08",
+    "tweetHash": "40157d0abe8df050",
+    "verdict": "pass"
+  },
+  {
+    "key": "deep-infrastructure/s04/p09",
+    "tweetHash": "245d035202da6e0d",
+    "verdict": "pass"
+  },
+  {
+    "key": "deep-infrastructure/s04/p10",
+    "tweetHash": "34ff05ebedf026ae",
+    "verdict": "pass"
+  },
+  {
+    "key": "deep-infrastructure/s05/p01",
+    "tweetHash": "93122e69d17403da",
+    "verdict": "pass"
+  },
+  {
+    "key": "deep-infrastructure/s05/p02",
+    "tweetHash": "10834c96e2ff8f05",
+    "verdict": "pass"
+  },
+  {
+    "key": "deep-infrastructure/s05/p03",
+    "tweetHash": "0728405a98cd3e42",
+    "verdict": "pass"
+  },
+  {
+    "key": "deep-infrastructure/s05/p04",
+    "tweetHash": "e8f8515f1e76f11d",
+    "verdict": "pass"
+  },
+  {
+    "key": "deep-infrastructure/s05/p05",
+    "tweetHash": "3cb7091ebfb45cab",
+    "verdict": "pass"
+  },
+  {
+    "key": "deep-infrastructure/s05/p06",
+    "tweetHash": "86b2f0fbb0d96923",
+    "verdict": "pass"
+  },
+  {
+    "key": "deep-infrastructure/s05/p07",
+    "tweetHash": "076f3a011b5f6088",
+    "verdict": "pass"
+  },
+  {
+    "key": "deep-infrastructure/s05/p08",
+    "tweetHash": "a2e435288cb04226",
+    "verdict": "pass"
+  },
+  {
+    "key": "deep-infrastructure/s05/p09",
+    "tweetHash": "066cc9dce28b798c",
+    "verdict": "pass"
+  },
+  {
+    "key": "deep-infrastructure/s05/p10",
+    "tweetHash": "1f60eebf2c8e21c2",
+    "verdict": "pass"
+  },
+  {
+    "key": "deep-infrastructure/s06/p01",
+    "tweetHash": "be37502bca7a00f2",
+    "verdict": "pass"
+  },
+  {
+    "key": "deep-infrastructure/s06/p02",
+    "tweetHash": "ddd7d92213cfa8c8",
+    "verdict": "pass"
+  },
+  {
+    "key": "deep-infrastructure/s06/p03",
+    "tweetHash": "3178e30fcc2c4d8c",
+    "verdict": "pass"
+  },
+  {
+    "key": "deep-infrastructure/s06/p04",
+    "tweetHash": "b552b07cfd91b52d",
+    "verdict": "pass"
+  },
+  {
+    "key": "deep-infrastructure/s06/p05",
+    "tweetHash": "9ede589a80b7d62c",
+    "verdict": "pass"
+  },
+  {
+    "key": "deep-infrastructure/s06/p06",
+    "tweetHash": "c0f03653aae9bf92",
+    "verdict": "pass"
+  },
+  {
+    "key": "deep-infrastructure/s06/p07",
+    "tweetHash": "78a758fdf9530837",
+    "verdict": "pass"
+  },
+  {
+    "key": "deep-infrastructure/s06/p08",
+    "tweetHash": "8ae222643c291504",
+    "verdict": "pass"
+  },
+  {
+    "key": "deep-infrastructure/s06/p09",
+    "tweetHash": "cd1ff3fceb933570",
+    "verdict": "pass"
+  },
+  {
+    "key": "deep-infrastructure/s06/p10",
+    "tweetHash": "45c938617625a84c",
+    "verdict": "pass"
+  },
+  {
+    "key": "deep-infrastructure/s07/p01",
+    "tweetHash": "b62be7a38c5e012e",
+    "verdict": "pass"
+  },
+  {
+    "key": "deep-infrastructure/s07/p02",
+    "tweetHash": "0d8f083418fd5270",
+    "verdict": "pass"
+  },
+  {
+    "key": "deep-infrastructure/s07/p03",
+    "tweetHash": "17a6a49e4ce9ab52",
+    "verdict": "pass"
+  },
+  {
+    "key": "deep-infrastructure/s07/p04",
+    "tweetHash": "5be3dd726abdc405",
+    "verdict": "pass"
+  },
+  {
+    "key": "deep-infrastructure/s07/p05",
+    "tweetHash": "1a2b7330c7a54515",
+    "verdict": "pass"
+  },
+  {
+    "key": "deep-infrastructure/s07/p06",
+    "tweetHash": "6285132a57d4da5a",
+    "verdict": "pass"
+  },
+  {
+    "key": "deep-infrastructure/s07/p07",
+    "tweetHash": "6899b7e720f0758d",
+    "verdict": "pass"
+  },
+  {
+    "key": "deep-infrastructure/s07/p08",
+    "tweetHash": "18721a8d41c025bd",
+    "verdict": "pass"
+  },
+  {
+    "key": "deep-infrastructure/s07/p09",
+    "tweetHash": "e8a76541f9b97b8f",
+    "verdict": "pass"
+  },
+  {
+    "key": "deep-infrastructure/s07/p10",
+    "tweetHash": "df41449cda9e49b1",
+    "verdict": "revise",
+    "reason": "Near-duplicate of s07/p01: both say a container is a package that runs the app the same way everywhere (locally, colleague, cloud) and ends 'works on my machine'. The summary should add something from the series (image vs container, layers, volumes, compose, need for orchestration) instead of repeating the definition."
+  },
+  {
+    "key": "deep-infrastructure/s08/p01",
+    "tweetHash": "704ea913034447ca",
+    "verdict": "pass"
+  },
+  {
+    "key": "deep-infrastructure/s08/p02",
+    "tweetHash": "b2d853dcaa893cf8",
+    "verdict": "pass"
+  },
+  {
+    "key": "deep-infrastructure/s08/p03",
+    "tweetHash": "a8152d402214641a",
+    "verdict": "pass"
+  },
+  {
+    "key": "deep-infrastructure/s08/p04",
+    "tweetHash": "62fbd4e51693e699",
+    "verdict": "pass"
+  },
+  {
+    "key": "deep-infrastructure/s08/p05",
+    "tweetHash": "c317888f7e1fce55",
+    "verdict": "pass"
+  },
+  {
+    "key": "deep-infrastructure/s08/p06",
+    "tweetHash": "33ae425be43f5b12",
+    "verdict": "pass"
+  },
+  {
+    "key": "deep-infrastructure/s08/p07",
+    "tweetHash": "f5fb953cdf7dc898",
+    "verdict": "pass"
+  },
+  {
+    "key": "deep-infrastructure/s08/p08",
+    "tweetHash": "fe6477bac390c6e8",
+    "verdict": "pass"
+  },
+  {
+    "key": "deep-infrastructure/s08/p09",
+    "tweetHash": "51c3ff2b1bf3251b",
+    "verdict": "pass"
+  },
+  {
+    "key": "deep-infrastructure/s08/p10",
+    "tweetHash": "c5a284e43a350ddf",
+    "verdict": "pass"
+  },
+  {
+    "key": "deep-infrastructure/s09/p01",
+    "tweetHash": "5e22c935d0ffa0d5",
+    "verdict": "pass"
+  },
+  {
+    "key": "deep-infrastructure/s09/p02",
+    "tweetHash": "ecddba9059589502",
+    "verdict": "pass"
+  },
+  {
+    "key": "deep-infrastructure/s09/p03",
+    "tweetHash": "c7a84b4230950065",
+    "verdict": "revise",
+    "reason": "Gender-agreement error: the subject is 'Health Checks בודקים' (plural masculine) but the next sentence says 'בלעדיה' (feminine singular). Should be 'בלעדיהם' (or rephrase, e.g. 'בלי בדיקות כאלה')."
+  },
+  {
+    "key": "deep-infrastructure/s09/p04",
+    "tweetHash": "8ac90b1dafe7e891",
+    "verdict": "pass"
+  },
+  {
+    "key": "deep-infrastructure/s09/p05",
+    "tweetHash": "fdc6b46c91129f46",
+    "verdict": "pass"
+  },
+  {
+    "key": "deep-infrastructure/s09/p06",
+    "tweetHash": "ac019f77136f7934",
+    "verdict": "pass"
+  },
+  {
+    "key": "deep-infrastructure/s09/p07",
+    "tweetHash": "c7e5f0fb72d42088",
+    "verdict": "pass"
+  },
+  {
+    "key": "deep-infrastructure/s09/p08",
+    "tweetHash": "09abfc33341e25ae",
+    "verdict": "pass"
+  },
+  {
+    "key": "deep-infrastructure/s09/p09",
+    "tweetHash": "0dc2ec8ae6fc7411",
+    "verdict": "pass"
+  },
+  {
+    "key": "deep-infrastructure/s09/p10",
+    "tweetHash": "c84ec8122b918280",
+    "verdict": "pass"
+  },
+  {
+    "key": "deep-infrastructure/s10/p01",
+    "tweetHash": "05df280a27e741be",
+    "verdict": "pass"
+  },
+  {
+    "key": "deep-infrastructure/s10/p02",
+    "tweetHash": "d05a67e59251efd0",
+    "verdict": "pass"
+  },
+  {
+    "key": "deep-infrastructure/s10/p03",
+    "tweetHash": "2660a237817cdc44",
+    "verdict": "pass"
+  },
+  {
+    "key": "deep-infrastructure/s10/p04",
+    "tweetHash": "2240db2f7e2d5912",
+    "verdict": "pass"
+  },
+  {
+    "key": "deep-infrastructure/s10/p05",
+    "tweetHash": "59ac70604d431588",
+    "verdict": "pass"
+  },
+  {
+    "key": "deep-infrastructure/s10/p06",
+    "tweetHash": "b66fa1e4201c1790",
+    "verdict": "pass"
+  },
+  {
+    "key": "deep-infrastructure/s10/p07",
+    "tweetHash": "6442855b2401a2b1",
+    "verdict": "pass"
+  },
+  {
+    "key": "deep-infrastructure/s10/p08",
+    "tweetHash": "d15c71a8f0f3b875",
+    "verdict": "pass"
+  },
+  {
+    "key": "deep-infrastructure/s10/p09",
+    "tweetHash": "717d3773d07f5481",
+    "verdict": "pass"
+  },
+  {
+    "key": "deep-infrastructure/s10/p10",
+    "tweetHash": "1ceac5c2aea95620",
+    "verdict": "pass"
+  }
+]

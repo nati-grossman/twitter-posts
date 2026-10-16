@@ -1,0 +1,52 @@
+[
+  {
+    "key": "system-performance/s06/p01",
+    "sourceHash": "2189aa051764f88c",
+    "tweet": "Concurrency היא היכולת לנהל כמה משימות שנמצאות בתהליך באותו זמן, לא בהכרח להריץ אותן במקביל. שרת עם 1,000 בקשות לא מסיים אחת ורק אז עובר לבאה: חלק מחכות ל-Database, חלק מעובדות וחלק כבר חוזרות."
+  },
+  {
+    "key": "system-performance/s06/p02",
+    "sourceHash": "7b7091194acb91e0",
+    "tweet": "Concurrency ו-Parallelism הם לא אותו דבר. Concurrency היא ניהול כמה עבודות שמתקדמות יחד, אפילו על מעבד אחד שמחליף ביניהן מהר. Parallelism היא ביצוע אמיתי באותו רגע, כמו 8 ליבות שמריצות 8 משימות."
+  },
+  {
+    "key": "system-performance/s06/p03",
+    "sourceHash": "a952a12caa1446f5",
+    "tweet": "Thread הוא יחידת ביצוע בתוך תוכנית, ותוכנית יכולה להריץ כמה יחד. הבעיה: Threads חולקים זיכרון, ושניים שמשנים אותו מידע יחד יוצרים Race Conditions קשים לאיתור. ויותר Threads לא תמיד מהיר יותר."
+  },
+  {
+    "key": "system-performance/s06/p04",
+    "sourceHash": "8594e02e8b018a37",
+    "tweet": "Process הוא תוכנית עם זיכרון משלה, מבודדת מהאחרות. אם Process אחד בשרת Web קורס, השאר ממשיכים לעבוד. המחיר: תקשורת מסובכת ויותר משאבים. Threads זולים וחולקים זיכרון, Processes מבודדים ובטוחים."
+  },
+  {
+    "key": "system-performance/s06/p05",
+    "sourceHash": "3699d2eac33bdaca",
+    "tweet": "ב-Go יש Goroutines: יחידות ביצוע קלות שמנוהלות על ידי ה-Runtime, לא Thread כבד של מערכת ההפעלה. אפשר להריץ אלפים, וה-Runtime מחלק אותן על Threads אמיתיים. לכן Go פופולרית בשרתים עם המון משימות."
+  },
+  {
+    "key": "system-performance/s06/p06",
+    "sourceHash": "6c74b35792c46372",
+    "tweet": "שניים מושכים כסף מאותו חשבון באותו רגע. בלי Lock, שניהם קוראים אותה יתרה והחישוב שגוי. Lock נותן גישה לאחד בכל פעם. הוא פותר Race Conditions, אבל מסכן ב-Deadlock כששני צדדים מחכים זה לזה."
+  },
+  {
+    "key": "system-performance/s06/p07",
+    "sourceHash": "bd32c3e127f9aa32",
+    "tweet": "Async הוא כלי למימוש Concurrency. שרת ששלח שאילתה ל-Database מטפל בינתיים בבקשות אחרות, וחוזר כשהתשובה מגיעה. כך מנהלים אלפי פעולות על מעט Threads. זה לא Parallelism, אלא משימות שמתקדמות יחד."
+  },
+  {
+    "key": "system-performance/s06/p08",
+    "sourceHash": "2ac8a7b5a5979c41",
+    "tweet": "משתמש אחד מעדכן רשומה ואחר קורא אותה באותו רגע? בלי כללים מקבלים נתונים חלקיים או סותרים. לכן מסדי נתונים משתמשים ב-Transactions, Locks ו-Isolation Levels, שמאזנים בין ביצועים לעקביות."
+  },
+  {
+    "key": "system-performance/s06/p09",
+    "sourceHash": "00d190d6cdf60309",
+    "tweet": "שרת Web הוא Concurrency בפעולה: אחד מתחבר, אחר מעלה קובץ, שלישי מחפש. אם כל בקשה הייתה חוסמת את השרת עד הסוף, כולם היו עומדים בתור אחד ארוך. לכן יש Threads, Event Loop, Async I/O ו-Worker Pools."
+  },
+  {
+    "key": "system-performance/s06/p10",
+    "sourceHash": "c14ae3ee6fbce47d",
+    "tweet": "Concurrency נמצאת כמעט בכל מקום: Threads, Processes, Async, שרתים ומסדי נתונים. ואיתה מגיעים Race Conditions, Locks ו-Deadlocks. השאלה היא לא רק כמה רץ יחד, אלא איך שומרים על סדר ונכונות."
+  }
+]

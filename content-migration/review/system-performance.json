@@ -1,0 +1,502 @@
+[
+    {
+        "key":  "system-performance/s01/p01",
+        "tweetHash":  "ee0ce967849cf596",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "system-performance/s01/p02",
+        "tweetHash":  "937a19bf22ada6e9",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "system-performance/s01/p03",
+        "tweetHash":  "0475d43dfe35b03c",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "system-performance/s01/p04",
+        "tweetHash":  "8eae2bf6753db0b4",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "system-performance/s01/p05",
+        "tweetHash":  "1645cf6352fcb3fa",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "system-performance/s01/p06",
+        "tweetHash":  "0974e4d5c9d5a839",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "system-performance/s01/p07",
+        "tweetHash":  "3920327b41e675df",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "system-performance/s01/p08",
+        "tweetHash":  "179088a4aead529e",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "system-performance/s01/p09",
+        "tweetHash":  "9246dff51e758cb9",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "system-performance/s01/p10",
+        "tweetHash":  "c110ddd229f84fd9",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "system-performance/s02/p01",
+        "tweetHash":  "d046284aa5485cad",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "system-performance/s02/p02",
+        "tweetHash":  "b4584c1620ef6916",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "system-performance/s02/p03",
+        "tweetHash":  "7ffb6bcf88b02587",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "system-performance/s02/p04",
+        "tweetHash":  "b543f497a3426d81",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "system-performance/s02/p05",
+        "tweetHash":  "076138a1b931ee1e",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "system-performance/s02/p06",
+        "tweetHash":  "d06b5df74eb35c51",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "system-performance/s02/p07",
+        "tweetHash":  "640c6f5494aa9e88",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "system-performance/s02/p08",
+        "tweetHash":  "74feb6e594bc7ac2",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "system-performance/s02/p09",
+        "tweetHash":  "56e2fd1e7c74a85d",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "system-performance/s02/p10",
+        "tweetHash":  "f6e3ba33dbc3d5b1",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "system-performance/s03/p01",
+        "tweetHash":  "bd1679970cbbdacb",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "system-performance/s03/p02",
+        "tweetHash":  "90ddae4deeab56af",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "system-performance/s03/p03",
+        "tweetHash":  "237ea5e5006751d4",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "system-performance/s03/p04",
+        "tweetHash":  "f1178ef7f37a5fc5",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "system-performance/s03/p05",
+        "tweetHash":  "2b592ef8a06c1b23",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "system-performance/s03/p06",
+        "tweetHash":  "a768254bfb9fe32e",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "system-performance/s03/p07",
+        "tweetHash":  "deecefd40ef4c4a9",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "system-performance/s03/p08",
+        "tweetHash":  "e68531824441dd07",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "system-performance/s03/p09",
+        "tweetHash":  "bb89468f115bd39d",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "system-performance/s03/p10",
+        "tweetHash":  "62417d25742cf4c8",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "system-performance/s04/p01",
+        "tweetHash":  "d237095efbbba339",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "system-performance/s04/p02",
+        "tweetHash":  "0dc7a02b0a07a001",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "system-performance/s04/p03",
+        "tweetHash":  "d45f41c293354a07",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "system-performance/s04/p04",
+        "tweetHash":  "f4d9f327ac94aa69",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "system-performance/s04/p05",
+        "tweetHash":  "f30119d259a57ccc",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "system-performance/s04/p06",
+        "tweetHash":  "2c8541f112221fad",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "system-performance/s04/p07",
+        "tweetHash":  "8afc1caddd979a1d",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "system-performance/s04/p08",
+        "tweetHash":  "f906bf150f7e43f7",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "system-performance/s04/p09",
+        "tweetHash":  "8e6794f39b270fe7",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "system-performance/s04/p10",
+        "tweetHash":  "a431adda45ffa846",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "system-performance/s05/p01",
+        "tweetHash":  "7b9e420355b75413",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "system-performance/s05/p02",
+        "tweetHash":  "963fc869ded11ade",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "system-performance/s05/p03",
+        "tweetHash":  "139c81ff20d134ab",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "system-performance/s05/p04",
+        "tweetHash":  "748659ee4a621f19",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "system-performance/s05/p05",
+        "tweetHash":  "be000490f0dec9e5",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "system-performance/s05/p06",
+        "tweetHash":  "c16f1e964e6e1f46",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "system-performance/s05/p07",
+        "tweetHash":  "6897455dace97935",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "system-performance/s05/p08",
+        "tweetHash":  "b36c827fef542221",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "system-performance/s05/p09",
+        "tweetHash":  "e878394a5ce41528",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "system-performance/s05/p10",
+        "tweetHash":  "5e67744ad6239b3d",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "system-performance/s06/p01",
+        "tweetHash":  "e7f7831fc3a4d250",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "system-performance/s06/p02",
+        "tweetHash":  "a2fa045dd8c4cfa3",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "system-performance/s06/p03",
+        "tweetHash":  "d5137b1ac0951581",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "system-performance/s06/p04",
+        "tweetHash":  "4d330b2d6c19fddf",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "system-performance/s06/p05",
+        "tweetHash":  "5330f08100d41786",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "system-performance/s06/p06",
+        "tweetHash":  "4804d5fe14b23f14",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "system-performance/s06/p07",
+        "tweetHash":  "2ae222dc027999cf",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "system-performance/s06/p08",
+        "tweetHash":  "bf563a808eecd3cf",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "system-performance/s06/p09",
+        "tweetHash":  "752152caaf44dacf",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "system-performance/s06/p10",
+        "tweetHash":  "074876f68e7f89e9",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "system-performance/s07/p01",
+        "tweetHash":  "95fda777bd748377",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "system-performance/s07/p02",
+        "tweetHash":  "45909dd1491b9a6a",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "system-performance/s07/p03",
+        "tweetHash":  "c96f9a58baee218f",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "system-performance/s07/p04",
+        "tweetHash":  "6786d699f78faa15",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "system-performance/s07/p05",
+        "tweetHash":  "46ca03e208bb8c59",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "system-performance/s07/p06",
+        "tweetHash":  "8924633bac1f201a",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "system-performance/s07/p07",
+        "tweetHash":  "b2b113e907b19647",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "system-performance/s07/p08",
+        "tweetHash":  "3603fd08c427c004",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "system-performance/s07/p09",
+        "tweetHash":  "5757312269568640",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "system-performance/s07/p10",
+        "tweetHash":  "d2fae8ecea9d38a2",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "system-performance/s08/p01",
+        "tweetHash":  "b8a26546801dba42",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "system-performance/s08/p02",
+        "tweetHash":  "872b8d6ba34d8955",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "system-performance/s08/p03",
+        "tweetHash":  "6a7933a3166649cf",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "system-performance/s08/p04",
+        "tweetHash":  "8e558217671ef623",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "system-performance/s08/p05",
+        "tweetHash":  "e33014cbee9855c4",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "system-performance/s08/p06",
+        "tweetHash":  "64de697eef119f67",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "system-performance/s08/p07",
+        "tweetHash":  "a0be6f569ff5493d",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "system-performance/s08/p08",
+        "tweetHash":  "0742c989c65d4f7a",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "system-performance/s08/p09",
+        "tweetHash":  "d0ddcc4b7e250274",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "system-performance/s08/p10",
+        "tweetHash":  "249ea376da067969",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "system-performance/s09/p01",
+        "tweetHash":  "1aad972795f73f20",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "system-performance/s09/p02",
+        "tweetHash":  "ee0ecabad8f455e9",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "system-performance/s09/p03",
+        "tweetHash":  "46e6a5d599bf0d53",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "system-performance/s09/p04",
+        "tweetHash":  "f53513bc3cde1bea",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "system-performance/s09/p05",
+        "tweetHash":  "4832a497bf3ea7a9",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "system-performance/s09/p06",
+        "tweetHash":  "9ca63ec5946c55c5",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "system-performance/s09/p07",
+        "tweetHash":  "2a82941b9916f120",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "system-performance/s09/p08",
+        "tweetHash":  "edeb29990109b427",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "system-performance/s09/p09",
+        "tweetHash":  "2d40c40d8bef444e",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "system-performance/s09/p10",
+        "tweetHash":  "c092184f22d25e95",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "system-performance/s10/p01",
+        "tweetHash":  "23d70d579b72ca0c",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "system-performance/s10/p02",
+        "tweetHash":  "0408fbc346f47073",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "system-performance/s10/p03",
+        "tweetHash":  "1cfd0413a2c09359",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "system-performance/s10/p04",
+        "tweetHash":  "01a60be09bf9f8d7",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "system-performance/s10/p05",
+        "tweetHash":  "ad860f3c0cef3723",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "system-performance/s10/p06",
+        "tweetHash":  "6582ab4eb453c434",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "system-performance/s10/p07",
+        "tweetHash":  "c398e5714a9fb9a1",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "system-performance/s10/p08",
+        "tweetHash":  "50b920ee2e9e5226",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "system-performance/s10/p09",
+        "tweetHash":  "deadf056968b36f4",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "system-performance/s10/p10",
+        "tweetHash":  "f8abd510669bbaaa",
+        "verdict":  "pass"
+    }
+]

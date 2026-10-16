@@ -1,0 +1,52 @@
+[
+  {
+    "key": "realtime-systems/s03/p01",
+    "sourceHash": "c81bb0c88b3ec20d",
+    "tweet": "HTTP רגיל עובד בבקשה ותשובה: שאלת, קיבלת, החיבור נסגר. כדי לדעת אם יש הודעה חדשה צריך לשאול שוב ושוב, וזה בזבזני ואיטי. WebSockets נולדו בשביל זה: להישאר מחוברים ולקבל דחיפה כשמשהו קורה."
+  },
+  {
+    "key": "realtime-systems/s03/p02",
+    "sourceHash": "3cda61cd92a6c6b7",
+    "tweet": "WebSocket מתחיל כמו בקשת HTTP רגילה, handshake, ואז עושה upgrade לערוץ דו-כיווני שנשאר פתוח דקות או שעות. שני הצדדים שולחים מתי שצריך, בלי handshake חדש בכל פעם. מנהרה פתוחה, לא דלת שנטרקת."
+  },
+  {
+    "key": "realtime-systems/s03/p03",
+    "sourceHash": "7da576cf0d8609b1",
+    "tweet": "הכוח של WebSocket הוא דחיפה מהשרת: ברגע שיש אירוע, הודעת צ'אט, מחיר מניה או מהלך במשחק, השרת שולח. הלקוח לא שואל \"כבר יש משהו?\" כל שנייה, וזה מה שיוצר את התחושה של \"קרה עכשיו\"."
+  },
+  {
+    "key": "realtime-systems/s03/p04",
+    "sourceHash": "b0e42d436193c9cd",
+    "tweet": "Long polling היה הפשרה הוותיקה: שואלים את השרת, והוא עונה רק כשיש משהו. מערכות חיו על זה שנים, אבל לחיבור של שעות WebSocket יעיל יותר. polling זה לשאול, WebSocket זה להישאר על הקו."
+  },
+  {
+    "key": "realtime-systems/s03/p05",
+    "sourceHash": "70cf33b6f6d9eba8",
+    "tweet": "כמו ש-HTTPS מאבטח HTTP, ל-WebSocket יש wss שרץ מעל TLS. ב-production זה בסיס, לא בונוס: ערוץ שנשאר פתוח שעות בלי הצפנה מאפשר למי שבאמצע לראות או לשנות את מה שעובר בו."
+  },
+  {
+    "key": "realtime-systems/s03/p06",
+    "sourceHash": "2be3528da8bf4c3c",
+    "tweet": "מיליון חיבורי WebSocket פתוחים זה לא שרת אחד עם לולאה. צריך כמה שרתים עם event loop יעיל, כל אחד מחזיק חלק מהחיבורים, ו-Redis pub/sub מפיץ ביניהם אירועים כדי שיגיעו רק למי שצריך."
+  },
+  {
+    "key": "realtime-systems/s03/p07",
+    "sourceHash": "0780245905263bdd",
+    "tweet": "Socket.io היא ספרייה נוחה מעל ערוץ חי: fallback ל-polling ו-rooms לקבוצות חוסכים הרבה עבודה. אבל היא לא חובה. WebSocket נקי עובד מצוין, והעיקרון נשאר ערוץ פתוח בין לקוח לשרת."
+  },
+  {
+    "key": "realtime-systems/s03/p08",
+    "sourceHash": "3bd82da5ffbfd9f8",
+    "tweet": "לא כל זמן אמת צריך ערוץ דו-כיווני. Server-Sent Events דוחף רק משרת ללקוח על HTTP רגיל, ומתאים לחדשות חיות, סטטוסים ופידים. אם גם הלקוח שולח הרבה באותו ערוץ, WebSocket מתאים יותר."
+  },
+  {
+    "key": "realtime-systems/s03/p09",
+    "sourceHash": "cc1c2aff788b4e2f",
+    "tweet": "חיבור WebSocket יכול למות בשקט: הרשת נפלה, הטלפון נרדם, ה-VPN קפץ. לכן שולחים ping/pong, heartbeat שבודק שהצד השני עוד שם, ובלקוח עושים reconnect אוטומטי במקום לחכות שהמשתמש ירענן."
+  },
+  {
+    "key": "realtime-systems/s03/p10",
+    "sourceHash": "ca207c0b55c5feff",
+    "tweet": "בשורה התחתונה, WebSocket הוא חיבור HTTP ששודרג לערוץ דו-כיווני קבוע. הוא הבסיס לצ'אטים, לוחות מחוונים ומשחקים בדפדפן, ולכל מקום שבו השרת צריך לדחוף עדכון בלי שישאלו אותו כל הזמן."
+  }
+]

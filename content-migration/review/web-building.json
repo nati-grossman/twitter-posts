@@ -1,0 +1,505 @@
+[
+    {
+        "key":  "web-building/s01/p01",
+        "tweetHash":  "35ed9ddee9175862",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "web-building/s01/p02",
+        "tweetHash":  "892f2d75f419ffbf",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "web-building/s01/p03",
+        "tweetHash":  "70398bd62f3abca4",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "web-building/s01/p04",
+        "tweetHash":  "f550772c9b28e481",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "web-building/s01/p05",
+        "tweetHash":  "30830056423b58a7",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "web-building/s01/p06",
+        "tweetHash":  "ba7f86b30a3cc54c",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "web-building/s01/p07",
+        "tweetHash":  "91de5fbe71bd56e2",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "web-building/s01/p08",
+        "tweetHash":  "0d946340b9e77f15",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "web-building/s01/p09",
+        "tweetHash":  "76ace9ebe044afb5",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "web-building/s01/p10",
+        "tweetHash":  "7c0e71be2dc7638a",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "web-building/s02/p01",
+        "tweetHash":  "721e8df8c50a6ed5",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "web-building/s02/p02",
+        "tweetHash":  "a2d93f62e133ca51",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "web-building/s02/p03",
+        "tweetHash":  "ed5d11ab219c1cf2",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "web-building/s02/p04",
+        "tweetHash":  "1746504c3de73fa0",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "web-building/s02/p05",
+        "tweetHash":  "13d71aed40f63f01",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "web-building/s02/p06",
+        "tweetHash":  "36b715b8fbc2446b",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "web-building/s02/p07",
+        "tweetHash":  "b204093c14e3675c",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "web-building/s02/p08",
+        "tweetHash":  "d65617818f950644",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "web-building/s02/p09",
+        "tweetHash":  "1e61f432a2bddacf",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "web-building/s02/p10",
+        "tweetHash":  "45b242f552884668",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "web-building/s03/p01",
+        "tweetHash":  "25d3002e11d5e347",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "web-building/s03/p02",
+        "tweetHash":  "dcb1b232d0a85c67",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "web-building/s03/p03",
+        "tweetHash":  "f63eff4d30cdce5d",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "web-building/s03/p04",
+        "tweetHash":  "b3d73eb55b0d0cb9",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "web-building/s03/p05",
+        "tweetHash":  "2b5669458fc83291",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "web-building/s03/p06",
+        "tweetHash":  "167fea11b9dc5372",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "web-building/s03/p07",
+        "tweetHash":  "4ab54c1731cabfb6",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "web-building/s03/p08",
+        "tweetHash":  "afe02bf046530dbc",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "web-building/s03/p09",
+        "tweetHash":  "f81205c6ccf1061d",
+        "verdict":  "revise",
+        "reason":  "Opens with \"בגלל זה רואים נתיבים כמו /v1/users\" - a dangling \"because of this\" with no preceding antecedent, which reads as a fragment cut from a thread and is unnatural as a standalone opener. Lead with the reason (APIs change over time and must not break existing clients), then the /v1 /v2 example."
+    },
+    {
+        "key":  "web-building/s03/p10",
+        "tweetHash":  "d3f2728d74a8e892",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "web-building/s04/p01",
+        "tweetHash":  "2a3fe9bf94df2fd4",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "web-building/s04/p02",
+        "tweetHash":  "ba8f13763558adf8",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "web-building/s04/p03",
+        "tweetHash":  "49a4fc15794433ee",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "web-building/s04/p04",
+        "tweetHash":  "5fd5151e6f2b3ef8",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "web-building/s04/p05",
+        "tweetHash":  "baf2accb342b1154",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "web-building/s04/p06",
+        "tweetHash":  "fde8720a041589bf",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "web-building/s04/p07",
+        "tweetHash":  "96e33fad3fc703e4",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "web-building/s04/p08",
+        "tweetHash":  "0668425983645141",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "web-building/s04/p09",
+        "tweetHash":  "128bdf5cfdbc4dbf",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "web-building/s04/p10",
+        "tweetHash":  "a1223a10752ac252",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "web-building/s05/p01",
+        "tweetHash":  "af85916d9f14b7e4",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "web-building/s05/p02",
+        "tweetHash":  "0de2a939cb37bdc7",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "web-building/s05/p03",
+        "tweetHash":  "cf893fbadd0fadf4",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "web-building/s05/p04",
+        "tweetHash":  "627ef7e1757ca415",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "web-building/s05/p05",
+        "tweetHash":  "ea654e40ddf213fc",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "web-building/s05/p06",
+        "tweetHash":  "45be55e30982b3e3",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "web-building/s05/p07",
+        "tweetHash":  "3ed918caee68aa4b",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "web-building/s05/p08",
+        "tweetHash":  "0663ef1b44719b11",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "web-building/s05/p09",
+        "tweetHash":  "fd599e0d840458a4",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "web-building/s05/p10",
+        "tweetHash":  "cb5bc9afbee8d024",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "web-building/s06/p01",
+        "tweetHash":  "667d47972640063f",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "web-building/s06/p02",
+        "tweetHash":  "fc643ccebc5e1854",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "web-building/s06/p03",
+        "tweetHash":  "7dd872e8aa7d4508",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "web-building/s06/p04",
+        "tweetHash":  "185b76a5cb342b86",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "web-building/s06/p05",
+        "tweetHash":  "c96fc85a17c36834",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "web-building/s06/p06",
+        "tweetHash":  "be39d0d4e4a960d7",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "web-building/s06/p07",
+        "tweetHash":  "4396647282160c5b",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "web-building/s06/p08",
+        "tweetHash":  "5bfdd1730b3a48dc",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "web-building/s06/p09",
+        "tweetHash":  "4c47e25e5bd14d8e",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "web-building/s06/p10",
+        "tweetHash":  "5897d6942698759d",
+        "verdict":  "revise",
+        "reason":  "Essentially duplicates s06/p01 of the same series: both list the same chain (screen, code/local state, network request, server, database, response) and the same \"dozens of components working together\" point. Choose a distinct takeaway for the summary (e.g. that each link - Client State, Queue, Cache, error handling, monitoring - exists to make one tap feel instant and reliable)."
+    },
+    {
+        "key":  "web-building/s07/p01",
+        "tweetHash":  "f1032224cdf431c5",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "web-building/s07/p02",
+        "tweetHash":  "9f21f79a91fd0718",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "web-building/s07/p03",
+        "tweetHash":  "40ff525defcd194e",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "web-building/s07/p04",
+        "tweetHash":  "702b78dca64c181f",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "web-building/s07/p05",
+        "tweetHash":  "15134c6d0d393e6c",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "web-building/s07/p06",
+        "tweetHash":  "cb5f9edc3c63a8bd",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "web-building/s07/p07",
+        "tweetHash":  "7742794cd8b9d9d9",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "web-building/s07/p08",
+        "tweetHash":  "3907bc4fd9f21a08",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "web-building/s07/p09",
+        "tweetHash":  "2630d10b9738af47",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "web-building/s07/p10",
+        "tweetHash":  "55d94490b7bce00e",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "web-building/s08/p01",
+        "tweetHash":  "54159a0fe07e0afe",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "web-building/s08/p02",
+        "tweetHash":  "99f30c61190687f8",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "web-building/s08/p03",
+        "tweetHash":  "c6794cb3cda29edf",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "web-building/s08/p04",
+        "tweetHash":  "ffae1968dba734f9",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "web-building/s08/p05",
+        "tweetHash":  "8aec69b0ff65eb5e",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "web-building/s08/p06",
+        "tweetHash":  "3d03dfaeb46a942e",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "web-building/s08/p07",
+        "tweetHash":  "4bbac7b7839b9275",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "web-building/s08/p08",
+        "tweetHash":  "aea31480d66d1e84",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "web-building/s08/p09",
+        "tweetHash":  "2ee1e86701dddce1",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "web-building/s08/p10",
+        "tweetHash":  "ee9ee77f8c8a866b",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "web-building/s09/p01",
+        "tweetHash":  "f3d6d2815d55e615",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "web-building/s09/p02",
+        "tweetHash":  "d2a518d492371d88",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "web-building/s09/p03",
+        "tweetHash":  "6d3cd677f06fa3ad",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "web-building/s09/p04",
+        "tweetHash":  "1b4a6bd5d5993880",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "web-building/s09/p05",
+        "tweetHash":  "3758ade87d4298e8",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "web-building/s09/p06",
+        "tweetHash":  "a2560ba0abd55065",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "web-building/s09/p07",
+        "tweetHash":  "f3c2030de4b3b8a3",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "web-building/s09/p08",
+        "tweetHash":  "3a351122f4820f44",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "web-building/s09/p09",
+        "tweetHash":  "23b2a94b6cc5298c",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "web-building/s09/p10",
+        "tweetHash":  "16dee0ef45372852",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "web-building/s10/p01",
+        "tweetHash":  "48be3c1f0bc5c47f",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "web-building/s10/p02",
+        "tweetHash":  "a30589204ce5a76a",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "web-building/s10/p03",
+        "tweetHash":  "623d5e1077e45f76",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "web-building/s10/p04",
+        "tweetHash":  "c78ebef856f7907b",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "web-building/s10/p05",
+        "tweetHash":  "e96b98b17800292a",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "web-building/s10/p06",
+        "tweetHash":  "08bfa537db70f37b",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "web-building/s10/p07",
+        "tweetHash":  "947367adcd188fad",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "web-building/s10/p08",
+        "tweetHash":  "7234279a50afe00d",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "web-building/s10/p09",
+        "tweetHash":  "c71c2f5d9bd228bd",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "web-building/s10/p10",
+        "tweetHash":  "2195b9b6617830ed",
+        "verdict":  "revise",
+        "reason":  "Essentially duplicates s10/p01 of the same series: both say login is \"not one button but a chain\" and that the goal is to identify the user securely on every request, with a near-identical list (registration, Login, Session/JWT...). Give the summary a distinct angle, e.g. how the pieces covered (Hash, secure Cookie flags, 2FA, Refresh Token, OAuth) each close a different gap."
+    }
+]

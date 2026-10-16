@@ -1,0 +1,52 @@
+[
+  {
+    "key": "deep-infrastructure/s07/p01",
+    "sourceHash": "cf5153785a50faf1",
+    "tweet": "Container הוא חבילה שמכילה את האפליקציה יחד עם התלויות שלה, ורצה מבודדת משאר האפליקציות על אותה מכונה. אותה קופסה רצה אצלכם, אצל עמית ובענן באותו אופן, וזה סוף ה\"אצלי זה עובד\"."
+  },
+  {
+    "key": "deep-infrastructure/s07/p02",
+    "sourceHash": "03ff968a1eac65ae",
+    "tweet": "Container הוא לא מחשב וירטואלי מלא. הוא חולק את ה-kernel של Linux עם המארח, בלי מערכת הפעלה שלמה ובלי boot, ולכן עולה תוך שניות ולא דקות. בלי OS לכל אחד, אותו שרת מריץ הרבה יותר containers."
+  },
+  {
+    "key": "deep-infrastructure/s07/p03",
+    "sourceHash": "787297885aea86f2",
+    "tweet": "Image הוא התבנית הקפואה של ה-container, המתכון לפני הבישול. כותבים Dockerfile, עושים build ושומרים ב-registry, ומשם מריצים אותה גרסה בכל מקום. ה-image עובר בין מכונות, ה-container הוא מה שרץ."
+  },
+  {
+    "key": "deep-infrastructure/s07/p04",
+    "sourceHash": "6caa6d9e1e4daf89",
+    "tweet": "Docker הוא השם הכי מוכר בעולם ה-containers, כמעט מילה נרדפת לקופסאות: docker run והקופסה רצה. הוא הפך את הרעיון לנגיש והקרב פיתוח מקומי ל-production. לא זהה במאה אחוז, אבל עם הרבה פחות פערים."
+  },
+  {
+    "key": "deep-infrastructure/s07/p05",
+    "sourceHash": "fbd5b18ead8072d0",
+    "tweet": "Image של Docker בנוי משכבות, כמו עוגה עם קומות. שינוי קטן בקוד בונה מחדש רק את השכבות שהשתנו, והשאר מגיעות מ-cache. לכן סדר השכבות ב-Dockerfile חשוב, ו-Dockerfile טוב חוסך שעות של build איטי."
+  },
+  {
+    "key": "deep-infrastructure/s07/p06",
+    "sourceHash": "d3e5e972d6cf390b",
+    "tweet": "בתוך ה-container האפליקציה מאזינה, נניח, על פורט 3000, ומבחוץ ממפים אותו ל-8080 או לכל פורט אחר. בלי Port mapping אף אחד מבחוץ לא מגיע פנימה, גם אם האפליקציה רצה מצוין. זה הגשר בין המארח לקופסה."
+  },
+  {
+    "key": "deep-infrastructure/s07/p07",
+    "sourceHash": "4c6c2f31f4ff75ca",
+    "tweet": "Database שרץ רק בתוך container מאבד את הנתונים כשה-container נעלם. Volumes שומרים את הקבצים על הדיסק של המארח, מחוץ לקופסה, כך שהקופסה יכולה להתחלף והנתונים נשארים. חובה לכל דבר עם state."
+  },
+  {
+    "key": "deep-infrastructure/s07/p08",
+    "sourceHash": "6982758ab448879c",
+    "tweet": "API, DB ו-Redis הם כמה containers שצריכים לעבוד יחד. docker-compose מרים את כולם מקובץ אחד, עם רשת מוכנה ביניהם, בלי להתקין חבילה אחרי חבילה. כל הצוות מקבל אותה סביבה עם אותן גרסאות, בפקודה אחת."
+  },
+  {
+    "key": "deep-infrastructure/s07/p09",
+    "sourceHash": "e38a19ec60f61deb",
+    "tweet": "בקנה מידה גדול Docker לבד לא מספיק. מישהו צריך להחליט איפה כל container רץ, כמה עותקים יש ומה עושים כשמשהו נופל בלילה, ו-docker run לא עונה על זה. כאן נכנסים Kubernetes וכלי אורקסטרציה דומים."
+  },
+  {
+    "key": "deep-infrastructure/s07/p10",
+    "sourceHash": "e8d0b2d170e1383c",
+    "tweet": "Container הוא נקודת התחלה, לא סוף הסיפור: image אחד, קל ונייד, רץ אותו דבר בכל סביבה, ומעליו באים volumes לנתונים, compose לכמה שירותים ו-Kubernetes כשגדלים. בלי הקופסה קשה לגדול בצורה מסודרת."
+  }
+]

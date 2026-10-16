@@ -1,0 +1,503 @@
+[
+  {
+    "key": "ai-basics/s01/p01",
+    "tweetHash": "f47b049d7acfd01e",
+    "verdict": "pass"
+  },
+  {
+    "key": "ai-basics/s01/p02",
+    "tweetHash": "8541a08acd7a4a6b",
+    "verdict": "pass"
+  },
+  {
+    "key": "ai-basics/s01/p03",
+    "tweetHash": "4d9c6906400c4ac7",
+    "verdict": "pass"
+  },
+  {
+    "key": "ai-basics/s01/p04",
+    "tweetHash": "b1b5c5d6f797c75b",
+    "verdict": "pass"
+  },
+  {
+    "key": "ai-basics/s01/p05",
+    "tweetHash": "b7e7d0dc68292639",
+    "verdict": "pass"
+  },
+  {
+    "key": "ai-basics/s01/p06",
+    "tweetHash": "421715e827ee869d",
+    "verdict": "pass"
+  },
+  {
+    "key": "ai-basics/s01/p07",
+    "tweetHash": "d1a66926317237ce",
+    "verdict": "pass"
+  },
+  {
+    "key": "ai-basics/s01/p08",
+    "tweetHash": "cfb34c57dfb973e9",
+    "verdict": "pass"
+  },
+  {
+    "key": "ai-basics/s01/p09",
+    "tweetHash": "b1aca9de0194c1c2",
+    "verdict": "pass"
+  },
+  {
+    "key": "ai-basics/s01/p10",
+    "tweetHash": "78edd850de553d45",
+    "verdict": "pass"
+  },
+  {
+    "key": "ai-basics/s02/p01",
+    "tweetHash": "ff6ec4d489f78401",
+    "verdict": "pass"
+  },
+  {
+    "key": "ai-basics/s02/p02",
+    "tweetHash": "7a9dd22663cf178e",
+    "verdict": "pass"
+  },
+  {
+    "key": "ai-basics/s02/p03",
+    "tweetHash": "e7f5c72b4d0576c0",
+    "verdict": "pass"
+  },
+  {
+    "key": "ai-basics/s02/p04",
+    "tweetHash": "e751ad7db9c1849f",
+    "verdict": "pass"
+  },
+  {
+    "key": "ai-basics/s02/p05",
+    "tweetHash": "8496a13dd14396d2",
+    "verdict": "pass"
+  },
+  {
+    "key": "ai-basics/s02/p06",
+    "tweetHash": "67723d73bff6cc76",
+    "verdict": "pass"
+  },
+  {
+    "key": "ai-basics/s02/p07",
+    "tweetHash": "f3716ca6330f5115",
+    "verdict": "pass"
+  },
+  {
+    "key": "ai-basics/s02/p08",
+    "tweetHash": "78544e35be14543f",
+    "verdict": "pass"
+  },
+  {
+    "key": "ai-basics/s02/p09",
+    "tweetHash": "ce24ccb7f1f3e1ae",
+    "verdict": "pass"
+  },
+  {
+    "key": "ai-basics/s02/p10",
+    "tweetHash": "6c6e1e0f52cf21c4",
+    "verdict": "pass"
+  },
+  {
+    "key": "ai-basics/s03/p01",
+    "tweetHash": "6547567d51dfa81a",
+    "verdict": "pass"
+  },
+  {
+    "key": "ai-basics/s03/p02",
+    "tweetHash": "868f359aed5912e3",
+    "verdict": "pass"
+  },
+  {
+    "key": "ai-basics/s03/p03",
+    "tweetHash": "6582e2ddb918d500",
+    "verdict": "pass"
+  },
+  {
+    "key": "ai-basics/s03/p04",
+    "tweetHash": "053e525897df45a1",
+    "verdict": "pass"
+  },
+  {
+    "key": "ai-basics/s03/p05",
+    "tweetHash": "7c952684c90f0c63",
+    "verdict": "pass"
+  },
+  {
+    "key": "ai-basics/s03/p06",
+    "tweetHash": "b5c0e3ac3daf80d2",
+    "verdict": "pass"
+  },
+  {
+    "key": "ai-basics/s03/p07",
+    "tweetHash": "b20233b0c50c75be",
+    "verdict": "pass"
+  },
+  {
+    "key": "ai-basics/s03/p08",
+    "tweetHash": "f2d17ab4b4b74887",
+    "verdict": "pass"
+  },
+  {
+    "key": "ai-basics/s03/p09",
+    "tweetHash": "61b881d4002d8429",
+    "verdict": "pass"
+  },
+  {
+    "key": "ai-basics/s03/p10",
+    "tweetHash": "405b6fead838cdef",
+    "verdict": "pass"
+  },
+  {
+    "key": "ai-basics/s04/p01",
+    "tweetHash": "dfda82d7c29221b5",
+    "verdict": "pass"
+  },
+  {
+    "key": "ai-basics/s04/p02",
+    "tweetHash": "23a06a748f713265",
+    "verdict": "pass"
+  },
+  {
+    "key": "ai-basics/s04/p03",
+    "tweetHash": "e831ab982b9bf0b6",
+    "verdict": "pass"
+  },
+  {
+    "key": "ai-basics/s04/p04",
+    "tweetHash": "d3555d5f62a2ae60",
+    "verdict": "pass"
+  },
+  {
+    "key": "ai-basics/s04/p05",
+    "tweetHash": "2e70c0473b57dc32",
+    "verdict": "pass"
+  },
+  {
+    "key": "ai-basics/s04/p06",
+    "tweetHash": "dbcd6bed69d33a92",
+    "verdict": "pass"
+  },
+  {
+    "key": "ai-basics/s04/p07",
+    "tweetHash": "3676d3c5db6bee60",
+    "verdict": "pass"
+  },
+  {
+    "key": "ai-basics/s04/p08",
+    "tweetHash": "77151398978c09a4",
+    "verdict": "pass"
+  },
+  {
+    "key": "ai-basics/s04/p09",
+    "tweetHash": "5f974827933a2ffe",
+    "verdict": "pass"
+  },
+  {
+    "key": "ai-basics/s04/p10",
+    "tweetHash": "86b5979f7bfadfb5",
+    "verdict": "pass"
+  },
+  {
+    "key": "ai-basics/s05/p01",
+    "tweetHash": "87a348c47330fa1f",
+    "verdict": "pass"
+  },
+  {
+    "key": "ai-basics/s05/p02",
+    "tweetHash": "cd472c322628c526",
+    "verdict": "pass"
+  },
+  {
+    "key": "ai-basics/s05/p03",
+    "tweetHash": "fb6c612f613f9986",
+    "verdict": "pass"
+  },
+  {
+    "key": "ai-basics/s05/p04",
+    "tweetHash": "24f1ff2b5110984e",
+    "verdict": "pass"
+  },
+  {
+    "key": "ai-basics/s05/p05",
+    "tweetHash": "5a7c9eb5add206f0",
+    "verdict": "pass"
+  },
+  {
+    "key": "ai-basics/s05/p06",
+    "tweetHash": "e3da04966e398af9",
+    "verdict": "pass"
+  },
+  {
+    "key": "ai-basics/s05/p07",
+    "tweetHash": "3c673ef92c97851a",
+    "verdict": "pass"
+  },
+  {
+    "key": "ai-basics/s05/p08",
+    "tweetHash": "010fcebd516a6789",
+    "verdict": "pass"
+  },
+  {
+    "key": "ai-basics/s05/p09",
+    "tweetHash": "bbdf6fa23ac66546",
+    "verdict": "pass"
+  },
+  {
+    "key": "ai-basics/s05/p10",
+    "tweetHash": "58210c21a5452977",
+    "verdict": "pass"
+  },
+  {
+    "key": "ai-basics/s06/p01",
+    "tweetHash": "7b9eafab821e3030",
+    "verdict": "pass"
+  },
+  {
+    "key": "ai-basics/s06/p02",
+    "tweetHash": "4900e4d08582c36f",
+    "verdict": "pass"
+  },
+  {
+    "key": "ai-basics/s06/p03",
+    "tweetHash": "61f9af0681d8ffa9",
+    "verdict": "pass"
+  },
+  {
+    "key": "ai-basics/s06/p04",
+    "tweetHash": "2463438c3f77cbb7",
+    "verdict": "pass"
+  },
+  {
+    "key": "ai-basics/s06/p05",
+    "tweetHash": "515042a1e9ad8298",
+    "verdict": "pass"
+  },
+  {
+    "key": "ai-basics/s06/p06",
+    "tweetHash": "626d4d29317567ca",
+    "verdict": "pass"
+  },
+  {
+    "key": "ai-basics/s06/p07",
+    "tweetHash": "9229691e643a08f1",
+    "verdict": "revise",
+    "reason": "Overstates the original. Source says \"not everything is end-to-end ML\" and that banks/medicine use a mix of rules + models + human checks; the tweet claims \"בבנק או בבית חולים כמעט אף מערכת היא לא end-to-end ML\" (\"almost no system\"), an invented sweeping claim. Keep it at \"not everything / you often see a combination\"."
+  },
+  {
+    "key": "ai-basics/s06/p08",
+    "tweetHash": "e17918a38a596b7d",
+    "verdict": "pass"
+  },
+  {
+    "key": "ai-basics/s06/p09",
+    "tweetHash": "6a266e9beff281b0",
+    "verdict": "pass"
+  },
+  {
+    "key": "ai-basics/s06/p10",
+    "tweetHash": "747980938817c7db",
+    "verdict": "pass"
+  },
+  {
+    "key": "ai-basics/s07/p01",
+    "tweetHash": "34540064682a03ba",
+    "verdict": "pass"
+  },
+  {
+    "key": "ai-basics/s07/p02",
+    "tweetHash": "dbd86c4cf4b6b803",
+    "verdict": "pass"
+  },
+  {
+    "key": "ai-basics/s07/p03",
+    "tweetHash": "b203fa06043d7296",
+    "verdict": "pass"
+  },
+  {
+    "key": "ai-basics/s07/p04",
+    "tweetHash": "b4b0f3e8759ae041",
+    "verdict": "pass"
+  },
+  {
+    "key": "ai-basics/s07/p05",
+    "tweetHash": "644e7202a5b6ce6b",
+    "verdict": "pass"
+  },
+  {
+    "key": "ai-basics/s07/p06",
+    "tweetHash": "15f749bcb2abc849",
+    "verdict": "pass"
+  },
+  {
+    "key": "ai-basics/s07/p07",
+    "tweetHash": "c3576d74784bfe5e",
+    "verdict": "pass"
+  },
+  {
+    "key": "ai-basics/s07/p08",
+    "tweetHash": "c309aa83c16e4e70",
+    "verdict": "pass"
+  },
+  {
+    "key": "ai-basics/s07/p09",
+    "tweetHash": "245aa929191b8c3d",
+    "verdict": "pass"
+  },
+  {
+    "key": "ai-basics/s07/p10",
+    "tweetHash": "46caccc21c59dedb",
+    "verdict": "pass"
+  },
+  {
+    "key": "ai-basics/s08/p01",
+    "tweetHash": "ed58cb7bc175003c",
+    "verdict": "pass"
+  },
+  {
+    "key": "ai-basics/s08/p02",
+    "tweetHash": "c65e6d03be90aea7",
+    "verdict": "pass"
+  },
+  {
+    "key": "ai-basics/s08/p03",
+    "tweetHash": "32045bd1068f36a7",
+    "verdict": "pass"
+  },
+  {
+    "key": "ai-basics/s08/p04",
+    "tweetHash": "44cc4ab2edaf47f0",
+    "verdict": "pass"
+  },
+  {
+    "key": "ai-basics/s08/p05",
+    "tweetHash": "3604a61666ba811d",
+    "verdict": "pass"
+  },
+  {
+    "key": "ai-basics/s08/p06",
+    "tweetHash": "1efa24c5a6678705",
+    "verdict": "pass"
+  },
+  {
+    "key": "ai-basics/s08/p07",
+    "tweetHash": "63d2b4bcff791bd0",
+    "verdict": "pass"
+  },
+  {
+    "key": "ai-basics/s08/p08",
+    "tweetHash": "a3920815f390fceb",
+    "verdict": "pass"
+  },
+  {
+    "key": "ai-basics/s08/p09",
+    "tweetHash": "8675be0af4ed59df",
+    "verdict": "pass"
+  },
+  {
+    "key": "ai-basics/s08/p10",
+    "tweetHash": "6984cac9363e2b0b",
+    "verdict": "pass"
+  },
+  {
+    "key": "ai-basics/s09/p01",
+    "tweetHash": "4da40af715bf84e9",
+    "verdict": "pass"
+  },
+  {
+    "key": "ai-basics/s09/p02",
+    "tweetHash": "d5ee92350be9f106",
+    "verdict": "pass"
+  },
+  {
+    "key": "ai-basics/s09/p03",
+    "tweetHash": "8932145035755d9b",
+    "verdict": "pass"
+  },
+  {
+    "key": "ai-basics/s09/p04",
+    "tweetHash": "0dab667d01ca2166",
+    "verdict": "pass"
+  },
+  {
+    "key": "ai-basics/s09/p05",
+    "tweetHash": "324614958c3a9ab8",
+    "verdict": "pass"
+  },
+  {
+    "key": "ai-basics/s09/p06",
+    "tweetHash": "1ecb6c1a007a26c1",
+    "verdict": "pass"
+  },
+  {
+    "key": "ai-basics/s09/p07",
+    "tweetHash": "4480bb9efd2fb2ef",
+    "verdict": "pass"
+  },
+  {
+    "key": "ai-basics/s09/p08",
+    "tweetHash": "a207a71f3450ada9",
+    "verdict": "pass"
+  },
+  {
+    "key": "ai-basics/s09/p09",
+    "tweetHash": "9758abbba3dd4f65",
+    "verdict": "pass"
+  },
+  {
+    "key": "ai-basics/s09/p10",
+    "tweetHash": "50029a9a1ad926de",
+    "verdict": "pass"
+  },
+  {
+    "key": "ai-basics/s10/p01",
+    "tweetHash": "d7a0be95c59d81ee",
+    "verdict": "pass"
+  },
+  {
+    "key": "ai-basics/s10/p02",
+    "tweetHash": "64260a6bebf078a3",
+    "verdict": "pass"
+  },
+  {
+    "key": "ai-basics/s10/p03",
+    "tweetHash": "74ded15aeb604e1d",
+    "verdict": "pass"
+  },
+  {
+    "key": "ai-basics/s10/p04",
+    "tweetHash": "b5c57350f6bde101",
+    "verdict": "pass"
+  },
+  {
+    "key": "ai-basics/s10/p05",
+    "tweetHash": "7de9e3d450a21702",
+    "verdict": "pass"
+  },
+  {
+    "key": "ai-basics/s10/p06",
+    "tweetHash": "504e86bcb09f7a04",
+    "verdict": "pass"
+  },
+  {
+    "key": "ai-basics/s10/p07",
+    "tweetHash": "3b91bcd52f538d06",
+    "verdict": "pass"
+  },
+  {
+    "key": "ai-basics/s10/p08",
+    "tweetHash": "85b729b1071ed9ae",
+    "verdict": "pass"
+  },
+  {
+    "key": "ai-basics/s10/p09",
+    "tweetHash": "c45aa044560e5bcc",
+    "verdict": "pass"
+  },
+  {
+    "key": "ai-basics/s10/p10",
+    "tweetHash": "e3f3ab0099991de3",
+    "verdict": "pass"
+  }
+]

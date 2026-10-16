@@ -1,0 +1,503 @@
+[
+ {
+  "key": "llm-chatgpt/s01/p01",
+  "tweetHash": "af8dfb6cb404480d",
+  "verdict": "pass"
+ },
+ {
+  "key": "llm-chatgpt/s01/p02",
+  "tweetHash": "6be3af44aaae9a93",
+  "verdict": "pass"
+ },
+ {
+  "key": "llm-chatgpt/s01/p03",
+  "tweetHash": "060f20e1070edcbf",
+  "verdict": "pass"
+ },
+ {
+  "key": "llm-chatgpt/s01/p04",
+  "tweetHash": "9c0f3fc157290b57",
+  "verdict": "pass"
+ },
+ {
+  "key": "llm-chatgpt/s01/p05",
+  "tweetHash": "b3f4c08b1d7fd756",
+  "verdict": "pass"
+ },
+ {
+  "key": "llm-chatgpt/s01/p06",
+  "tweetHash": "7f86d6fdcf61efbe",
+  "verdict": "pass"
+ },
+ {
+  "key": "llm-chatgpt/s01/p07",
+  "tweetHash": "38737cee2d8aafa5",
+  "verdict": "pass"
+ },
+ {
+  "key": "llm-chatgpt/s01/p08",
+  "tweetHash": "1dd54b003c37cdfb",
+  "verdict": "pass"
+ },
+ {
+  "key": "llm-chatgpt/s01/p09",
+  "tweetHash": "ae1c01350f78c389",
+  "verdict": "pass"
+ },
+ {
+  "key": "llm-chatgpt/s01/p10",
+  "tweetHash": "3da42fa107be3dd3",
+  "verdict": "pass"
+ },
+ {
+  "key": "llm-chatgpt/s02/p01",
+  "tweetHash": "952d61df5262a3b1",
+  "verdict": "pass"
+ },
+ {
+  "key": "llm-chatgpt/s02/p02",
+  "tweetHash": "0f763e5c6d16a2f2",
+  "verdict": "pass"
+ },
+ {
+  "key": "llm-chatgpt/s02/p03",
+  "tweetHash": "9d6f89d9a46bd188",
+  "verdict": "pass"
+ },
+ {
+  "key": "llm-chatgpt/s02/p04",
+  "tweetHash": "9a19811af22dca9f",
+  "verdict": "pass"
+ },
+ {
+  "key": "llm-chatgpt/s02/p05",
+  "tweetHash": "a595ac3ccc318337",
+  "verdict": "pass"
+ },
+ {
+  "key": "llm-chatgpt/s02/p06",
+  "tweetHash": "7cebb01fcc63542b",
+  "verdict": "pass"
+ },
+ {
+  "key": "llm-chatgpt/s02/p07",
+  "tweetHash": "93f2dd5cb4008db2",
+  "verdict": "pass"
+ },
+ {
+  "key": "llm-chatgpt/s02/p08",
+  "tweetHash": "4e27e1130392e545",
+  "verdict": "pass"
+ },
+ {
+  "key": "llm-chatgpt/s02/p09",
+  "tweetHash": "f01980ef669189ee",
+  "verdict": "pass"
+ },
+ {
+  "key": "llm-chatgpt/s02/p10",
+  "tweetHash": "8cdb838c10ee3c3a",
+  "verdict": "pass"
+ },
+ {
+  "key": "llm-chatgpt/s03/p01",
+  "tweetHash": "c932665a0831d194",
+  "verdict": "pass"
+ },
+ {
+  "key": "llm-chatgpt/s03/p02",
+  "tweetHash": "9f44290c5c3bcea0",
+  "verdict": "pass"
+ },
+ {
+  "key": "llm-chatgpt/s03/p03",
+  "tweetHash": "dd7e25ffebb4ea36",
+  "verdict": "pass"
+ },
+ {
+  "key": "llm-chatgpt/s03/p04",
+  "tweetHash": "09aa686cb14a1cd5",
+  "verdict": "pass"
+ },
+ {
+  "key": "llm-chatgpt/s03/p05",
+  "tweetHash": "4b92ead1d5729c85",
+  "verdict": "pass"
+ },
+ {
+  "key": "llm-chatgpt/s03/p06",
+  "tweetHash": "5bd24b60d58b3bed",
+  "verdict": "pass"
+ },
+ {
+  "key": "llm-chatgpt/s03/p07",
+  "tweetHash": "8e35e41c916f2395",
+  "verdict": "pass"
+ },
+ {
+  "key": "llm-chatgpt/s03/p08",
+  "tweetHash": "3521ee1fd2e48898",
+  "verdict": "pass"
+ },
+ {
+  "key": "llm-chatgpt/s03/p09",
+  "tweetHash": "32c48f9f7a07c210",
+  "verdict": "pass"
+ },
+ {
+  "key": "llm-chatgpt/s03/p10",
+  "tweetHash": "03d825076401f5c0",
+  "verdict": "pass"
+ },
+ {
+  "key": "llm-chatgpt/s04/p01",
+  "tweetHash": "d7a78aeaa9714b7c",
+  "verdict": "pass"
+ },
+ {
+  "key": "llm-chatgpt/s04/p02",
+  "tweetHash": "ab847fef36bbf892",
+  "verdict": "pass"
+ },
+ {
+  "key": "llm-chatgpt/s04/p03",
+  "tweetHash": "1cf9b7d1eaec2731",
+  "verdict": "pass"
+ },
+ {
+  "key": "llm-chatgpt/s04/p04",
+  "tweetHash": "f27d808ad8fb5bb3",
+  "verdict": "pass"
+ },
+ {
+  "key": "llm-chatgpt/s04/p05",
+  "tweetHash": "61494e2f2fe35080",
+  "verdict": "pass"
+ },
+ {
+  "key": "llm-chatgpt/s04/p06",
+  "tweetHash": "428bb3a67631ae1d",
+  "verdict": "pass"
+ },
+ {
+  "key": "llm-chatgpt/s04/p07",
+  "tweetHash": "fa1bee17df71668a",
+  "verdict": "pass"
+ },
+ {
+  "key": "llm-chatgpt/s04/p08",
+  "tweetHash": "a86604066cca1df5",
+  "verdict": "pass"
+ },
+ {
+  "key": "llm-chatgpt/s04/p09",
+  "tweetHash": "d9457490d8220998",
+  "verdict": "pass"
+ },
+ {
+  "key": "llm-chatgpt/s04/p10",
+  "tweetHash": "891329895519a88d",
+  "verdict": "pass"
+ },
+ {
+  "key": "llm-chatgpt/s05/p01",
+  "tweetHash": "41739cfc5f3c52a6",
+  "verdict": "pass"
+ },
+ {
+  "key": "llm-chatgpt/s05/p02",
+  "tweetHash": "711f1b79ad9b6625",
+  "verdict": "pass"
+ },
+ {
+  "key": "llm-chatgpt/s05/p03",
+  "tweetHash": "ffe0da99cc78e2d8",
+  "verdict": "pass"
+ },
+ {
+  "key": "llm-chatgpt/s05/p04",
+  "tweetHash": "30552cbdbe4e101c",
+  "verdict": "pass"
+ },
+ {
+  "key": "llm-chatgpt/s05/p05",
+  "tweetHash": "9f6beeb5c20cc9d3",
+  "verdict": "pass"
+ },
+ {
+  "key": "llm-chatgpt/s05/p06",
+  "tweetHash": "3578ebe28e27857b",
+  "verdict": "pass"
+ },
+ {
+  "key": "llm-chatgpt/s05/p07",
+  "tweetHash": "bd4995f3a3b5564b",
+  "verdict": "pass"
+ },
+ {
+  "key": "llm-chatgpt/s05/p08",
+  "tweetHash": "a2f1ef0b30d0ccca",
+  "verdict": "pass"
+ },
+ {
+  "key": "llm-chatgpt/s05/p09",
+  "tweetHash": "b0fd837fe7b7fc18",
+  "verdict": "pass"
+ },
+ {
+  "key": "llm-chatgpt/s05/p10",
+  "tweetHash": "367e44aafd1ad6b1",
+  "verdict": "pass"
+ },
+ {
+  "key": "llm-chatgpt/s06/p01",
+  "tweetHash": "dd89974cdde316c7",
+  "verdict": "pass"
+ },
+ {
+  "key": "llm-chatgpt/s06/p02",
+  "tweetHash": "c30dacdb48e840aa",
+  "verdict": "pass"
+ },
+ {
+  "key": "llm-chatgpt/s06/p03",
+  "tweetHash": "6728a4112e126739",
+  "verdict": "pass"
+ },
+ {
+  "key": "llm-chatgpt/s06/p04",
+  "tweetHash": "46b51e71372b6e8e",
+  "verdict": "pass"
+ },
+ {
+  "key": "llm-chatgpt/s06/p05",
+  "tweetHash": "ff480ddd24289c7a",
+  "verdict": "pass"
+ },
+ {
+  "key": "llm-chatgpt/s06/p06",
+  "tweetHash": "cb91e7025cbc37d1",
+  "verdict": "pass"
+ },
+ {
+  "key": "llm-chatgpt/s06/p07",
+  "tweetHash": "fdc8d6e9f2d5ba15",
+  "verdict": "pass"
+ },
+ {
+  "key": "llm-chatgpt/s06/p08",
+  "tweetHash": "c0b919384b77e174",
+  "verdict": "pass"
+ },
+ {
+  "key": "llm-chatgpt/s06/p09",
+  "tweetHash": "9d0cc023e47b80d0",
+  "verdict": "pass"
+ },
+ {
+  "key": "llm-chatgpt/s06/p10",
+  "tweetHash": "2a4c9bc3f3bdc915",
+  "verdict": "pass"
+ },
+ {
+  "key": "llm-chatgpt/s07/p01",
+  "tweetHash": "9b26f2532f4a3740",
+  "verdict": "pass"
+ },
+ {
+  "key": "llm-chatgpt/s07/p02",
+  "tweetHash": "a4864ce76e8da89a",
+  "verdict": "pass"
+ },
+ {
+  "key": "llm-chatgpt/s07/p03",
+  "tweetHash": "d655c2cfe06b58ea",
+  "verdict": "pass"
+ },
+ {
+  "key": "llm-chatgpt/s07/p04",
+  "tweetHash": "7efeb8c833e2440c",
+  "verdict": "pass"
+ },
+ {
+  "key": "llm-chatgpt/s07/p05",
+  "tweetHash": "7f83dce4e1ebbefb",
+  "verdict": "pass"
+ },
+ {
+  "key": "llm-chatgpt/s07/p06",
+  "tweetHash": "b71c1d73dbb6d55e",
+  "verdict": "pass"
+ },
+ {
+  "key": "llm-chatgpt/s07/p07",
+  "tweetHash": "cfcb4eb99a46482d",
+  "verdict": "pass"
+ },
+ {
+  "key": "llm-chatgpt/s07/p08",
+  "tweetHash": "3176cdee2c2c7b22",
+  "verdict": "pass"
+ },
+ {
+  "key": "llm-chatgpt/s07/p09",
+  "tweetHash": "322f60cb319f2be8",
+  "verdict": "pass"
+ },
+ {
+  "key": "llm-chatgpt/s07/p10",
+  "tweetHash": "cd5e55f016dd9beb",
+  "verdict": "pass"
+ },
+ {
+  "key": "llm-chatgpt/s08/p01",
+  "tweetHash": "13a071b3de49d9be",
+  "verdict": "pass"
+ },
+ {
+  "key": "llm-chatgpt/s08/p02",
+  "tweetHash": "7068a15431f49c23",
+  "verdict": "pass"
+ },
+ {
+  "key": "llm-chatgpt/s08/p03",
+  "tweetHash": "6af7cbc5e211691c",
+  "verdict": "pass"
+ },
+ {
+  "key": "llm-chatgpt/s08/p04",
+  "tweetHash": "0ce1dac5b36ad785",
+  "verdict": "pass"
+ },
+ {
+  "key": "llm-chatgpt/s08/p05",
+  "tweetHash": "09d5e3f4a41b0810",
+  "verdict": "pass"
+ },
+ {
+  "key": "llm-chatgpt/s08/p06",
+  "tweetHash": "3ce97301621fe36d",
+  "verdict": "pass"
+ },
+ {
+  "key": "llm-chatgpt/s08/p07",
+  "tweetHash": "a9fd35e9ae0d50f9",
+  "verdict": "pass"
+ },
+ {
+  "key": "llm-chatgpt/s08/p08",
+  "tweetHash": "1f99b634d21aa2cf",
+  "verdict": "pass"
+ },
+ {
+  "key": "llm-chatgpt/s08/p09",
+  "tweetHash": "fc55667a8686bec6",
+  "verdict": "pass"
+ },
+ {
+  "key": "llm-chatgpt/s08/p10",
+  "tweetHash": "067ad648641b0539",
+  "verdict": "pass"
+ },
+ {
+  "key": "llm-chatgpt/s09/p01",
+  "tweetHash": "cdc9680d15628136",
+  "verdict": "pass"
+ },
+ {
+  "key": "llm-chatgpt/s09/p02",
+  "tweetHash": "0a006c925e1fa51f",
+  "verdict": "pass"
+ },
+ {
+  "key": "llm-chatgpt/s09/p03",
+  "tweetHash": "6a71a6ac54933c6d",
+  "verdict": "pass"
+ },
+ {
+  "key": "llm-chatgpt/s09/p04",
+  "tweetHash": "27bee0b7b238b2ec",
+  "verdict": "pass"
+ },
+ {
+  "key": "llm-chatgpt/s09/p05",
+  "tweetHash": "48f12b0ef081d320",
+  "verdict": "pass"
+ },
+ {
+  "key": "llm-chatgpt/s09/p06",
+  "tweetHash": "521d4f59208e819b",
+  "verdict": "pass"
+ },
+ {
+  "key": "llm-chatgpt/s09/p07",
+  "tweetHash": "ba729d5cde7b7621",
+  "verdict": "pass"
+ },
+ {
+  "key": "llm-chatgpt/s09/p08",
+  "tweetHash": "f27bdcf8491b6509",
+  "verdict": "pass"
+ },
+ {
+  "key": "llm-chatgpt/s09/p09",
+  "tweetHash": "ab53944a2d1ad54f",
+  "verdict": "pass"
+ },
+ {
+  "key": "llm-chatgpt/s09/p10",
+  "tweetHash": "e1240b948cb55c23",
+  "verdict": "pass"
+ },
+ {
+  "key": "llm-chatgpt/s10/p01",
+  "tweetHash": "5c0855e8a0f813f6",
+  "verdict": "pass"
+ },
+ {
+  "key": "llm-chatgpt/s10/p02",
+  "tweetHash": "f3b79466d7c76ddc",
+  "verdict": "pass"
+ },
+ {
+  "key": "llm-chatgpt/s10/p03",
+  "tweetHash": "ea9bd54ac3f07318",
+  "verdict": "pass"
+ },
+ {
+  "key": "llm-chatgpt/s10/p04",
+  "tweetHash": "e045c91da3a15f48",
+  "verdict": "pass"
+ },
+ {
+  "key": "llm-chatgpt/s10/p05",
+  "tweetHash": "585e6993527fc97f",
+  "verdict": "pass"
+ },
+ {
+  "key": "llm-chatgpt/s10/p06",
+  "tweetHash": "c687cec0ebaefcaf",
+  "verdict": "revise",
+  "reason": "Ambiguous/misparsed Hebrew at the end: 'ובקנה מידה קטן וזול מנצח לפעמים גדול ויקר' reads as 'at small scale, cheap beats big' instead of the intended 'at scale, a small cheap model sometimes beats a big expensive one'. Rephrase (e.g. 'ובקנה מידה, מודל קטן וזול מנצח לפעמים גדול ויקר')."
+ },
+ {
+  "key": "llm-chatgpt/s10/p07",
+  "tweetHash": "22aec4152787a083",
+  "verdict": "pass"
+ },
+ {
+  "key": "llm-chatgpt/s10/p08",
+  "tweetHash": "7d2123fb4c0c03e7",
+  "verdict": "pass"
+ },
+ {
+  "key": "llm-chatgpt/s10/p09",
+  "tweetHash": "8666ddde20112ee3",
+  "verdict": "pass"
+ },
+ {
+  "key": "llm-chatgpt/s10/p10",
+  "tweetHash": "c763289b6fdb938a",
+  "verdict": "pass"
+ }
+]

@@ -1,0 +1,502 @@
+[
+    {
+        "key":  "internet-infrastructure/s01/p01",
+        "tweetHash":  "0687ebcbadeb17bc",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "internet-infrastructure/s01/p02",
+        "tweetHash":  "975da9237a4e0578",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "internet-infrastructure/s01/p03",
+        "tweetHash":  "d4c0fc2d148919e4",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "internet-infrastructure/s01/p04",
+        "tweetHash":  "747502ac158dbe9d",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "internet-infrastructure/s01/p05",
+        "tweetHash":  "fa4b14a2323da775",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "internet-infrastructure/s01/p06",
+        "tweetHash":  "fa8084d357de4320",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "internet-infrastructure/s01/p07",
+        "tweetHash":  "69305e2e4525ad22",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "internet-infrastructure/s01/p08",
+        "tweetHash":  "1b3e387a13db33f8",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "internet-infrastructure/s01/p09",
+        "tweetHash":  "ecbd402026db9857",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "internet-infrastructure/s01/p10",
+        "tweetHash":  "d6cb3b0ae43fea3c",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "internet-infrastructure/s02/p01",
+        "tweetHash":  "6e7981ee6ad1dca6",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "internet-infrastructure/s02/p02",
+        "tweetHash":  "a65018303ae5c6a6",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "internet-infrastructure/s02/p03",
+        "tweetHash":  "a2749777ac20c5d1",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "internet-infrastructure/s02/p04",
+        "tweetHash":  "808955c4d41d16a7",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "internet-infrastructure/s02/p05",
+        "tweetHash":  "a43f002588367170",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "internet-infrastructure/s02/p06",
+        "tweetHash":  "31184dc1716d3efa",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "internet-infrastructure/s02/p07",
+        "tweetHash":  "32c35008c35270b4",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "internet-infrastructure/s02/p08",
+        "tweetHash":  "fcf19cc4f3b13b74",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "internet-infrastructure/s02/p09",
+        "tweetHash":  "272a263fd2a536c1",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "internet-infrastructure/s02/p10",
+        "tweetHash":  "4097569a9b5307d3",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "internet-infrastructure/s03/p01",
+        "tweetHash":  "d25d6e4e867972e6",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "internet-infrastructure/s03/p02",
+        "tweetHash":  "23aa0cbd7df98394",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "internet-infrastructure/s03/p03",
+        "tweetHash":  "b971eb31ba431972",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "internet-infrastructure/s03/p04",
+        "tweetHash":  "eedad0def78ba04a",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "internet-infrastructure/s03/p05",
+        "tweetHash":  "2f5e052dc9582c96",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "internet-infrastructure/s03/p06",
+        "tweetHash":  "ca88b6194949ba4c",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "internet-infrastructure/s03/p07",
+        "tweetHash":  "400cb4e790c5e1d6",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "internet-infrastructure/s03/p08",
+        "tweetHash":  "da53e37ff7798f0f",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "internet-infrastructure/s03/p09",
+        "tweetHash":  "8b6e6db85a8f6971",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "internet-infrastructure/s03/p10",
+        "tweetHash":  "f6e9b5e7246c2bb1",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "internet-infrastructure/s04/p01",
+        "tweetHash":  "86183fe63b994c69",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "internet-infrastructure/s04/p02",
+        "tweetHash":  "ad308601a45033a8",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "internet-infrastructure/s04/p03",
+        "tweetHash":  "9b1be0c59e4746ab",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "internet-infrastructure/s04/p04",
+        "tweetHash":  "82ad20e06244add0",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "internet-infrastructure/s04/p05",
+        "tweetHash":  "26fc243c8e8c33b4",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "internet-infrastructure/s04/p06",
+        "tweetHash":  "146f67a983f03f4f",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "internet-infrastructure/s04/p07",
+        "tweetHash":  "8550e9607939bae7",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "internet-infrastructure/s04/p08",
+        "tweetHash":  "2690993873e32931",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "internet-infrastructure/s04/p09",
+        "tweetHash":  "bf8b62a3e522099d",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "internet-infrastructure/s04/p10",
+        "tweetHash":  "53ae49701341be68",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "internet-infrastructure/s05/p01",
+        "tweetHash":  "17deb7063da2af12",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "internet-infrastructure/s05/p02",
+        "tweetHash":  "c4c4a09a18e0f7be",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "internet-infrastructure/s05/p03",
+        "tweetHash":  "d9fd350cab51e3c6",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "internet-infrastructure/s05/p04",
+        "tweetHash":  "5397aeef6bb62a95",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "internet-infrastructure/s05/p05",
+        "tweetHash":  "b46f6b2fd5e85cbc",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "internet-infrastructure/s05/p06",
+        "tweetHash":  "8b08fc5834d7c787",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "internet-infrastructure/s05/p07",
+        "tweetHash":  "e2514f3d7845ed0b",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "internet-infrastructure/s05/p08",
+        "tweetHash":  "586237bda5b241e7",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "internet-infrastructure/s05/p09",
+        "tweetHash":  "a5b3d9b6a63a3ce2",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "internet-infrastructure/s05/p10",
+        "tweetHash":  "cb1570233e39e3f3",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "internet-infrastructure/s06/p01",
+        "tweetHash":  "79982e67442ca19d",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "internet-infrastructure/s06/p02",
+        "tweetHash":  "1645f107d18a5c2d",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "internet-infrastructure/s06/p03",
+        "tweetHash":  "d21b9c78090f5317",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "internet-infrastructure/s06/p04",
+        "tweetHash":  "176b0187a5539d49",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "internet-infrastructure/s06/p05",
+        "tweetHash":  "f5d22b0c327fde28",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "internet-infrastructure/s06/p06",
+        "tweetHash":  "294bca843e9e0fdd",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "internet-infrastructure/s06/p07",
+        "tweetHash":  "36ccd544cbdf2197",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "internet-infrastructure/s06/p08",
+        "tweetHash":  "78285a61f4e27bc4",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "internet-infrastructure/s06/p09",
+        "tweetHash":  "d0acacfc3ca58000",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "internet-infrastructure/s06/p10",
+        "tweetHash":  "863fdeb9a8811244",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "internet-infrastructure/s07/p01",
+        "tweetHash":  "c3ab402b2f8a973a",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "internet-infrastructure/s07/p02",
+        "tweetHash":  "314686ebf4e55183",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "internet-infrastructure/s07/p03",
+        "tweetHash":  "19d20f1c833625cc",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "internet-infrastructure/s07/p04",
+        "tweetHash":  "b501ae97c64c5f27",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "internet-infrastructure/s07/p05",
+        "tweetHash":  "3a3650b3600ca69e",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "internet-infrastructure/s07/p06",
+        "tweetHash":  "683edae7f6ea0da9",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "internet-infrastructure/s07/p07",
+        "tweetHash":  "0da29df14491bb28",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "internet-infrastructure/s07/p08",
+        "tweetHash":  "54b0cfa9b703d503",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "internet-infrastructure/s07/p09",
+        "tweetHash":  "6f09f30c131199cd",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "internet-infrastructure/s07/p10",
+        "tweetHash":  "81f47870c4408067",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "internet-infrastructure/s08/p01",
+        "tweetHash":  "a8e6606871afad60",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "internet-infrastructure/s08/p02",
+        "tweetHash":  "ba65478d7ce8d8a3",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "internet-infrastructure/s08/p03",
+        "tweetHash":  "c7236c369f5f92eb",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "internet-infrastructure/s08/p04",
+        "tweetHash":  "03948a4e1ad8c304",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "internet-infrastructure/s08/p05",
+        "tweetHash":  "f58a76736c0bef32",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "internet-infrastructure/s08/p06",
+        "tweetHash":  "16980560be74002c",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "internet-infrastructure/s08/p07",
+        "tweetHash":  "03fb13fcec75efaa",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "internet-infrastructure/s08/p08",
+        "tweetHash":  "ad38710d7743da36",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "internet-infrastructure/s08/p09",
+        "tweetHash":  "55228f17f3a28696",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "internet-infrastructure/s08/p10",
+        "tweetHash":  "c471d81393b55214",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "internet-infrastructure/s09/p01",
+        "tweetHash":  "555307766a912eb3",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "internet-infrastructure/s09/p02",
+        "tweetHash":  "2cbf7643f53ed776",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "internet-infrastructure/s09/p03",
+        "tweetHash":  "f6055db83879e00e",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "internet-infrastructure/s09/p04",
+        "tweetHash":  "bfe2a67573f1e896",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "internet-infrastructure/s09/p05",
+        "tweetHash":  "8685cc555aa72ea7",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "internet-infrastructure/s09/p06",
+        "tweetHash":  "fb104dcb30467195",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "internet-infrastructure/s09/p07",
+        "tweetHash":  "959439548e34a913",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "internet-infrastructure/s09/p08",
+        "tweetHash":  "2f173bf89f836f52",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "internet-infrastructure/s09/p09",
+        "tweetHash":  "dc047fc5f78dd82f",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "internet-infrastructure/s09/p10",
+        "tweetHash":  "675442aeb05840e9",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "internet-infrastructure/s10/p01",
+        "tweetHash":  "e90a4ab501fd91c3",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "internet-infrastructure/s10/p02",
+        "tweetHash":  "cc03846968ff82a5",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "internet-infrastructure/s10/p03",
+        "tweetHash":  "a512aadf02c8f8ac",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "internet-infrastructure/s10/p04",
+        "tweetHash":  "ebb09732cbeda191",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "internet-infrastructure/s10/p05",
+        "tweetHash":  "b3084ced06a4476f",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "internet-infrastructure/s10/p06",
+        "tweetHash":  "cb8477ecdf5a241d",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "internet-infrastructure/s10/p07",
+        "tweetHash":  "3b4f5d7dec7bbe5d",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "internet-infrastructure/s10/p08",
+        "tweetHash":  "8f414c8aced2c860",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "internet-infrastructure/s10/p09",
+        "tweetHash":  "2cc8400e5e1428fb",
+        "verdict":  "pass"
+    },
+    {
+        "key":  "internet-infrastructure/s10/p10",
+        "tweetHash":  "5143ef1f17d35e33",
+        "verdict":  "pass"
+    }
+]

@@ -1,0 +1,17 @@
+[
+  {
+    "key": "global-internet/s01/p10",
+    "tweetHash": "0b0d549b037ff5c0",
+    "verdict": "pass"
+  },
+  {
+    "key": "global-internet/s04/p10",
+    "tweetHash": "e058dab15286ac4a",
+    "verdict": "pass"
+  },
+  {
+    "key": "global-internet/s10/p09",
+    "tweetHash": "bfeb059911919588",
+    "verdict": "pass"
+  }
+]

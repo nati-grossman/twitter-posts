@@ -1,0 +1,52 @@
+[
+  {
+    "key": "communication-security/s01/p01",
+    "sourceHash": "3bf3d23c3ee2e33e",
+    "tweet": "HTTP הוא לא שפת תכנות ולא האתר עצמו, אלא פרוטוקול: הסכמה על מבנה של בקשות ותשובות בין הדפדפן לשרת. הוא לא יוצר את התוכן, רק מאפשר למערכות שונות להעביר אותו בלי לנחש איך הצד השני מדבר."
+  },
+  {
+    "key": "communication-security/s01/p02",
+    "sourceHash": "e791b0be178efa44",
+    "tweet": "כל בקשת HTTP נפתחת בשורה קצרה: method, נתיב וגרסת פרוטוקול. הנתיב לא חייב להיות קובץ אמיתי, השרת יכול למפות אותו לקוד. headers ו-body באים אחר כך, אבל שורת הפתיחה קובעת מה רוצים מהשרת."
+  },
+  {
+    "key": "communication-security/s01/p03",
+    "sourceHash": "6a335182b82523e0",
+    "tweet": "אותה כתובת ב-HTTP יכולה להחזיר פוסט או למחוק אותו. ההבדל הוא ה-method: GET מבקש מידע, POST שולח חדש, PUT מעדכן, DELETE מוחק. אבל ה-method לא נותן הרשאה, השרת עדיין בודק זהות וכללים."
+  },
+  {
+    "key": "communication-security/s01/p04",
+    "sourceHash": "02c4740c9045776b",
+    "tweet": "לפני גוף התשובה, שרת HTTP מחזיר status code שמסכם מה קרה: 2xx הצלחה, 3xx הפניה, 4xx בעיה בבקשה, 5xx בעיה בשרת. גם עמוד 404 מעוצב יפה עדיין אומר לתוכנה שהמשאב חסר, וכך היא יודעת מה לעשות."
+  },
+  {
+    "key": "communication-security/s01/p05",
+    "sourceHash": "f74db605a57dc841",
+    "tweet": "Headers הם התווית על החבילה של HTTP: שורות metadata שמסבירות לצד השני איך לטפל במסר, כמו סוג תוכן, שפה, cache או cookie. ה-body הוא המטען, וה-headers אומרים מה בפנים ואיך למסור אותו."
+  },
+  {
+    "key": "communication-security/s01/p06",
+    "sourceHash": "d8f34eb1d4d7e019",
+    "tweet": "ה-body הוא המטען של הודעת HTTP: פרטי התחברות, JSON של תגובה או נתוני תמונה שמעלים. לא לכל הודעה יש גוף, ובקשת GET רגילה לרוב מסתפקת בכתובת וב-headers. ה-Content-Type אומר לנמען איך לקרוא אותו."
+  },
+  {
+    "key": "communication-security/s01/p07",
+    "sourceHash": "294aa95b9a5d0418",
+    "tweet": "HTTP הוא stateless: כל בקשה עומדת בפני עצמה ולא זוכרת את הקודמת. אז איך אתר זוכר שהתחברתם או מה יש לכם בעגלה? הזיכרון נבנה מעל הפרוטוקול, עם cookies, sessions או tokens שכל בקשה מביאה איתה."
+  },
+  {
+    "key": "communication-security/s01/p08",
+    "sourceHash": "148de912b6e22029",
+    "tweet": "HTTP/2 ו-HTTP/3 לא החליפו את השיחה של HTTP, הם שיפרו את הכביש. HTTP/2 מריץ כמה בקשות במקביל על חיבור אחד ומכווץ headers, ו-HTTP/3 עובר ל-QUIC מעל UDP כדי להתמודד טוב יותר עם השהיה ואובדן מנות."
+  },
+  {
+    "key": "communication-security/s01/p09",
+    "sourceHash": "d63c8ff898a6bd77",
+    "tweet": "HTTP הוא לא רק צינור לדפי אינטרנט. אפליקציית מזג אוויר שולחת GET, מקבלת JSON ומציירת מסך בלי שום HTML. ככה עובדים רוב ה-API: HTTP נותן את מעטפת התקשורת, וה-API מגדיר מה המשמעות של השיחה."
+  },
+  {
+    "key": "communication-security/s01/p10",
+    "sourceHash": "35d7bac39f4b7f33",
+    "tweet": "HTTP הוא לא התוכן, לא העיצוב ולא הקוד העסקי. הוא חוזה: שורת בקשה עם method ונתיב, headers שמתארים, body שנושא תוכן ו-status code שמסכם. ברגע שמכירים את המבנה, הרשת הופכת לשיחה שאפשר לקרוא."
+  }
+]
